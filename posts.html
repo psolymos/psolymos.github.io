@@ -1,0 +1,11 @@
+---
+title: Posts
+description: "An archive of posts"
+layout: default
+---
+
+{% for post in site.posts %}
+<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+<p><i class="fa fa-calendar"></i>&nbsp;&nbsp;<em>{{ post.date | date_to_string }}</em></p>
+{{ post.excerpt }}
+{% endfor %}

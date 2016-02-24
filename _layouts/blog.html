@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% include _head.html %}
+{% include _highlight.html %}
+</head>
+<body>
+{% include _navigation.html %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            {% if page.title %}
+                {% if page.subtitle %}
+                    <h1 class="title">{{ page.title }}</h1>
+                    <h2 class="subtitle">{{ page.subtitle }}</h2>
+                {% else %}
+                    <h1 class="title">{{ page.title }}</h1>
+                {% endif %}
+            {% endif %}
+            <p id="post-meta"><i class="fa fa-clock-o"></i> {{ page.date | date: '%B %d, %Y' }} <i class="fa fa-pencil"></i> {% if page.author != null %}{{ page.author }}{% else %}{{ site.author }}{% endif %}<br />
+            {% if page.category != null %}<a href="{{ site.baseurl }}/categories.html#{{ page.category | slugify }}" class="btn btn-default btn-xs">{{ page.category }}</a> {% endif %}
+            {% if page.tags != null %}<i class="fa fa-tag"></i> {% for tag in page.tags %}<a href="{{ site.baseurl }}/tags.html#{{ tag | slugify }}" class="btn btn-info btn-xs">{{ tag }}</a> {% endfor %}{% endif %}
+            {% if site.disqus != null or page.disqus != null %}<i class="fa fa-comment"></i> <a href="{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}">Link</a>{% endif %}</p>
+            <hr>
+<!-- content starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+            {{ content }}
+
+<!-- content ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+{% if site.disqus or page.disqus %}
+<script id="dsq-count-scr" src="//{% if page.disqus %}{{ page.disqus }}{% else %}{{ site.disqus }}{% endif %}.disqus.com/count.js" async></script>
+<div id="disqus_thread"></div>
+<script>
+var disqus_config = function () {
+  this.page.url = {{ page.url }};
+  this.page.identifier = {{ page.title | slugify }};
+};
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//{% if page.disqus %}{{ page.disqus }}{% else %}{{ site.disqus }}{% endif %}.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}
+
+        </div>
+    </div>
+</div>
+
+{% include _footer.html %}
+</body>
+</html>

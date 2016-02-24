@@ -1,0 +1,23 @@
+## gedit temp files
+*~
+
+## temp dir for temp files
+/tempdir/*
+
+## R script output
+*.out
+
+## jekyll built website
+/_site/*
+
+# History files
+.Rhistory
+
+# Example code in package build process
+*-Ex.R
+
+# R data files from past sessions
+.Rdata
+
+# RStudio files
+.Rproj.user/

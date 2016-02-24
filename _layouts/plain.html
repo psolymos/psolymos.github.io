@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% include _head.html %}
+{% include _highlight.html %}
+</head>
+<body>
+{% include _navigation.html %}
+            {% if page.title %}
+                {% if page.subtitle %}
+                    <a href="index.html"><h1 class="title">{{ page.title }}</h1></a>
+                    <h2 class="subtitle">{{ page.subtitle }}</h2>
+                {% else %}
+                    <h1 class="title">{{ page.title }}</h1>
+                {% endif %}
+            {% endif %}
+<!-- content starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+            {{ content }}
+
+<!-- content ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+{% include _footer.html %}
+</body>
+</html>

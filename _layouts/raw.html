@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% include _head.html %}
+{% include _highlight.html %}
+</head>
+<body>
+{% include _navigation.html %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            {% if page.title %}
+                {% if page.subtitle %}
+                    <a href="index.html"><h1 class="title">{{ page.title }}</h1></a>
+                    <h2 class="subtitle">{{ page.subtitle }}</h2>
+                {% else %}
+                    <h1 class="title">{{ page.title }}</h1>
+                {% endif %}
+            {% endif %}
+<pre>{{ content }}</pre>
+        </div>
+    </div>
+</div>
+{% include _footer.html %}
+</body>
+</html>
