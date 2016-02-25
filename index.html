@@ -24,7 +24,7 @@ will change to: 1st promoted (as in sidebar)
 rest not promoted from etc category
 -->
 <div class="col-lg-4 col-sm-6">
-{% for post in site.categories.etc limit:3 %}
+{% for post in site.categories.Etc limit:3 %}
 {% if post.promote %}<div class="well">{% endif %}
     <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
     {{ post.excerpt }}
@@ -37,7 +37,7 @@ now this is talks category
 will change to papers
 -->
 <div class="col-lg-4 col-sm-6">
-{% for post in site.categories.talks limit:3 %}
+{% for post in site.categories.Talks limit:3 %}
 {% if post.promote %}<div class="well">{% endif %}
     <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
     {{ post.excerpt }}
