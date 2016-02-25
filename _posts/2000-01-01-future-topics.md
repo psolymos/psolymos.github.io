@@ -16,6 +16,6 @@ Parallel computing overview by Marc Kery and dclone updates
 
 Condor paper
 
-Advertize datacloning.org
+Advertize datacloning.org and mailing list
 
 
