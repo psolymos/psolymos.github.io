@@ -7,11 +7,12 @@ layout: default
 {% for post in site.posts %}
 
 <div class="panel panel-default">
-  <div class="panel-heading"><h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4></div>
-  <div class="panel-body">
+  <div class="panel-heading">
+    <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
     <i class="fa fa-calendar"></i> {{ post.date | date: '%B %d, %Y' }} {% if post.author != null %}<i class="fa fa-pencil"></i> {{ post.author }}{% endif %}
     <i class="fa fa-folder-open"></i> <a href="{{ site.baseurl }}/categories.html#{{ post.category | slugify }}" class="btn btn-default btn-xs">{{ post.category | capitalize }}</a> {% if post.tags != null %}<i class="fa fa-tag"></i> {% for tag in post.tags %}<a href="{{ site.baseurl }}/tags.html#{{ tag | slugify }}" class="btn btn-info btn-xs">{{ tag }}</a> {% endfor %}{% endif %}
-
+  </div>
+  <div class="panel-body">
     {{ post.excerpt }}
   </div>
 </div>
