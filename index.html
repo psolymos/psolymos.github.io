@@ -18,33 +18,52 @@ layout: plain
   <div class="container">
     <div class="row">
 
-{% for post in site.posts %}
-{% if post.promote %}
+<!-- 
+etc category, mostly announcements
+will change to: 1st promoted (as in sidebar)
+rest not promoted from etc category
+-->
 <div class="col-lg-4 col-sm-6">
-  <div class="well">
+{% for post in site.categories.etc limit:3 %}
+{% if post.promote %}<div class="well">{% endif %}
     <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
     {{ post.excerpt }}
-  </div>
+{% if post.promote %}</div>{% endif %}
+{% endfor %}
+</div>
+
+<!-- 
+now this is talks category
+will change to papers
+-->
+<div class="col-lg-4 col-sm-6">
+{% for post in site.categories.talks limit:3 %}
+{% if post.promote %}<div class="well">{% endif %}
+    <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+    {{ post.excerpt }}
+{% if post.promote %}</div>{% endif %}
+{% endfor %}
+</div>
+
+<!-- 
+now this is ad
+will change to code category: tutorials and stuff
+-->
+{% if site.ads %}
+<div class="col-lg-4 col-sm-6">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- peter.solymos.org -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-7395343205881856"
+             data-ad-slot="1856779806"
+             data-ad-format="auto"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
 </div>
 {% endif %}
-{% endfor %}
 
-<div class="col-lg-4 col-sm-6">
-{% for post in site.posts limit:3 %}
-{% unless post.promote %}
-    <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-    {{ post.excerpt }}
-{% endunless %}
-{% endfor %}
-</div>
-
-<div class="col-lg-4 col-sm-6">
-{% for post in site.posts limit:5 %}
-{% unless post.promote %}
-    <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-{% endunless %}
-{% endfor %}
-</div>
 
     </div>
   </div>
