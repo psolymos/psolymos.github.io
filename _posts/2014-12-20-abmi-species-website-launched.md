@@ -1,7 +1,7 @@
 ---
 title: "ABMI Species Website launched"
 layout: default
-category: news
+category: Announcements
 tags: [ABMI]
 published: true
 disqus: petersolymos

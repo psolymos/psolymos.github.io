@@ -1,8 +1,8 @@
 ---
 title: "Cumulative effects of Oil Sands development on songbirds"
 layout: default
-category: reports
-tags: [JOSM]
+category: Announcements
+tags: [JOSM, birds, video, report]
 published: true
 disqus: petersolymos
 ---

@@ -1,8 +1,8 @@
 ---
 title: "Budapest Use R!"
 layout: default
-category: talks
-tags: [data cloning]
+category: Talks
+tags: [R, data cloning, slides]
 published: true
 disqus: petersolymos
 ---

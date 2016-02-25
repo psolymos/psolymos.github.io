@@ -1,8 +1,8 @@
 ---
 title: "ISEC 2014 in Montpellier"
 layout: default
-category: talks
-tags: [QPAD]
+category: Talks
+tags: [R, detect, QPAD, slides]
 published: true
 disqus: petersolymos
 ---

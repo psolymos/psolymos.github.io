@@ -1,8 +1,8 @@
 ---
 title: "What can we do with a single survey?"
 layout: default
-category: talks
-tags: [poster, single visit]
+category: Talks
+tags: [poster, single visit, detect, R]
 published: true
 disqus: petersolymos
 ---

@@ -1,8 +1,8 @@
 ---
 title: "Human footprint change during the last decade"
 layout: default
-category: news
-tags: [ABMI, footprint]
+category: Talks
+tags: [ABMI, footprint, video]
 published: true
 disqus: petersolymos
 ---

@@ -1,8 +1,8 @@
 ---
 title: "Hierarchical models for conservation biologists made easy"
 layout: default
-category: news
-tags: [course, data cloning]
+category: Announcements
+tags: [R, course, data cloning]
 published: true
 disqus: petersolymos
 ---
