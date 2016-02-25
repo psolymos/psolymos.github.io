@@ -1,7 +1,7 @@
 ---
 title: "Bird modeling in the Oil Sands"
 layout: default
-category: reports
+category: Announce ments
 tags: [JOSM, birds]
 published: true
 disqus: petersolymos
