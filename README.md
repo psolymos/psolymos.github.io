@@ -7,8 +7,8 @@ Peter Solymos's personal website
 - [x] create blog entries from News section
 - [x] share buttons (Twitter etc)
 - [ ] create category specific highlights once there are enough posts/category
-- [ ] qisqus to add in bottom is done but does not load: canonical problem? fix when migrated
-- [ ] create R tag secific RSS feed as [here](http://jekyll.tips/tutorials/rss-feed/) or [here](https://github.com/snaptortoise/jekyll-rss-feeds/blob/master/feed.xml)
+- [x] qisqus to add in bottom is done but does not load: canonical problem? works mostly...
+- [x] create R tag secific RSS feed as [here](http://jekyll.tips/tutorials/rss-feed/) or [here](https://github.com/snaptortoise/jekyll-rss-feeds/blob/master/feed.xml)
 - [ ] add to R-bloggers [here](http://www.r-bloggers.com/add-your-blog/)
 
 ## Organization
