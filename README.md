@@ -20,8 +20,13 @@ Categories:
   - 1st paragraph is formatted citation (excrept)
   - full text etc. links defined in yaml header so that it can be pulled out
   - body after 1st paragraph: optional
+  - use R tag (for `feed-r.xml`) if paper has R relevance, code explained, etc.
 * Code: R package related info
-  - define `post.pkg` in yaml header: list relevant posts for packages
-* Announcements: here comes course announcements, reports (non peer reviewed publications in general), tag revealing what kind.
+  - use R tag (for `feed-r.xml`)
+  - package can be just part of tags: list relevant posts for packages
+  - this includes tutorials as well (tutorial as tag)
 * Talks: slides, posters (tag reveling what kind)
-* Tutorials: programming know-how
+* Etc, tag revealing what kind: 
+  - here comes course announcements (tag: course), 
+  - reports (non peer reviewed publications in general, tag: report),
+  - R package updates (use R tag for `feed-r.xml`, package as tag too).

@@ -1,7 +1,7 @@
 ---
 title: "Version 3 of the ABMI Species Website released"
 layout: default
-category: Announcements
+category: Etc
 tags: [ABMI, video]
 published: true
 disqus: petersolymos
