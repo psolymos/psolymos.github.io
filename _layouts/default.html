@@ -21,6 +21,7 @@
 <!-- content starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 {{ content }}
 <!-- content ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+{% if page.category != null %}{% include _share.html %}{% endif %}
 {% if page.disqus %}{% include _comments.html %}{% endif %}
         </div>
         <div class="col-xs-12 col-md-4">
