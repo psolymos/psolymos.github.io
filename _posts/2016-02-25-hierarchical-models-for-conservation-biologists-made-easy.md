@@ -8,7 +8,7 @@ disqus: petersolymos
 promote: true
 ---
 
-One-day short course at <a href="http://www.scbnacongress.org/">NACCB congress</a> in Madison, WI, on July 16th, with Peter Solymos and Subhash Lele.
+**One-day short course at [NACCB congress](http://www.scbnacongress.org/) in Madison, WI, on July 16th, with Peter Solymos and Subhash Lele.**
 
 We aim this training course towards conservation professionals who need to understand and feel comfortable with modern statistical and computational tools used to address conservation issues. Conservation science needs to be transparent and credible to be able to make an impact and translate information and knowledge into action.
 

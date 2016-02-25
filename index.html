@@ -17,13 +17,35 @@ layout: plain
 <div class="section-tout">
   <div class="container">
     <div class="row">
-        {% for post in site.posts limit:3 %}
-        <div class="col-lg-4 col-sm-6">
-            <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-            <p><i class="fa fa-calendar"></i> {{ post.date | date_to_string }}</p>
-            {{ post.excerpt }}
-        </div>
-        {% endfor %}
+
+{% for post in site.posts %}
+{% if post.promote %}
+<div class="col-lg-4 col-sm-6">
+  <div class="well">
+    <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+    {{ post.excerpt }}
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+
+<div class="col-lg-4 col-sm-6">
+{% for post in site.posts limit:3 %}
+{% unless post.promote %}
+    <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+    {{ post.excerpt }}
+{% endunless %}
+{% endfor %}
+</div>
+
+<div class="col-lg-4 col-sm-6">
+{% for post in site.posts limit:5 %}
+{% unless post.promote %}
+    <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+{% endunless %}
+{% endfor %}
+</div>
+
     </div>
   </div>
 </div>

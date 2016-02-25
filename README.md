@@ -10,6 +10,7 @@ Peter Solymos's personal website
 - [x] qisqus to add in bottom is done but does not load: canonical problem? works mostly...
 - [x] create R tag secific RSS feed as [here](http://jekyll.tips/tutorials/rss-feed/) or [here](https://github.com/snaptortoise/jekyll-rss-feeds/blob/master/feed.xml)
 - [ ] add to R-bloggers [here](http://www.r-bloggers.com/add-your-blog/)
+- [ ] differentiate landing page by categories
 
 ## Organization
 
@@ -30,3 +31,5 @@ Categories:
   - here comes course announcements (tag: course), 
   - reports (non peer reviewed publications in general, tag: report),
   - R package updates (use R tag for `feed-r.xml`, package as tag too).
+
+1-3 (few) posts can be promoted (`post.promote`)
