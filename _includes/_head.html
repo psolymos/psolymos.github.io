@@ -22,18 +22,6 @@
     $(".entry").html(($(".entry").html().replace("<em>{","_{")))
     $(".entry").html(($(".entry").html().replace("</em>{","_{")))
 </script>
-{% if page.splash %}
-<script>
-var jumboHeight = $('.jumbotron').outerHeight();
-function parallax(){
-    var scrolled = $(window).scrollTop();
-    $('.bg').css('height', (jumboHeight-scrolled) + 'px');
-}
-$(window).scroll(function(e){
-    parallax();
-});
-</script>
-{% endif %}
 <script type="text/javascript"
     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
@@ -60,23 +48,5 @@ $(window).scroll(function(e){
     h1, h2, h3, h4, h5, h6 {
         {% if site.fancyfonts == true %}font-family: 'Oswald', sans-serif;{% endif %}
     }
-    {% if page.splash %}
-    .bg {
-      background: url('{{ site.baseurl }}/images/bg.png') no-repeat center center;
-      position: fixed;
-      width: 100%;
-      height: 350px; /*same height as jumbotron */
-      top:0;
-      left:0;
-      z-index: -1;
-    }
-    .jumbotron {
-      margin-bottom: 0px;
-      height: 350px;
-      color: white;
-      text-shadow: black 0.3em 0.3em 0.3em;
-      background:transparent;
-    }
-    {% endif %}
 </style>
 <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico">
