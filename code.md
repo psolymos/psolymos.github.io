@@ -12,7 +12,7 @@ layout: default
 <div class="container">
 <div class="row">
   <div class="col-md-4">
-<ul>{{ pkg.description }}</ul>
+<p>{{ pkg.description }}</p>
   </div>
   <div class="col-md-4">
 <ul class="fa-ul">
