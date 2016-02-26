@@ -37,9 +37,9 @@
 {% endif %}
 {% endfor %}
 
-        <ul class="list-unstyled">
+        <ul class="fa-ul">
           {% for post in site.posts limit:5 %}
-          <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+          <li><i class="fa-li fa fa-caret-right text-white"></i><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
         </ul>
         {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
@@ -49,6 +49,12 @@
           <a href="{{ site.baseurl }}/tags.html#{{ tag | slugify }}" class="btn btn-info btn-xs">{{ tag }} <span>({{ site.tags[tag] | size }})</span></a>
           {% endfor %}
         </p>
+        <ul class="fa-ul">
+          <li><i class="fa-li fa fa-external-link-square text-white"></i><a href="http://www.abmi.ca/">Alberta Biodiversity Monitoring Institute</a></li>
+          <li><i class="fa-li fa fa-external-link-square text-white"></i><a href="http://www.borealbirds.ca/">Boreal Avian Modelling (BAM) Project</a></li>
+          <li><i class="fa-li fa fa-external-link-square text-white"></i><a href="http://www.biology.ualberta.ca/">Department of Biological Sciences</a></li>
+          <li><i class="fa-li fa fa-external-link-square text-white"></i><a href="http://www.ualberta.ca/">University of Alberta</a></li>
+        </ul>
         {% if site.ads %}
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!-- peter.solymos.org -->
