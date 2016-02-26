@@ -8,7 +8,6 @@
 <!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/bootstrap.css" media="screen"> -->
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.4/{{ theme }}/bootstrap.min.css" media="screen">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-{% if page.splash %}<link rel="stylesheet" href="{{ site.baseurl }}/assets/splash.css">{% endif %}
 <!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/highlight.default.min.css">
 <script src="{{ site.baseurl }}/assets/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
@@ -23,6 +22,18 @@
     $(".entry").html(($(".entry").html().replace("<em>{","_{")))
     $(".entry").html(($(".entry").html().replace("</em>{","_{")))
 </script>
+{% if page.splash %}
+<script>
+var jumboHeight = $('.jumbotron').outerHeight();
+function parallax(){
+    var scrolled = $(window).scrollTop();
+    $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+}
+$(window).scroll(function(e){
+    parallax();
+});
+</script>
+{% endif %}
 <script type="text/javascript"
     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
@@ -49,6 +60,23 @@
     h1, h2, h3, h4, h5, h6 {
         {% if site.fancyfonts == true %}font-family: 'Oswald', sans-serif;{% endif %}
     }
+    {% if page.splash %}
+    .bg {
+      background: url('{{ site.baseurl }}/images/bg.png') no-repeat center center;
+      position: fixed;
+      width: 100%;
+      height: 350px; /*same height as jumbotron */
+      top:0;
+      left:0;
+      z-index: -1;
     }
+    .jumbotron {
+      margin-bottom: 0px;
+      height: 350px;
+      color: white;
+      text-shadow: black 0.3em 0.3em 0.3em;
+      background:transparent;
+    }
+    {% endif %}
 </style>
 <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico">
