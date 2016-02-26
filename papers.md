@@ -13,6 +13,14 @@ years: ['2016', '2015', '2014', '2013', '2012', '2011', '2010']
 <a href="https://publons.com/a/534081/">Publon</a>
 </h4>
 
+<ul>
+  {% for ms in site.data.papers %}
+  <li>{{ ms.text }}{% if ms.link %} &mdash; <i class="fa fa-external-link text-orange"></i>&nbsp;<a href="{{ ms.link }}">journal website</a>{% endif %}{% if ms.fulltext %} &mdash; <i class="fa fa-file-pdf-o text-orange"></i>&nbsp;<a href="{{ ms.fulltext }}">fulltext PDF</a>{% endif %}{% if ms.code %} &mdash; <i class="fa fa-file-code-o text-orange"></i>&nbsp;{{ ms.code }}{% endif %}{% if ms.supportinginfo %} &mdash; <i class="fa fa-file-code-o text-orange"></i>&nbsp;{{ ms.supportinginfo }}{% endif %}. {% if ms.doi %}<div data-badge-popover="bottom" style="display: inline-block;" data-badge-type="4" data-doi="{{ ms.doi }}" data-hide-no-mentions="true" class="altmetric-embed"></div>{% endif %}</li>
+  {% endfor %}
+</ul>
+
+{% comment %}
+
 <h4 id="year-lookup">{% for yr in page.years %}<a href="#papers-{{ yr }}">{{ yr }}</a> &mdash; {% endfor %}<a href="https://sites.google.com/site/psolymosold/publications">&lt;2010</a></h4>
 
 {% for yr in page.years %}
@@ -23,3 +31,5 @@ years: ['2016', '2015', '2014', '2013', '2012', '2011', '2010']
   {% endfor %}
 </ul>
 {% endfor %}
+
+{% endcomment %}
