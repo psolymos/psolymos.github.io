@@ -38,7 +38,7 @@
 {% endfor %}
 
         <ul class="fa-ul">
-          {% for post in site.posts limit:5 %}
+          {% for post in site.posts limit:6 %}
           {% unless post.promote %}
           <li><i class="fa-li fa fa-chevron-right text-white"></i><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
           {% endunless %}
