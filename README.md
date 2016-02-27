@@ -11,6 +11,8 @@ Peter Solymos's personal website
 - [x] create R tag secific RSS feed as [here](http://jekyll.tips/tutorials/rss-feed/) or [here](https://github.com/snaptortoise/jekyll-rss-feeds/blob/master/feed.xml)
 - [ ] add to R-bloggers [here](http://www.r-bloggers.com/add-your-blog/)
 - [ ] differentiate landing page by categories
+- [ ] finish embed
+- [ ] previous/next post buttons
 
 ## Organization
 
