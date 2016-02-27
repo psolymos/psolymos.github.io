@@ -40,7 +40,9 @@
         <ul class="fa-ul">
           {% for post in site.posts limit:6 %}
           {% unless post.promote %}
+          {% if post.tags contains page.sidebar_filter %}
           <li><i class="fa-li fa fa-chevron-right text-white"></i><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
           {% endunless %}
           {% endfor %}
         </ul>
