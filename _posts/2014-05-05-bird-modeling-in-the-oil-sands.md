@@ -15,4 +15,4 @@ Edmonton, AB, 2014.
 
 Check out the poster made by [Scribus](https://www.scribus.net/):
 
-<iframe src="//wl.figshare.com/articles/1059269/embed?show_title=1 width="1270" height="597" frameborder="0"></iframe>
+<iframe src="https://widgets.figshare.com/articles/1059269/embed?show_title=1" width="568" height="716" frameborder="0"></iframe>
