@@ -7,6 +7,12 @@ published: true
 disqus: petersolymos
 ---
 
-Development of predictive models for migratory landbirds and estimation of cumulative effects of human development in the oil sands areas of Alberta, Joint Oil Sands Monitoring: Cause-Effects Assessment of Oil Sands Activity on Migratory Landbirds, Edmonton, AB, 2014.
+Development of predictive models for migratory landbirds and estimation of
+cumulative effects of human development in the oil sands areas of Alberta,
+[Joint Oil Sands Monitoring](http://www.jointoilsandsmonitoring.ca/):
+Cause-Effects Assessment of Oil Sands Activity on Migratory Landbirds,
+Edmonton, AB, 2014.
 
-Check out the poster [here](http://wl.figshare.com/articles/1059269/embed?show_title=1).
+Check out the poster made by [Scribus](https://www.scribus.net/):
+
+<iframe src="//wl.figshare.com/articles/1059269/embed?show_title=1 width="1270" height="597" frameborder="0"></iframe>
