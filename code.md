@@ -1,5 +1,5 @@
 ---
-title: Code
+title: "R packages"
 description: "An archive of posts in the code category"
 layout: default
 ---
@@ -8,7 +8,7 @@ layout: default
 <a href="https://travis-ci.org/psolymos">Travis CI</a></h4>
 
 {% for pkg in site.data.packages %}
-<h2 id="code-{{ pkg.pkgname | downcase }}"><code>{{ pkg.pkgname }}</code></h2>
+<h2 id="code-{{ pkg.pkgname | downcase }}">{{ pkg.pkgname }} R package</h2>
 <div class="container">
 <div class="row">
   <div class="col-md-4">
