@@ -2,7 +2,7 @@
 title: Papers
 description: "An archive of posts in the papers category"
 layout: default
-years: ['2016', '2015', '2014', '2013', '2012', '2011', '2010']
+years: [2016, 2015, 2014, 2013, 2012, 2011, 2010]
 ---
 
 <h4 id="papers-external"><a href="http://scholar.google.ca/citations?hl=en&user=PfC17QsAAAAJ&view_op=list_works&pagesize=100">Google Scholar</a> &mdash;
@@ -19,8 +19,6 @@ years: ['2016', '2015', '2014', '2013', '2012', '2011', '2010']
   {% endfor %}
 </ul>
 
-{% comment %}
-
 <h4 id="year-lookup">{% for yr in page.years %}<a href="#papers-{{ yr }}">{{ yr }}</a> &mdash; {% endfor %}<a href="https://sites.google.com/site/psolymosold/publications">&lt;2010</a></h4>
 
 {% for yr in page.years %}
@@ -31,5 +29,3 @@ years: ['2016', '2015', '2014', '2013', '2012', '2011', '2010']
   {% endfor %}
 </ul>
 {% endfor %}
-
-{% endcomment %}
