@@ -18,10 +18,8 @@ layout: plain
   <div class="container">
     <div class="row">
 
-<!-- 
-etc category, mostly announcements
-will change to: 1st promoted (as in sidebar)
-rest not promoted from etc category
+<!--
+recent posts, starting with promoted
 -->
 <div class="col-lg-4 col-sm-6">
 <h3>News</h3>
@@ -33,21 +31,9 @@ rest not promoted from etc category
 {% endfor %}
 </div>
 
-<!-- 
-now this is talks category
-will change to papers
+<!--
+papers
 -->
-{% comment %} 
-<div class="col-lg-4 col-sm-6">
-<h3>Talks</h3>
-{% for post in site.categories.Talks limit:2 %}
-{% if post.promote %}<div class="well">{% endif %}
-    <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-    {{ post.excerpt }}
-{% if post.promote %}</div>{% endif %}
-{% endfor %}
-</div>
-{% endcomment %} 
 <div class="col-lg-4 col-sm-6">
 <h3>Papers</h3>
   {% for ms in site.data.papers limit:3 %}
@@ -55,28 +41,31 @@ will change to papers
   {% endfor %}
 </div>
 
-
-
-<!-- 
-now this is ad
-will change to code category: tutorials and stuff
+<!--
+code
 -->
-{% if site.ads %}
 <div class="col-lg-4 col-sm-6">
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- peter.solymos.org -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-7395343205881856"
-             data-ad-slot="1856779806"
-             data-ad-format="auto"></ins>
-        <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+<h3>R packages</h3>
+{% for pkg in site.data.packages %}
+<h4 id="code-{{ pkg.pkgname | downcase }}"><a href="{{ site.baseurl }}/code.html#code-{{ pkg.pkgname | downcase }}">{{ pkg.pkgname }}</a></h4>
+{% endfor %}
 </div>
-{% endif %}
-
 
     </div>
   </div>
 </div>
+
+{% if site.ads %}
+<div class="row">
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- peter.solymos.org -->
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-7395343205881856"
+               data-ad-slot="1856779806"
+               data-ad-format="auto"></ins>
+          <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+</div>
+{% endif %}
