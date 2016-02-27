@@ -2,7 +2,6 @@
 title: "R packages"
 description: "An archive of posts in the code category"
 layout: default
-sidebar_filter: "R"
 ---
 
 <h4 id="checks-external"><a href="http://cran.r-project.org/web/checks/check_summary_by_maintainer.html#address:solymos_at_ualberta.ca">CRAN checks</a> &mdash;
