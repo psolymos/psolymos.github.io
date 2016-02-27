@@ -9,7 +9,6 @@ layout: default
 
 {% for pkg in site.data.packages %}
 <h2 id="code-{{ pkg.pkgname | downcase }}">{{ pkg.pkgname }}</h2>
-<div class="container">
 <div class="row">
   <div class="col-md-4">
 <p>{{ pkg.description }}</p>
@@ -24,7 +23,6 @@ layout: default
 {% if pkg.paper %}<li><i class="fa-li fa fa-file-text-o text-black"></i>{{ pkg.paper }}</li>{% endif %}
 </ul>
   </div>
-</div>
 </div>
 {% endfor %}
 
