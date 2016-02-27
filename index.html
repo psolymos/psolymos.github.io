@@ -23,7 +23,7 @@ recent posts, starting with promoted
 -->
 <div class="col-lg-4 col-sm-6">
 <h3>News</h3>
-{% for post in site.categories.Etc limit:2 %}
+{% for post in site.categories.Etc limit:5 %}
 {% if post.promote %}<div class="well">{% endif %}
     <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
     {{ post.excerpt }}
@@ -36,7 +36,7 @@ papers
 -->
 <div class="col-lg-4 col-sm-6">
 <h3>Papers</h3>
-  {% for ms in site.data.papers limit:3 %}
+  {% for ms in site.data.papers limit:5 %}
   <p>{{ ms.text }}{% if ms.link %} &mdash; <i class="fa fa-external-link text-orange"></i>&nbsp;<a href="{{ ms.link }}">journal website</a>{% endif %}{% if ms.fulltext %} &mdash; <i class="fa fa-file-pdf-o text-orange"></i>&nbsp;<a href="{{ ms.fulltext }}">fulltext PDF</a>{% endif %}{% if ms.code %} &mdash; <i class="fa fa-file-code-o text-orange"></i>&nbsp;{{ ms.code }}{% endif %}{% if ms.supportinginfo %} &mdash; <i class="fa fa-file-code-o text-orange"></i>&nbsp;{{ ms.supportinginfo }}{% endif %}.</p>
   {% endfor %}
 </div>
