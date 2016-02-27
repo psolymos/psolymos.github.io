@@ -18,4 +18,5 @@ the participants will be able to go beyond the rhetorics of philosophy
 of statistics and use the tools with full understanding of their
 assumptions and implications.
 
-Check out the [course materal](http://datacloning.org/courses/2015/montpellier/).
+Check out the course material at [DataCloning.org](http://datacloning.org/courses/2015/montpellier/),
+or sign up for the [Dclone users mailing list](https://groups.google.com/d/forum/dclone-users).

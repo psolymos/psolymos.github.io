@@ -20,4 +20,4 @@ We will teach both Bayesian and Likelihood based approaches to these models usin
 
 Congress registration is now open [here](http://www.scbnacongress.org/short-courses).
 
-Check out previous courses at [datacloning.org](http://datacloning.org/courses/).
+Check out previous courses at at [DataCloning.org](http://datacloning.org/courses/).
