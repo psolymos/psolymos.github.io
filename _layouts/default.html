@@ -39,6 +39,7 @@
 
         <ul class="fa-ul">
           {% for post in site.posts limit:5 %}
+          {% unless post.promote %}
           <li><i class="fa-li fa fa-chevron-right text-white"></i><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
         </ul>
@@ -47,6 +48,7 @@
         <p>
           {% for tag in tag_words) %}
           <a href="{{ site.baseurl }}/tags.html#{{ tag | slugify }}" class="btn btn-info btn-xs">{{ tag }} <span>({{ site.tags[tag] | size }})</span></a>
+          {% endunless %}
           {% endfor %}
         </p>
         <ul class="fa-ul">
