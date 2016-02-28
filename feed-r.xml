@@ -22,7 +22,6 @@ layout: null
         <link>
         {{ site.url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.baseurl }}{{ post.url }}</guid>
-        <content type="html">{% post.content | xml_escape %}</content>
       </item>
       {% endif %}
       {% endunless %}
