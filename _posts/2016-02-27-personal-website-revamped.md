@@ -6,7 +6,7 @@ category: Etc
 tags: [site]
 published: true
 disqus: petersolymos
-promote: true
+promote: false
 ---
 
 It all started with my site based on the
