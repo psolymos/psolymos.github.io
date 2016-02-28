@@ -13,15 +13,11 @@ layout: null
       {% if post.tags contains 'R' %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        {% if post.excerpt %}
-          <description>{{ post.excerpt | xml_escape }}</description>
-        {% else %}
-          <description>{{ post.content | xml_escape }}</description>
-        {% endif %}
+        <description>{{ post.excerpt | xml_escape }}</description>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>
-        {{ site.url }}{{ post.url }}</link>
+        <link>{{ site.url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.baseurl }}{{ post.url }}</guid>
+        <content type="html">{{ post.content | xml_escape }}</content>
       </item>
       {% endif %}
       {% endunless %}
