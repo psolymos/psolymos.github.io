@@ -4,7 +4,7 @@
 - id: Mahon2016
   type: paper
   year: 2016
-  text: "Mahon, C. L., Holloway, G., <strong>S&oacute;lymos, P.</strong>, Cumming, S. G., Bayne, E. M., Schmiegelow, F. K. A., and Song, S. J., 2016. Community structure and niche characteristics of upland and lowland western boreal birds at multiple spatial scales. <em><strong>Forest Ecology and Management</strong></em>, 361:99&ndash;116."
+  text: "Mahon, C. L., Holloway, G., <strong>S&oacute;lymos, P.</strong>, Cumming, S. G., Bayne, E. M., Schmiegelow, F. K. A., and Song, S. J., 2016. Community structure and niche characteristics of upland and lowland western boreal birds at multiple spatial scales. <strong>Forest Ecology and Management</strong>, 361:99&ndash;116."
   link: "http://www.sciencedirect.com/science/article/pii/S0378112715006131"
   fulltext:
   code:
@@ -13,7 +13,7 @@
 - id: Bayne2016
   type: paper
   year: 2016
-  text: "Bayne, E., Leston, L., Mahon, C. L., <strong>S&oacute;lymos, P.</strong>, Machtans, C., Lankau, H., Ball, J., Van Wilgenburg, S., Cumming, S. G., Fontaine, T., Schmiegelow, F. K. A., and Song, S. J., 2016. Boreal bird abundance estimates within different energy sector disturbances vary with point count radius. <em><strong>Condor</strong></em>, xx:xx&ndash;xx."
+  text: "Bayne, E., Leston, L., Mahon, C. L., <strong>S&oacute;lymos, P.</strong>, Machtans, C., Lankau, H., Ball, J., Van Wilgenburg, S., Cumming, S. G., Fontaine, T., Schmiegelow, F. K. A., and Song, S. J., 2016. Boreal bird abundance estimates within different energy sector disturbances vary with point count radius. <strong>Condor</strong>, xx:xx&ndash;xx."
   link: "http://www.bioone.org/loi/cond"
   fulltext:
   code:
@@ -22,7 +22,7 @@
 - id: Solymos2016
   type: paper
   year: 2016
-  text: "<strong>S&oacute;lymos, P.</strong>, and Lele, S. R., in press. Revisiting resource selection probability functions and single-visit methods: clarification and extensions. <em><strong>Methods in Ecology and Evolution</strong></em>, 7:196&ndash;205."
+  text: "<strong>S&oacute;lymos, P.</strong>, and Lele, S. R., in press. Revisiting resource selection probability functions and single-visit methods: clarification and extensions. <strong>Methods in Ecology and Evolution</strong>, 7:196&ndash;205."
   link: "http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12432/abstract"
   fulltext: "http://arxiv.org/abs/1501.05880"
   code: "<a href=\"http://cran.r-project.org/package=detect\"><code>detect</code> R package</a>"
@@ -34,7 +34,7 @@
 - id: Solymos2015a
   type: paper
   year: 2015
-  text: "<strong>S&oacute;lymos, P.</strong>, Morrison, S. F., Kariyeva, J., Schieck, J., Haughland, D. L., Azeria, E., Cobb, T., Hinchliffe, R., Kittson, J., McIntosh, A., Narwani, T., Pierossi, P., Roy, M.-C., Sandybayev, T., Boutin, S., and Bayne, E., 2015. Data and information management for the monitoring of biodiversity in Alberta. <em><strong>Wildlife Society Bulletin</strong></em>, 39:472&ndash;479."
+  text: "<strong>S&oacute;lymos, P.</strong>, Morrison, S. F., Kariyeva, J., Schieck, J., Haughland, D. L., Azeria, E., Cobb, T., Hinchliffe, R., Kittson, J., McIntosh, A., Narwani, T., Pierossi, P., Roy, M.-C., Sandybayev, T., Boutin, S., and Bayne, E., 2015. Data and information management for the monitoring of biodiversity in Alberta. <strong>Wildlife Society Bulletin</strong>, 39:472&ndash;479."
   link: "http://onlinelibrary.wiley.com/doi/10.1002/wsb.564/abstract"
   fulltext:
   code:
@@ -43,7 +43,7 @@
 - id: Barker2015
   type: paper
   year: 2015
-  text: "Barker, N. K. S., Fontaine, P. C., Cumming, S. G., Stralberg, D., Westwood, A., Bayne, E. M., <strong>S&oacute;lymos, P.</strong>, Schmiegelow, F. K. A., Song, S. J., and Rugg, D. J., 2015. Ecological monitoring through harmonizing existing data: lessons from the Boreal Avian Modelling Project. <em><strong>Wildlife Society Bulletin</strong></em>, 39:480&ndash;487."
+  text: "Barker, N. K. S., Fontaine, P. C., Cumming, S. G., Stralberg, D., Westwood, A., Bayne, E. M., <strong>S&oacute;lymos, P.</strong>, Schmiegelow, F. K. A., Song, S. J., and Rugg, D. J., 2015. Ecological monitoring through harmonizing existing data: lessons from the Boreal Avian Modelling Project. <strong>Wildlife Society Bulletin</strong>, 39:480&ndash;487."
   link: "http://onlinelibrary.wiley.com/doi/10.1002/wsb.567/abstract"
   fulltext:
   code:
@@ -52,7 +52,7 @@
 - id: Stralberg2015b
   type: paper
   year: 2015
-  text: "Stralberg, D., Bayne, E. M., Cumming, S. G., <strong>S&oacute;lymos, P.</strong>, Song, S. J., and Schmiegelow, F. K. A., 2015. Conservation of future boreal forest bird communities considering lags in vegetation response to climate change: a modified refugia approach. <em><strong>Diversity and Distributions</strong></em>, 21:1112&ndash;1128."
+  text: "Stralberg, D., Bayne, E. M., Cumming, S. G., <strong>S&oacute;lymos, P.</strong>, Song, S. J., and Schmiegelow, F. K. A., 2015. Conservation of future boreal forest bird communities considering lags in vegetation response to climate change: a modified refugia approach. <strong>Diversity and Distributions</strong>, 21:1112&ndash;1128."
   link: "http://onlinelibrary.wiley.com/doi/10.1111/ddi.12356/abstract"
   fulltext:
   code:
@@ -61,7 +61,7 @@
 - id: Stralberg2015a
   type: paper
   year: 2015
-  text: "Stralberg, D., Matsuoka, S. M., Hamann, A., Bayne, E. M., <strong>S&oacute;lymos, P.</strong>, Schmiegelow, F. K. A., Wang, X., Cumming, S. G. & Song, S. J., 2015. Projecting boreal bird responses to climate change: the signal exceeds the noise. <em><strong>Ecological Applications</strong></em>, 25:52&ndash;69."
+  text: "Stralberg, D., Matsuoka, S. M., Hamann, A., Bayne, E. M., <strong>S&oacute;lymos, P.</strong>, Schmiegelow, F. K. A., Wang, X., Cumming, S. G. & Song, S. J., 2015. Projecting boreal bird responses to climate change: the signal exceeds the noise. <strong>Ecological Applications</strong>, 25:52&ndash;69."
   link: "http://www.esajournals.org/doi/abs/10.1890/13-2289.1"
   fulltext:
   code:
@@ -70,7 +70,7 @@
 - id: Patino2015
   year: 2015
   type: commentary
-  text: "Pati&ntilde;o, J., <strong>S&oacute;lymos, P.</strong>, Carine, M., Weigelt, P., Kreft, H., and Vanderpoorten, A., 2015. Island floras are not necessarily more species-poor than continental ones. <em><strong>Journal of Biogeography</strong></em> 42:8&ndash;10."
+  text: "Pati&ntilde;o, J., <strong>S&oacute;lymos, P.</strong>, Carine, M., Weigelt, P., Kreft, H., and Vanderpoorten, A., 2015. Island floras are not necessarily more species-poor than continental ones. <strong>Journal of Biogeography</strong> 42:8&ndash;10."
   link: "http://onlinelibrary.wiley.com/doi/10.1111/jbi.12422/abstract"
   fulltext: "http://onlinelibrary.wiley.com/doi/10.1111/jbi.12422/pdf"
   code:
@@ -82,7 +82,7 @@
 - id: Nagy2014
   type: incollection
   year: 2014
-  text: "Nagy, A. & <strong>S&oacute;lymos, P.</strong>, 2014. A fajsz&aacute;m-ter&uuml;let &ouml;sszef&uuml;gg&eacute;s &eacute;s a kis-sziget hat&aacute;s jelenl&eacute;t&eacute;nek vizsg&aacute;lata az Aggteleki-karszt fenns&iacute;ki &eacute;l&ouml;hely-szigeteinek Orthoptera egy&uuml;tteseiben [Species-area relationship and small island effect in Orthoptera assemblages of the habitat islands of the Aggtelek Karst, Hungary]. In T&oacute;th, V., ed., <em><strong>Kutat&aacute;sok az Aggteleki Nemzeti Parkban II. [Researches in Aggtelek National Park and Biosphere Reserve II.]</strong></em>, pp. 101&ndash;110, J&oacute;svaf&ouml;, Hungary. Aggteleki Nemzeti Park Igazgat&oacute;s&aacute;g."
+  text: "Nagy, A. & <strong>S&oacute;lymos, P.</strong>, 2014. A fajsz&aacute;m-ter&uuml;let &ouml;sszef&uuml;gg&eacute;s &eacute;s a kis-sziget hat&aacute;s jelenl&eacute;t&eacute;nek vizsg&aacute;lata az Aggteleki-karszt fenns&iacute;ki &eacute;l&ouml;hely-szigeteinek Orthoptera egy&uuml;tteseiben [Species-area relationship and small island effect in Orthoptera assemblages of the habitat islands of the Aggtelek Karst, Hungary]. In T&oacute;th, V., ed., <strong>Kutat&aacute;sok az Aggteleki Nemzeti Parkban II. [Researches in Aggtelek National Park and Biosphere Reserve II.]</strong>, pp. 101&ndash;110, J&oacute;svaf&ouml;, Hungary. Aggteleki Nemzeti Park Igazgat&oacute;s&aacute;g."
   link:
   fulltext: "http://anp.nemzetipark.gov.hu/_user/browser/File/tudomanyos_kiadvanyok/Tanulmanykotet.pdf"
   code:
@@ -91,7 +91,7 @@
 - id: Matsuoka2014
   type: commentary
   year: 2014
-  text: "Matsuoka, S. M., Mahon, C. L., Handel, C. M., <strong>S&oacute;lymos, P.</strong>, Bayne, E. M., Fontaine, P. C., and Ralph, C. J., 2014. Reviving common standards in point-count surveys for broad inference across studies. <em><strong>Condor</strong></em> 116:599&ndash;608."
+  text: "Matsuoka, S. M., Mahon, C. L., Handel, C. M., <strong>S&oacute;lymos, P.</strong>, Bayne, E. M., Fontaine, P. C., and Ralph, C. J., 2014. Reviving common standards in point-count surveys for broad inference across studies. <strong>Condor</strong> 116:599&ndash;608."
   link: "http://www.aoucospubs.org/doi/abs/10.1650/CONDOR-14-108.1"
   fulltext: "http://www.aoucospubs.org/doi/full/10.1650/CONDOR-14-108.1?utm_source=November+13%2C+2014&utm_campaign=November+Newsletter&utm_medium=email"
   code:
@@ -100,7 +100,7 @@
 - id: Kemencei2014
   type: paper
   year: 2014
-  text: "Kemencei, Z., Farkas, R., P&aacute;ll-Gergely, B., Vilisics, F., Nagy, A., Hornung, E. & <strong>S&oacute;lymos, P.</strong> (2014): Microhabitat associations of land snails in forested dolinas: implications for coarse filter conservation. <em><strong>Community Ecology</strong></em> 15:180&ndash;186."
+  text: "Kemencei, Z., Farkas, R., P&aacute;ll-Gergely, B., Vilisics, F., Nagy, A., Hornung, E. & <strong>S&oacute;lymos, P.</strong> (2014): Microhabitat associations of land snails in forested dolinas: implications for coarse filter conservation. <strong>Community Ecology</strong> 15:180&ndash;186."
   link: "http://www.akademiai.com/content/f8n2t6h727067711/?p=64417f85e7084e82a46517f26b9c8274&pi=5"
   fulltext:
   code:
@@ -109,7 +109,7 @@
 - id: Patino2014
   type: paper
   year: 2014
-  text: "Pati&ntilde;o, J. Weigelt, P., Guilhaumon, F., Kreft, H., Triantis, K. A., Naranjo-Cigala, A., <strong>S&oacute;lymos, P.</strong> & Vanderpoorten, A., 2014. Differences in species-area relationships among the major lineages of land plants: a macroecological perspective. <em><strong>Global Ecology and Biogeography</strong></em> 23:1275&ndash;1283."
+  text: "Pati&ntilde;o, J. Weigelt, P., Guilhaumon, F., Kreft, H., Triantis, K. A., Naranjo-Cigala, A., <strong>S&oacute;lymos, P.</strong> & Vanderpoorten, A., 2014. Differences in species-area relationships among the major lineages of land plants: a macroecological perspective. <strong>Global Ecology and Biogeography</strong> 23:1275&ndash;1283."
   link: "http://onlinelibrary.wiley.com/doi/10.1111/geb.12230/abstract?campaign=woletoc"
   fulltext:
   code:
@@ -118,7 +118,7 @@
 - id: Burton2014
   type: paper
   year: 2014
-  text: "Burton, C., Huggard, D., Bayne, E., Schieck, J., <strong>S&oacute;lymos, P.</strong>, Muhly, T., Farr, D. & Boutin, S., 2014. A framework for adaptive monitoring of the cumulative effects of human footprint on biodiversity. <em><strong>Environmental Monitoring and Assessment</strong></em> 186:3605&ndash;3617."
+  text: "Burton, C., Huggard, D., Bayne, E., Schieck, J., <strong>S&oacute;lymos, P.</strong>, Muhly, T., Farr, D. & Boutin, S., 2014. A framework for adaptive monitoring of the cumulative effects of human footprint on biodiversity. <strong>Environmental Monitoring and Assessment</strong> 186:3605&ndash;3617."
   link: "http://link.springer.com/article/10.1007%2Fs10661-014-3643-7"
   fulltext:
   code:
@@ -127,7 +127,7 @@
 - id: Mahon2014
   type: paper
   year: 2014
-  text: "Mahon, C. L., Bayne, E. M., <strong>S&oacute;lymos, P.</strong>, Matsuoka, S. M., Carlson, M., Dzus, E., Schmiegelow, F. K. A., Cumming, S. G., and Song, S. J., 2014. Does expected future landscape condition support proposed population objectives for boreal birds? <em><strong>Forest Ecology and Management</strong></em> 312:28&ndash;39."
+  text: "Mahon, C. L., Bayne, E. M., <strong>S&oacute;lymos, P.</strong>, Matsuoka, S. M., Carlson, M., Dzus, E., Schmiegelow, F. K. A., Cumming, S. G., and Song, S. J., 2014. Does expected future landscape condition support proposed population objectives for boreal birds? <strong>Forest Ecology and Management</strong> 312:28&ndash;39."
   link: "http://www.sciencedirect.com/science/article/pii/S0378112713006920#"
   fulltext:
   code:
@@ -136,7 +136,7 @@
 - id: Cumming2014
   type: paper
   year: 2014
-  text: "Cumming, S., Stralberg, D., Lefevre, K., <strong>S&oacute;lymos, P.</strong>, Bayne, E., Fang, S., Fontaine, T., Mazerolle, D., Schmiegelow, F. & Song, S., 2014. Climate and vegetation hierarchically structure patterns of songbird distribution in the Canadian boreal region. <em><strong>Ecography</strong></em> 36:137&ndash;151."
+  text: "Cumming, S., Stralberg, D., Lefevre, K., <strong>S&oacute;lymos, P.</strong>, Bayne, E., Fang, S., Fontaine, T., Mazerolle, D., Schmiegelow, F. & Song, S., 2014. Climate and vegetation hierarchically structure patterns of songbird distribution in the Canadian boreal region. <strong>Ecography</strong> 36:137&ndash;151."
   link: "http://onlinelibrary.wiley.com/doi/10.1111/j.1600-0587.2013.00299.x/abstract"
   fulltext:
   code:
@@ -148,7 +148,7 @@
 - id: Solymos2013b
   type: paper
   year: 2013
-  text: "<strong>S&oacute;lymos, P.</strong>, Matsuoka, S. M., Bayne, E. M., Lele, S. R., Fontaine, P., Cumming, S. G., Stralberg, D., Schmiegelow, F. K. A. & Song, S. J., 2013. Calibrating indices of avian density from non-standardized survey data: making the most of a messy situation. <em><strong>Methods in Ecology and Evolution</strong></em> 4:1047&ndash;1058."
+  text: "<strong>S&oacute;lymos, P.</strong>, Matsuoka, S. M., Bayne, E. M., Lele, S. R., Fontaine, P., Cumming, S. G., Stralberg, D., Schmiegelow, F. K. A. & Song, S. J., 2013. Calibrating indices of avian density from non-standardized survey data: making the most of a messy situation. <strong>Methods in Ecology and Evolution</strong> 4:1047&ndash;1058."
   link: "http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12106/abstract"
   fulltext: "https://sites.google.com/site/psolymosold/download/pdf/Solymos_et_al_2013_MEE_QPAD_prepubl.pdf?attredirects=0"
   code: "<a href=\"http://cran.r-project.org/package=detect\"><code>detect</code> R package</a>"
@@ -157,7 +157,7 @@
 - id: Solymos2013a
   type: letter
   year: 2013
-  text: "<strong>S&oacute;lymos, P.</strong>, Burton, C, Herbers, J., Boutin, S. & Schieck, J., 2013. Is accurate location information necessary for repeatability in field-based ecology? <em><strong>Frontiers in Ecology and the Environment</strong></em> 11(4):178&ndash;179."
+  text: "<strong>S&oacute;lymos, P.</strong>, Burton, C, Herbers, J., Boutin, S. & Schieck, J., 2013. Is accurate location information necessary for repeatability in field-based ecology? <strong>Frontiers in Ecology and the Environment</strong> 11(4):178&ndash;179."
   link: "http://www.esajournals.org/doi/abs/10.1890/13.WB.010"
   fulltext:
   code:
@@ -169,7 +169,7 @@
 - id: Solymos2012a
   type: paper
   year: 2012
-  text: "<strong>S&oacute;lymos, P.</strong> & Lele, S. R., 2012. Global pattern and local variation in species-area relationships. <em><strong>Global Ecology and Biogeography</strong></em> 21:109&ndash;120."
+  text: "<strong>S&oacute;lymos, P.</strong> & Lele, S. R., 2012. Global pattern and local variation in species-area relationships. <strong>Global Ecology and Biogeography</strong> 21:109&ndash;120."
   link: "http://onlinelibrary.wiley.com/doi/10.1111/j.1466-8238.2011.00655.x/abstract"
   fulltext: "http://onlinelibrary.wiley.com/doi/10.1111/j.1466-8238.2011.00655.x/pdf"
   code: "<a href=\"http://cran.r-project.org/package=sharx\"><code>sharx</code> R package</a>"
@@ -178,7 +178,7 @@
 - id: Solymos2012b
   type: paper
   year: 2012
-  text: "<strong>S&oacute;lymos, P.</strong>, Lele, S. R. & Bayne, E., 2012. Conditional likelihood approach for analyzing single visit abundance survey data in the presence of zero inflation and detection error. <em><strong>Environmetrics</strong></em> 23:197&ndash;205."
+  text: "<strong>S&oacute;lymos, P.</strong>, Lele, S. R. & Bayne, E., 2012. Conditional likelihood approach for analyzing single visit abundance survey data in the presence of zero inflation and detection error. <strong>Environmetrics</strong> 23:197&ndash;205."
   link: "http://onlinelibrary.wiley.com/doi/10.1002/env.1149/abstract"
   fulltext: "https://sites.google.com/site/psolymosold/download/pdf/Solymos_et_al_Environmetrics_public.pdf?attredirects=0"
   code: "<a href=\"http://cran.r-project.org/package=sharx\"><code>sharx</code> R package</a>"
@@ -187,7 +187,7 @@
 - id: Matsuoka2012
   type: paper
   year: 2012
-  text: "Matsuoka, S. M., Bayne, E. M., <strong>S&oacute;lymos, P.</strong>, Fontaine, P., Cumming, S. G., Schmiegelow, F. K. A., & Song, S. A., 2012. Using binomial distance-sampling models to estimate the effective detection radius of point-counts surveys across boreal Canada. <em><strong>Auk</strong></em> 129:268&ndash;282."
+  text: "Matsuoka, S. M., Bayne, E. M., <strong>S&oacute;lymos, P.</strong>, Fontaine, P., Cumming, S. G., Schmiegelow, F. K. A., & Song, S. A., 2012. Using binomial distance-sampling models to estimate the effective detection radius of point-counts surveys across boreal Canada. <strong>Auk</strong> 129:268&ndash;282."
   link: "http://www.bioone.org/doi/abs/10.1525/auk.2012.11190"
   fulltext:
   code:
@@ -196,7 +196,7 @@
 - id: Walker2012
   type: paper
   year: 2012
-  text: "Walker, S. C., Gu&eacute;nard, G., <strong>S&oacute;lymos, P.</strong> & Legendre, P., 2012. Multiple-table data in R with the multitable package. <em><strong>Journal of Statistical Software</strong></em> 51(8):1&ndash;38."
+  text: "Walker, S. C., Gu&eacute;nard, G., <strong>S&oacute;lymos, P.</strong> & Legendre, P., 2012. Multiple-table data in R with the multitable package. <strong>Journal of Statistical Software</strong> 51(8):1&ndash;38."
   link: "http://www.jstatsoft.org/v51/i08/"
   fulltext: "http://www.jstatsoft.org/v51/i08/paper"
   code: "<a href=\"http://cran.r-project.org/package=multitable\"><code>multitable</code> R package</a>"
@@ -205,7 +205,7 @@
 - id: Mayor2012
   type: paper
   year: 2012
-  text: "Mayor, S.J., Cahill, J.F., He, F., <strong>S&oacute;lymos, P.</strong> & Boutin, S., 2012. Regional boreal biodiversity peaks at intermediate human disturbance. <em><strong>Nature Communications</strong></em> 3:1142."
+  text: "Mayor, S.J., Cahill, J.F., He, F., <strong>S&oacute;lymos, P.</strong> & Boutin, S., 2012. Regional boreal biodiversity peaks at intermediate human disturbance. <strong>Nature Communications</strong> 3:1142."
   link: "http://www.nature.com/ncomms/journal/v3/n10/full/ncomms2145.html"
   fulltext:
   code:
@@ -217,7 +217,7 @@
 - id: Silvertown2011
   type: paper
   year: 2011
-  text: "Silvertown, J., Cook, L., Cameron, R. A. D., Dodd, M., McConway, K., Jones, S., Worthington, J., Skelton, P., Anton, C., Baur, B., Schilthuizen, M., Fontaine, B., Sattmann, H., Bertorelle, G., Correia, M., Oliveira, C., Pokryszko, B., Ozgo, M., Stalazs, A., Gill, E., Rammul, U., <strong>S&oacute;lymos, P.</strong>, Feh&eacute;r, Z. & Juan, X., 2011. Citizen science reveals unexpected continental-scale evolutionary change in a model organism. <em><strong>PLoS ONE</strong></em> 6(4):e18927."
+  text: "Silvertown, J., Cook, L., Cameron, R. A. D., Dodd, M., McConway, K., Jones, S., Worthington, J., Skelton, P., Anton, C., Baur, B., Schilthuizen, M., Fontaine, B., Sattmann, H., Bertorelle, G., Correia, M., Oliveira, C., Pokryszko, B., Ozgo, M., Stalazs, A., Gill, E., Rammul, U., <strong>S&oacute;lymos, P.</strong>, Feh&eacute;r, Z. & Juan, X., 2011. Citizen science reveals unexpected continental-scale evolutionary change in a model organism. <strong>PLoS ONE</strong> 6(4):e18927."
   link: "http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0018927"
   fulltext: "http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0018927&representation=PDF"
   code:
@@ -226,7 +226,7 @@
 - id: Vilisics2011
   type: paper
   year: 2011
-  text: "Vilisics, F., <strong>S&oacute;lymos, P.</strong>, Nagy, A., Farkas, R., Kemencei, Z. & Hornung, E., 2011. Small scale gradient effects on isopods (Crustacea, Oniscidea) in karstic sink holes. <em><strong>Biologia Bratislava</strong></em> 66:499&ndash;505."
+  text: "Vilisics, F., <strong>S&oacute;lymos, P.</strong>, Nagy, A., Farkas, R., Kemencei, Z. & Hornung, E., 2011. Small scale gradient effects on isopods (Crustacea, Oniscidea) in karstic sink holes. <strong>Biologia Bratislava</strong> 66:499&ndash;505."
   link: "http://www.springerlink.com/content/57l5382314252h45/"
   fulltext:
   code:
@@ -235,7 +235,7 @@
 - id: Kemencei2011
   type: paper
   year: 2011
-  text: "Kemencei, Z., Hornung, E., Vilisics, F. & <strong>S&oacute;lymos, P.</strong>, 2011. &Eacute;l&ouml;helyek term&eacute;szetv&eacute;delmi &eacute;rt&eacute;kel&eacute;se sz&aacute;razf&ouml;ldi csig&aacute;k seg&iacute;ts&eacute;g&eacute;vel erd&ouml;rezerv&aacute;tumok p&eacute;ld&aacute;j&aacute;n bemutatva. <em><strong>&Aacute;llattani K&ouml;zlem&eacute;nyek</strong></em> 96(1-2):91&ndash;100."
+  text: "Kemencei, Z., Hornung, E., Vilisics, F. & <strong>S&oacute;lymos, P.</strong>, 2011. &Eacute;l&ouml;helyek term&eacute;szetv&eacute;delmi &eacute;rt&eacute;kel&eacute;se sz&aacute;razf&ouml;ldi csig&aacute;k seg&iacute;ts&eacute;g&eacute;vel erd&ouml;rezerv&aacute;tumok p&eacute;ld&aacute;j&aacute;n bemutatva. <strong>&Aacute;llattani K&ouml;zlem&eacute;nyek</strong> 96(1-2):91&ndash;100."
   link: "http://www.matarka.hu/cikk_list.php?fusz=107340"
   fulltext:
   code:
@@ -247,7 +247,7 @@
 - id: Solymos2010
   type: paper
   year: 2010
-  text: "<strong>S&oacute;lymos, P.</strong>, 2010. dclone: Data Cloning in R. <em><strong>R Journal</strong></em> 2(2):29&ndash;37."
+  text: "<strong>S&oacute;lymos, P.</strong>, 2010. dclone: Data Cloning in R. <strong>R Journal</strong> 2(2):29&ndash;37."
   link: "http://journal.r-project.org/archive/2010-2/"
   fulltext: "http://journal.r-project.org/archive/2010-2/RJournal_2010-2_Solymos.pdf"
   code: "<a href=\"http://cran.r-project.org/package=dclone\"><code>dclone</code> R package</a>"
@@ -256,7 +256,7 @@
 - id: Haughland2010
   type: letter
   year: 2010
-  text: "Haughland, D. L, Hero, J.-M., Schieck, J., Castley, J. G., Boutin, S., <strong>S&oacute;lymos, P.</strong>, Lawson, B. E., Holloway, J. G. & Magnusson, W. E., 2010. Planning forwards: biodiversity research and monitoring systems for better management. <em><strong>Trends in Ecology and Evolution</strong></em> 25(4):199&ndash;200."
+  text: "Haughland, D. L, Hero, J.-M., Schieck, J., Castley, J. G., Boutin, S., <strong>S&oacute;lymos, P.</strong>, Lawson, B. E., Holloway, J. G. & Magnusson, W. E., 2010. Planning forwards: biodiversity research and monitoring systems for better management. <strong>Trends in Ecology and Evolution</strong> 25(4):199&ndash;200."
   link: "http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6VJ1-4XX18HB-1&_user=10&_coverDate=04%2F30%2F2010&_alid=1739652099&_rdoc=1&_fmt=high&_orig=search&_origin=search&_zone=rslt_list_item&_cdi=6081&_sort=r&_st=13&_docanchor=&view=c&_ct=9&_acct=C000050221&_version=1&_urlVersion=0&_userid=10&md5=a89a62187890408f11433818e4018bba&searchtype=a"
   fulltext: "https://sites.google.com/site/psolymosold/download/pdf/tree-inpress.pdf?attredirects=0"
   code:
@@ -265,7 +265,7 @@
 - id: Feher2010
   type: paper
   year: 2010
-  text: "Feh&eacute;r, Z., Deli, T. & <strong>S&oacute;lymos, P.</strong>, 2010. Revision of <em>Granaria frumentum</em> (Draparnaud, 1801) (Mollusca, Gastropoda, Chondrinidae) subspecies occurring in the eastern part of the species\' range. <em><strong>Journal of Conchology</strong></em> 40(2):201&ndash;217."
+  text: "Feh&eacute;r, Z., Deli, T. & <strong>S&oacute;lymos, P.</strong>, 2010. Revision of <em>Granaria frumentum</em> (Draparnaud, 1801) (Mollusca, Gastropoda, Chondrinidae) subspecies occurring in the eastern part of the species\' range. <strong>Journal of Conchology</strong> 40(2):201&ndash;217."
   link:
   fulltext: "https://sites.google.com/site/psolymosold/download/pdf/feher_etal_jconch_2010_granaria.pdf?attredirects=0"
   code:
