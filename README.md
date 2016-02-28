@@ -10,9 +10,9 @@ Peter Solymos's personal website
 - [x] qisqus to add in bottom is done but does not load: canonical problem? works mostly...
 - [x] create R tag secific RSS feed as [here](http://jekyll.tips/tutorials/rss-feed/) or [here](https://github.com/snaptortoise/jekyll-rss-feeds/blob/master/feed.xml)
 - [ ] add to R-bloggers [here](http://www.r-bloggers.com/add-your-blog/)
-- [ ] differentiate landing page by categories
-- [ ] finish embed
-- [ ] previous/next post buttons
+- [x] differentiate landing page by categories
+- [x] finish embed
+- [x] previous/next post buttons
 
 ## Organization
 
