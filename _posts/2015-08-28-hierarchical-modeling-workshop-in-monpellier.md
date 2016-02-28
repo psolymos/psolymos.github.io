@@ -1,5 +1,5 @@
 ---
-title: "Hierarchical models for conservation biologists made easy"
+title: "Hierarchical modeling workshop in Monpellier"
 layout: default
 category: Etc
 tags: [R, course, data cloning, dclone]
