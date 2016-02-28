@@ -78,7 +78,7 @@
                   {% assign commonTags = commonTags | append: tagmarkup %}
                 {% endif %}
             {% endfor %}
-            {% if sameTagCount >= 1 %}
+            {% if sameTagCount >= 2 %}
               <li><i class="fa-li fa fa-chevron-right text-white"></i><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
             {% endif %}
         {% endfor %}
