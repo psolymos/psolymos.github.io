@@ -35,7 +35,7 @@ recent posts, starting with promoted
 papers
 -->
 <div class="col-lg-4 col-sm-6">
-<h3>Papers</h3>
+<h3>Publications</h3>
   {% for ms in site.data.papers limit:5 %}
   <p>{{ ms.text }}{% if ms.link %} &mdash; <i class="fa fa-external-link text-orange"></i>&nbsp;<a href="{{ ms.link }}">journal website</a>{% endif %}{% if ms.fulltext %} &mdash; <i class="fa fa-file-pdf-o text-orange"></i>&nbsp;<a href="{{ ms.fulltext }}">fulltext PDF</a>{% endif %}{% if ms.code %} &mdash; <i class="fa fa-file-code-o text-orange"></i>&nbsp;{{ ms.code }}{% endif %}{% if ms.supportinginfo %} &mdash; <i class="fa fa-file-code-o text-orange"></i>&nbsp;{{ ms.supportinginfo }}{% endif %}.</p>
   {% endfor %}
