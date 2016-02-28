@@ -25,14 +25,14 @@
 {% include _share.html %}
 <ul class="pager">
   {% if page.previous %}
-  <li class="previous"><a href="{{ page.previous.url }}">&larr; Older</a></li>
+  <li class="previous"><a href="{{ page.previous.url }}"><i class="fa fa-arrow-left"></i> Older</a></li>
   {% else %}
-  <li class="previous disabled"><a href="#">&larr; Older</a></li>
+  <li class="previous disabled"><a href="#"><i class="fa fa-arrow-left"></i> Older</a></li>
   {% endif %}
   {% if page.next %}
-  <li class="next"><a href="{{ page.next.url }}">Newer &rarr;</a></li>
+  <li class="next"><a href="{{ page.next.url }}">Newer <i class="fa fa-arrow-right"></i></a></li>
   {% else %}
-  <li class="next disabled"><a href="#">Newer &rarr;</a></li>
+  <li class="next disabled"><a href="#">Newer <i class="fa fa-arrow-right"></i></a></li>
   {% endif %}
 </ul>
 {% endif %}
