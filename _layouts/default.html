@@ -54,8 +54,7 @@
         {% endif %}
         {% endfor %}
 <!-- here are the not promoted - posts only for not post pages -->
-        {% if page.category == null %}
-        <h3>Latest post</h3>
+      {% if page.category == null %}
         <ul class="fa-ul">
           {% for post in site.posts limit:6 %}
           {% unless post.promote %}
@@ -63,10 +62,8 @@
           {% endunless %}
           {% endfor %}
         </ul>
-       {% endif %}
+      {% else %}
 <!-- here are the similar posts - for post pages -->
-      {% if page.category != null %}
-        <h3>Related posts</h3>
         <ul class="fa-ul">
         {% for post in site.posts %}
             {% assign sameTagCount = 0 %}
@@ -83,15 +80,7 @@
             {% endif %}
         {% endfor %}
         </ul>
-<!--        <h3>Latest posts</h3>
-        <ul class="fa-ul">
-          {% for post in site.posts limit:4 %}
-          {% unless post.promote %}
-          <li><i class="fa-li fa fa-chevron-right text-white"></i><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-          {% endunless %}
-          {% endfor %}
-        </ul> -->
-        {% endif %}
+      {% endif %}
 <!-- tags -->
         {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
         {% assign tag_words = site_tags | split:',' | sort %}
