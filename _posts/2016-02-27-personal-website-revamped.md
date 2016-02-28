@@ -2,6 +2,11 @@
 title: "Personal website revamped"
 layout: default
 published: true
+category: Etc
+tags: [site]
+published: true
+disqus: petersolymos
+promote: true
 ---
 
 It all started with my site based on the
