@@ -13,7 +13,7 @@ years: [2016, 2015, 2014, 2013, 2012, 2011, 2010]
 <a href="https://publons.com/a/534081/">Publon</a>
 </p>
 
-<p id="year-lookup">Jumpt to year: {% for yr in page.years %}<a href="#papers-{{ yr }}">{{ yr }}</a> &mdash; {% endfor %}<a href="https://sites.google.com/site/psolymosold/publications">&lt;2010</a></p>
+<p id="year-lookup">Jump to year: {% for yr in page.years %}<a href="#papers-{{ yr }}">{{ yr }}</a> &mdash; {% endfor %}<a href="https://sites.google.com/site/psolymosold/publications">&lt;2010</a></p>
 
 {% for yr in page.years %}
 <h2 id="papers-{{ yr }}">{{ yr }}</h2>
