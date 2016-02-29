@@ -4,8 +4,8 @@ description: "An archive of posts in the code category"
 layout: default
 ---
 
-<h4 id="checks-external"><a href="http://cran.r-project.org/web/checks/check_summary_by_maintainer.html#address:solymos_at_ualberta.ca">CRAN checks</a> &mdash;
-<a href="https://travis-ci.org/psolymos">Travis CI</a></h4>
+<p id="checks-external">Package checks at <a href="http://cran.r-project.org/web/checks/check_summary_by_maintainer.html#address:solymos_at_ualberta.ca">CRAN checks</a> &mdash;
+<a href="https://travis-ci.org/psolymos">Travis Continuous Integration</a></p>
 
 {% for pkg in site.data.packages %}
 <h3 id="code-{{ pkg.pkgname | downcase }}">{{ pkg.pkgname }}: {{ pkg.title }}</h3>
