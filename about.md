@@ -6,7 +6,7 @@ layout: default
 
 ## Employment
 
-- **Jan 2015 &ndash;**: Adjunct Professor, [Department of Biological Sciences](http://www.biology.ualberta.ca/), [University of Alberta](http://www.ualberta.ca/), Edmonton, AB Canada
+- **Jan 2015 &ndash;**: Adjunct Professor, [Department of Biological Sciences](https://uofa.ualberta.ca/biological-sciences), [University of Alberta](http://www.ualberta.ca/), Edmonton, AB Canada
 - **Jan 2010 &ndash;**: Statistical Ecologist, [Boreal Avian Modelling (BAM) Project](http://www.borealbirds.ca/)
 - **Sep 2009 &ndash;**: Statistical Ecologist, [Alberta Biodiversity Monitoring Institute](http://www.abmi.ca/), [Department of Biological Sciences](http://www.biology.ualberta.ca/), [University of Alberta](http://www.ualberta.ca/), Edmonton, AB Canada
 - **Sep 2008 &ndash; Aug 2009**: Postdoctoral Fellow, [Department of Mathematical and Statistical Sciences](http://www.stat.ualberta.ca/stat_centre/), [University of Alberta](http://www.ualberta.ca/), Edmonton, Alberta, Canada
