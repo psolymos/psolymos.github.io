@@ -1,7 +1,6 @@
 ---
 title: "Personal website revamped"
 layout: default
-published: true
 category: Etc
 tags: [site]
 published: true
