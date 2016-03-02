@@ -48,7 +48,7 @@
   devel: psolymos
 - pkgname: pbapply
   title: "Adding progress bar to '*apply' functions"
-  description: "A lightweight package that adds progress bar to vectorized R functions (`*apply`). The implenentation can easily be added to functions, where showing the progress is useful for the user (e.g. bootstrap)."
+  description: "A lightweight package that adds progress bar to vectorized R functions ('*apply'). The implementation can easily be added to functions where showing the progress is useful (e.g. bootstrap). The type and style of the progress bar (with percentages or remaining time) can be set through options."
   tutorial:
   paper:
   devel: psolymos
