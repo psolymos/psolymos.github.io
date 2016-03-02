@@ -22,7 +22,7 @@
 - id: Solymos2016
   type: paper
   year: 2016
-  text: "<strong>S&oacute;lymos, P.</strong>, and Lele, S. R., in press. Revisiting resource selection probability functions and single-visit methods: clarification and extensions. <strong>Methods in Ecology and Evolution</strong>, 7:196&ndash;205."
+  text: "<strong>S&oacute;lymos, P.</strong>, and Lele, S. R., 2016. Revisiting resource selection probability functions and single-visit methods: clarification and extensions. <strong>Methods in Ecology and Evolution</strong>, 7:196&ndash;205."
   link: "http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12432/abstract"
   fulltext: "http://arxiv.org/abs/1501.05880"
   code: "<a href=\"http://cran.r-project.org/package=detect\"><code>detect</code> R package</a>"

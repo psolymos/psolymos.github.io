@@ -10,6 +10,8 @@ promote: false
 
 pbapply CRAN submission: timer progress bar
 
+mefa4 CRAN submission
+
 MEE paper
 
 opencpu experiment
@@ -25,7 +27,7 @@ Advertize datacloning.org and mailing list
 
 
  goal: increase awareness (overall work, packages)
- measeure:
+ measure:
  * Google analytics metrics:
   - bounce rate
   - visits, visitors, returning
