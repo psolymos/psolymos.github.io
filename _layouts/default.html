@@ -54,7 +54,7 @@
         {% if post.promote %}
         <div class="well">
             <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-            {{ post.excerpt }}
+            <strong>{{ post.excerpt }}</strong>
         </div>
         {% endif %}
         {% endfor %}
