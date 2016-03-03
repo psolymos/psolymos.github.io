@@ -8,6 +8,7 @@ layout: plain
     <div class="row">
       <div class="col-lg-12">
         <h2 class="text-center">{{ site.description }}</h2>
+        <h3> </h3>
         <center>
           <a href="https://twitter.com/psolymos" class="twitter-follow-button" data-show-count="false">Follow @psolymos</a>
         </center>
@@ -55,7 +56,6 @@ code
 {% for pkg in site.data.packages %}
   <a href="{{ site.baseurl }}/code.html#code-{{ pkg.pkgname | downcase }}" class="list-group-item">
     <h4 class="list-group-item-heading">{{ pkg.pkgname }}</h4>
-    <h5> </h5>
     <p class="list-group-item-text">{{ pkg.title }}</p>
   </a>
 {% endfor %}
