@@ -29,12 +29,20 @@ recent posts, starting with promoted
 -->
 <div class="col-lg-4 col-sm-6">
 <h3>News</h3>
-{% for post in site.categories.Etc limit:5 %}
-{% if post.promote %}<div class="well">{% endif %}
+  {% for post in site.posts %}
+  {% if post.promote %}
+  <div class="well">
     <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-    {% if post.promote %}<strong>{% endif %}{{ post.excerpt }}{% if post.promote %}</strong>{% endif %}
-{% if post.promote %}</div>{% endif %}
-{% endfor %}
+    <strong>{{ post.excerpt }}</strong>
+  </div>
+  {% endif %}
+  {% endfor %}
+  {% for post in site.posts limit:5 %}
+  {% unless post.promote %}
+  <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+  {{ post.excerpt }}
+  {% endunless %}
+  {% endfor %}
 </div>
 
 <!--
