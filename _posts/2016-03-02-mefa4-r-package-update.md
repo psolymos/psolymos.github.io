@@ -10,7 +10,7 @@ promote: false
 
 The [mefa4]({{ site.baseurl }}/code.html#code-mefa4)
 [R](http://www.r-project.org) package is aimed at efficient manipulation
-of __very big__ data sets leveraging sparse matrices thanks to
+of *very big* data sets leveraging sparse matrices thanks to
 the [Matrix](https://cran.r-project.org/web/packages/Matrix/index.html) package.
 The recent update (version 0.3-3) of the package includes a
 bugfix and few new functions
@@ -18,14 +18,14 @@ to compare sets and finding dominant features in compositional data
 as described in the [ChangeLog](https://cran.r-project.org/web/packages/mefa4/ChangeLog).
 
 The first new function is `compare_sets`. It comes really handy when
-I need to compare row names for two matrix like objects. Such as when
+one needs to compare row names for two matrix like objects. Such as when
 trying to merge two tables which come from different sources. This
 facilitates checking the data and troubleshooting.
 The function takes two arguments which are
 then compared both in terms of `unique` values, and in terms of
 levels when input is a factor (referred to as `labels`).
 The function combines the functionality of
-`length` (as in `length(unique(...))``), `nlevels`, `union`, `intersect`,
+`length` (as in `length(unique(...))`), `nlevels`, `union`, `intersect`,
 and `setdiff`.
 In the first example let us compare two numeric vectors:
 
@@ -36,7 +36,7 @@ compare_sets(x = 1:10, y = 8:15)
 ## unique      10       8         3    15        7        5
 ```
 Now let us have a look at two factors, one with 'zombie'/empty/unused levels.
-In this case the two rows differ for obvious reasons.
+In this case the two rows differ for obvious reasons:
 
 ```r
 compare_sets(x = factor(1:10, levels=1:10), y = factor(8:15, levels=1:15))
@@ -45,12 +45,14 @@ compare_sets(x = factor(1:10, levels=1:10), y = factor(8:15, levels=1:15))
 ## unique      10       8         3    15        7        5
 ```
 
-The second function is `find_max`. It takes a matrix-like object
+The second function is called `find_max`. No, it is not a dog locator,
+and it has nothing to do with [Ruby](https://www.youtube.com/watch?v=GA4nh9_3cZM).
+It takes a matrix-like object
 as its argument and finds the maximum value and column ID for each row.
 Such a function is handy when for example one is looking for a dominant
 feature type in a matrix of compositional data. For example
-the extent of discrete habitats is summarized in buffers around
-10 point locations using some GIS application.
+the area of discrete habitats is summarized in buffers around
+point locations using some GIS application.
 As a result, we have a matrix where rows sum to 1
 (note: this is not a criteria for the function to work):
 
