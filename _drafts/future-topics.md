@@ -8,21 +8,16 @@ disqus: petersolymos
 promote: false
 ---
 
-pbapply CRAN submission: timer progress bar
-
-mefa4 CRAN submission
-
-MEE paper
-
-opencpu experiment
-
-Announce NACCB workshop
-
-Parallel computing overview by Marc Kery and dclone updates
-
-Condor paper
-
-Advertize datacloning.org and mailing list
+- [ ] wac2wav converter
+- [x] pbapply CRAN submission: timer progress bar
+- [x] mefa4 CRAN submission
+- [ ] MEE paper
+- [ ] opencpu experiment
+- [x] Announce NACCB workshop
+- [ ] Parallel computing overview by Marc Kery and dclone updates
+- [ ] Condor paper
+- [ ] Advertize datacloning.org and mailing list
+- [ ] Westgrid tricks
 
 
 
