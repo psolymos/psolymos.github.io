@@ -3,9 +3,9 @@ Peter Solymos's personal website
 
 ## Todo in order of priority
 
-- [ ] include 'subscribe/follow' buttons at top of sidebar 
-  (see [here](http://coschedule.com/blog/write-a-great-blog-post/)).
 - [ ] add to R-bloggers [here](http://www.r-bloggers.com/add-your-blog/)
+- [x] include 'subscribe/follow' buttons at top of sidebar
+  (see [here](http://coschedule.com/blog/write-a-great-blog-post/)).
 - [x] update logline
 - [x] create blog entries from News section
 - [x] share buttons (Twitter etc)
