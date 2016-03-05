@@ -10,6 +10,9 @@
 ## jekyll built website
 /_site/*
 
+## jekyll not-modified log
+.jekyll-metadata
+
 # History files
 .Rhistory
 
