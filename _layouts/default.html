@@ -70,9 +70,10 @@
       {% else %}
 <!-- here are the similar posts - for post pages -->
         <ul class="fa-ul">
+        {% assign similarPostCount = 0 %}
         {% for post in site.posts %}
             {% assign sameTagCount = 0 %}
-            {% assign commonTags = '' %}
+            <!-- {% assign commonTags = '' %} -->
             {% for tag in post.tags %}
               {% if post.id != page.id %}
                 {% if page.tags contains tag %}
@@ -83,7 +84,10 @@
               {% endif %}
             {% endfor %}
             {% if sameTagCount >= 2 %}
-              <li><i class="fa-li fa fa-chevron-right text-white"></i><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+              {% assign similarPostCount = similarPostCount | plus: 1 %}
+                {% if similarPostCount < 2%}
+                  <li><i class="fa-li fa fa-chevron-right text-white"></i><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+                {% endif %}
             {% endif %}
         {% endfor %}
         </ul>
