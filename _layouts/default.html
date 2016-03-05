@@ -73,19 +73,16 @@
         {% assign similarPostCount = 0 %}
         {% for post in site.posts %}
             {% assign sameTagCount = 0 %}
-            <!-- {% assign commonTags = '' %} -->
             {% for tag in post.tags %}
               {% if post.id != page.id %}
                 {% if page.tags contains tag %}
                   {% assign sameTagCount = sameTagCount | plus: 1 %}
-<!--                  {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
-                  {% assign commonTags = commonTags | append: tagmarkup %} -->
                 {% endif %}
               {% endif %}
             {% endfor %}
-            {% if sameTagCount >= 2 %}
+            {% if sameTagCount >= 1 %}
               {% assign similarPostCount = similarPostCount | plus: 1 %}
-                {% if similarPostCount < 2%}
+                {% if similarPostCount <= 5%}
                   <li><i class="fa-li fa fa-chevron-right text-white"></i><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
                 {% endif %}
             {% endif %}
