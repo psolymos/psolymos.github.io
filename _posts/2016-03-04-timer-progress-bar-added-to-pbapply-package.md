@@ -11,11 +11,12 @@ promote: false
 [pbapply]({{ site.baseurl }}/code.html#code-pbapply)
 is a lightweight [R](http://www.r-project.org) extension package
 that adds progress bar to vectorized R functions (`*apply`).
-The latest addition is the `timerProgressBar` function which adds a text based
+The latest addition in version 1.2-0
+is the `timerProgressBar` function which adds a text based
 progress bar with timer that all started with
 [this pull request](https://github.com/psolymos/pbapply/pull/4).
 
-This package is the least scientifically advanced piece of software
+This package is the least scientifically sophisticated piece of software
 that I have worked on, but still it seems to be popular based on
 reverse dependencies and download statistics.
 The reason for the buzz is probably related to the packages
