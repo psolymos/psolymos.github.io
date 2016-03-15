@@ -277,7 +277,8 @@
 - id:
   type:
   year:
-  text:
+  text: "
+Sólymos, P., Farkas, R., Kemencei, Z., Páll-Gergely, B., Vilisics, F., Nagy, A., Kisfali, M. & Hornung, E. (2009): Micro-habitat scale survey of land snails in dolines of the Alsó-hegy, Aggtelek National Park, Hungary. Mollusca, 27(2): 167-171."
   link:
   fulltext:
   code:
@@ -286,7 +287,7 @@
 - id:
   type:
   year:
-  text:
+  text: "Sólymos, P., Kemencei, Z., Páll-Gergely, B., Farkas, R., Vilisics, F. & Hornung, E. (2009): Does shell accumulation matter in micro scale land snail surveys? Malacologia, 51(2): 389-393."
   link:
   fulltext:
   code:
@@ -295,7 +296,7 @@
 - id:
   type:
   year:
-  text:
+  text: "Sólymos, P. (2009): Processing ecological data in R with the mefa package. Journal of Statistical Software, 29(8): 1-28."
   link:
   fulltext:
   code:
@@ -304,7 +305,7 @@
 - id:
   type:
   year:
-  text:
+  text: "Páll-Gergely, B. & Sólymos, P. (2009): Ants as shell collectors: notes on land snail shells found around ant nests. Malacologica Bohemoslovaca, 8: 14-18."
   link:
   fulltext:
   code:
@@ -313,7 +314,7 @@
 - id:
   type:
   year:
-  text:
+  text: "Sólymos, P., Vilisics, F., Kemencei, Z., Páll-Gergely, B., Farkas, R., Nagy, A., Kisfali, M. & Hornung, E. (2009): Globális változás, lokális túlélés: kitettség és nedvességi grádiens hatása avarlakó gerinctelenekre [Global change, local survival: effects of aspect and moisture on epigeic invertebrate communities]. Természetvédelmi Közlemények, 15: 396-411. "
   link:
   fulltext:
   code:
@@ -322,7 +323,7 @@
 - id:
   type:
   year:
-  text:
+  text: "Hornung, E., Vilisics, F. & Sólymos, P. (2009): Ászkarák együttesek (Crustacea, Isopoda, Oniscidea) felhasználhatósága az élőhelyek természetességének minősítésében [The use of woodlice assemblages (Crustacea, Isopoda, Oniscidea) in the assessment of habitat naturalness]. Természetvédelmi Közlemények, 15: 381-395."
   link:
   fulltext:
   code:
