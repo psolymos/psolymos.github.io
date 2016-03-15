@@ -3,7 +3,7 @@ title: "wac2wav converter"
 layout: default
 published: true
 category: Code
-tags: [C, ARU, ABMI]
+tags: [C, ARU, ABMI, bioacoustics]
 disqus: petersolymos
 promote: false
 ---
@@ -31,13 +31,14 @@ variety of software tools can be used to analyze the information in the files.
 The `wac` format is a proprietary file format developed by
 [Wildlife Acoustics](http://www.wildlifeacoustics.com/),
 a company that specializes in bioacoustics monitoring systems.
+
 The fact that the acoustic units manufactured by Wildlife Acoustics
 are widely used in Alberta might represent a vendor lock-in.
 Luckily for us, the pressure on the company
 (see [here](http://research.coquipr.com/archives/747) and [here](http://research.coquipr.com/archives/840), thanks Luis J. Villanueva-Rivera)
 led to the company releasing a command line tool under the [GPL](http://www.gnu.org/licenses/gpl-3.0.html) license
 for facilitating
-`wac`-to-`wav` file conversion (see source code [here(http://wildlifeacoustics.com/downloads/wac2wavcmd-1.0.zip), [here](https://sourceforge.net/projects/wac2wavcmd/files/), and [here](https://github.com/ljvillanueva/pumilio-extras/blob/master/wac2wav/install_wac2wav.sh)).
+`wac`-to-`wav` file conversion (see source code [here](http://wildlifeacoustics.com/downloads/wac2wavcmd-1.0.zip), [here](https://sourceforge.net/projects/wac2wavcmd/files/), and [here](https://github.com/ljvillanueva/pumilio-extras/blob/master/wac2wav/install_wac2wav.sh)).
 
 The story might have ended right there. But the `C` code worked with
 standard input and output. It took some time and help (thanks John) to figure out exactly
