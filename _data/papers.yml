@@ -283,9 +283,42 @@
   code:
   supportinginfo:
   doi:
-#
-#------------------------- 2008 ------------------------------
-#
+- id:
+  type:
+  year:
+  text:
+  link:
+  fulltext:
+  code:
+  supportinginfo:
+  doi:
+- id:
+  type:
+  year:
+  text:
+  link:
+  fulltext:
+  code:
+  supportinginfo:
+  doi:
+- id:
+  type:
+  year:
+  text:
+  link:
+  fulltext:
+  code:
+  supportinginfo:
+  doi:
+- id:
+  type:
+  year:
+  text:
+  link:
+  fulltext:
+  code:
+  supportinginfo:
+  doi:
 - id:
   type:
   year:
@@ -296,14 +329,125 @@
   supportinginfo:
   doi:
 #
-#------------------------- 2007 ------------------------------
+#------------------------- 2008 ------------------------------
 #
 - id:
   type:
   year:
-  text:
+  text: "Sólymos, P. (2008): Quantitative biogeographic characterization of Hungary based on the distribution data of land snails (Mollusca, Gastropoda): a case of nestedness of species ranges with extensive overlap of biotic elements. Acta Zoologica Academiae Scientiarum Hungaricae, 54: 289-287."
+  link:
+  fulltext: "http://actazool.nhmus.hu/54/3/azh54_3_Solymos.pdf"
+  code:
+  supportinginfo:
+  doi:
+- id:
+  type:
+  year:
+  text: "Sólymos, P. (2008): mefa: an R package for handling and reporting count data. Community Ecology, 9: 125-127."
   link:
   fulltext:
+  code:
+  supportinginfo:
+  doi:
+- id:
+  type:
+  year:
+  text: "Sólymos, P., Vilisics, F. & Hornung, E. (2008): Terepi adatlap a hazai epigeikus makrogerinctelenek elterjedésének és élohelyi preferenciájának vizsgálatára [Datasheet for habitat feature assessment of field surveys on epigeic macroinvertebrates]. Állattani Közlemények, 93(2): 39-46."
+  link:
+  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/solymos_etal_ak_2008_adatlap.pdf?attredirects=0"
+  code:
+  supportinginfo:
+  doi:
+- id:
+  type:
+  year:
+  text: "Vilisics, F., Nagy, A., Sólymos, P., Farkas, R., Kemencei, Z. Páll-Gergely, B., Kisfali, M. & Hornung, E. (2008): Data on the terrestrial Isopoda fauna of the Alsó-hegy, Aggtelek National Park, Hungary. Folia Faunistica Slovaca, 13: 9-12."
+  link:
+  fulltext:
+  code:
+  supportinginfo:
+  doi:
+- id:
+  type:
+  year:
+  text: "Hornung, E., Vilisics, F. & Sólymos, P. (2008): Low alpha and high beta diversity in terrestrial isopod assemblages in the Transdanubian region of Hungary. In: Zimmer, M., Charfi-Cheikhrouha, F. & Taiti, S. (eds.): Proceedings of the International Symposium on Terrestrial Isopod Biology: ISTIB-07, Shaker Verlag, Aachen, Germany, pp. 1-11."
+  link:
+  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/hornung_etal_2008_istib_tdan.pdf?attredirects=0"
+  code:
+  supportinginfo:
+  doi:
+#
+#------------------------- 2007 ------------------------------
+#
+- id: SolymosCE2007
+  type: paper
+  year: 2007
+  text: "Sólymos, P. (2007): Geographic and taxonomic bias in land snail distribution data of Hungary. Community Ecology, 8: 239-246."
+  link:
+  fulltext:
+  code:
+  supportinginfo:
+  doi:
+- id: Nagy2007
+  type: paper
+  year: 2007
+  text: "Nagy, A., Sólymos, P. & Rácz, I. A. (2007): A test on the effectiveness and selectivity of three sampling methods frequently used in orthopterological field studies. Entomologica Fennica, 18: 149-159."
+  link:
+  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/nagy_etal_entfenn_2007_sampling.pdf?attredirects=0"
+  code:
+  supportinginfo:
+  doi:
+- id: SolymosBC2007
+  type: paper
+  year: 2007
+  text: "Sólymos, P. (2007): Are current protections of land snails in Hungary relevant to conservation? Biodiversity and Conservation, 16: 347-356."
+  link:
+  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/solymos_bioc_2007_protection.pdf?attredirects=0"
+  code:
+  supportinginfo:
+  doi:
+- id: SolymosBaldi2007
+  type: paper
+  year: 2007
+  text: "Sólymos, P. & Báldi, A. (2007): Állóképek egy fejlődő tudományterületről: a Magyar Természetvédelmi Biológiai Konferenciák tanulságai [Snapshots of a dynamic discipline: lessons of the Hungarian Conservation Biology Conferences]. Természetvédelmi Közlemények, 13: 17-26. [in Hungarian with English summary]"
+  link:
+  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/solymos_baldi_tvk_2007_mtbk.pdf?attredirects=0"
+  code:
+  supportinginfo:
+  doi:
+- id: SolymosFeherVarga2007
+  type: paper
+  year: 2007
+  text: "<strong>S&oacute;lymos, P.</strong>, Feh&eacute;r, Z. & Varga, A., 2007. A hazai puhatest&#369;ek (Mollusca) &eacute;l&#337;hely&ndash; &eacute;s fajmeg&#337;rz&eacute;si priorit&aacute;sai [Setting priorities for mollusc species and their habitats in Hungary]. <strong>Term&eacute;szetv&eacute;delmi K&ouml;zlem&eacute;nyek</strong> 13:379&ndash;392. [In Hungarian with English summary]"
+  link:
+  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/solymos_etal_tvk_2007_prioritas.pdf?attredirects=0"
+  code:
+  supportinginfo:
+  doi:
+- id: "SolymosFeher2007"
+  type: bookchapter
+  year: 2007
+  text: "<strong>S&oacute;lymos, P.</strong> & Feh&eacute;r, Z., 2007. Magyarorsz&aacute;g puhatest&#369;inek term&eacute;szetv&eacute;delmi c&eacute;l&uacute; oszt&aacute;lyoz&aacute;sa [Conservation classification of Hungarian molluscs]. In: Forró, L. ed. <strong>A K&aacute;rp&aacute;t-medence &aacute;llatvil&aacute;g&aacute;nak kialakul&aacute;sa [Genesis of the fauna of the Carpathian Basin].</strong> Magyar Term&eacute;szettudom&aacute;nyi M&uacute;zeum, Budapest, pp. 329&ndash;338."
+  link:
+  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/solymos_feher_fapa_2007_mollusca.pdf?attredirects=0"
+  code:
+  supportinginfo:
+  doi:
+- id: SolymosCeske2007
+  type: proceedings
+  year: 2007
+  text: "<strong>S&oacute;lymos, P.</strong>, Czentye, I. & Tutkovics, B., 2007. A comparison of soil sampling and direct search in malacological field inventories. In: Tajovsk&yacute;, K., Schlaghamersk&yacute;, J. & Pi&#382;l, V. eds. <strong>Contributions to Soil Zoology in Central Europe II.</strong>, pp. 195&ndash199."
+  link:
+  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/solymos_etal_csce2_2007_menes.pdf?attredirects=0"
+  code:
+  supportinginfo:
+  doi:
+- id: VilisicsCeske2007
+  type: proceedings
+  year: 2007
+  text: "Vilisics, F., <strong>S&oacute;lymos, P.</strong> & Hornung, E., 2007. A preliminary study on habitat features and associated terrestrial isopod species. In: Tajovsk&yacute;, K., Schlaghamersk&yacute;, J. & Pi&#382;l, V. eds. <strong>Contributions to Soil Zoology in Central Europe II.</strong>, pp. 195&ndash199."
+  link:
+  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/vilisics_etal_csce2_2007_isopoda.pdf?attredirects=0"
   code:
   supportinginfo:
   doi:
