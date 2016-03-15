@@ -2,7 +2,7 @@
 title: Papers
 description: "An archive of posts in the papers category"
 layout: default
-years: [2016, 2015, 2014, 2013, 2012, 2011, 2010]
+years: [2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2005, 2004, 2002]
 ---
 
 <p id="papers-external">External sources: <a href="http://scholar.google.ca/citations?hl=en&user=PfC17QsAAAAJ&view_op=list_works&pagesize=100">Google Scholar</a> &mdash;
@@ -13,7 +13,7 @@ years: [2016, 2015, 2014, 2013, 2012, 2011, 2010]
 <a href="https://publons.com/a/534081/">Publon</a>
 </p>
 
-<p id="year-lookup">Jump to year: {% for yr in page.years %}<a href="#papers-{{ yr }}">{{ yr }}</a> &mdash; {% endfor %}<a href="https://sites.google.com/site/psolymosold/publications">&lt;2010</a></p>
+<p id="year-lookup">Jump to year: {% for yr in page.years limit:1 %}<a href="#papers-{{ yr }}">{{ yr }}</a> {% endfor %}{% for yr in page.years offset:1 %} &mdash; <a href="#papers-{{ yr }}">{{ yr }}</a>{% endfor %}</p>
 
 {% for yr in page.years %}
 <h2 id="papers-{{ yr }}">{{ yr }}</h2>
