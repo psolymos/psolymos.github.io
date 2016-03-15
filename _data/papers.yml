@@ -274,56 +274,55 @@
 #
 #------------------------- 2009 ------------------------------
 #
-- id:
-  type:
-  year:
-  text: "
-Sólymos, P., Farkas, R., Kemencei, Z., Páll-Gergely, B., Vilisics, F., Nagy, A., Kisfali, M. & Hornung, E. (2009): Micro-habitat scale survey of land snails in dolines of the Alsó-hegy, Aggtelek National Park, Hungary. Mollusca, 27(2): 167-171."
+- id: SolymosMollusca2009
+  type: paper
+  year: 2009
+  text: "<strong>S&oacute;lymos, P.</strong>, Farkas, R., Kemencei, Z., Páll-Gergely, B., Vilisics, F., Nagy, A., Kisfali, M. & Hornung, E., 2009. Micro-habitat scale survey of land snails in dolines of the Als&oacute;-hegy, Aggtelek National Park, Hungary. <strong>Mollusca<strong> 27(2):167&ndash;171."
+  link:
+  fulltext: "http://www.mollusca-journal.de/mollusca_27-2-2009/09_Solymos_et_al.pdf"
+  code:
+  supportinginfo:
+  doi:
+- id: SolymosMalacologia2009
+  type: paper
+  year: 2009
+  text: "<strong>S&oacute;lymos, P.</strong>, Kemencei, Z., P&aacute;ll-Gergely, B., Farkas, R., Vilisics, F. & Hornung, E., 2009. Does shell accumulation matter in micro scale land snail surveys? <strong>Malacologia<strong> 51(2):389&ndash;393."
+  link:
+  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/solymos_etal_malac_2009_dolina2.pdf?attredirects=0"
+  code:
+  supportinginfo:
+  doi:
+- id: SolymosJSS2009
+  type: paper
+  year: 2009
+  text: "<strong>S&oacute;lymos, P.</strong>, 2009. Processing ecological data in R with the mefa package. <strong>Journal of Statistical Software</strong> 29(8):1&ndash;28."
+  link:
+  fulltext: "https://www.jstatsoft.org/article/view/v029i08"
+  code: "<a href=\"http://cran.r-project.org/package=mefa\"><code>mefa</code> R package</a>"
+  supportinginfo:
+  doi:
+- id: PallGergely2009
+  type: paper
+  year: 2009
+  text: "P&aacute;ll-Gergely, B. & <strong>S&oacute;lymos, P.</strong>, 2009. Ants as shell collectors: notes on land snail shells found around ant nests. <strong>Malacologica Bohemoslovaca</strong> 8:14&ndash;18."
+  link:
+  fulltext: "http://mollusca.sav.sk/pdf/8/8.Pall-Gergely.pdf"
+  code:
+  supportinginfo:
+  doi:
+- id: SolymosTVK2009
+  type: paper
+  year: 2009
+  text: "<strong>S&oacute;lymos, P.</strong>, Vilisics, F., Kemencei, Z., P&aacute;ll-Gergely, B., Farkas, R., Nagy, A., Kisfali, M. & Hornung, E., 2009. Glob&aacute;lis v&aacute;ltoz&aacute;s, lok&aacute;lis t&uacute;l&eacute;l&eacute;s: kitetts&eacute;g &eacute;s nedvess&eacute;gi gr&aacute;diens hat&aacute;sa avarlak&oacute; gerinctelenekre [Global change, local survival: effects of aspect and moisture on epigeic invertebrate communities]. <strong>Term&eacute;szetv&eacute;delmi K&ouml;zlem&eacute;nyek</strong> 15:396&ndash;411. "
   link:
   fulltext:
   code:
   supportinginfo:
   doi:
-- id:
-  type:
-  year:
-  text: "Sólymos, P., Kemencei, Z., Páll-Gergely, B., Farkas, R., Vilisics, F. & Hornung, E. (2009): Does shell accumulation matter in micro scale land snail surveys? Malacologia, 51(2): 389-393."
-  link:
-  fulltext:
-  code:
-  supportinginfo:
-  doi:
-- id:
-  type:
-  year:
-  text: "Sólymos, P. (2009): Processing ecological data in R with the mefa package. Journal of Statistical Software, 29(8): 1-28."
-  link:
-  fulltext:
-  code:
-  supportinginfo:
-  doi:
-- id:
-  type:
-  year:
-  text: "Páll-Gergely, B. & Sólymos, P. (2009): Ants as shell collectors: notes on land snail shells found around ant nests. Malacologica Bohemoslovaca, 8: 14-18."
-  link:
-  fulltext:
-  code:
-  supportinginfo:
-  doi:
-- id:
-  type:
-  year:
-  text: "Sólymos, P., Vilisics, F., Kemencei, Z., Páll-Gergely, B., Farkas, R., Nagy, A., Kisfali, M. & Hornung, E. (2009): Globális változás, lokális túlélés: kitettség és nedvességi grádiens hatása avarlakó gerinctelenekre [Global change, local survival: effects of aspect and moisture on epigeic invertebrate communities]. Természetvédelmi Közlemények, 15: 396-411. "
-  link:
-  fulltext:
-  code:
-  supportinginfo:
-  doi:
-- id:
-  type:
-  year:
-  text: "Hornung, E., Vilisics, F. & Sólymos, P. (2009): Ászkarák együttesek (Crustacea, Isopoda, Oniscidea) felhasználhatósága az élőhelyek természetességének minősítésében [The use of woodlice assemblages (Crustacea, Isopoda, Oniscidea) in the assessment of habitat naturalness]. Természetvédelmi Közlemények, 15: 381-395."
+- id: HornungTVK2009
+  type: paper
+  year: 2009
+  text: "Hornung, E., Vilisics, F. & <strong>S&oacute;lymos, P.</strong>, 2009. &Aacute;szkar&aacute;k egy&uuml;ttesek (Crustacea, Isopoda, Oniscidea) felhaszn&aacute;lhat&oacute;s&aacute;ga az &eacute;l&#337;helyek term&eacute;szetess&eacute;g&eacute;nek min&#337; s&iacute;t&eacute;s&eacute;ben [The use of woodlice assemblages (Crustacea, Isopoda, Oniscidea) in the assessment of habitat naturalness]. <strong>Term&eacute;szetv&eacute;delmi K&ouml;zlem&eacute;nyek</strong> 15:381&ndash;395."
   link:
   fulltext:
   code:
@@ -332,46 +331,46 @@ Sólymos, P., Farkas, R., Kemencei, Z., Páll-Gergely, B., Vilisics, F., Nagy, A
 #
 #------------------------- 2008 ------------------------------
 #
-- id:
-  type:
-  year:
-  text: "Sólymos, P. (2008): Quantitative biogeographic characterization of Hungary based on the distribution data of land snails (Mollusca, Gastropoda): a case of nestedness of species ranges with extensive overlap of biotic elements. Acta Zoologica Academiae Scientiarum Hungaricae, 54: 289-287."
+- id: SolymosAZH2008
+  type: paper
+  year: 2008
+  text: "<strong>S&oacute;lymos, P.</strong>, 2008. Quantitative biogeographic characterization of Hungary based on the distribution data of land snails (Mollusca, Gastropoda): a case of nestedness of species ranges with extensive overlap of biotic elements. <strong>Acta Zoologica Academiae Scientiarum Hungaricae</strong> 54:289&ndash;287."
   link:
   fulltext: "http://actazool.nhmus.hu/54/3/azh54_3_Solymos.pdf"
   code:
   supportinginfo:
   doi:
-- id:
-  type:
-  year:
-  text: "Sólymos, P. (2008): mefa: an R package for handling and reporting count data. Community Ecology, 9: 125-127."
-  link:
-  fulltext:
-  code:
+- id: SolymosCE2008
+  type: paper
+  year: 2008
+  text: "<strong>S&oacute;lymos, P.</strong>, 2008. mefa: an R package for handling and reporting count data. <strong>Community Ecology</strong> 9:125&ndash;127."
+  link: "http://www.akademiai.com/doi/abs/10.1556/ComEc.9.2008.1.15"
+  fulltext: "http://www.akademiai.com/doi/pdf/10.1556/ComEc.9.2008.1.15"
+  code: "<a href=\"http://cran.r-project.org/package=mefa\"><code>mefa</code> R package</a>"
   supportinginfo:
-  doi:
-- id:
-  type:
-  year:
-  text: "Sólymos, P., Vilisics, F. & Hornung, E. (2008): Terepi adatlap a hazai epigeikus makrogerinctelenek elterjedésének és élohelyi preferenciájának vizsgálatára [Datasheet for habitat feature assessment of field surveys on epigeic macroinvertebrates]. Állattani Közlemények, 93(2): 39-46."
+  doi: 10.1556/ComEc.9.2008.1.15
+- id: SolymosTVK2008
+  type: paper
+  year: 2008
+  text: "<strong>S&oacute;lymos, P.</strong>, Vilisics, F. & Hornung, E., 2008. Terepi adatlap a hazai epigeikus makrogerinctelenek elterjed&eacute;s&eacute;nek &eacute;s &eacute;l&#337;helyi preferenci&aacute;j&aacute;nak vizsg&aacute;lat&aacute;ra [Datasheet for habitat feature assessment of field surveys on epigeic macroinvertebrates]. <strong>&Aacute;llattani K&ouml;zlem&eacute;nyek</strong> 93(2):39&ndash;46."
   link:
   fulltext: "https://sites.google.com/site/psolymosold/download/pdf/solymos_etal_ak_2008_adatlap.pdf?attredirects=0"
   code:
   supportinginfo:
   doi:
-- id:
-  type:
-  year:
-  text: "Vilisics, F., Nagy, A., Sólymos, P., Farkas, R., Kemencei, Z. Páll-Gergely, B., Kisfali, M. & Hornung, E. (2008): Data on the terrestrial Isopoda fauna of the Alsó-hegy, Aggtelek National Park, Hungary. Folia Faunistica Slovaca, 13: 9-12."
+- id: VilisicsTVK2008
+  type: paper
+  year: 2008
+  text: "Vilisics, F., Nagy, A., <strong>S&oacute;lymos, P.</strong>, Farkas, R., Kemencei, Z. Páll-Gergely, B., Kisfali, M. & Hornung, E., 2008. Data on the terrestrial Isopoda fauna of the Alsó-hegy, Aggtelek National Park, Hungary. <strong>Folia Faunistica Slovaca</strong> 13:9&ndash;12."
   link:
   fulltext:
   code:
   supportinginfo:
   doi:
-- id:
-  type:
-  year:
-  text: "Hornung, E., Vilisics, F. & Sólymos, P. (2008): Low alpha and high beta diversity in terrestrial isopod assemblages in the Transdanubian region of Hungary. In: Zimmer, M., Charfi-Cheikhrouha, F. & Taiti, S. (eds.): Proceedings of the International Symposium on Terrestrial Isopod Biology: ISTIB-07, Shaker Verlag, Aachen, Germany, pp. 1-11."
+- id: Hornung2008
+  type: incollection
+  year: 2008
+  text: "Hornung, E., Vilisics, F. & <strong>S&oacute;lymos, P.</strong>, 2008. Low alpha and high beta diversity in terrestrial isopod assemblages in the Transdanubian region of Hungary. In: Zimmer, M., Charfi-Cheikhrouha, F. & Taiti, S. eds.: Proceedings of the International Symposium on Terrestrial Isopod Biology: ISTIB&ndash;07, Shaker Verlag, Aachen, Germany, pp. 1&ndash;11."
   link:
   fulltext: "https://sites.google.com/site/psolymosold/download/pdf/hornung_etal_2008_istib_tdan.pdf?attredirects=0"
   code:
@@ -383,34 +382,34 @@ Sólymos, P., Farkas, R., Kemencei, Z., Páll-Gergely, B., Vilisics, F., Nagy, A
 - id: SolymosCE2007
   type: paper
   year: 2007
-  text: "Sólymos, P. (2007): Geographic and taxonomic bias in land snail distribution data of Hungary. Community Ecology, 8: 239-246."
-  link:
+  text: "<strong>S&oacute;lymos, P.</strong>, 2007. Geographic and taxonomic bias in land snail distribution data of Hungary. <strong>Community Ecology</strong> 8:239&ndash;246."
+  link: "http://www.akademiai.com/doi/abs/10.1556/ComEc.8.2007.2.10?journalCode=168"
   fulltext:
   code:
   supportinginfo:
-  doi:
+  doi: 10.1556/ComEc.8.2007.2.10
 - id: Nagy2007
   type: paper
   year: 2007
-  text: "Nagy, A., Sólymos, P. & Rácz, I. A. (2007): A test on the effectiveness and selectivity of three sampling methods frequently used in orthopterological field studies. Entomologica Fennica, 18: 149-159."
-  link:
-  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/nagy_etal_entfenn_2007_sampling.pdf?attredirects=0"
+  text: "Nagy, A., <strong>S&oacute;lymos, P.</strong> & R&aacute;cz, I. A., 2007. A test on the effectiveness and selectivity of three sampling methods frequently used in orthopterological field studies. <strong>Entomologica Fennica</strong> 18:149&ndash;159."
+  link: "http://www.entomologicafennica.org/"
+  fulltext: "http://www.entomologicafennica.org/Volume18/EF_18_3/4Nagy.pdf"
   code:
   supportinginfo:
   doi:
 - id: SolymosBC2007
   type: paper
   year: 2007
-  text: "Sólymos, P. (2007): Are current protections of land snails in Hungary relevant to conservation? Biodiversity and Conservation, 16: 347-356."
-  link:
+  text: "<strong>S&oacute;lymos, P.</strong>, 2007. Are current protections of land snails in Hungary relevant to conservation? <strong>Biodiversity and Conservation</strong> 16:347&ndash;356."
+  link: "http://link.springer.com/article/10.1007%2Fs10531-005-2354-3"
   fulltext: "https://sites.google.com/site/psolymosold/download/pdf/solymos_bioc_2007_protection.pdf?attredirects=0"
   code:
   supportinginfo:
-  doi:
+  doi: 10.1007/s10531-005-2354-3
 - id: SolymosBaldi2007
   type: paper
   year: 2007
-  text: "Sólymos, P. & Báldi, A. (2007): Állóképek egy fejlődő tudományterületről: a Magyar Természetvédelmi Biológiai Konferenciák tanulságai [Snapshots of a dynamic discipline: lessons of the Hungarian Conservation Biology Conferences]. Természetvédelmi Közlemények, 13: 17-26. [in Hungarian with English summary]"
+  text: "<strong>S&oacute;lymos, P.</strong> & B&aacute;ldi, A., 2007. &Aacute;ll&oacute;k&eacute;pek egy fejl&#337;d&#337; tudom&aacute;nyter&uuml;letr&#337;l: a Magyar Term&eacute;szetv&eacute;delmi Biol&oacute;giai Konferenci&aacute;k tanuls&aacute;gai [Snapshots of a dynamic discipline: lessons of the Hungarian Conservation Biology Conferences]. <strong>Term&eacute;szetv&eacute;delmi K&ouml;zlem&eacute;nyek</strong> 13:17&ndash;26. [In Hungarian with English summary]"
   link:
   fulltext: "https://sites.google.com/site/psolymosold/download/pdf/solymos_baldi_tvk_2007_mtbk.pdf?attredirects=0"
   code:
@@ -426,7 +425,7 @@ Sólymos, P., Farkas, R., Kemencei, Z., Páll-Gergely, B., Vilisics, F., Nagy, A
   supportinginfo:
   doi:
 - id: "SolymosFeher2007"
-  type: bookchapter
+  type: incollection
   year: 2007
   text: "<strong>S&oacute;lymos, P.</strong> & Feh&eacute;r, Z., 2007. Magyarorsz&aacute;g puhatest&#369;inek term&eacute;szetv&eacute;delmi c&eacute;l&uacute; oszt&aacute;lyoz&aacute;sa [Conservation classification of Hungarian molluscs]. In: Forró, L. ed. <strong>A K&aacute;rp&aacute;t-medence &aacute;llatvil&aacute;g&aacute;nak kialakul&aacute;sa [Genesis of the fauna of the Carpathian Basin].</strong> Magyar Term&eacute;szettudom&aacute;nyi M&uacute;zeum, Budapest, pp. 329&ndash;338."
   link:
@@ -435,7 +434,7 @@ Sólymos, P., Farkas, R., Kemencei, Z., Páll-Gergely, B., Vilisics, F., Nagy, A
   supportinginfo:
   doi:
 - id: SolymosCeske2007
-  type: proceedings
+  type: incollection
   year: 2007
   text: "<strong>S&oacute;lymos, P.</strong>, Czentye, I. & Tutkovics, B., 2007. A comparison of soil sampling and direct search in malacological field inventories. In: Tajovsk&yacute;, K., Schlaghamersk&yacute;, J. & Pi&#382;l, V. eds. <strong>Contributions to Soil Zoology in Central Europe II.</strong>, pp. 195&ndash199."
   link:
@@ -444,7 +443,7 @@ Sólymos, P., Farkas, R., Kemencei, Z., Páll-Gergely, B., Vilisics, F., Nagy, A
   supportinginfo:
   doi:
 - id: VilisicsCeske2007
-  type: proceedings
+  type: incollection
   year: 2007
   text: "Vilisics, F., <strong>S&oacute;lymos, P.</strong> & Hornung, E., 2007. A preliminary study on habitat features and associated terrestrial isopod species. In: Tajovsk&yacute;, K., Schlaghamersk&yacute;, J. & Pi&#382;l, V. eds. <strong>Contributions to Soil Zoology in Central Europe II.</strong>, pp. 195&ndash199."
   link:
@@ -465,7 +464,7 @@ Sólymos, P., Farkas, R., Kemencei, Z., Páll-Gergely, B., Vilisics, F., Nagy, A
   supportinginfo:
   doi: 10.1111/j.1523-1739.2005.00193.x
 - id: Vilisics2005
-  type: proceedings
+  type: incollection
   year: 2005
   text: "Vilisics, F., <strong>S&oacute;lymos, P.</strong> & Hornung, E., 2005. Measuring fluctuating asymmetry in two Hungarian populations of the terrestrial isopod <em>Trachelipus rathkii</em> (Crustacea: Isopoda, Oniscidea). <strong>European Journal of Soil Biology</strong> 41:85&ndash;90."
   link: "http://www.sciencedirect.com/science/article/pii/S1164556305000336"
