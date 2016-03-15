@@ -272,6 +272,87 @@
   supportinginfo:
   doi:
 #
+#------------------------- 2009 ------------------------------
+#
+- id:
+  type:
+  year:
+  text:
+  link:
+  fulltext:
+  code:
+  supportinginfo:
+  doi:
+#
+#------------------------- 2008 ------------------------------
+#
+- id:
+  type:
+  year:
+  text:
+  link:
+  fulltext:
+  code:
+  supportinginfo:
+  doi:
+#
+#------------------------- 2007 ------------------------------
+#
+- id:
+  type:
+  year:
+  text:
+  link:
+  fulltext:
+  code:
+  supportinginfo:
+  doi:
+#
+#------------------------- 2005 ------------------------------
+#
+- id: SolymosFeher2005
+  type: paper
+  year: 2005
+  text: "<strong>S&oacute;lymos, P.</strong> & Feh&eacute;r, Z., 2005. Conservation prioritization using land snail distribution data in Hungary. <strong>Conservation Biology</strong> 19:1084&ndash;1094."
+  link: "http://onlinelibrary.wiley.com/doi/10.1111/j.1523-1739.2005.00193.x/abstract"
+  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/solymos_feher_conbio_2005_hotspot.pdf?attredirects=0"
+  code:
+  supportinginfo:
+  doi: 10.1111/j.1523-1739.2005.00193.x
+- id: Vilisics2005
+  type: proceedings
+  year: 2005
+  text: "Vilisics, F., <strong>S&oacute;lymos, P.</strong> & Hornung, E., 2005. Measuring fluctuating asymmetry in two Hungarian populations of the terrestrial isopod <em>Trachelipus rathkii</em> (Crustacea: Isopoda, Oniscidea). <strong>European Journal of Soil Biology</strong> 41:85&ndash;90."
+  link: "http://www.sciencedirect.com/science/article/pii/S1164556305000336"
+  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/vilisics_etal_ejsb_2005_fa.pdf?attredirects=0"
+  code:
+  supportinginfo:
+  doi: 10.1016/j.ejsobi.2005.09.003
+#
+#------------------------- 2004 ------------------------------
+#
+- id: Solymos2004
+  type: paper
+  year: 2004
+  text: "<strong>S&oacute;lymos, P.</strong>, 2004. Magyarorsz&aacute;g sz&aacute;razf&ouml;ldi Mollusca&ndash;faun&aacute;j&aacute;nak ritkas&aacute;gon alapul&oacute; &eacute;rt&eacute;kel&eacute;se &eacute;s alkalmaz&aacute;si lehet&#337;s&eacute;gei [The assessment of the Hungarian land molluscs based on their rarity, and its applications]. <strong>Term&eacute;szetv&eacute;delmi K&ouml;zlem&eacute;nyek</strong> 11:349&ndash;358. [In Hungarian with English summary]"
+  link:
+  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/solymos_tvk_2004_ritkasag.pdf?attredirects=0"
+  code:
+  supportinginfo:
+  doi:
+#
+#------------------------- 2002 ------------------------------
+#
+- id: SolymosSumegiDomokos2002
+  type: paper
+  year: 2002
+  text: "<strong>S&oacute;lymos, P.</strong>, S&uunl;megi, P. & Domokos, T., 2002. A h&eacute;j morfo&ndash;h&#337;m&eacute;r&#337; m&oacute;dszer &eacute;s alkalmaz&aacute;sai a paleo&ouml;kol&oacute;gi&aacute;ban [The shell morpho thermometer method and its applications in palaeoecology]. <strong>F&ouml;ldtani K&ouml;zl&ouml;ny</strong> 132:257&ndash;263. [In Hungarian with English summary]"
+  link:
+  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/solymos_etal_foko_2002_homero.pdf?attredirects=0"
+  code:
+  supportinginfo:
+  doi:
+#
 #------------------------- YYYY ------------------------------
 #
 #- id:
