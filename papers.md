@@ -1,6 +1,6 @@
 ---
 title: Papers
-description: "An archive of posts in the papers category"
+description: "An list of peer-reviewed publications by Peter Solymos."
 layout: default
 years: [2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2005, 2004, 2002]
 ---
@@ -12,6 +12,8 @@ years: [2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2005, 2004, 
 <a href="http://www.scopus.com/authid/detail.url?authorId=23104106300">ScopusID</a> &mdash;
 <a href="https://publons.com/a/534081/">Publon</a>
 </p>
+
+Browse PDF files in this [shared Google drive](https://drive.google.com/folderview?id=0B-q59n6LIwYPflA4aHVydEx5aFY5MUZtdFRvcG11NWNUc3ljOTdsSlFSSHRDdHJVMDEyWXc&usp=sharing)
 
 <p id="year-lookup">Jump to year: {% for yr in page.years limit:1 %}<a href="#papers-{{ yr }}">{{ yr }}</a> {% endfor %}{% for yr in page.years offset:1 %} &mdash; <a href="#papers-{{ yr }}">{{ yr }}</a>{% endfor %}</p>
 
