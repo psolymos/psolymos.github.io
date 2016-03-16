@@ -8,7 +8,7 @@ disqus: petersolymos
 promote: false
 ---
 
-- [ ] wac2wav converter
+- [x] wac2wav converter
 - [x] pbapply CRAN submission: timer progress bar
 - [x] mefa4 CRAN submission
 - [ ] MEE paper
