@@ -21,3 +21,10 @@ We will teach both Bayesian and Likelihood based approaches to these models usin
 Congress registration is now open [here](http://www.scbnacongress.org/short-courses).
 
 Check out previous courses at at [DataCloning.org](http://datacloning.org/courses/).
+
+**UPDATE**
+The congress program is out (see [here](http://www.xcdsystem.com/scbna/program/)).
+
+* The short course date: Saturday, July 16,
+* time: 9:00 AM &ndash; 5:00 PM,
+* location: Meeting Room K.
