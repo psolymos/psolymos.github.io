@@ -267,7 +267,7 @@ k <- c("a", "b")
 
 superscript^2^
 
-~~~strikeout~~~
+~~strikeout~~
 
 
 * [X] done
@@ -478,3 +478,9 @@ a <- list("a", 1, FALSE, function(x) x+1) # no
 a <- list("a", 1, FALSE, function(x) x+1) # no
 ## yes
 ```
+
+### How to edit a blog post:
+
+**Updated:** *This is new stuff.*
+
+~~Previous stuff~~ *(Edit: as XY pointed out in the comments the previous stuff was incorrect)*
