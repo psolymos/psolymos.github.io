@@ -46,7 +46,7 @@ layout: plain
       </div>
 
       <div class="col-lg-6 col-sm-6">
-        {% for post in site.posts offset:2 limit:3 %}
+        {% for post in site.posts offset:2 limit:4 %}
         {% unless post.promote %}
         <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
         {{ post.excerpt }}
@@ -56,16 +56,6 @@ layout: plain
 
     </div>
     <div class="row">
-      <!--
-      papers
-      -->
-      <div class="col-lg-4 col-sm-6">
-      <h3>Publications</h3>
-        {% for ms in site.data.papers limit:5 %}
-        <p>{{ ms.text }}{% if ms.link %} &mdash; <i class="fa fa-external-link text-orange"></i>&nbsp;<a href="{{ ms.link }}">journal website</a>{% endif %}{% if ms.fulltext %} &mdash; <i class="fa fa-file-pdf-o text-orange"></i>&nbsp;<a href="{{ ms.fulltext }}">fulltext PDF</a>{% endif %}{% if ms.code %} &mdash; <i class="fa fa-file-code-o text-orange"></i>&nbsp;{{ ms.code }}{% endif %}{% if ms.supportinginfo %} &mdash; <i class="fa fa-file-code-o text-orange"></i>&nbsp;{{ ms.supportinginfo }}{% endif %}.</p>
-        {% endfor %}
-      </div>
-
       <!--
       code
       -->
@@ -81,10 +71,22 @@ layout: plain
       </div>
       </div>
 
+      <!--
+      papers
+      -->
       <div class="col-lg-4 col-sm-6">
-      <h3>Tweets</h3>
-      <a class="twitter-timeline" href="https://twitter.com/psolymos" data-widget-id="621867673526218752">Tweets by @psolymos</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      <h3>Publications</h3>
+        {% for ms in site.data.papers limit:5 %}
+        <p>{{ ms.text }}{% if ms.link %} &mdash; <i class="fa fa-external-link text-orange"></i>&nbsp;<a href="{{ ms.link }}">journal website</a>{% endif %}{% if ms.fulltext %} &mdash; <i class="fa fa-file-pdf-o text-orange"></i>&nbsp;<a href="{{ ms.fulltext }}">fulltext PDF</a>{% endif %}{% if ms.code %} &mdash; <i class="fa fa-file-code-o text-orange"></i>&nbsp;{{ ms.code }}{% endif %}{% if ms.supportinginfo %} &mdash; <i class="fa fa-file-code-o text-orange"></i>&nbsp;{{ ms.supportinginfo }}{% endif %}.</p>
+        {% endfor %}
+      </div>
+
+      <!--
+      tweets
+      -->
+      <div class="col-lg-4 col-sm-6">
+        <a class="twitter-timeline" href="https://twitter.com/psolymos" data-widget-id="621867673526218752">Tweets by @psolymos</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
       </div>
 
     </div>
