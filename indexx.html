@@ -37,7 +37,7 @@ layout: plain
         </div>
         {% endif %}
         {% endfor %}
-        {% for post in site.posts limit:3 %}
+        {% for post in site.posts limit:2 %}
         {% unless post.promote %}
         <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
         {{ post.excerpt }}
@@ -46,9 +46,10 @@ layout: plain
       </div>
 
       <div class="col-lg-6 col-sm-6">
-        {% for post in site.posts offset:3 limit:7 %}
+        {% for post in site.posts offset:2 limit:3 %}
         {% unless post.promote %}
         <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+        {{ post.excerpt }}
         {% endunless %}
         {% endfor %}
       </div>
