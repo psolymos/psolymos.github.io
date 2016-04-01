@@ -18,6 +18,7 @@ promote: false
 - [ ] Condor paper
 - [ ] Advertize datacloning.org and mailing list
 - [ ] Westgrid tricks
+- [ ] vegan nullmodel framework
 
 
 
