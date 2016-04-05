@@ -150,7 +150,7 @@
   year: 2013
   text: "<strong>S&oacute;lymos, P.</strong>, Matsuoka, S. M., Bayne, E. M., Lele, S. R., Fontaine, P., Cumming, S. G., Stralberg, D., Schmiegelow, F. K. A. & Song, S. J., 2013. Calibrating indices of avian density from non-standardized survey data: making the most of a messy situation. <strong>Methods in Ecology and Evolution</strong> 4:1047&ndash;1058."
   link: "http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12106/abstract"
-  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/Solymos_et_al_2013_MEE_QPAD_prepubl.pdf?attredirects=0"
+  fulltext: "http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12106/epdf"
   code: "<a href=\"http://cran.r-project.org/package=detect\"><code>detect</code> R package</a>"
   supportinginfo: "<a href=\"https://github.com/psolymos/QPAD/blob/master/inst/doc/v2/QPAD_SupportingInfo.pdf\">supporting info</a>"
   doi: 10.1111/2041-210X.12106
