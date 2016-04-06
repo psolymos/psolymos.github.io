@@ -16,3 +16,16 @@ Check out the
 and the poster made with [Scribus](https://www.scribus.net/):
 
 <iframe src="https://widgets.figshare.com/articles/1495329/embed?show_title=1" width="568" height="716" frameborder="0"></iframe>
+
+Organizers wanted the poster sessions to be interactive.
+But posters are hung up much longer than the actual poster session.
+What can be done to make posters interactive in the absence of a presenter?
+This gave the idea to mimic a blog post, both in style and in structure.
+I added space for comments and created a mini poll, left out a marker
+on a string, and waited for the results.
+
+Survey responses were mostly positive, which is good. 
+But the best of all was a cute little girl who was thrilled
+at the notion of drawing onto the poster. Thanks for the feedback!
+
+![Poster comments]({{ site.baseurl}}/images/2015/sv-poster.png)
