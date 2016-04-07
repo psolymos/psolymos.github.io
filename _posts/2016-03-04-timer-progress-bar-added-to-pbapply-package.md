@@ -125,5 +125,6 @@ let me know any issues you might run into
 on the [GitHub development site](https://github.com/psolymos/pbapply/issues).
 
 **UPDATE**
+
 Elapsed and remaining time is now shown with progress bar or throbber.
 Currently in development version on [GitHub](https://github.com/psolymos/pbapply).
