@@ -28,4 +28,4 @@ Survey responses were mostly positive, which is good.
 But the best of all was a cute little girl who was thrilled
 at the notion of drawing onto the poster. Thanks for the feedback!
 
-![Poster comments]({{ site.baseurl}}/images/2015/sv-poster.png)
+<img src="{{ site.baseurl}}/images/2015/sv-poster.png)" class="img-responsive" alt="Poster comments">
