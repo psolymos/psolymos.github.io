@@ -13,12 +13,12 @@
 - id: Bayne2016
   type: paper
   year: 2016
-  text: "Bayne, E., Leston, L., Mahon, C. L., <strong>S&oacute;lymos, P.</strong>, Machtans, C., Lankau, H., Ball, J., Van Wilgenburg, S., Cumming, S. G., Fontaine, T., Schmiegelow, F. K. A., and Song, S. J., 2016. Boreal bird abundance estimates within different energy sector disturbances vary with point count radius. <strong>Condor</strong>, xx:xx&ndash;xx."
+  text: "Bayne, E., Leston, L., Mahon, C. L., <strong>S&oacute;lymos, P.</strong>, Machtans, C., Lankau, H., Ball, J., Van Wilgenburg, S., Cumming, S. G., Fontaine, T., Schmiegelow, F. K. A., and Song, S. J., 2016. Boreal bird abundance estimates within different energy sector disturbances vary with point count radius. <strong>Condor</strong>, 118:376&ndash;390."
   link: "http://www.bioone.org/loi/cond"
-  fulltext:
+  fulltext: "http://www.aoucospubs.org/doi/pdf/10.1650/CONDOR-15-126.1"
   code:
   supportinginfo:
-  doi:
+  doi: 10.1650/CONDOR-15-126.1
 - id: Solymos2016
   type: paper
   year: 2016
