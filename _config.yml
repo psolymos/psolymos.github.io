@@ -32,3 +32,4 @@ categories: ["Etc", "Talks", "Papers", "Code", "Tutorials"]
 
 gems:
   - jekyll-feed
+  - jekyll-sitemap
