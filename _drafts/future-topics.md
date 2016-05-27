@@ -19,6 +19,7 @@ promote: false
 - [ ] Advertize datacloning.org and mailing list
 - [ ] Westgrid tricks
 - [ ] vegan nullmodel framework
+- [ ] Zenodo and data sets (Dolina and SAR)
 
 
 
