@@ -22,6 +22,7 @@ promote: false
 - [ ] Zenodo and data sets (Dolina and SAR)
 - [ ] ARU progress (data integration, early-mid-late species via opticut)
 - [ ] Making posters with Scribus
+- [x] Want to create a data set with all conceivable errors in it
 
 
 
