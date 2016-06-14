@@ -10,7 +10,7 @@ promote: false
 
 Cameron J. Nordell; Samuel Hache; Erin M. Bayne; Keith A. Hobson; Peter Solymos; Kenneth Foster; Christine Godwin; Richard Krikun; Peter Pyle.
 Causes and consequences of within-site variation in feather stable hydrogen isotope (\delta^2H) values of boreal songbirds.
-PLoS ONE, under review.
+PLoS ONE, under revision.
 
 Daniel Alexander Yip; Erin M Bayne; Peter Solymos; James Campbell; Darren Proppe.
 Sound attenuation in forested and roadside environments: Implications for avian point count surveys.
@@ -18,7 +18,7 @@ Condor, submitted.
 
 Jeffrey R. Ball; Peter Solymos; Fiona K. A. Schmiegelow; Samuel Hache; Jim Schieck; Erin M. Bayne.
 Regional habitat needs of a nationally listed species, Canada Warbler Cardellina canadensis, in Alberta.
-ACE-ECO, under review.
+ACE-ECO, under revision.
 
 Denes, Francisco; Solymos, Peter; Lele, Subhash; Silveira, Luis; Beissinger, Steven.
 Biome scale signatures of land use change on raptor abundance: insights from single-visit detection-based models.
