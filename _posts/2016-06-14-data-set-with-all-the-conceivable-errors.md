@@ -1,7 +1,7 @@
 ---
 title: "Data set with all the conceivable errors"
 layout: default
-published: false
+published: true
 category: Etc
 tags: [R, data]
 disqus: petersolymos
