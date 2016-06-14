@@ -20,6 +20,8 @@ promote: false
 - [ ] Westgrid tricks
 - [ ] vegan nullmodel framework
 - [ ] Zenodo and data sets (Dolina and SAR)
+- [ ] ARU progress (data integration, early-mid-late species via opticut)
+- [ ] Making posters with Scribus
 
 
 
