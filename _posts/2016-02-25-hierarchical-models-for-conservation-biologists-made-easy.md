@@ -22,9 +22,9 @@ Congress registration is now open [here](http://www.scbnacongress.org/short-cour
 
 Check out previous courses at at [DataCloning.org](http://datacloning.org/courses/).
 
-**UPDATE**
+**UPDATE 2016/06/14**
 The congress program is out (see [here](http://www.xcdsystem.com/scbna/program/)).
 
 * The short course date: Saturday, July 16,
 * time: 9:00 AM &ndash; 5:00 PM,
-* location: Meeting Room K.
+* location: Hall of Ideas H, [Monona Terrace Community and Convention Center](http://www.mononaterrace.com/).
