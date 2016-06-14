@@ -24,7 +24,7 @@ the aforementioned course to make participants'
 
 So far I have been able to come up with the following issues:
 
-* ill formatted entries, usually as GIS output: `"1,234,567.0058654"` (nees to clear commas, turn it into numeric, digits are irrelevant but eating up memory)
+* ill formatted entries, usually as GIS output: `"1,234,567.0058654"` (needs to clear commas, turn it into numeric, digits are irrelevant but eating up memory)
 * special characters (e.g. from MS Word) where UTF-8 or ASCII is expected
 * mixed case typos: `"W-123"` vs. `"w-123"`
 * leading/trailing whitespace: `"W-123"` vs. `"W-123 "`
