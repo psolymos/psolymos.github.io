@@ -18,11 +18,12 @@ Hierarchical models are useful in such situations. Fitting these models to data,
 
 We will teach both Bayesian and Likelihood based approaches to these models using freely available software developed by the tutors. By presenting both Bayesian and Likelihood based approaches participants will be able to go beyond the rhetorics of philosophy of statistics and use the tools with full understanding of their assumptions and implications. This will help ensure that when they use the statistical techniques, be they Bayesian or Frequentist, they will be able to explain and communicate the results to the managers and general public appropriately.
 
-Congress registration is now open [here](http://www.scbnacongress.org/short-courses).
-
 Check out previous courses at at [DataCloning.org](http://datacloning.org/courses/).
 
 **UPDATE 2016/06/14**
+
+Congress registration is <del>now open [here](http://www.scbnacongress.org/short-courses)</del> closed.
+
 The congress program is out (see [here](http://www.xcdsystem.com/scbna/program/)).
 
 * The short course date: Saturday, July 16,
