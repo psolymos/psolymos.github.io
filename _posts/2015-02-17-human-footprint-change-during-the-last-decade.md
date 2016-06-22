@@ -9,7 +9,7 @@ disqus: petersolymos
 
 The ABMI hosted its 2nd annual Speakers' Series 'Better Environmental Management Through Monitoring 2015' to understand distribution of biodiversity and to inform sustainable resource development and biological conservation in Alberta.
 
-Data and details are in this [ABMI Science Letter](http://www.abmi.ca/home/publications/351-400/364.html).
+Data and details are in this [ABMI Science Letter](http://ftp.public.abmi.ca/home/publications/documents/364_Schieck_etal_2014_LetterHFInAlberta_ABMI.pdf).
 
 Check out this video:
 
