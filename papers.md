@@ -10,7 +10,7 @@ years: [2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2005, 2004, 
 <a href="http://orcid.org/0000-0001-7337-1740">ORCID</a> &mdash;
 <a href="http://www.researcherid.com/rid/B-2775-2008">ResearcherID</a> &mdash;
 <a href="http://www.scopus.com/authid/detail.url?authorId=23104106300">ScopusID</a> &mdash;
-<a href="https://publons.com/a/534081/">Publon</a>
+<a href="https://publons.com/a/534081/">Publons</a>
 </p>
 
 Browse PDF files in this [shared Google drive](https://drive.google.com/folderview?id=0B-q59n6LIwYPflA4aHVydEx5aFY5MUZtdFRvcG11NWNUc3ljOTdsSlFSSHRDdHJVMDEyWXc&usp=sharing)
