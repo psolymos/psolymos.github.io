@@ -14,7 +14,7 @@ markdown: kramdown
 kramdown:
   input:          GFM
   hard_wrap:      false
-markdown_ext: "markdown,mkdown,mkdn,mkd,md,Rmd"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Bootswatch theme (cosmo)
 theme: flatly
