@@ -77,7 +77,7 @@ These need to be added to dcexamples: need an infrastructure
 
 Other ideas include:
 
-* interview people using DC.
+* interview people using DC (Khurram N., Mahmoud T., Dave C.).
 
 
 ## Outlook
@@ -87,8 +87,8 @@ and encourage thinking and discussions.
 
 5 months, 5*4=20 weeks, 20*2=40 posts
 
-Each post is >500 words (500-1000), but we'll see.
-Most ideal is 7 minutes (1600 words), not longer. Time it!
+Each post is >500 words (500-1000, 1-2 pages), but we'll see.
+Most ideal is 7 minutes (1600 words, 3 pages), not longer. Time it!
 
 Title: ~6 words, ~100 characters
 
@@ -102,7 +102,8 @@ print version on demand. This way there is no need for
 dubious printing houses. Plus some can go into the heavier DC book.
 
 Once it is written: schedule, and come up with social media
-marketing plan ([Buffer](http://buffer.com), Pablo images, etc.)
+marketing plan ([Buffer](http://buffer.com),
+[Hootsuite](https://hootsuite.com/), Pablo images, etc.)
 
 Rendering DC examples is figured out: see `dcexamples/lab`.
 This means that examples can be written up as
@@ -151,3 +152,13 @@ Make it into a package with other courses:
 7. Parallel MCMC and DC (prerequisite: 4 and 6)
 
 See also [OpenIntro](https://www.openintro.org/) model.
+
+## Book chapters
+
+1. Stats concepts -- draft done, SP to improve dcapps
+2. Occupancy and abundance models -- code done, needs writing
+3. LMM & GLMM iid -- code and text half baked: PS working on it
+4. PVA (temporal dependence) -- code and text half baked: SRL working on it
+5. Philosophical issues -- draft done, SRL to improve
+6. MCMC algorithms -- Sept/Oct 2016
+7. dclone tutorial -- PS to write blog posts (see above)
