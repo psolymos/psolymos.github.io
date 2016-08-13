@@ -29,3 +29,7 @@ The congress program is out (see [here](http://www.xcdsystem.com/scbna/program/)
 * The short course date: Saturday, July 16,
 * time: 9:00 AM &ndash; 5:00 PM,
 * location: Hall of Ideas H, [Monona Terrace Community and Convention Center](http://www.mononaterrace.com/).
+
+**UPDATE 2016/08/12**
+
+Course notes are now on the course website: [http://datacloning.org/courses/2016/madison/](http://datacloning.org/courses/2016/madison/).
