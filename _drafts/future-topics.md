@@ -24,6 +24,8 @@ promote: false
 - [ ] Making posters with Scribus
 - [x] Want to create a data set with all conceivable errors in it
 - [ ] Madison ABMI talk, slides, review of the symposium, etc.
+- [ ] Reaction to this: https://dynamicecology.wordpress.com/2016/08/22/ten-commandments-for-good-data-management/
+- [ ] Own packages trending (http://moderndata.plot.ly/using-cranlogs-in-r-with-plotly/)
 
 
 
