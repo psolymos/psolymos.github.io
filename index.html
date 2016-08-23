@@ -46,7 +46,7 @@ layout: plain
       </div>
 
       <div class="col-lg-6 col-sm-6">
-        {% for post in site.posts offset:2 limit:5 %}
+        {% for post in site.posts offset:2 limit:4 %}
         {% unless post.promote %}
         <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
         {{ post.excerpt }}
