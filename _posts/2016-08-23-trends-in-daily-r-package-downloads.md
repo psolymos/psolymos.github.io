@@ -2,7 +2,7 @@
 title: "Trends in daily R package downloads"
 disqus: petersolymos
 layout: default
-promote: false
+promote: true
 published: true
 tags: [R, CRAN, trend, forecasting]
 category: Code

@@ -5,7 +5,7 @@ published: true
 category: Etc
 tags: [R, data]
 disqus: petersolymos
-promote: true
+promote: false
 ---
 
 As I was preparing for an [R intro course](https://github.com/psolymos/Rsessions/tree/master/Rintro)
