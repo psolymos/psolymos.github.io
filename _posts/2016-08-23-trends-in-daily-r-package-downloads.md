@@ -98,7 +98,7 @@ cran_top_downloads("last-month")
 ## 10   10   scales 130887 2016-07-23 2016-08-21
 ```
 
-The top package was *Rcpp* by Dirk Eddelbuettel **et al.** and
+The top package was **Rcpp** by Dirk Eddelbuettel *et al.* and
 here is the daily trend plot with percent annual trend estimates:
 
 ```{r}
@@ -109,7 +109,11 @@ plot_pkg_trend("Rcpp")
 
 The increase is clear with increasing day-to-day variation
 suggesting that the log-linear model might be appropriate.
-Steady increase is predicted. The light blue 95% prediction
+Steady increase is predicted (the blue line starts at the
+last observed data point, whereas the
+red line is a locally weighted `lowess` smoothing curve on
+past data).
+The light blue 95% prediction
 intervals nicely follow the bulk of the zig-zagging in the
 observed trend.
 
@@ -140,3 +144,13 @@ par(op)
 ```
 
 ![]({{ site.baseurl }}/images/2016/08/23/plot2.png)
+
+My approach as outlined here works for packages that have been with us
+since 2013. However, there are packages that went extinct (orphaned,
+excluded from CRAN, etc.) or appeared after 2013.
+These need to be handled with care when comparing across
+many packages or changing the time horizon.
+If you want to take the idea presented here a step further,
+you can compare observed and predicted increase in downloads for
+many packages, or compare recent download stats and trends.
+Let me know what you think in the comments below!
