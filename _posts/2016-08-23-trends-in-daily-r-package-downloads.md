@@ -8,6 +8,12 @@ tags: [R, CRAN, trend, forecasting]
 category: Code
 ---
 
+This post was prompted by [this](http://moderndata.plot.ly/using-cranlogs-in-r-with-plotly/) blog about using the [**cranlogs**](https://cran.r-project.org/web/packages/cranlogs/) package by Gabor Csardi. But my own interest
+as long time package developer dates back to [this](https://rpubs.com/bbolker/3750) post by Ben Bolker. I like to see that
+[my packages](http://cran.r-project.org/web/checks/check_summary_by_maintainer.html#address:solymos_at_ualberta.ca)
+are being used. So I thought why stop at counting downloads and plotting
+the past. Why not predict into the future?
+
 The R language has seen steady growth over the past decade in terms of its
 [use relative to other programming languages](http://blog.revolutionanalytics.com/2015/12/r-is-the-fastest-growing-language-on-stackoverflow.html)
 and the [number of available extension packages](http://r4stats.com/2016/04/19/rs-growth-continues-to-accelerate/),
@@ -15,11 +21,6 @@ both reflecting increasing community engagement.
 It is thus interesting to have a look at how individual
 packages perform over time based on
 [CRAN](https://cran.r-project.org/) download statistics.
-
-This post was prompted by [this](http://moderndata.plot.ly/using-cranlogs-in-r-with-plotly/) blog about using the [**cranlogs**](https://cran.r-project.org/web/packages/cranlogs/) package by Gabor Csardi. But my own interest
-as long time package developer dates back to [this](https://rpubs.com/bbolker/3750) post by Ben Bolker. I like to see that
-[my packages](http://cran.r-project.org/web/checks/check_summary_by_maintainer.html#address:solymos_at_ualberta.ca)
-are being used.
 
 As the R user community expands, the disparity between
 more and less popular packages is expected to increase.
@@ -38,7 +39,6 @@ for individual R packages. I quantified past trend based
 on fitting a log-linear `glm` model to counts vs. dates.
 Then I used the [**forecast**](https://cran.r-project.org/web/packages/forecast/index.html) package by Rob Hyndman to make short-term forecast
 based on an additive non-seasonal [exponential smoothing](http://www.exponentialsmoothing.net/) model. Here is the `plot_pkg_trend` function:
-
 
 ```{r}
 library(cranlogs)
