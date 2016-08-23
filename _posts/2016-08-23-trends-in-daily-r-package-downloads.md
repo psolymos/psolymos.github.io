@@ -143,7 +143,7 @@ x <- plot_pkg_trend("plotrix")
 par(op)
 ```
 
-![]({{ site.baseurl }}/images/2016/08/23/plot2.png)
+![]({{ site.baseurl }}/images/2016/08/23/plot3.png)
 
 My approach as outlined here works for packages that have been with us
 since 2013. However, there are packages that went extinct (orphaned,
