@@ -8,17 +8,17 @@ tags: [R, CRAN, trend, forecasting]
 category: Code
 ---
 
-The R language has seen steady growth over the past decade in terms of its 
+The R language has seen steady growth over the past decade in terms of its
 [use relative to other programming languages](http://blog.revolutionanalytics.com/2015/12/r-is-the-fastest-growing-language-on-stackoverflow.html)
-and the [number of available extension packages](http://r4stats.com/2016/04/19/rs-growth-continues-to-accelerate/), 
+and the [number of available extension packages](http://r4stats.com/2016/04/19/rs-growth-continues-to-accelerate/),
 both reflecting increasing community engagement.
-It is thus interesting to have a look at how individual 
+It is thus interesting to have a look at how individual
 packages perform over time based on
 [CRAN](https://cran.r-project.org/) download statistics.
 
 This post was prompted by [this](http://moderndata.plot.ly/using-cranlogs-in-r-with-plotly/) blog about using the [**cranlogs**](https://cran.r-project.org/web/packages/cranlogs/) package by Gabor Csardi. But my own interest
-as long time package developer dates back to [this](https://rpubs.com/bbolker/3750) post by Ben Bolker. I like to see that 
-[my packages](http://cran.r-project.org/web/checks/check_summary_by_maintainer.html#address:solymos_at_ualberta.ca) 
+as long time package developer dates back to [this](https://rpubs.com/bbolker/3750) post by Ben Bolker. I like to see that
+[my packages](http://cran.r-project.org/web/checks/check_summary_by_maintainer.html#address:solymos_at_ualberta.ca)
 are being used.
 
 As the R user community expands, the disparity between
@@ -44,7 +44,7 @@ based on an additive non-seasonal [exponential smoothing](http://www.exponential
 library(cranlogs)
 library(forecast)
 
-plot_pkg_trend <- 
+plot_pkg_trend <-
 function(pkg)
 {
     op <- par(mar = c(3, 3, 1, 1) + 0.1, las = 1)
@@ -63,7 +63,7 @@ function(pkg)
     f$date <- seq(as.Date("2016-08-20"), as.Date("2017-08-19"), 1)
     tr_future <- round(100 * (f$mean[length(f$mean)] / f$mean[1L] - 1), 2)
     ## plot
-    plot(count ~ date, x, type = "l", col = "darkgrey", 
+    plot(count ~ date, x, type = "l", col = "darkgrey",
         ylab = "", xlab = "",
         ylim = c(0, quantile(x$count, 0.999)),
         xlim = c(x$date[1L], as.Date("2017-08-19")))
@@ -72,9 +72,9 @@ function(pkg)
         c(f$upper[,2L], rev(f$lower[,2L])),
         border = NA, col = "lightblue")
     lines(f$date, f$mean, col = 4, lwd = 2)
-    legend("topleft", title = paste("Package:", pkg), bty = "n", 
+    legend("topleft", title = paste("Package:", pkg), bty = "n",
         col = c(2, 4), lwd = 2, cex = 1,
-        legend = c(paste0("past: ", tr_past, "%"), 
+        legend = c(paste0("past: ", tr_past, "%"),
         paste0("future: ", tr_future, "%")))
     ## return the data
     invisible(x)
@@ -85,6 +85,17 @@ Next, we list the top 10 R packages from the last month:
 
 ```{r}
 cran_top_downloads("last-month")
+##    rank  package  count       from         to
+## 1     1     Rcpp 221981 2016-07-23 2016-08-21
+## 2     2   digest 181333 2016-07-23 2016-08-21
+## 3     3  ggplot2 170577 2016-07-23 2016-08-21
+## 4     4     plyr 163590 2016-07-23 2016-08-21
+## 5     5  stringi 154918 2016-07-23 2016-08-21
+## 6     6  stringr 153917 2016-07-23 2016-08-21
+## 7     7 jsonlite 152040 2016-07-23 2016-08-21
+## 8     8 magrittr 139596 2016-07-23 2016-08-21
+## 9     9     curl 134026 2016-07-23 2016-08-21
+## 10   10   scales 130887 2016-07-23 2016-08-21
 ```
 
 The top package was *Rcpp* by Dirk Eddelbuettel **et al.** and
@@ -93,6 +104,8 @@ here is the daily trend plot with percent annual trend estimates:
 ```{r}
 plot_pkg_trend("Rcpp")
 ```
+
+![]({{ site.baseurl }}/images/2016/08/23/plot1.png)
 
 The increase is clear with increasing day-to-day variation
 suggesting that the log-linear model might be appropriate.
@@ -111,8 +124,10 @@ plot_pkg_trend("mefa4")
 par(op)
 ```
 
+![]({{ site.baseurl }}/images/2016/08/23/plot2.png)
+
 Two of them increasing nicely, the other two are showing
-some leveling-off. And finally, 
+some leveling-off. And finally,
 results for some packages that I am contributing to:
 
 ```{r}
@@ -124,3 +139,4 @@ x <- plot_pkg_trend("plotrix")
 par(op)
 ```
 
+![]({{ site.baseurl }}/images/2016/08/23/plot2.png)
