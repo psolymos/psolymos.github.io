@@ -4,9 +4,9 @@
 <meta name="keywords" content="{{ page.tags | join: ', ' }}">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-{% capture theme %}{% if page.theme %}{{ page.theme }}{% else %}{{ site.theme }}{% endif %}{% endcapture %}
+{% capture bswtheme %}{% if page.bswtheme %}{{ page.bswtheme }}{% else %}{{ site.bswtheme }}{% endif %}{% endcapture %}
 <!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/bootstrap.css" media="screen"> -->
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.4/{{ theme }}/bootstrap.min.css" media="screen">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.4/{{ bswtheme }}/bootstrap.min.css" media="screen">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/highlight.default.min.css">
 <script src="{{ site.baseurl }}/assets/highlight.pack.js"></script>
