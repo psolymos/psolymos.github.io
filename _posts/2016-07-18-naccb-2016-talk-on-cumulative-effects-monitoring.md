@@ -7,7 +7,7 @@ published: true
 disqus: petersolymos
 ---
 
-I was invited to represent [ABMI](http://www.abmi.ca) at the  
+I was invited to represent [ABMI](http://www.abmi.ca) at the
 *Multi-taxa Monitoring in North America* symposium, North American Congress
 for Conservation Biology, Madison, Wisconsin, July 18, 2016.
 The symposium was organized by Michael Lucid (Idaho Department of Fish and Game).
