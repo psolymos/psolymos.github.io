@@ -5,7 +5,7 @@ category: Etc
 tags: [PVA, publications, Hungary]
 published: true
 disqus: petersolymos
-promote: false
+promote: true
 ---
 
 The title says it all. I wrote [this](http://okologiablog.hu/node/219) piece about
