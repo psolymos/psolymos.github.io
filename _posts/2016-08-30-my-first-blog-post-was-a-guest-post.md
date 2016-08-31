@@ -22,7 +22,7 @@ The democratic era (1998--2012) showed growth rate of 0.21 with a much higher
 *K* = 100 (variance went from 0.44 to 0.03).
 
 The motivation for the analysis and post was that the number of publications
-has been persistently around $K=100$ for 5 years. So I looked at the
+has been persistently around *K* = 100 for 5 years. So I looked at the
 correlation between the number of PhD students and the number of publications,
 using different lag times between 0 and 10 years. The correlation
 was highest for a 7-year lag. This more or less indicates a cohort of
