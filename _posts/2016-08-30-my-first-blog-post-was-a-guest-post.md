@@ -3,7 +3,7 @@ title: "My first blog post was a guest post"
 layout: default
 category: Etc
 tags: [PVA, publications, Hungary]
-published: true
+published: false
 disqus: petersolymos
 promote: true
 ---
@@ -16,10 +16,10 @@ through time using the [Web of Science](https://webofknowledge.com/) database
 
 I fit Ricker growth model to observed publication numbers and a non-stationary 2-phase
 model was the best fit. An intrinsic growth rate of 0.39 with
-carrying capacity $K=14$ publications per year was characteristic to
+carrying capacity *K* = 14 publications per year was characteristic to
 the pre-democracy (Soviet occupation era) phase (1978--1997).
 The democratic era (1998--2012) showed growth rate of 0.21 with a much higher
-$K=100$ (variance went from 0.44 to 0.03).
+*K* = 100 (variance went from 0.44 to 0.03).
 
 The motivation for the analysis and post was that the number of publications
 has been persistently around $K=100$ for 5 years. So I looked at the
