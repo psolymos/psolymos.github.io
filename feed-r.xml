@@ -14,7 +14,6 @@ layout: null
 
   {% for post in site.posts %}
     {% unless post.link %}
-    {% if post.tags contains 'R' %}
     <entry>
     <title>{{ post.title | xml_escape }}</title>
     <link href="{{ site.baseurl }}{{ post.url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}"/>
@@ -27,7 +26,6 @@ layout: null
     {% for tag in post.tags %}<category term="{{ tag }}"/>{% endfor %}
     <summary>{{ post.excerpt | strip_html }}</summary>
     </entry>
-    {% endif %}
     {% endunless %}
   {% endfor %}
 </feed>
