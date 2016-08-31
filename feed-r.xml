@@ -7,7 +7,7 @@ layout: null
   <link href="{{ site.baseurl }}" rel="alternate" type="text/html"/>
   <updated>{{ site.time }}</updated>
   <id>{{ site.baseurl }}</id>
-  <title>{{ site.title | xml_escape }} - R related posts</title>
+  <title>{{ site.author_plain }} - R related posts</title>
   <subtitle>{{ site.description | xml_escape }}</subtitle>
   <author><name>{{ site.author_plain }}</name></author>
 
