@@ -3,6 +3,7 @@ layout: null
 ---
 
 <feed xmlns="http://www.w3.org/2005/Atom">
+  <generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator>
   <link href="{{ page.url }}" rel="self" type="application/atom+xml"/>
   <link href="{{ site.baseurl }}" rel="alternate" type="text/html"/>
   <updated>{{ site.time }}</updated>
