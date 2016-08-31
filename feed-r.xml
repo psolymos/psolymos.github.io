@@ -9,7 +9,7 @@ layout: null
   <id>{{ site.baseurl }}</id>
   <title>{{ site.title | xml_escape }} - R related posts</title>
   <subtitle>{{ site.description | xml_escape }}</subtitle>
-  <author><name>{{ site.author | xml_escape }}</name></author>
+  <author><name>{{ site.author_plain }}</name></author>
 
   {% for post in site.posts %}
     {% unless post.link %}
@@ -21,10 +21,10 @@ layout: null
     <updated>{{ site.time }}</updated>
     <id>{{ site.baseurl }}{{ post.id | xml_escape }}</id>
     <content type="html" xml:base="{{ site.baseurl }}{{ post.url }}">{{ post.content | xml_escape }}</content>
-    <author><name>{{ site.author | xml_escape }}</name></author>
+    {% if page.author != null %}{{ page.author }}{% else %}{{ site.author_plain }}{% endif %}
     {% for category in post.categories %}<category term="{{ category }}"/>{% endfor %}
     {% for tag in post.tags %}<category term="{{ tag }}"/>{% endfor %}
-    <summary>{{ post.excerpt | xml_escape }}</summary>
+    <summary>{{ post.excerpt | strip_html }}</summary>
     </entry>
     {% endif %}
     {% endunless %}

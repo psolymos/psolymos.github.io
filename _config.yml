@@ -27,6 +27,7 @@ disqus: petersolymos
 ads: true
 
 author: '<a href="http://peter.solymos.org">P&eacute;ter S&oacute;lymos</a>'
+author_plain: 'Peter Solymos'
 
 categories: ["Etc", "Talks", "Papers", "Code", "Tutorials"]
 
