@@ -3,7 +3,7 @@ title: "My first blog post was a guest post"
 layout: default
 category: Etc
 tags: [PVA, publications, Hungary]
-published: false
+published: true
 disqus: petersolymos
 promote: true
 ---
@@ -46,6 +46,10 @@ Year | Count
 2014 | 114
 2015 | 108
 
-I wish these numbers have improved, but it is what it is I guess.
+![]({{ site.baseurl }}/images/2016/08/30/pva-2.png)
+
+The figure shows the two phases used in modeling (grey and gold),
+and the forecast (tomato) with horizontal lines for carrying
+capacity. I wish these numbers have improved, but it is what it is.
 [You can't argue with science](http://comicvine.gamespot.com/images/1300-1819415).
 In case you want to argue, just leave a comment!
