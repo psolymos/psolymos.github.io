@@ -27,6 +27,7 @@ layout: plain
 
       <!--
       recent posts, starting with promoted
+      (2 cols have different counters: see limit and offset)
       -->
       <div class="col-lg-6 col-sm-6">
         {% for post in site.posts %}
@@ -37,7 +38,7 @@ layout: plain
         </div>
         {% endif %}
         {% endfor %}
-        {% for post in site.posts limit:2 %}
+        {% for post in site.posts limit:3 %}
         {% unless post.promote %}
         <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
         {{ post.excerpt }}
@@ -46,7 +47,7 @@ layout: plain
       </div>
 
       <div class="col-lg-6 col-sm-6">
-        {% for post in site.posts offset:2 limit:5 %}
+        {% for post in site.posts offset:3 limit:3 %}
         {% unless post.promote %}
         <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
         {{ post.excerpt }}
