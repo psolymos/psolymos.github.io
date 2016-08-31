@@ -6,6 +6,7 @@ tags: [R, course, data cloning, dclone]
 published: true
 disqus: petersolymos
 promote: false
+updated: '2016/06/14'
 ---
 
 One-day short course at [NACCB congress](http://www.scbnacongress.org/) in Madison, WI, on July 16th, with Peter Solymos and Subhash Lele.
