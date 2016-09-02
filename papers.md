@@ -5,7 +5,7 @@ layout: default
 years: [2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2005, 2004, 2002]
 ---
 
-<p id="papers-external">External sources: <a href="http://scholar.google.ca/citations?hl=en&user=PfC17QsAAAAJ&view_op=list_works&pagesize=100">Google Scholar</a> &mdash;
+<p id="papers-external">External resources: <a href="http://scholar.google.ca/citations?hl=en&user=PfC17QsAAAAJ&view_op=list_works&pagesize=100">Google Scholar</a> &mdash;
 <!-- <a href="https://vm.mtmt.hu/www/index.php?AuthorID=10000580">MTMT</a> &mdash; -->
 <a href="http://orcid.org/0000-0001-7337-1740">ORCID</a> &mdash;
 <a href="http://www.researcherid.com/rid/B-2775-2008">ResearcherID</a> &mdash;

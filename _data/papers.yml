@@ -296,8 +296,8 @@
   type: paper
   year: 2009
   text: "<strong>S&oacute;lymos, P.</strong>, 2009. Processing ecological data in R with the mefa package. <strong>Journal of Statistical Software</strong> 29(8):1&ndash;28."
-  link:
-  fulltext: "https://www.jstatsoft.org/article/view/v029i08"
+  link: "https://www.jstatsoft.org/article/view/v029i08"
+  fulltext: "https://www.jstatsoft.org/index.php/jss/article/view/v029i08/v29i08.pdf"
   code: "<a href=\"http://cran.r-project.org/package=mefa\"><code>mefa</code> R package</a>"
   supportinginfo:
   doi:
