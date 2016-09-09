@@ -1,0 +1,183 @@
+---
+title: "What is the cost of a progress bar in R?"
+layout: default
+published: false
+category: Code
+tags: [R, pbapply, progress bar]
+disqus: petersolymos
+promote: false
+---
+
+The [**pbapply**](http://cran.r-project.org/package=pbapply) R package
+adds progress bar to vectorized functions, like `lapply`.
+A [feature request](https://github.com/psolymos/pbapply/issues/9)
+regarding progress bar for parallel functions has been sitting
+at the development GitHub repo for a few months.
+The author of the [**pbmcapply**](https://cran.r-project.org/web/packages/pbmcapply/index.html)
+package dropped a note about his implementation of forking functionality
+with progress bar for Unix/Linux computers, which got me thinking.
+How should we add progress bar to snow type clusters? Which led to
+another and perhaps more important question: how can we
+reduce the progress bar overhead on process times?
+
+Describe how parLapply works for splitting
+
+Describe how pb works, and how splitpb works
+
+Do some benchmarking (nout=NULL) -- table output
+
+Problem: need to cap pb updates (examples: rjags, vegan)
+
+Show results for nout: 500,200,100,50,25
+
+Solution: use nout=100 as default as part of pboptions
+
+Emphasize that this fixed overhead remains constant, old implementation depended on problem size.
+
+```{r eval=FALSE}
+library(pbapply)
+
+
+set.seed(1234)
+n <- 5000
+x <- rnorm(n)
+y <- rnorm(n, crossprod(t(model.matrix(~x)), c(0,1)), sd=0.5)
+d <- data.frame(y, x)
+## model fitting and bootstrap
+mod <- lm(y~x, d)
+ndat <- model.frame(mod)
+B <- 1000
+bid <- sapply(1:B, function(i) sample(nrow(ndat), nrow(ndat), TRUE))
+fun <- function(z) {
+    if (missing(z))
+        z <- sample(nrow(ndat), nrow(ndat), TRUE)
+    coef(lm(mod$call$formula, data=ndat[z,]))
+}
+
+pblapply_test <-
+function (X, FUN, ..., cl = NULL, nout = NULL)
+{
+    FUN <- match.fun(FUN)
+    if (!is.vector(X) || is.object(X))
+        X <- as.list(X)
+    ## catch single node requests and forking on Windows
+    if (!is.null(cl)) {
+        if (inherits(cl, "cluster") && length(cl) < 2L)
+            cl <- NULL
+        if (!inherits(cl, "cluster") && cl < 2)
+            cl <- NULL
+        if (!inherits(cl, "cluster") && .Platform$OS.type == "windows")
+            cl <- NULL
+    }
+    ## sequential evaluation
+    if (is.null(cl)) {
+        if (!(interactive() && dopb() && length(X) >= 1))
+            return(lapply(X, FUN, ...))
+        #pb <- startpb(0, B)
+        #on.exit(closepb(pb), add = TRUE)
+        #rval <- vector("list", B)
+        #for (i in seq_len(B)) {
+        #    rval[i] <- list(FUN(X[[i]], ...))
+        #    setpb(pb, i)
+        #}
+        Split <- splitpb(length(X), 1L, nout = nout)
+        B <- length(Split)
+        pb <- startpb(0, B)
+        on.exit(closepb(pb), add = TRUE)
+        rval <- vector("list", B)
+        for (i in seq_len(B)) {
+            rval[i] <- list(lapply(X[Split[[i]]], FUN, ...))
+            setpb(pb, i)
+        }
+    ## parallel evaluation
+    } else {
+        ## snow type cluster
+        if (inherits(cl, "cluster")) {
+            if (!(interactive() && dopb() && length(X) >= 1))
+                return(parallel::parLapply(cl, X, FUN, ...))
+            ## define split here and use that for counter
+            Split <- splitpb(length(X), length(cl), nout = nout)
+            B <- length(Split)
+            pb <- startpb(0, B)
+            on.exit(closepb(pb), add = TRUE)
+            rval <- vector("list", B)
+            for (i in seq_len(B)) {
+                rval[i] <- list(parallel::parLapply(cl, X[Split[[i]]], FUN, ...))
+                setpb(pb, i)
+            }
+        ## multicore type forking
+        } else {
+            if (!(interactive() && dopb() && length(X) >= 1))
+                return(parallel::mclapply(X, FUN, ..., mc.cores = as.integer(cl)))
+            ## define split here and use that for counter
+            Split <- splitpb(length(X), as.integer(cl), nout = nout)
+            B <- length(Split)
+            pb <- startpb(0, B)
+            on.exit(closepb(pb), add = TRUE)
+            rval <- vector("list", B)
+            for (i in seq_len(B)) {
+                rval[i] <- list(parallel::mclapply(X[Split[[i]]], FUN, ...,
+                    mc.cores = as.integer(cl)))
+                setpb(pb, i)
+            }
+        }
+    }
+    ## assemble output list
+    rval <- do.call(c, rval, quote = TRUE)
+    names(rval) <- names(X)
+    rval
+}
+
+library(parallel)
+library(pbmcapply)
+ncl <- 2L
+cl <- makeCluster(ncl)
+clusterExport(cl, c("fun", "mod", "ndat", "bid"))
+
+
+t1 <- system.time(tmp <- lapply(1:B, function(i) fun(bid[,i])))
+t3 <- system.time(tmp <- parLapply(cl = cl, 1:B, function(i) fun(bid[,i])))
+t5 <- system.time(tmp <- mclapply(1:B, function(i) fun(bid[,i]), mc.cores = ncl))
+t7 <- system.time(tmp <- pbmclapply(1:B, function(i) fun(bid[,i]), mc.cores = ncl))
+t8 <- system.time(tmp <- pblapply(1:B, function(i) fun(bid[,i])))
+
+nout <- NULL
+t2 <- system.time(tmp <- pblapply_test(1:B, function(i) fun(bid[,i]),
+    nout = nout))
+t4 <- system.time(tmp <- pblapply_test(1:B, function(i) fun(bid[,i]),
+    cl = cl, nout = nout))
+t6 <- system.time(tmp <- pblapply_test(1:B, function(i) fun(bid[,i]),
+    cl = ncl, nout = nout))
+nout <- 100
+t21 <- system.time(tmp <- pblapply_test(1:B, function(i) fun(bid[,i]),
+    nout = nout))
+t41 <- system.time(tmp <- pblapply_test(1:B, function(i) fun(bid[,i]),
+    cl = cl, nout = nout))
+t61 <- system.time(tmp <- pblapply_test(1:B, function(i) fun(bid[,i]),
+    cl = ncl, nout = nout))
+nout <- 50
+t22 <- system.time(tmp <- pblapply_test(1:B, function(i) fun(bid[,i]),
+    nout = nout))
+t42 <- system.time(tmp <- pblapply_test(1:B, function(i) fun(bid[,i]),
+    cl = cl, nout = nout))
+t62 <- system.time(tmp <- pblapply_test(1:B, function(i) fun(bid[,i]),
+    cl = ncl, nout = nout))
+nout <- 25
+t23 <- system.time(tmp <- pblapply_test(1:B, function(i) fun(bid[,i]),
+    nout = nout))
+t43 <- system.time(tmp <- pblapply_test(1:B, function(i) fun(bid[,i]),
+    cl = cl, nout = nout))
+t63 <- system.time(tmp <- pblapply_test(1:B, function(i) fun(bid[,i]),
+    cl = ncl, nout = nout))
+
+stopCluster(cl)
+
+(x <- rbind(lapply=t1, parLapply=t3, mclapply=t5, pbapply=t8, pbmclapply=t7,
+    pblapply_NULL=t2, pblapply_100=t21, pblapply_50=t22, pblapply_25=t23,
+    pblapply_cl_NULL=t4, pblapply_cl_100=t41, pblapply_cl_50=t42, pblapply_cl_25=t43,
+    pblapply_mc_NULL=t6, pblapply_mc_100=t61, pblapply_mc_50=t62, pblapply_mc_25=t63))
+
+par(las=1, mar=c(5,10,2,2))
+barplot(rev(x[,3]), horiz=TRUE, xlab="Proc. time (sec)",
+    col=rev(c(1:5, rep(6:8, each=4))))
+```
