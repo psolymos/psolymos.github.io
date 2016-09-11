@@ -20,16 +20,144 @@ adds progress bar to vectorized functions, like `lapply`.
 A [feature request](https://github.com/psolymos/pbapply/issues/9)
 regarding progress bar for parallel functions has been sitting
 at the development GitHub repo for a few months.
-The author of the [**pbmcapply**](https://cran.r-project.org/web/packages/pbmcapply/index.html)
+More recently, the author of the [**pbmcapply**](https://cran.r-project.org/web/packages/pbmcapply/index.html)
 package dropped a note about his implementation of forking functionality
 with progress bar for Unix/Linux computers, which got me thinking.
 How should we add progress bar to snow type clusters? Which led to
-another and perhaps more important question: how can we
-reduce the progress bar overhead on process times?
+more important questions: what is the real cost of the progress bar and how can we
+reduce overhead on process times?
 
-Describe how parLapply works for splitting
+### Parallel workflow
 
-Describe how pb works, and how splitpb works
+Fist off, let's review how a
+[**snow**](https://cran.r-project.org/web/packages/snow/index.html)
+type cluster works. (This is actually implemented in the **parallel** package,
+but I tend to refer to **snow** as that was the original package
+where the **parallel** code was taken from, see
+[here](https://stat.ethz.ch/R-manual/R-devel/library/parallel/doc/parallel.pdf).)
+
+```{r snow}
+parLapply
+```
+
+The `cl` argument refers to a cluster object that can be 
+conveniently set up via the `makeCluster` function.
+`X` is the 'problem' to be split among the *workers*
+defined by the cluster object. `fun` is the function
+that needs to be applied on elements of `X`.
+Pretty much the same as the `lapply` function
+except for the cluster argument.
+
+Within the function, we see a nested expression that can be unpacked like this:
+
+```{r unpack,eval=FALSE}
+x <- splitList(X, length(cl))
+z <- clusterApply(cl, x, fun = lapply, fun)
+do.call(c, z, quote = TRUE)
+```
+
+The first line splits `X` so that it is now a list of lists. 
+The list `x` is of length equal to the number of workers (i.e. `length(cl)`).
+Each element in the list `x` is a part of the original `X` vector.
+Let's see how `splitList` works. It is an unexported function
+from the **parallel** package that calls `splitIndices`.
+Suppose we have 10 'jobs' we want to submit to 2 workers
+(note that these are just indices, not real values from `X`):
+
+```{r split}
+splitIndices(nx = 10, ncl = 2)
+```
+
+The first worker gets one half of the job, while the second gets the rest.
+On other works, the full problem is split into `ncl` subsets,
+and those are pushed to the workers in one batch.
+That is what the next line with `clusterApply` does
+(it uses `lapply` on each worker passing the `fun`ction etc.).
+The output object `z` has all the results in the form of list of lists.
+So the final `do.call` expression puts together the pieces in
+a single list/vector that can be mapped to the input object `X`.
+
+Here as example taking square of the numbers `11:20` (note: it is good practice 
+to stop the child processes with `stopCluster` when done):
+
+```{r snow_example}
+library(parallel)
+ncl <- 2
+(cl <- makeCluster(ncl))
+(X <- 11:20)
+fun <- function(x) x^2
+(x <- parallel:::splitList(X, length(cl))) # these are the real values
+str(z <- clusterApply(cl, x, fun = lapply, fun))
+str(do.call(c, z, quote = TRUE))
+stopCluster(cl)
+```
+
+### Progress bar for sequential jobs
+
+Here is a function that shows the basic principle
+behind the functions in the functions in the **pbapply** package:
+
+```{r pb}
+pb_fun <- function(X, fun, ...) {
+    X <- as.list(X) # X as list
+    B <- length(X) # length of X
+    fun <- match.fun(fun) # recognize the function
+    out <- vector("list", B) # output list
+    pb <- startpb(0, B) # set up progress bar
+    for (i in seq_len(B)) { # start loop
+        out[[i]] <- fun(X[[i]], ...) # apply function on X
+        setpb(pb, i) # update progress bar
+    } # end loop
+    closepb(pb) # close progress bar on exit
+    out # return output
+}
+pb_fun2 <- function(X, fun, ...) {
+    X <- as.list(X) # X as list
+    B <- length(X) # length of X
+    fun <- match.fun(fun) # recognize the function
+    out <- vector("list", B) # output list
+    pb <- startpb(0, B) # set up progress bar
+#    on.exit(closepb(pb)) # close progress bar on exit
+    for (i in seq_len(B)) { # start loop
+        out[[i]] <- fun(X[[i]], ...) # apply function on X
+    } # end loop
+    setpb(pb, i) # update progress bar
+    closepb(pb) # close progress bar on exit
+    out # return output
+}
+```
+
+The example demonstrates that the progress bar is updated
+at every iteration in the `for` loop, in this case it means 100
+updates:
+
+```{r sleep}
+B <- 100
+fun <- function(x) Sys.sleep(0.01)
+pbo <- pboptions(type = "timer")
+tmp <- pb_fun(1:B, fun)
+tmp2 <- pb_fun2(1:B, fun)
+pboptions(pbo)
+```
+
+If we want to put this updating process together with the
+parallel evaluation, we need to split the problem
+in a different way. Suppose we only send one job to
+each worker at once. We can do that exactly `ceiling(B/ncl)` times.
+The `splitpb` function takes care of the indices.
+Using the previous example of 10 jobs and 2 workers, we get:
+
+```{r splitpb}
+splitpb(nx = 10, ncl = 2)
+```
+
+This gives us 10/2 = 5 occasions for updating the progress bar.
+And it also means that we will increase communication overhead
+for our parallel jobs 5-fold (from 1 to 5 batches).
+The overhead increases linearly with problem size `B` as opposed
+to being constant.
+
+### Implementing progress bar for parallel jobs
 
 Do some benchmarking (nout=NULL) -- table output
 
@@ -41,29 +169,10 @@ Solution: use nout=100 as default as part of pboptions
 
 Emphasize that this fixed overhead remains constant, old implementation depended on problem size.
 
-```{r pre}
+```{r defs}
 library(pbapply)
 library(parallel)
 library(pbmcapply)
-
-ncl <- 2
-n <- 5000
-B <- 1000
-
-set.seed(1234)
-x <- rnorm(n)
-y <- rnorm(n, crossprod(t(model.matrix(~ x)), c(0, 1)), sd = 0.5)
-d <- data.frame(y, x)
-
-mod <- lm(y ~ x, d)
-ndat <- model.frame(mod)
-bid <- sapply(1:B, function(i) sample(nrow(ndat), nrow(ndat), TRUE))
-fun <- function(z) {
-    if (missing(z))
-        z <- sample(nrow(ndat), nrow(ndat), TRUE)
-    coef(lm(mod$call$formula, data=ndat[z,]))
-}
-#Sys.sleep(0.1)
 
 pblapply_test <-
 function (X, FUN, ..., cl = NULL, nout = NULL)
@@ -132,84 +241,48 @@ function (X, FUN, ..., cl = NULL, nout = NULL)
     rval
 }
 
-timer_fun <- function(type = "timer") {
+timer_fun <- function(X, FUN, type = "timer") {
     pbo <- pboptions(type = type)
     on.exit(pboptions(pbo))
     rbind(
-#        lapply = system.time(lapply(1:B, function(i) 
-#            fun(bid[,i]))),
-#        parLapply = system.time(parLapply(cl = cl, 1:B, 
-#            function(i) fun(bid[,i]))),
-#        mclapply = system.time(mclapply(1:B, function(i) 
-#            fun(bid[,i]), mc.cores = ncl)),
-#        pbmclapply = system.time(pbmclapply(1:B, function(i) 
-#            fun(bid[,i]), mc.cores = ncl)),
+        pb_NULL = system.time(pblapply_test(X, FUN, nout = NULL)),
+        pb_100 = system.time(pblapply_test(X, FUN, nout = 100)),
+        pb_50 = system.time(pblapply_test(X, FUN, nout = 50)),
+        pb_25 = system.time(pblapply_test(X, FUN, nout = 25)),
 
-        pb_NULL = system.time(pblapply_test(1:B, function(i) 
-            fun(bid[,i]), nout = NULL)),
-        pb_100 = system.time(pblapply_test(1:B, function(i) 
-            fun(bid[,i]), nout = 100)),
-        pb_50 = system.time(pblapply_test(1:B, function(i) 
-            fun(bid[,i]), nout = 50)),
-        pb_25 = system.time(pblapply_test(1:B, function(i) 
-            fun(bid[,i]), nout = 25)),
+        pb_cl_NULL = system.time(pblapply_test(X, FUN, cl = cl, nout = NULL)),
+        pb_cl_100 = system.time(pblapply_test(X, FUN, cl = cl, nout = 100)),
+        pb_cl_50 = system.time(pblapply_test(X, FUN, cl = cl, nout = 50)),
+        pb_cl_25 = system.time(pblapply_test(X, FUN, cl = cl, nout = 25)),
 
-        pb_cl_NULL = system.time(pblapply_test(1:B, function(i) 
-            fun(bid[,i]), cl = cl, nout = NULL)),
-        pb_cl_100 = system.time(pblapply_test(1:B, function(i) 
-            fun(bid[,i]), cl = cl, nout = 100)),
-        pb_cl_50 = system.time(pblapply_test(1:B, function(i) 
-            fun(bid[,i]), cl = cl, nout = 50)),
-        pb_cl_25 = system.time(pblapply_test(1:B, function(i) 
-            fun(bid[,i]), cl = cl, nout = 25)),
-
-        pb_mc_NULL = system.time(pblapply_test(1:B, function(i) 
-            fun(bid[,i]), cl = ncl, nout = NULL)),
-        pb_mc_100 = system.time(pblapply_test(1:B, function(i) 
-            fun(bid[,i]), cl = ncl, nout = 100)),
-        pb_mc_50 = system.time(pblapply_test(1:B, function(i) 
-            fun(bid[,i]), cl = ncl, nout = 50)),
-        pb_mc_25 = system.time(pblapply_test(1:B, function(i) 
-            fun(bid[,i]), cl = ncl, nout = 25))
+        pb_mc_NULL = system.time(pblapply_test(X, FUN, cl = ncl, nout = NULL)),
+        pb_mc_100 = system.time(pblapply_test(X, FUN, cl = ncl, nout = 100)),
+        pb_mc_50 = system.time(pblapply_test(X, FUN, cl = ncl, nout = 50)),
+        pb_mc_25 = system.time(pblapply_test(X, FUN, cl = ncl, nout = 25))
     )
 }
 ```
 
+```{r setup}
+ncl <- 2
+B <- 1000
+fun <- function(x) Sys.sleep(0.01)
+```
+
 ```{r calc,results="hide"}
 cl <- makeCluster(ncl)
-clusterExport(cl, c("fun", "mod", "ndat", "bid"))
-timer_out_1 <- list(
-    none = timer_fun("none"),
-    txt = timer_fun("txt"),
-    timer = timer_fun("timer"))
-if (FALSE) {
-timer_out_2 <- list(
-    none = timer_fun("none"),
-    txt = timer_fun("txt"),
-    timer = timer_fun("timer"))
-timer_out_3 <- list(
-    none = timer_fun("none"),
-    txt = timer_fun("txt"),
-    timer = timer_fun("timer"))
-timer_out <- list()
-timer_out[["none"]] <- (timer_out_1[[1]] + timer_out_2[[1]] + 
-    timer_out_3[[1]]) / 3
-timer_out[["txt"]] <- (timer_out_1[[2]] + timer_out_2[[2]] + 
-    timer_out_3[[2]]) / 3
-timer_out[["timer"]] <- (timer_out_1[[3]] + timer_out_2[[3]] + 
-    timer_out_3[[3]]) / 3
-tpbmc <- rowMeans(replicate(3, system.time(pbmclapply(1:B, function(i) 
-    fun(bid[,i]), mc.cores = ncl))))
-}
+#clusterExport(cl, c("fun", "mod", "ndat", "bid"))
+timer_out <- list(
+    none = timer_fun(1:B, fun, type = "none"),
+    txt = timer_fun(1:B, fun, type = "txt"),
+    timer = timer_fun(1:B, fun, type = "timer"))
 stopCluster(cl)
-
-timer_out <- timer_out_1
-tpbmc <- system.time(pbmclapply(1:B, function(i) 
-    fun(bid[,i]), mc.cores = ncl))
+tpbmc <- system.time(pbmclapply(1:B, fun, mc.cores = ncl))
 ```
 
 ```{r pb_matplot,fig.height=4,fig.width=10}
 npb <- c(B/ncl, 100, 50, 25)
+tex <- 0.01 * B
 tpb <- cbind(timer_out[[1]][1:4,3], 
     timer_out[[2]][1:4,3], 
     timer_out[[3]][1:4,3])
@@ -222,14 +295,84 @@ tmc <- cbind(timer_out[[1]][9:12,3],
 colnames(tpb) <- colnames(tcl) <- colnames(tmc) <- names(timer_out)
 
 op <- par(mfrow = c(1, 3), las = 1, mar = c(5, 5, 2, 2))
-matplot(npb, tpb, type = "l", lty = 1, ylim = c(0, max(tpb, tcl, tmc)),
+matplot(c(B, 100, 50, 25), tpb, 
+    type = "l", lty = 1, ylim = c(0, max(tpb, tcl, tmc)),
     xlab = "# pb updates", ylab = "proc time (sec)", main = "sequential")
-matplot(npb, tcl, type = "l", lty = 1, ylim = c(0, max(tpb, tcl, tmc)),
+abline(h = tex, lty = 2, col = 1)
+matplot(c(B/ncl, 100, 50, 25), tcl, 
+    type = "l", lty = 1, ylim = c(0, max(tpb, tcl, tmc)),
     xlab = "# pb updates", ylab = "proc time (sec)", main = "cluster")
-matplot(npb, tmc, type = "l", lty = 1, ylim = c(0, max(tpb, tcl, tmc)),
+abline(h = tex / ncl, lty = 2, col = 1)
+matplot(c(B/ncl, 100, 50, 25), tmc, 
+    type = "l", lty = 1, ylim = c(0, max(tpb, tcl, tmc)),
     xlab = "# pb updates", ylab = "proc time (sec)", main = "forking")
+abline(h = tex / ncl, lty = 2, col = 1)
 abline(h = tpbmc[3], lty = 2, col = 2)
-legend("bottomleft", bty = "n", lty = c(1, 1, 1, 2), col = c(1:3, 2),
-    legend = c(names(timer_out), "pbmclapply"))
+legend("bottomleft", bty = "n", lty = c(1, 1, 1, 2, 2), col = c(1:3, 1, 2),
+    legend = c(names(timer_out), "minimum", "pbmclapply"))
 par(op)
+
+tpb
+tcl
+tmc
 ```
+
+`Sys.sleep` returns `NULL`.
+
+```{r calc2,results="hide"}
+fun <- function(x) {
+    Sys.sleep(0.01)
+    x^2
+}
+
+cl <- makeCluster(ncl)
+#clusterExport(cl, c("fun", "mod", "ndat", "bid"))
+timer_out <- list(
+    none = timer_fun(1:B, fun, type = "none"),
+    txt = timer_fun(1:B, fun, type = "txt"),
+    timer = timer_fun(1:B, fun, type = "timer"))
+stopCluster(cl)
+tpbmc <- system.time(pbmclapply(1:B, fun, mc.cores = ncl))
+```
+
+```{r pb_matplot2,fig.height=4,fig.width=10}
+npb <- c(B/ncl, 100, 50, 25)
+tex <- 0.01 * B
+tpb <- cbind(timer_out[[1]][1:4,3], 
+    timer_out[[2]][1:4,3], 
+    timer_out[[3]][1:4,3])
+tcl <- cbind(timer_out[[1]][5:8,3], 
+    timer_out[[2]][5:8,3], 
+    timer_out[[3]][5:8,3])
+tmc <- cbind(timer_out[[1]][9:12,3], 
+    timer_out[[2]][9:12,3], 
+    timer_out[[3]][9:12,3])
+colnames(tpb) <- colnames(tcl) <- colnames(tmc) <- names(timer_out)
+
+op <- par(mfrow = c(1, 3), las = 1, mar = c(5, 5, 2, 2))
+matplot(c(B, 100, 50, 25), tpb, 
+    type = "l", lty = 1, ylim = c(0, min(200, max(tpb, tcl, tmc))),
+    xlab = "# pb updates", ylab = "proc time (sec)", main = "sequential")
+abline(h = tex, lty = 2, col = 1)
+matplot(c(B/ncl, 100, 50, 25), tcl, 
+    type = "l", lty = 1, ylim = c(0, min(200, max(tpb, tcl, tmc))),
+    xlab = "# pb updates", ylab = "proc time (sec)", main = "cluster")
+abline(h = tex / ncl, lty = 2, col = 1)
+matplot(c(B/ncl, 100, 50, 25), tmc, 
+    type = "l", lty = 1, ylim = c(0, min(200, max(tpb, tcl, tmc))),
+    xlab = "# pb updates", ylab = "proc time (sec)", main = "forking")
+abline(h = tex / ncl, lty = 2, col = 1)
+abline(h = tpbmc[3], lty = 2, col = 2)
+legend("bottomleft", bty = "n", lty = c(1, 1, 1, 2, 2), col = c(1:3, 1, 2),
+    legend = c(names(timer_out), "minimum", "pbmclapply"))
+par(op)
+tpb
+tcl
+tmc
+```
+
+### todo
+
+* calculate system time, pb update time, communication time
+* show that overhead is mostly due to increased communication and not pb update
+* reason that parallel update have to be capped, possibly good for seq???
