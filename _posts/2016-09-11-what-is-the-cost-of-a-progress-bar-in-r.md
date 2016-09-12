@@ -342,7 +342,8 @@ legend("bottomleft", bty = "n", lty = c(1, 1, 1, 2, 2), col = c(1:3, 1, 2),
     legend = c(names(timer_out), "minimum", "pbmclapply"))
 ```
 
-![](pb_files/figure-markdown_github/pb_matplot-1.png)
+![]({{ site.baseurl }}/images/2016/09/11/pb-matplot.png)
+
 
 ``` r
 par(op)
