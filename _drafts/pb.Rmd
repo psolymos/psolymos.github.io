@@ -301,7 +301,7 @@ tpbmc <- system.time(pbmclapply(1:B, fun, mc.cores = ncl))
 ```
 
 
-```{r pb_matplot,fig.height=4,fig.width=10}
+```{r pb_matplot,fig.height=3,fig.width=7}
 tex <- 0.01 * B
 tpb <- cbind(timer_out[[1]][1:3,3], 
     timer_out[[2]][1:3,3], 
