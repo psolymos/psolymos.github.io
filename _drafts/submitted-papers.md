@@ -8,6 +8,22 @@ disqus:
 promote: false
 ---
 
+R. F. Pankratz, R. F., S. Hache, P. Solymos, and E. M. Bayne.
+Detectability of roadside and forest-edge Autonomous Recording Unit-based avian point
+count surveys: implications for the North American Breeding Bird Survey.
+Avian Conservation and Ecology, submitted.
+
+Daniel A. Yip, Lionel Leston, Erin M. Bayne, Peter Selymos, and Alison Grover.
+Standardizing audio recording and human observer detection distance from playback
+experiments for integrated analysis of point count data.
+Avian Conservation and Ecology, submitted.
+
+Steven L. Van Wilgenburg, Peter Solymos, Kevin J. Kardynal, and Matthew D. Frey
+Paired sampling as a pragmatic approach toward
+comparability between point counts conducted by humans
+versus acoustic recorders.
+Avian Conservation and Ecology, submitted.
+
 Cameron J. Nordell; Samuel Hache; Erin M. Bayne; Keith A. Hobson; Peter Solymos; Kenneth Foster; Christine Godwin; Richard Krikun; Peter Pyle.
 Causes and consequences of within-site variation in feather stable hydrogen isotope (\delta^2H) values of boreal songbirds.
 PLoS ONE, under revision.
