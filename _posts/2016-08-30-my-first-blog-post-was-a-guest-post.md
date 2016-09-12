@@ -3,9 +3,9 @@ title: "My first blog post was a guest post"
 layout: default
 category: Etc
 tags: [PVA, publications, Hungary]
-published: false
+published: true
 disqus: petersolymos
-promote: true
+promote: false
 ---
 
 The title says it all. I wrote [this](http://okologiablog.hu/node/219) piece about
