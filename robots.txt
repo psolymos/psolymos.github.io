@@ -1,3 +1,2 @@
 User-agent: *
 Disallow: /journal/
-Disallow: /drafts/
