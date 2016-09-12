@@ -19,10 +19,10 @@ library(parallel)
 parLapply
 ```
 
-    ## function (cl = NULL, X, fun, ...) 
+    ## function (cl = NULL, X, fun, ...)
     ## {
     ##     cl <- defaultCluster(cl)
-    ##     do.call(c, clusterApply(cl, x = splitList(X, length(cl)), 
+    ##     do.call(c, clusterApply(cl, x = splitList(X, length(cl)),
     ##         fun = lapply, fun, ...), quote = TRUE)
     ## }
     ## <bytecode: 0x7fa43b326fc0>
@@ -46,13 +46,13 @@ splitIndices(nx = 10, ncl = 2)
 
     ## [[1]]
     ## [1] 1 2 3 4 5
-    ## 
+    ##
     ## [[2]]
     ## [1]  6  7  8  9 10
 
-The first worker gets one half of the job, while the second gets the rest. On other works, the full problem is split into `ncl` subsets, and those are pushed to the workers in one batch. That is what the next line with `clusterApply` does (it uses `lapply` on each worker passing the `fun`ction etc.). The output object `z` has all the results in the form of list of lists. So the final `do.call` expression puts together the pieces in a single list/vector that can be mapped to the input object `X`.
+The first worker gets one half of the job, while the second gets the rest. In other words, the full problem is split into `ncl` subsets, and those are pushed to the workers in one batch. That is what the next line with `clusterApply` does (it uses `lapply` on each worker passing the `fun`ction etc.). The output object `z` has all the results in the form of list of lists. So the final `do.call` expression puts together the pieces in a single list/vector that can be mapped to the input object `X`.
 
-Here as example taking square of the numbers `11:20` (note: it is good practice to stop the child processes with `stopCluster` when done):
+Here is example taking squares of the numbers `11:20` (note: it is good practice to stop the child processes with `stopCluster` when all done):
 
 ``` r
 ncl <- 2
@@ -74,7 +74,7 @@ fun <- function(x) x^2
 
     ## [[1]]
     ## [1] 11 12 13 14 15
-    ## 
+    ##
     ## [[2]]
     ## [1] 16 17 18 19 20
 
@@ -118,7 +118,7 @@ stopCluster(cl)
 
 ### Progress bar for sequential jobs
 
-Here is a function that shows the basic principle behind the functions in the functions in the **pbapply** package:
+Here is a function that shows the basic principle behind the functions in the **pbapply** package:
 
 ``` r
 library(pbapply)
@@ -138,7 +138,7 @@ pb_fun <- function(X, fun, ...) {
 }
 ```
 
-The example demonstrates that the progress bar is updated at every iteration in the `for` loop, in this case it means 100 updates:
+The example demonstrates that the progress bar is updated at each iteration in the `for` loop, in this case it means 100 updates:
 
 ``` r
 B <- 100
@@ -149,7 +149,7 @@ tmp <- pb_fun(1:B, fun)
 pboptions(pbo)
 ```
 
-If we want to put this updating process together with the parallel evaluation, we need to split the problem in a different way. Suppose we only send one job to each worker at once. We can do that exactly `ceiling(B / ncl)` times. The `splitpb` function takes care of the indices. Using the previous example of 10 jobs and 2 workers, we get:
+If we want to put this updating process together with the parallel evaluation, we need to split the problem in a different way. Suppose we only send one job to each worker at a time. We can do that exactly `ceiling(B / ncl)` times. The `splitpb` function takes care of the indices. Using the previous example of 10 jobs and 2 workers, we get:
 
 ``` r
 splitpb(nx = 10, ncl = 2)
@@ -157,16 +157,16 @@ splitpb(nx = 10, ncl = 2)
 
     ## [[1]]
     ## [1] 1 2
-    ## 
+    ##
     ## [[2]]
     ## [1] 3 4
-    ## 
+    ##
     ## [[3]]
     ## [1] 5 6
-    ## 
+    ##
     ## [[4]]
     ## [1] 7 8
-    ## 
+    ##
     ## [[5]]
     ## [1]  9 10
 
@@ -174,7 +174,7 @@ This gives us 10/2 = 5 occasions for updating the progress bar. And it also mean
 
 ### The cost of the progress bar
 
-To get a sense of the overhead cost associated with the progress bar, here is a prototype function that I used for the developmental version of the **pbapply** package. The `pbapply_test` function takes some of the arguments we have covered before (`X`, `FUN`, `cl`). The only new argument is `nout` which is the maximum number of splits we allow in `splitpb`. `nout = NULL` is the default which gives exactly `ceiling(nx / ncl)` splits.
+To get a sense of the overhead cost associated with the progress bar, here is a prototype function that I used for the developmental version of the **pbapply** package. The `pbapply_test` function takes some of the arguments we have covered before (`X`, `FUN`, `cl`). The only new argument is `nout` which is the maximum number of splits we allow in `splitpb`. `nout = NULL` is the default which gives exactly `ceiling(nx / ncl)` splits. See what happens when we cap that at 4:
 
 ``` r
 splitpb(nx = 10, ncl = 2, nout = 4)
@@ -182,10 +182,10 @@ splitpb(nx = 10, ncl = 2, nout = 4)
 
     ## [[1]]
     ## [1] 1 2 3 4
-    ## 
+    ##
     ## [[2]]
     ## [1] 5 6 7 8
-    ## 
+    ##
     ## [[3]]
     ## [1]  9 10
 
@@ -264,11 +264,11 @@ function (X, FUN, ..., cl = NULL, nout = NULL)
 
 The next function is `test_fun` which has a `type` argument that affects the type of progress bar. We will compare the following three types:
 
--   `"none"`: no progress bar updates, but the function does everything else the same way;
+-   `"none"`: no progress bar updates, but the function does everything else the same way including splitting;
 -   `"txt"`: text progress bar showing percent of jobs completed;
 -   `"timer"`: timer progress bar showing percent of jobs completed with time estimates and final elapsed time.
 
-The no-progress bar case (`"none"`) with `nout = 1` will serve as baseline as in this case the function falls back to `lapply` base function and the parallel equivalents (`parLapply` and `mclapply`).
+The no-progress bar case (`"none"`) with `nout = 1` will serve as baseline as in this case the function falls back to `lapply` and its parallel equivalents (`parLapply` and `mclapply`).
 
 ``` r
 timer_fun <- function(X, FUN, type = "timer") {
@@ -309,45 +309,40 @@ stopCluster(cl)
 
 library(pbmcapply)
 tpbmc <- system.time(pbmclapply(1:B, fun, mc.cores = ncl))
-```
 
-``` r
 tex <- 0.01 * B
-tpb <- cbind(timer_out[[1]][1:3,3], 
-    timer_out[[2]][1:3,3], 
+tpb <- cbind(timer_out[[1]][1:3,3],
+    timer_out[[2]][1:3,3],
     timer_out[[3]][1:3,3])
-tcl <- cbind(timer_out[[1]][4:6,3], 
-    timer_out[[2]][4:6,3], 
+tcl <- cbind(timer_out[[1]][4:6,3],
+    timer_out[[2]][4:6,3],
     timer_out[[3]][4:6,3])
-tmc <- cbind(timer_out[[1]][7:9,3], 
-    timer_out[[2]][7:9,3], 
+tmc <- cbind(timer_out[[1]][7:9,3],
+    timer_out[[2]][7:9,3],
     timer_out[[3]][7:9,3])
 colnames(tpb) <- colnames(tcl) <- colnames(tmc) <- names(timer_out)
 
 op <- par(mfrow = c(1, 3), las = 1, mar = c(5, 5, 2, 2))
-matplot(c(B, 100, 1), tpb, 
+matplot(c(B, 100, 1), tpb,
     type = "l", lty = 1, ylim = c(0, max(tpb, tcl, tmc)),
     xlab = "# pb updates", ylab = "proc time (sec)", main = "sequential")
 abline(h = tex, lty = 2, col = 1)
-matplot(c(B/ncl, 100, 1), tcl, 
+matplot(c(B/ncl, 100, 1), tcl,
     type = "l", lty = 1, ylim = c(0, max(tpb, tcl, tmc)),
     xlab = "# pb updates", ylab = "proc time (sec)", main = "cluster")
 abline(h = tex / ncl, lty = 2, col = 1)
-matplot(c(B/ncl, 100, 1), tmc, 
+matplot(c(B/ncl, 100, 1), tmc,
     type = "l", lty = 1, ylim = c(0, max(tpb, tcl, tmc)),
     xlab = "# pb updates", ylab = "proc time (sec)", main = "forking")
 abline(h = tex / ncl, lty = 2, col = 1)
 abline(h = tpbmc[3], lty = 2, col = 2)
 legend("bottomleft", bty = "n", lty = c(1, 1, 1, 2, 2), col = c(1:3, 1, 2),
     legend = c(names(timer_out), "minimum", "pbmclapply"))
+    par(op)
 ```
 
 ![]({{ site.baseurl }}/images/2016/09/11/pb-matplot.png)
 
-
-``` r
-par(op)
-```
 
 ### Conclusions
 
@@ -358,9 +353,9 @@ Here is the summary based on the plots (note: some variation exists from one run
 -   the parallel runs showed a linear relationship between number of updates and processing times;
 -   impact on processing times was greater when using forking mechanism.
 
-It is clear from the results that the time required for updating/printing the progress bar is not the real bottleneck. If it was the bottleneck, we would see differences between the types. Moreover, event the `"none"` type led to worse performance when running in parallel. It is clearly the increased communication overhead that is driving the timings, i.e. how many times we split-pass-collect the jobs. The situation is worst when using forking. The `pbmclapply` function performs well because it uses [**future**](https://cran.r-project.org/web/packages/future/index.html) expectations without disrupting the forking process (i.e. no unnecessary splits introduced).
+It is clear from the results that the time required for updating/printing the progress bar is not the real bottleneck. If it was the bottleneck, we would see differences between the types. Moreover, event the `"none"` type led to worse performance when running in parallel. It is clearly the increased communication overhead that is driving the timings, i.e. how many times we split-pass-collect the jobs. The situation is worst when using forking. The `pbmclapply` function performs well because it uses [**future**](https://cran.r-project.org/web/packages/future/index.html) expectations without creating multiple forking processes (i.e. no unnecessary splits introduced).
 
-Splitting the problem too many times severely impacts performance. It is thus a good idea to cap the number of progress bar updates when running in parallel. Another consideration in favor of this is that sometimes too many updates (i.e. tens of thousands) can clear the console output (similarly to `cat("\014")`, the equivalent of Ctrl+L). To prevent that, capping the number of updates could be a helpful again. For example updating 10 thousand times is pointless when results (percentage etc.) do not change much. It is like going beyond 24 frames per second for an animation: no one can recognize the difference but it makes production more expensive.
+Splitting the problem too many times severely impacts performance. It is thus a good idea to cap the number of progress bar updates when running in parallel. Another consideration in favor of this is that sometimes too many updates (i.e. tens of thousands) can clear the console output (similarly to `cat("\014")`, the equivalent of Ctrl+L). To prevent that, capping the number of updates could be helpful again. For example, updating 10 thousand times is pointless when results (percentage etc.) do not change much. It is like going beyond 24 frames per second for an animation: no one can recognize the difference but it makes production more expensive.
 
 As a compromise, I came up with `nout = 100` as a default value being stored as part of the progress bar options (`pboptions`). If one wishes to play slow-motion with the progress bar use the following line:
 
@@ -368,7 +363,7 @@ As a compromise, I came up with `nout = 100` as a default value being stored as 
 pboptions(nobs = NULL)
 ```
 
-Those users who are desperate to see a progress bar while running parallel jobs, it is now available in the GitHub repository. More testing and fine tuning is required before it makes into the master branch and ultimate to CRAN. In the meantime, check it out as:
+Those users who are desperate to see a progress bar while running parallel jobs, it is now available in the GitHub repository. More testing and fine tuning is required before the update finds its way to the master branch and ultimate to CRAN. In the meantime, check it out as:
 
 ``` r
 devtools::install_github("psolymos/pbapply", ref = "pb-parallel")
