@@ -3,7 +3,7 @@ title: "My first blog post was a guest post"
 layout: default
 category: Etc
 tags: [PVA, publications, Hungary]
-published: true
+published: false
 disqus: petersolymos
 promote: true
 ---
