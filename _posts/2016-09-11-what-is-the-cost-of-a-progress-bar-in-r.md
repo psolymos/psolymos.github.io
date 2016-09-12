@@ -363,7 +363,7 @@ As a compromise, I came up with `nout = 100` as a default value being stored as 
 pboptions(nobs = NULL)
 ```
 
-Those users who are desperate to see a progress bar while running parallel jobs, it is now available in the GitHub repository. More testing and fine tuning is required before the update finds its way to the master branch and ultimate to CRAN. In the meantime, check it out as:
+Those users who are desperate to see a progress bar while running parallel jobs, it is now available in the GitHub repository. More testing and fine tuning is required before the update finds its way to the master branch and ultimately to CRAN. In the meantime, check it out as:
 
 ``` r
 devtools::install_github("psolymos/pbapply", ref = "pb-parallel")
