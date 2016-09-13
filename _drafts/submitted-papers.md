@@ -8,6 +8,13 @@ disqus:
 promote: false
 ---
 
+
+Lionel Leston, Erin Bayne, C. Lisa Mahon, Peter Solymos, Jeff Ball, Jim Schieck,
+Fiona Schmiegelow, and Samantha Song.
+Assessing the efficacy of local control-impact models to predict
+cumulative effects on boreal birds.
+Environmental Monitoring and Assessment
+
 R. F. Pankratz, R. F., S. Hache, P. Solymos, and E. M. Bayne.
 Detectability of roadside and forest-edge Autonomous Recording Unit-based avian point
 count surveys: implications for the North American Breeding Bird Survey.
