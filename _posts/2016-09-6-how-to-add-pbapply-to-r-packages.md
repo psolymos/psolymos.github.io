@@ -1,5 +1,5 @@
 ---
-title: "How to add pbapply to R packages?"
+title: "How to add pbapply to R packages"
 layout: default
 published: true
 category: Code
