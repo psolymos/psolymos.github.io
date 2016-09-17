@@ -14,7 +14,7 @@ layout: default
 
 {% for item in (0..site.tags.size) %}{% unless forloop.last %}
   {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-<h3 id="{{ this_word | slugify }}">{{ this_word | capitalize }}</h3>
+<h3 id="{{ this_word | slugify }}">{{ this_word }}</h3>
 <ul class="list-unstyled">
   {% for post in site.tags[this_word] %}{% if post.title != null %}
   <li itemscope><span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span> &mdash; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
