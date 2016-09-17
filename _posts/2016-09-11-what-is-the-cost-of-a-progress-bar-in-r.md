@@ -5,7 +5,7 @@ published: true
 category: Code
 tags: [R, pbapply, progress bar, processing time]
 disqus: petersolymos
-promote: true
+promote: false
 ---
 
 The [**pbapply**](http://cran.r-project.org/package=pbapply) R package adds progress bar to vectorized functions, like `lapply`. A [feature request](https://github.com/psolymos/pbapply/issues/9) regarding progress bar for parallel functions has been sitting at the development GitHub repository for a few months. More recently, the author of the [**pbmcapply**](https://cran.r-project.org/web/packages/pbmcapply/index.html) package dropped a note about his implementation of forking functionality with progress bar for Unix/Linux computers, which got me thinking. How should we add progress bar to snow type clusters? Which led to more important questions: what is the real cost of the progress bar and how can we reduce overhead on process times?
