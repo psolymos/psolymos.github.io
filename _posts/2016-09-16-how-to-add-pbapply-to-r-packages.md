@@ -36,7 +36,7 @@ use conditional statements in the code to fall back on a base functions
 in case of **pbapply** is not being installed:
 
 ```
-out <- if (requireNamespace("pbapply"))
+out <- if (requireNamespace("pbapply", quietly = TRUE))
    pbapply::pblapply(X, FUN, ...) else lapply(X, FUN, ...)
 ```
 
