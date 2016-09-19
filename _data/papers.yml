@@ -1,24 +1,24 @@
 #
 #------------------------- 2016 ------------------------------
 #
-- id: Nordell2016
-  type: paper
-  year: 2016
-  text: "Nordell, C. J., Hach&eacute;, S., Bayne, E. M., Hobson, K. A., <strong>S&oacute;lymos, P.</strong>, Foster, K., Godwin, C. Krikun, R., and Pyle, P., 2016. Causes and consequences of within-site variation in feather stable hydrogen isotope (&delta;<sup>2</sup>H) values of boreal songbirds. <strong>PLoS ONE</strong>, xx:xx&ndash;xx."
-  link: "http://journals.plos.org/plosone/"
-  fulltext:
-  code:
-  supportinginfo:
-  doi:
-- id: Denes2016
-  type: paper
-  year: 2016
-  text: "Denes, F., <strong>S&oacute;lymos, P.</strong>, Lele, S. R., Silveira, L., and Beissinger, S., 2016. Biome scale signatures of land use change on raptor abundance: insights from single-visit detection-based models. <strong>Journal of Applied Ecology</strong>, xx:xx&ndash;xx."
-  link: "http://www.journalofappliedecology.org/"
-  fulltext:
-  code:
-  supportinginfo:
-  doi:
+#- id: Nordell2016
+#  type: paper
+#  year: 2016
+#  text: "Nordell, C. J., Hach&eacute;, S., Bayne, E. M., Hobson, K. A., <strong>S&oacute;lymos, P.</strong>, Foster, K., Godwin, C. Krikun, R., and Pyle, P., 2016. Causes and consequences of within-site variation in feather stable hydrogen isotope (&delta;<sup>2</sup>H) values of boreal songbirds. <strong>PLoS ONE</strong>, xx:xx&ndash;xx."
+#  link: "http://journals.plos.org/plosone/"
+#  fulltext:
+#  code:
+#  supportinginfo:
+#  doi:
+#- id: Denes2016
+#  type: paper
+#  year: 2016
+#  text: "Denes, F., <strong>S&oacute;lymos, P.</strong>, Lele, S. R., Silveira, L., and Beissinger, S., 2016. Biome scale signatures of land use change on raptor abundance: insights from single-visit detection-based models. <strong>Journal of Applied Ecology</strong>, xx:xx&ndash;xx."
+#  link: "http://www.journalofappliedecology.org/"
+#  fulltext:
+#  code:
+#  supportinginfo:
+#  doi:
 - id: Mahon2016
   type: paper
   year: 2016
