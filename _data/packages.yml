@@ -1,3 +1,33 @@
+- pkgname: pbapply
+  title: "Adding progress bar to '*apply' functions"
+  description: "A lightweight package that adds progress bar to vectorized R functions ('*apply'). The implementation can easily be added to functions where showing the progress is useful (e.g. bootstrap). The type and style of the progress bar (with percentages or remaining time) can be set through options."
+  tutorial:
+  paper:
+  devel: psolymos
+- pkgname: vegan
+  title: "Community ecology package"
+  description: "Ordination methods, diversity analysis and other functions for community and vegetation ecologists. A collaborative project with Jari Oksanen as lead developer. Contributing to the package with diversity analysis and community nullmodels."
+  tutorial: "<a href=\"http://cran.r-project.org/web/packages/vegan/index.html\">vignettes</a>"
+  paper:
+  devel: vegandevs
+- pkgname: ResourceSelection
+  title: "Resource selection (probability) functions for use-availability data"
+  description: "Resource Selection (Probability) Functions for use-availability wildlife data."
+  tutorial:
+  paper: "<a href=\"http://www.esajournals.org/doi/abs/10.1890/0012-9658%282006%2987%5B3021:WDAEOR%5D2.0.CO;2\">Lele & Keim 2006</a>, <a href=\"http://www.bioone.org/doi/abs/10.2193/2007-535\">Lele 2009</a>"
+  devel: psolymos
+- pkgname: mefa4
+  title: "Multivariate data handling with S4 classes and sparse matrices"
+  description: "Multivariate data handling using sparse matrices for big data problems."
+  tutorial: "<a href=\"http://cran.r-project.org/web/packages/mefa4/vignettes/mefa4.pdf\">vignette</a>"
+  paper: "<a href=\"http://www.jstatsoft.org/v29/i08/\">S&oacute;lymos 2009</a>"
+  devel: psolymos
+- pkgname: detect
+  title: "Analyzing wildlife data with detection error"
+  description: "Analyzing wildlife data with detection error. Zero inflated models for single visit data when the probability of detection is less than one. Provides hands-on formula interface with inferences based on numerical optimization and data cloning"
+  tutorial:
+  paper:
+  devel: psolymos
 - pkgname: dclone
   title: "Data cloning and MCMC tools for maximum likelihood methods"
   description: "Low level functions for implementing maximum likelihood estimating procedures for complex models using data cloning and Bayesian Markov chain Monte Carlo methods with support for JAGS, WinBUGS, OpenBUGS (and STAN). It contains features for parallel computing. Read mode on <a href='http://datacloning.org'>datacloning.org</a>"
@@ -10,18 +40,6 @@
   tutorial:
   paper:
   devel: datacloning
-- pkgname: detect
-  title: "Analyzing wildlife data with detection error"
-  description: "Analyzing wildlife data with detection error. Zero inflated models for single visit data when the probability of detection is less than one. Provides hands-on formula interface with inferences based on numerical optimization and data cloning"
-  tutorial:
-  paper:
-  devel: psolymos
-- pkgname: ResourceSelection
-  title: "Resource selection (probability) functions for use-availability data"
-  description: "Resource Selection (Probability) Functions for use-availability wildlife data."
-  tutorial:
-  paper: "<a href=\"http://www.esajournals.org/doi/abs/10.1890/0012-9658%282006%2987%5B3021:WDAEOR%5D2.0.CO;2\">Lele & Keim 2006</a>, <a href=\"http://www.bioone.org/doi/abs/10.2193/2007-535\">Lele 2009</a>"
-  devel: psolymos
 - pkgname: PVAClone
   title: "Population viability analysis with data cloning"
   description: "Likelihood based population viability analysis in the presence of observation error and missing data. The package can be used to fit, compare, predict, and forecast various growth model types using data cloning."
@@ -40,21 +58,3 @@
   tutorial: "<a href=\"http://cran.r-project.org/web/packages/mefa/vignettes/mefa.pdf\">vignette</a>"
   paper: "<a href=\"http://www.jstatsoft.org/v29/i08/\">S&oacute;lymos 2009</a>"
   devel: psolymos
-- pkgname: mefa4
-  title: "Multivariate data handling with S4 classes and sparse matrices"
-  description: "Multivariate data handling using sparse matrices for big data problems."
-  tutorial: "<a href=\"http://cran.r-project.org/web/packages/mefa4/vignettes/mefa4.pdf\">vignette</a>"
-  paper: "<a href=\"http://www.jstatsoft.org/v29/i08/\">S&oacute;lymos 2009</a>"
-  devel: psolymos
-- pkgname: pbapply
-  title: "Adding progress bar to '*apply' functions"
-  description: "A lightweight package that adds progress bar to vectorized R functions ('*apply'). The implementation can easily be added to functions where showing the progress is useful (e.g. bootstrap). The type and style of the progress bar (with percentages or remaining time) can be set through options."
-  tutorial:
-  paper:
-  devel: psolymos
-- pkgname: vegan
-  title: "Community ecology package"
-  description: "Ordination methods, diversity analysis and other functions for community and vegetation ecologists. A collaborative project with Jari Oksanen as lead developer. Contributing to the package with diversity analysis and community nullmodels."
-  tutorial: "<a href=\"http://cran.r-project.org/web/packages/vegan/index.html\">vignettes</a>"
-  paper:
-  devel: vegandevs
