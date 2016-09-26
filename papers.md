@@ -6,13 +6,27 @@ years: [2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2005, 2004, 
 ---
 
 <div class="btn-group btn-group-justified">
-  <a href="http://scholar.google.ca/citations?hl=en&user=PfC17QsAAAAJ&view_op=list_works&pagesize=100" class="btn btn-default">Google Scholar</a>
-  <a href="http://orcid.org/0000-0001-7337-1740" class="btn btn-default">ORCID</a>
-<!--  <a href="https://vm.mtmt.hu/www/index.php?AuthorID=10000580" class="btn btn-default">MTMT</a>
-  <a href="http://www.researcherid.com/rid/B-2775-2008" class="btn btn-default">ResearcherID</a>
-  <a href="http://www.scopus.com/authid/detail.url?authorId=23104106300" class="btn btn-default">ScopusID</a> -->
-  <a href="https://publons.com/a/534081/" class="btn btn-default">Publons</a>
-  <a href="https://drive.google.com/folderview?id=0B-q59n6LIwYPflA4aHVydEx5aFY5MUZtdFRvcG11NWNUc3ljOTdsSlFSSHRDdHJVMDEyWXc&usp=sharing" class="btn btn-default"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Browse</a>
+
+  <div class="btn-group">
+    <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Bibliometrics <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+    <ul class="dropdown-menu">
+      <li><a href="http://scholar.google.ca/citations?hl=en&user=PfC17QsAAAAJ&view_op=list_works&pagesize=100" class="btn btn-default">Google Scholar</a></li>
+      <li><a href="http://orcid.org/0000-0001-7337-1740" class="btn btn-default">ORCID</a></li>
+    <!--  <li><a href="https://vm.mtmt.hu/www/index.php?AuthorID=10000580" class="btn btn-default">MTMT</a></li> -->
+      <li><a href="http://www.researcherid.com/rid/B-2775-2008" class="btn btn-default">ResearcherID</a></li>
+      <li><a href="http://www.scopus.com/authid/detail.url?authorId=23104106300" class="btn btn-default">ScopusID</a></li>
+     </ul>
+  </div>
+
+  <div class="btn-group">
+    <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Resources <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+    <ul class="dropdown-menu">
+      <li><a href="https://publons.com/a/534081/" class="btn btn-default">Publons</a></li>
+      <li><a href="https://drive.google.com/folderview?id=0B-q59n6LIwYPflA4aHVydEx5aFY5MUZtdFRvcG11NWNUc3ljOTdsSlFSSHRDdHJVMDEyWXc&usp=sharing" class="btn btn-default">Browse <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+      <li><a href="https://sites.google.com/site/psolymosold/publications/nonrefereed">Non refereed stuff</a></li>
+     </ul>
+  </div>
+
   <div class="btn-group">
     <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Jump to a year <i class="fa fa-caret-down" aria-hidden="true"></i></a>
     <ul class="dropdown-menu">
