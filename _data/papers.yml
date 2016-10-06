@@ -1,15 +1,15 @@
 #
 #------------------------- 2016 ------------------------------
 #
-#- id: Denes2016
-#  type: paper
-#  year: 2016
-#  text: "Denes, F., <strong>S&oacute;lymos, P.</strong>, Lele, S. R., Silveira, L., and Beissinger, S., 2016. Biome scale signatures of land use change on raptor abundance: insights from single-visit detection-based models. <strong>Journal of Applied Ecology</strong>, xx:xx&ndash;xx."
-#  link: "http://www.journalofappliedecology.org/"
-#  fulltext:
-#  code:
-#  supportinginfo:
-#  doi:
+- id: Denes2016
+  type: paper
+  year: 2016
+  text: "D&eacute;nes, F., <strong>S&oacute;lymos, P.</strong>, Lele, S. R., Silveira, L., and Beissinger, S., 2016. Biome scale signatures of land use change on raptor abundance: insights from single-visit detection-based models. <strong>Journal of Applied Ecology</strong>, xx:xx&ndash;xx."
+  link: "http://www.journalofappliedecology.org/"
+  fulltext:
+  code:
+  supportinginfo:
+  doi:
 - id: Nordell2016
   type: paper
   year: 2016
