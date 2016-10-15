@@ -5,7 +5,8 @@ layout: default
 ---
 
 <p id="checks-external">Package checks at <a href="http://cran.r-project.org/web/checks/check_summary_by_maintainer.html#address:solymos_at_ualberta.ca">CRAN checks</a> &mdash;
-<a href="https://travis-ci.org/psolymos">Travis Continuous Integration</a></p>
+<a href="https://travis-ci.org/psolymos">Travis Continuous Integration</a> &mdash;
+<a href="https://codecov.io/gh/psolymos/">Code Coverage</a></p>
 
 {% for pkg in site.data.packages %}
 <h3 id="code-{{ pkg.pkgname | downcase }}">{{ pkg.pkgname }}: {{ pkg.title }}</h3>
