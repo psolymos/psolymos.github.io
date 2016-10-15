@@ -5,7 +5,7 @@ published: true
 category: Code
 tags: [R, pbapply, progress bar, R packages, dependencies]
 disqus: petersolymos
-promote: true
+promote: false
 ---
 
 As of today, there are 20 R packages that reverse depend/import/suggest (3/14/3)
