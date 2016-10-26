@@ -23,7 +23,7 @@ years: [2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2005, 2004, 
     <ul class="dropdown-menu">
       <li><a href="https://publons.com/a/534081/">Publons</a></li>
       <li><a href="https://drive.google.com/folderview?id=0B-q59n6LIwYPflA4aHVydEx5aFY5MUZtdFRvcG11NWNUc3ljOTdsSlFSSHRDdHJVMDEyWXc&usp=sharing">Browse <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-      <li><a href="https://sites.google.com/site/psolymosold/publications/nonrefereed">Non refereed stuff</a></li>
+      <li><a href="https://sites.google.com/site/psolymosold/publications/nonrefereed">Not peer-reviewed stuff</a></li>
      </ul>
   </div>
 
