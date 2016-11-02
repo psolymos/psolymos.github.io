@@ -23,11 +23,11 @@
   type: paper
   year: 2016
   text: "Nordell, C. J., Hach&eacute;, S., Bayne, E. M., <strong>S&oacute;lymos, P.</strong>, Foster, K., Godwin, C. Krikun, R., Pyle, P., and Hobson, K. A., 2016. Within-site variation in feather stable hydrogen isotope (&delta;<sup>2</sup>H<sub>f</sub>) values of boreal songbirds: implications for assignment to molt origin. <strong>PLoS ONE</strong>, xx:xx&ndash;xx."
-  link: "http://journals.plos.org/plosone/"
-  fulltext:
+  link: "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0163957"
+  fulltext: "http://journals.plos.org/plosone/article/asset?id=10.1371/journal.pone.0163957.PDF"
   code:
   supportinginfo:
-  doi:
+  doi: 10.1371/journal.pone.0163957
 - id: Mahon2016
   type: paper
   year: 2016
