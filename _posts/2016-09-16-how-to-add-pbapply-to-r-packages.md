@@ -16,7 +16,8 @@ in their packages to better suit the needs of certain functions
 or to create a distinctive look.
 Here is a quick guide to help in setting up and customizing the progress bar.
 
-![](https://github.com/psolymos/pbapply/raw/master/images/pbapply-01.gif)
+<img src="https://github.com/psolymos/pbapply/raw/master/images/pbapply-01.gif" class="img-responsive" alt="pbapply gif">
+
 
 ## Adding pbapply
 

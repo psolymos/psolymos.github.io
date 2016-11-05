@@ -105,7 +105,7 @@ here is the daily trend plot with percent annual trend estimates:
 plot_pkg_trend("Rcpp")
 ```
 
-![]({{ site.baseurl }}/images/2016/08/23/plot1.png)
+<img src="{{ site.baseurl }}/images/2016/08/23/plot1.png" class="img-responsive" alt="Plot 1">
 
 The increase is clear with increasing day-to-day variation
 suggesting that the log-linear model might be appropriate.
@@ -128,7 +128,7 @@ plot_pkg_trend("mefa4")
 par(op)
 ```
 
-![]({{ site.baseurl }}/images/2016/08/23/plot2.png)
+<img src="{{ site.baseurl }}/images/2016/08/23/plot2.png" class="img-responsive" alt="Plot 2">
 
 Two of them increasing nicely, the other two are showing
 some leveling-off. And finally,
@@ -143,7 +143,7 @@ x <- plot_pkg_trend("plotrix")
 par(op)
 ```
 
-![]({{ site.baseurl }}/images/2016/08/23/plot3.png)
+<img src="{{ site.baseurl }}/images/2016/08/23/plot3.png" class="img-responsive" alt="Plot 3">
 
 My approach as outlined here works for packages that have been with us
 since 2013. However, there are packages that went extinct (orphaned,

@@ -5,11 +5,11 @@ published: true
 category: Code
 tags: [R, pbapply, progress bar, plyr]
 disqus: petersolymos
-promote: true
+promote: false
 ---
 
 As a testament to my obsession with progress bars in R, here is
-a quick investigation about the overhead cost of 
+a quick investigation about the overhead cost of
 drawing a progress bar during computations in R.
 I compared several approaches including
 my **pbapply** and Hadley Wickham's **plyr**.
@@ -41,18 +41,18 @@ lapply_pb <- function(X, FUN, ...) {
 
 f <- function(n, type = "lapply", s = 0.1) {
     i <- seq_len(n)
-    out <- switch(type, 
-        "lapply" = system.time(lapply(i, function(i) Sys.sleep(s))), 
-        "lapply_pb" = system.time(lapply_pb(i, function(i) Sys.sleep(s))), 
-        "l_ply" = system.time(l_ply(i, function(i) 
-            Sys.sleep(s), .progress="text")), 
+    out <- switch(type,
+        "lapply" = system.time(lapply(i, function(i) Sys.sleep(s))),
+        "lapply_pb" = system.time(lapply_pb(i, function(i) Sys.sleep(s))),
+        "l_ply" = system.time(l_ply(i, function(i)
+            Sys.sleep(s), .progress="text")),
         "pblapply" = system.time(pblapply(i, function(i) Sys.sleep(s))))
     unname(out["elapsed"] - (n * s))
 }
 ```
 
 Use the function `f` to run all four variants. The expected run time
-is `n * s` (number of iterations x sleep duration), 
+is `n * s` (number of iterations x sleep duration),
 therefore we can calculate the overhead from the
 return objects as elapsed minus expected. Let's get some numbers
 for a variety of `n` values and replicated `B` times
@@ -85,7 +85,7 @@ par(op)
 dev.off()
 ```
 
-![]({{ site.baseurl }}/images/2016/10/15/pb-overhead.png)
+<img src="{{ site.baseurl }}/images/2016/10/15/pb-overhead.png" class="img-responsive" alt="Progress bar overhead">
 
 The plot tells us that the overhead increases linearly
 with the number of iterations when using `lapply`

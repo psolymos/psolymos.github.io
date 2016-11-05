@@ -342,7 +342,7 @@ legend("bottomleft", bty = "n", lty = c(1, 1, 1, 2, 2), col = c(1:3, 1, 2),
     par(op)
 ```
 
-![]({{ site.baseurl }}/images/2016/09/11/pb-matplot.png)
+<img src="{{ site.baseurl }}/images/2016/09/11/pb-matplot.png" class="img-responsive" alt="Plot">
 
 
 ### Conclusions
