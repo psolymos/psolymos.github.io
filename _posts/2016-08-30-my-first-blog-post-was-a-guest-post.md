@@ -46,7 +46,6 @@ Year | Count
 2014 | 114
 2015 | 108
 
-![]({{ site.baseurl }}/images/2016/08/30/pva-2.png)
 <img src="{{ site.baseurl }}/images/2016/08/30/pva-2.png" class="img-responsive" alt="PVA">
 
 
