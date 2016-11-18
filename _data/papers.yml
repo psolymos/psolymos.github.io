@@ -1,10 +1,19 @@
 #
 #------------------------- 2016 ------------------------------
 #
+- id: Yip2016a
+  type: paper
+  year: 2016
+  text: "Yip, D. A., Bayne, E. M., <strong>S&oacute;lymos, P.</strong>, Campbell, and Proppe, J. D., 2016. Sound attenuation in forested and roadside environments: implications for avian point count surveys. <strong>Condor</strong>, xx:xx&ndash;xx."
+  link: "http://www.bioone.org/loi/cond"
+  fulltext:
+  code:
+  supportinginfo:
+  doi:
 - id: Ball2016
   type: paper
   year: 2016
-  text: "Ball, J. R., <strong>S&oacute;lymos, P.</strong>, Schmiegelow, F. A. K., Hach&eacute;, S., Schieck, J., Bayne, E. M., 2016. Regional habitat needs of a nationally listed species, Canada Warbler <em>Cardellina canadensis</em>, in Alberta, Canada. <strong>Avian Conservation and Ecology</strong>, xx:xx&ndash;xx."
+  text: "Ball, J. R., <strong>S&oacute;lymos, P.</strong>, Schmiegelow, F. A. K., Hach&eacute;, S., Schieck, J., and Bayne, E. M., 2016. Regional habitat needs of a nationally listed species, Canada Warbler <em>Cardellina canadensis</em>, in Alberta, Canada. <strong>Avian Conservation and Ecology</strong>, xx:xx&ndash;xx."
   link: "http://www.ace-eco.org/"
   fulltext:
   code:
