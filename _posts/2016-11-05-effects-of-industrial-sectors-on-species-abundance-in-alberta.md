@@ -5,7 +5,7 @@ published: true
 category: Etc
 tags: [monitoring, ABMI, footprint, species, biodiversity, sector effects]
 disqus: petersolymos
-promote: true
+promote: false
 ---
 
 Transformation of native habitat by human activity is
