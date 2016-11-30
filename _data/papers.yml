@@ -13,12 +13,12 @@
 - id: Ball2016
   type: paper
   year: 2016
-  text: "Ball, J. R., <strong>S&oacute;lymos, P.</strong>, Schmiegelow, F. A. K., Hach&eacute;, S., Schieck, J., and Bayne, E. M., 2016. Regional habitat needs of a nationally listed species, Canada Warbler <em>Cardellina canadensis</em>, in Alberta, Canada. <strong>Avian Conservation and Ecology</strong>, xx:xx&ndash;xx."
-  link: "http://www.ace-eco.org/"
-  fulltext:
+  text: "Ball, J. R., <strong>S&oacute;lymos, P.</strong>, Schmiegelow, F. A. K., Hach&eacute;, S., Schieck, J., and Bayne, E. M., 2016. Regional habitat needs of a nationally listed species, Canada Warbler <em>Cardellina canadensis</em>, in Alberta, Canada. <strong>Avian Conservation and Ecology</strong>, 11(2):10."
+  link: "http://www.ace-eco.org/vol11/iss2/art10/"
+  fulltext: "http://www.ace-eco.org/vol11/iss2/art10/ACE-ECO-2016-916.pdf"
   code:
   supportinginfo:
-  doi:
+  doi: 10.5751/ACE-00916-110210
 - id: Denes2016
   type: paper
   year: 2016
