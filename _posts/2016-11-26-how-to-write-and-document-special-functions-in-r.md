@@ -8,7 +8,7 @@ disqus: petersolymos
 promote: true
 ---
 
-I spend a considerable time of my working hours with data processing where I often use the `%in%` R function as `x %in% y`. Whenever I need the negation of that, I used to write `!(x %in% y)`. Not much of a hassle, but still, wouldn't it be nicer to have `x %notin% y` instead? So I decided to code it for my [**mefa4**](https://CRAN.R-project.org/package=mefa4) package that I maintain primarily to make my data munging time shorter and more efficient. Coding a `%special%` function was no big deal. But I had to do quite a bit of research and trial-error until I figured out the proper documentation. So here it goes.
+I spend a considerable portion of my working hours with data processing where I often use the `%in%` R function as `x %in% y`. Whenever I need the negation of that, I used to write `!(x %in% y)`. Not much of a hassle, but still, wouldn't it be nicer to have `x %notin% y` instead? So I decided to code it for my [**mefa4**](https://CRAN.R-project.org/package=mefa4) package that I maintain primarily to make my data munging time shorter and more efficient. Coding a `%special%` function was no big deal. But I had to do quite a bit of research and trial-error until I figured out the proper documentation. So here it goes.
 
 ## The function
 
@@ -46,8 +46,8 @@ This is where things get are a bit more interesting. The LaTeX engine needs the 
 Negated Value Matching
 }
 \description{
-\code{\%notin\%} is the negation of \code{\link{\%in\%}}, 
-which returns a logical vector indicating if there is a non-match or not 
+\code{\%notin\%} is the negation of \code{\link{\%in\%}},
+which returns a logical vector indicating if there is a non-match or not
 for its left operand.
 }
 \usage{
@@ -62,7 +62,7 @@ vector or \code{NULL}: the values to be matched against.
 }
 }
 \value{
-A logical vector, indicating if a non-match was located for each element of 
+A logical vector, indicating if a non-match was located for each element of
 \code{x}: thus the values are \code{TRUE} or \code{FALSE} and never \code{NA}.
 }
 \author{
@@ -79,3 +79,10 @@ sstr[sstr \%notin\% c(letters, LETTERS)]
 \keyword{manip}
 \keyword{logic}
 ```
+
+**UPDATE**
+
+Some updates from the comments:
+
+* From Marcin: One can use [**roxygen2**](https://cran.r-project.org/package=roxygen2) for writing package documentation, see the [**magrittr**](https://cran.r-project.org/package=magrittr) package docs on the [%>% (pipe)](https://github.com/tidyverse/magrittr/blob/master/R/pipe.R) operator.
+* From Andrey: The [**Hmisc**](https://cran.r-project.org/package=Hmisc) package also has a similar `%nin%` function (`{match(x, table, nomatch = 0) == 0}`). (Note that the unexported `Matrix:::"%nin%"` is defined as `{is.na(match(x, table))}`.)
