@@ -84,5 +84,5 @@ sstr[sstr \%notin\% c(letters, LETTERS)]
 
 Some updates from the comments:
 
-* From Marcin: One can use [**roxygen2**](https://cran.r-project.org/package=roxygen2) for writing package documentation, see the [**magrittr**](https://cran.r-project.org/package=magrittr) package docs on the [%>% (pipe)](https://github.com/tidyverse/magrittr/blob/master/R/pipe.R) operator.
+* From Marcin: One can use [**roxygen2**](https://cran.r-project.org/package=roxygen2) for writing package documentation, see the [**magrittr**](https://cran.r-project.org/package=magrittr) package docs on the [`%>%` (pipe)](https://github.com/tidyverse/magrittr/blob/master/R/pipe.R) operator.
 * From Andrey: The [**Hmisc**](https://cran.r-project.org/package=Hmisc) package also has a similar `%nin%` function (`{match(x, table, nomatch = 0) == 0}`). (Note that the unexported `Matrix:::"%nin%"` is defined as `{is.na(match(x, table))}`.)
