@@ -8,12 +8,12 @@ disqus: petersolymos
 promote: true
 ---
 
-I recently posted a piece about [how to write and document special functions in R](http://peter.solymos.org/code/2016/11/26/how-to-write-and-document-special-functions-in-r.html). I meant that as a prelude for the topic I am writing about in this post. Let me start at the beginning. The other day Dirk Eddelbuettel tweeted about the new release of the [**data.table**](https://cran.r-project.org/package=data.table) package (v1.9.8). 
+I recently posted a piece about [how to write and document special functions in R](http://peter.solymos.org/code/2016/11/26/how-to-write-and-document-special-functions-in-r.html). I meant that as a prelude for the topic I am writing about in this post. Let me start at the beginning. The other day Dirk Eddelbuettel tweeted about the new release of the [**data.table**](https://cran.r-project.org/package=data.table) package (v1.9.8).
 There were [new features announced](https://cran.r-project.org/web/packages/data.table/news.html) for joins based on `%inrange%` and `%between%`. That got me thinking: it would be really cool to generalize this idea for different intervals, for example as `x %[]% c(a, b)`.
 
 ## Motivation
 
-We want to evaluate if values of `x` satisfy the condition `x >= a & x <= b` given that `a <= b`. Typing `x %[]% c(a, b)` instead of the previous expression is not much shorter (14 vs. 15 characters with counting spaces). But considering the `a <= b` condition as well, it becomes a saving (`x >= min(a, b) & x <= mmax(a, b)` is 31 characters long). And sorting is really important, because by flipping `a` and `b`, we get quite different answers: 
+We want to evaluate if values of `x` satisfy the condition `x >= a & x <= b` given that `a <= b`. Typing `x %[]% c(a, b)` instead of the previous expression is not much shorter (14 vs. 15 characters with counting spaces). But considering the `a <= b` condition as well, it becomes a saving (`x >= min(a, b) & x <= mmax(a, b)` is 31 characters long). And sorting is really important, because by flipping `a` and `b`, we get quite different answers:
 
 ```
 x <- 5
@@ -36,7 +36,7 @@ If interval endpoints can also be open or closed, and allowing them to flip arou
 
 ## What's in the package
 
-Functions for evaluating if values of vectors are within 
+Functions for evaluating if values of vectors are within
 different open/closed intervals
 (`x %[]% c(a, b)`), or if two closed
 intervals overlap (`c(a1, b1) %[o]% c(a2, b2)`).
@@ -47,7 +47,7 @@ Operators for negation and directional relations also implemented.
 Values of `x` are compared to interval endpoints `a` and `b` (`a <= b`).
 Endpoints can be defined as a vector with two values (`c(a, b)`): these values will be compared as a single interval with each value in `x`.
 If endpoints are stored in a matrix-like object or a list,
-comparisons are made element-wise. 
+comparisons are made element-wise.
 
 ```
 x <- rep(4, 5)
@@ -85,16 +85,16 @@ Eqal     | Not equal | Less than | Greater than
  `%(]%`  | `%](%`    | `%(<]%`   | `%(>]%`
  `%()%`  | `%][%`    | `%(<)%`   | `%(>)%`
 
-The helper function `intrval_types` can be used to 
+The helper function `intrval_types` can be used to
 print/plot the following summary:
 
-![](https://github.com/psolymos/intrval/raw/master/extras/intrval.png)
+<img src="https://github.com/psolymos/intrval/raw/master/extras/intrval.png" class="img-responsive" alt="Interval types">
 
 
 ### Interval-to-interval relations
 
 The overlap of two closed intervals, [`a1`, `b1`] and [`a2`, `b2`],
-is evaluated by the `%[o]%` operator (`a1 <= b1`, `a2 <= b2`). 
+is evaluated by the `%[o]%` operator (`a1 <= b1`, `a2 <= b2`).
 Endpoints can be defined as a vector with two values
 (`c(a1, b1)`)or can be stored in matrix-like objects or a lists
 in which case comparisons are made element-wise.
@@ -140,7 +140,7 @@ The package is licensed under [GPL-2](https://www.gnu.org/licenses/old-licenses/
 
 ## Examples
 
-![](https://github.com/psolymos/intrval/raw/master/extras/examples.png)
+<img src="https://github.com/psolymos/intrval/raw/master/extras/examples.png" class="img-responsive" alt="Interval examples">
 
 ```
 library(intrval)
