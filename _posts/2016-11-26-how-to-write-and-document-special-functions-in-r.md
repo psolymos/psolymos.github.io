@@ -3,7 +3,7 @@ title: "How to write and document &#37;special&#37; functions in R"
 layout: default
 published: true
 category: Code
-tags: [R, functions]
+tags: [R, functions, special]
 disqus: petersolymos
 promote: false
 ---
