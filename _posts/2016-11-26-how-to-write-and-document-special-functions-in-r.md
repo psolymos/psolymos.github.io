@@ -5,7 +5,7 @@ published: true
 category: Code
 tags: [R, functions]
 disqus: petersolymos
-promote: true
+promote: false
 ---
 
 I spend a considerable portion of my working hours with data processing where I often use the `%in%` R function as `x %in% y`. Whenever I need the negation of that, I used to write `!(x %in% y)`. Not much of a hassle, but still, wouldn't it be nicer to have `x %notin% y` instead? So I decided to code it for my [**mefa4**](https://CRAN.R-project.org/package=mefa4) package that I maintain primarily to make my data munging time shorter and more efficient. Coding a `%special%` function was no big deal. But I had to do quite a bit of research and trial-error until I figured out the proper documentation. So here it goes.
