@@ -222,3 +222,18 @@ For more examples, see the [unit-testing script](https://github.com/psolymos/int
 
 Please check out the package and use the [issue tracker](https://github.com/psolymos/intrval/issues)
 to suggest a new feature or report a problem.
+
+**Update (2016-12-04)**
+
+Sergey Kashin [pointed out](https://twitter.com/sergeykashin/status/805501566123966464/photo/1) that some operators are redundant. It is now explained in the manual:
+
+Note that some operators return identical results but
+are syntactically different:
+`%[<]%` and `%[<)%` both evaluate `x < a`;
+`%[>]%` and `%(>]%` both evaluate `x > b`;
+`%(<]%` and `%(<)%` evaluate `x <= a`;
+`%[>)%` and `%(>)%` both evaluate `x >= b`.
+This is so because we evaluate only one end of the interval
+but still conceptually referring to all 3 ordered segments
+which are different (2 conditional logical evaluations vs.
+a 3-level ordered factor).
