@@ -223,7 +223,7 @@ For more examples, see the [unit-testing script](https://github.com/psolymos/int
 Please check out the package and use the [issue tracker](https://github.com/psolymos/intrval/issues)
 to suggest a new feature or report a problem.
 
-**Update (2016-12-04)**
+## Update (2016-12-04)
 
 Sergey Kashin [pointed out](https://twitter.com/sergeykashin/status/805501566123966464/photo/1) that some operators are redundant. It is now explained in the manual:
 
@@ -238,3 +238,8 @@ but still conceptually referring to the relationship
 defined by the right-hand-side interval object.
 This implies 2 conditional logical evaluations
 instead of treating it as a single 3-level ordered factor.
+
+## Update (2016-12-06)
+
+**intrval** R package v0.1 is on CRAN: [https://CRAN.R-project.org/package=intrval]( https://CRAN.R-project.org/package=intrval)
+
