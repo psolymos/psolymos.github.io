@@ -65,8 +65,8 @@ layout: plain
       <div class="list-group">
       {% for pkg in site.data.packages %}
         <a href="{{ site.baseurl }}/code.html#code-{{ pkg.pkgname | downcase }}" class="list-group-item">
-          <h4 class="list-group-item-heading">{{ pkg.pkgname }}</h4>
-          <p class="list-group-item-text">{{ pkg.title }}</p>
+          <!-- <h4 class="list-group-item-heading">{{ pkg.pkgname }}</h4> -->
+          <p class="list-group-item-text"><strong>{{ pkg.pkgname }}</strong>: {{ pkg.title }}</p>
         </a>
       {% endfor %}
       </div>
