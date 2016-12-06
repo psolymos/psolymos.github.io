@@ -4,7 +4,11 @@ description: "An archive of posts in the code category"
 layout: default
 ---
 
-<p id="checks-external">Package checks at <a href="http://cran.r-project.org/web/checks/check_summary_by_maintainer.html#address:solymos_at_ualberta.ca">CRAN checks</a> &mdash;
+<p id="checks-external">
+<a href="http://depsy.org/person/329897">
+    <img src="http://depsy.org/api/person/329897/badge.svg">
+</a>
+<a href="http://cran.r-project.org/web/checks/check_summary_by_maintainer.html#address:solymos_at_ualberta.ca">CRAN checks</a> &mdash;
 <a href="https://travis-ci.org/psolymos">Travis Continuous Integration</a> &mdash;
 <a href="https://codecov.io/gh/psolymos/">Code Coverage</a></p>
 
