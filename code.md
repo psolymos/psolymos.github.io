@@ -15,7 +15,7 @@ layout: default
 
 {% for pkg in site.data.packages %}
 <h3 id="code-{{ pkg.pkgname | downcase }}">{{ pkg.pkgname }}</h3>
-<h4">{{ pkg.title }}</h4>
+<h4>{{ pkg.title }}</h4>
 <div class="container">
 <div class="row">
   <div class="col-md-4">
