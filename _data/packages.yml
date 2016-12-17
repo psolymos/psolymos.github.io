@@ -2,7 +2,7 @@
   title: "Likelihood based optimal partitioning for indicator species analysis"
   description: "Finding the best binary partition for each species based on model selection, possibly controlling for modifying/confounding variables."
   tutorial: "<a href=\"https://github.com/psolymos/opticut/raw/master/extras/opticut-manual.pdf\">examples</a>"
-  paper: "<a href=\"http://dx.doi.org/10.1556/ComEc.15.2014.2.6\">Kemencei et al. 2014</a>
+  paper: "<a href=\"http://dx.doi.org/10.1556/ComEc.15.2014.2.6\">Kemencei et al. 2014</a>"
   devel: psolymos
 - pkgname: intrval
   title: "Relational operators for intervals"
