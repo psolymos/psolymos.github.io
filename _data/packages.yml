@@ -1,5 +1,11 @@
+- pkgname: opticut
+  title: "Likelihood based optimal partitioning for indicator species analysis"
+  description: "Finding the best binary partition for each species based on model selection, possibly controlling for modifying/confounding variables."
+  tutorial: "<a href=\"https://github.com/psolymos/opticut/raw/master/extras/opticut-manual.pdf\">examples</a>"
+  paper: "<a href=\"http://dx.doi.org/10.1556/ComEc.15.2014.2.6\">Kemencei et al. 2014</a>
+  devel: psolymos
 - pkgname: intrval
-  title: "Relational Operators for Intervals"
+  title: "Relational operators for intervals"
   description: "Evaluating if values of vectors are within different open/closed intervals ('x %[]% c(a, b)'), or if two closed intervals overlap ('c(a1, b1) %[o]% c(a2, b2)'). Operators for negation and directional relations also implemented."
   tutorial:
   paper:
