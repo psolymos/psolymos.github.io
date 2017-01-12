@@ -13,7 +13,7 @@
 - id: Yip2017a
   type: paper
   year: 2017
-  text: "Yip, D. A., Bayne, E. M., <strong>S&oacute;lymos, P.</strong>, Campbell, J., and Proppe, J. D., 2016. Sound attenuation in forested and roadside environments: implications for avian point count surveys. <strong>Condor</strong>, xx:xx&ndash;xx."
+  text: "Yip, D. A., Bayne, E. M., <strong>S&oacute;lymos, P.</strong>, Campbell, J., and Proppe, J. D., 2017. Sound attenuation in forested and roadside environments: implications for avian point count surveys. <strong>Condor</strong>, xx:xx&ndash;xx."
   link: "http://www.bioone.org/loi/cond"
   fulltext:
   code:
@@ -22,7 +22,7 @@
 - id: Denes2017
   type: paper
   year: 2017
-  text: "D&eacute;nes, F., <strong>S&oacute;lymos, P.</strong>, Lele, S. R., Silveira, L., and Beissinger, S., 2016. Biome scale signatures of land use change on raptor abundance: insights from single-visit detection-based models. <strong>Journal of Applied Ecology</strong>, xx:xx&ndash;xx."
+  text: "D&eacute;nes, F., <strong>S&oacute;lymos, P.</strong>, Lele, S. R., Silveira, L., and Beissinger, S., 2017. Biome scale signatures of land use change on raptor abundance: insights from single-visit detection-based models. <strong>Journal of Applied Ecology</strong>, xx:xx&ndash;xx."
   link: "http://onlinelibrary.wiley.com/doi/10.1111/1365-2664.12818/abstract"
   fulltext:
   code: "<a href=\"http://cran.r-project.org/package=detect\"><code>detect</code> R package</a>"
