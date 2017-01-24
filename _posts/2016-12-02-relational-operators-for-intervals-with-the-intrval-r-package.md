@@ -5,7 +5,7 @@ published: true
 category: Code
 tags: [R, functions, special, intrval]
 disqus: petersolymos
-promote: true
+promote: false
 ---
 
 I recently posted a piece about [how to write and document special functions in R](http://peter.solymos.org/code/2016/11/26/how-to-write-and-document-special-functions-in-r.html). I meant that as a prelude for the topic I am writing about in this post. Let me start at the beginning. The other day Dirk Eddelbuettel tweeted about the new release of the [**data.table**](https://cran.r-project.org/package=data.table) package (v1.9.8).
