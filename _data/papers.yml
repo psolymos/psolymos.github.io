@@ -13,12 +13,12 @@
 - id: Yip2017a
   type: paper
   year: 2017
-  text: "Yip, D. A., Bayne, E. M., <strong>S&oacute;lymos, P.</strong>, Campbell, J., and Proppe, J. D., 2017. Sound attenuation in forested and roadside environments: implications for avian point count surveys. <strong>Condor</strong>, xx:xx&ndash;xx."
-  link: "http://www.bioone.org/loi/cond"
+  text: "Yip, D. A., Bayne, E. M., <strong>S&oacute;lymos, P.</strong>, Campbell, J., and Proppe, J. D., 2017. Sound attenuation in forested and roadside environments: implications for avian point count surveys. <strong>Condor</strong>, 119:73&ndash;84."
+  link: "http://dx.doi.org/10.1650/CONDOR-16-93.1"
   fulltext:
   code:
   supportinginfo:
-  doi:
+  doi: 10.1650/CONDOR-16-93.1
 - id: Denes2017
   type: paper
   year: 2017
