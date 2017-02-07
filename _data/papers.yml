@@ -1,6 +1,15 @@
 #
 #------------------------- 2017 ------------------------------
 #
+- id: Feher2017
+  type: paper
+  year: 2017
+  text: "Feh&eacute;r, Z., Majoros, G., &Ouml;tv&ouml;s, S., Bajomi, B., and <strong>S&oacute;lymos, P.</strong>, 2017. Successful reintroduction of the endangered Black Nerite, <em>Theodoxus prevostianus</em> (C. Pfeiffer, 1828) (Mollusca: Gastropoda: Nertidae) in Hungary. <strong>Journal of Molluscan Studies</strong>, xx:xx&ndash;xx."
+  link: "https://academic.oup.com/mollus"
+  fulltext:
+  code:
+  supportinginfo:
+  doi:
 - id: Kisfali2017
   type: paper
   year: 2017
