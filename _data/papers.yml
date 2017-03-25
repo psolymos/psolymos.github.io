@@ -1,6 +1,15 @@
 #
 #------------------------- 2017 ------------------------------
 #
+- id: VanWilgenburg2017
+  type: paper
+  year: 2017
+  text: "Van Wilgenburg, S. L., <strong>S&oacute;lymos, P.</strong>, Kardynal, K. J. and Frey, M. D., 2017. Paired sampling as a pragmatic approach toward comparability between point counts conducted by humans versus acoustic recorders. <strong>Avian Conservation and Ecology</strong>, xx:xx&ndash;xx."
+  link: "http://www.ace-eco.org/issues/view.php?sf=5"
+  fulltext:
+  code:
+  supportinginfo:
+  doi:
 - id: Kisfali2017
   type: paper
   year: 2017
