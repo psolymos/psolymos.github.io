@@ -1,15 +1,6 @@
 #
 #------------------------- 2017 ------------------------------
 #
-- id: Yip2017b
-  type: paper
-  year: 2017
-  text: "Yip, D. A., Leston, L., Bayne, E. M., <strong>S&oacute;lymos, P.</strong> and Grover, A., 2017. Standardizing audio recording and human observer detection distance from playback experiments for integrated analysis of point count data. <strong>Avian Conservation and Ecology</strong>, xx:xx&ndash;xx."
-  link: "http://www.ace-eco.org/issues/view.php?sf=5"
-  fulltext:
-  code:
-  supportinginfo:
-  doi:
 - id: VanWilgenburg2017
   type: paper
   year: 2017
@@ -28,6 +19,15 @@
   code:
   supportinginfo:
   doi:
+- id: Yip2017b
+  type: paper
+  year: 2017
+  text: "Yip, D. A., Leston, L., Bayne, E. M., <strong>S&oacute;lymos, P.</strong> and Grover, A., 2017. Standardizing audio recording and human observer detection distance from playback experiments for integrated analysis of point count data. <strong>Avian Conservation and Ecology</strong>, xx:xx&ndash;xx."
+  link: "http://www.ace-eco.org/issues/view.php?sf=5"
+  fulltext: "http://www.ace-eco.org/vol12/iss1/art11/"
+  code:
+  supportinginfo:
+  doi: 10.5751/ACE-00997-120111
 - id: Feher2017
   type: paper
   year: 2017
