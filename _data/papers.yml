@@ -1,15 +1,6 @@
 #
 #------------------------- 2017 ------------------------------
 #
-- id: VanWilgenburg2017
-  type: paper
-  year: 2017
-  text: "Van Wilgenburg, S. L., <strong>S&oacute;lymos, P.</strong>, Kardynal, K. J. and Frey, M. D., 2017. Paired sampling as a pragmatic approach toward comparability between point counts conducted by humans versus acoustic recorders. <strong>Avian Conservation and Ecology</strong>, xx:xx&ndash;xx."
-  link: "http://www.ace-eco.org/issues/view.php?sf=5"
-  fulltext:
-  code:
-  supportinginfo:
-  doi:
 - id: Kisfali2017
   type: paper
   year: 2017
@@ -19,10 +10,19 @@
   code:
   supportinginfo:
   doi:
+- id: VanWilgenburg2017
+  type: paper
+  year: 2017
+  text: "Van Wilgenburg, S. L., <strong>S&oacute;lymos, P.</strong>, Kardynal, K. J. and Frey, M. D., 2017. Paired sampling standardizes point count data from humans and acoustic recorders. <strong>Avian Conservation and Ecology</strong>, 12(1):13."
+  link: "http://www.ace-eco.org/issues/view.php?sf=5"
+  fulltext: "http://www.ace-eco.org/vol12/iss1/art13/"
+  code:
+  supportinginfo:
+  doi: 10.5751/ACE-00975-120113
 - id: Yip2017b
   type: paper
   year: 2017
-  text: "Yip, D. A., Leston, L., Bayne, E. M., <strong>S&oacute;lymos, P.</strong> and Grover, A., 2017. Standardizing audio recording and human observer detection distance from playback experiments for integrated analysis of point count data. <strong>Avian Conservation and Ecology</strong>, xx:xx&ndash;xx."
+  text: "Yip, D. A., Leston, L., Bayne, E. M., <strong>S&oacute;lymos, P.</strong> and Grover, A., 2017. Experimentally derived detection distances from audio recordings and human observers enable integrated analysis of point count data. <strong>Avian Conservation and Ecology</strong>, 12(1):11."
   link: "http://www.ace-eco.org/issues/view.php?sf=5"
   fulltext: "http://www.ace-eco.org/vol12/iss1/art11/"
   code:
