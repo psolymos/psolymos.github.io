@@ -84,7 +84,7 @@
             {% endfor %}
             {% if sameTagCount >= 1 %}
               {% assign similarPostCount = similarPostCount | plus: 1 %}
-                {% if similarPostCount <= 5%}
+                {% if similarPostCount <= 5 %}
                   <li><i class="fa-li fa fa-chevron-right text-white"></i><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
                 {% endif %}
             {% endif %}
