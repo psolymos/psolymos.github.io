@@ -13,6 +13,13 @@ layout: default
 <a href="https://codecov.io/gh/psolymos/">CodeCov</a>
 </p>
 
+<!-- tags -->
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign tag_words = site_tags | split:',' | sort %}
+{% for tag in tag_words) %}{% if tag == pkg.pkgname %}
+<li><i class="fa-li fa fa-chevron-right text-black"></i><a href="{{ site.baseurl }}/tags.html#{{ tag | slugify }}">{{ site.tags[tag] | size }} blog post{% if site.tags[tag] | size > 1 %}s</a>
+{% endif %}{% endfor %}
+
 {% for pkg in site.data.packages %}
 <h3 id="code-{{ pkg.pkgname | downcase }}">{{ pkg.pkgname }}</h3>
 <h4>{{ pkg.title }}</h4>
