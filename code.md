@@ -16,9 +16,6 @@ layout: default
 <!-- tags -->
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign tag_words = site_tags | split:',' | sort %}
-{% for tag in tag_words) %}{% if tag == pkg.pkgname %}
-<li><i class="fa-li fa fa-chevron-right text-black"></i><a href="{{ site.baseurl }}/tags.html#{{ tag | slugify }}">{{ site.tags[tag] | size }} blog post{% if site.tags[tag] | size > 1 %}s</a>
-{% endif %}{% endfor %}
 
 {% for pkg in site.data.packages %}
 <h3 id="code-{{ pkg.pkgname | downcase }}">{{ pkg.pkgname }}</h3>
@@ -36,6 +33,9 @@ layout: default
 <li><i class="fa-li fa fa-github text-black"></i><a href="https://github.com/{{ pkg.devel }}/{{ pkg.pkgname }}">development</a> <a href="https://travis-ci.org/{{ pkg.devel }}/{{ pkg.pkgname }}"><img src="https://travis-ci.org/{{ pkg.devel }}/{{ pkg.pkgname }}.svg?branch=master" alt="build status"></a></li>
 <li><i class="fa-li fa fa-bug text-black"></i><a href="https://github.com/{{ pkg.devel }}/{{ pkg.pkgname }}/issues">report an issue</a></li>
 {% if pkg.paper %}<li><i class="fa-li fa fa-file-text-o text-black"></i>{{ pkg.paper }}</li>{% endif %}
+{% for tag in tag_words) %}{% if tag == pkg.pkgname %}
+<li><i class="fa-li fa fa-chevron-right text-black"></i><a href="{{ site.baseurl }}/tags.html#{{ tag | slugify }}">{{ site.tags[tag] | size }} blog post{% if site.tags[tag] | size > 1 %}s</a>
+{% endif %}{% endfor %}
 </ul>
   </div>
 </div>
