@@ -1,6 +1,15 @@
 #
 #------------------------- 2017 ------------------------------
 #
+- id: Denes2017
+  type: paper
+  year: 2017
+  text: "D&eacute;nes, F., <strong>S&oacute;lymos, P.</strong>, Lele, S. R., Silveira, L., and Beissinger, S., 2017. Biome scale signatures of land use change on raptor abundance: insights from single-visit detection-based models. <strong>Journal of Applied Ecology</strong>, 54:1268&ndash;1278."
+  link: "http://onlinelibrary.wiley.com/doi/10.1111/1365-2664.12818/abstract"
+  fulltext:
+  code: "<a href=\"http://cran.r-project.org/package=detect\"><code>detect</code> R package</a>"
+  supportinginfo:
+  doi: 10.1111/1365-2664.12818
 - id: Kisfali2017
   type: paper
   year: 2017
@@ -46,15 +55,6 @@
   code:
   supportinginfo:
   doi: 10.1650/CONDOR-16-93.1
-- id: Denes2017
-  type: paper
-  year: 2017
-  text: "D&eacute;nes, F., <strong>S&oacute;lymos, P.</strong>, Lele, S. R., Silveira, L., and Beissinger, S., 2017. Biome scale signatures of land use change on raptor abundance: insights from single-visit detection-based models. <strong>Journal of Applied Ecology</strong>, xx:xx&ndash;xx."
-  link: "http://onlinelibrary.wiley.com/doi/10.1111/1365-2664.12818/abstract"
-  fulltext:
-  code: "<a href=\"http://cran.r-project.org/package=detect\"><code>detect</code> R package</a>"
-  supportinginfo:
-  doi: 10.1111/1365-2664.12818
 #
 #------------------------- 2016 ------------------------------
 #
