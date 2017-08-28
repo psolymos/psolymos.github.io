@@ -15,6 +15,7 @@ years: [2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2005, 
     <!--  <li><a href="https://vm.mtmt.hu/www/index.php?AuthorID=10000580">MTMT</a></li> -->
       <li><a href="http://www.researcherid.com/rid/B-2775-2008">ResearcherID</a></li>
       <li><a href="http://www.scopus.com/authid/detail.url?authorId=23104106300">ScopusID</a></li>
+      <li><a href="https://academic.microsoft.com/#/detail/1972292879">Microsoft Academic</a></li>
       <li><a href="https://impactstory.org/u/0000-0001-7337-1740">Impactstory</a></li>
      </ul>
   </div>
