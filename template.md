@@ -544,7 +544,7 @@ a <- list("a", 1, FALSE, function(x) x+1) # no
       </div>
       <div class="modal-body">
         <p>Text</p>
-<!--        <iframe src="http://206.167.180.241:3838/qcc/" height='80%' width='80%' frameborder='0'></iframe> -->
+        <iframe src="http://206.167.180.241:3838/qcc/" height='80%' width='80%' frameborder='0'></iframe>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
