@@ -487,4 +487,4 @@ a <- list("a", 1, FALSE, function(x) x+1) # no
 
 ### This is iframe
 
-<iframe src="http://206.167.180.241:3838/qcc/" frameborder="0" height="600" width="600"></iframe>
+<iframe src="http://206.167.180.241:3838/qcc/" frameborder="0" height="400" width="100%"></iframe>
