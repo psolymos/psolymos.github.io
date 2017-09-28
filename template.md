@@ -22,8 +22,8 @@ $$ Y_{i+1} = \lambda_{i+1} $$
 
 `\\[ Y_{i+1} = \lambda_{i+1} \\]`
 
-Inline math: $Y_{i+1} = \lambda_{i+1}$, \\( Y_{i+1} = \lambda_{i+1} \\), 
-`\\( Y_{i+1} = \lambda_{i+1} \\)`, $$Y_{i+1} = \lambda_{i+1}$$, 
+Inline math: $Y_{i+1} = \lambda_{i+1}$, \\( Y_{i+1} = \lambda_{i+1} \\),
+`\\( Y_{i+1} = \lambda_{i+1} \\)`, $$Y_{i+1} = \lambda_{i+1}$$,
 `$$Y_{i+1} = \lambda_{i+1}$$`, \\[ Y_{i+1} = \lambda_{i+1} \\].
 
 Solution to MathJax parsing problem:
@@ -54,7 +54,7 @@ on the website. We have 3 aims:
   The web design is taken care of GitHub and jekyll pages
   (including Markdown formatting, liquid templating,
   syntax highlight and MathJax notation).
-2. The file opens up in [Rstudio](http://rstudio.com), 
+2. The file opens up in [Rstudio](http://rstudio.com),
   code runs natively in R
   and can be turned into some other format (like `pdf`, `html`, slides, etc.),
   while still properly displaying text formatting, code (with
@@ -73,7 +73,7 @@ on the website. We have 3 aims:
   the `output` tag value can be edited. The only important
   thing really is the `layout`.
  3. Following the syntax rules below.
- 4. Save and commit to the `datacloning.github.io` project 
+ 4. Save and commit to the `datacloning.github.io` project
   (or create a pull request). Make sure to push to the
   master branch. Of course, we need to figure out
   placement in the directory tree -- this is under construction.
@@ -186,7 +186,7 @@ Term 2 with *inline markup*
 Table Header | Second Header
 ------------- | -------------
 Table Cell | Cell 2
-Cell 3 | Cell 4 
+Cell 3 | Cell 4
 
 
 Another table:
@@ -200,12 +200,12 @@ Another table:
 ## Code blocks
 
 Make a code chunk with three back ticks followed
-by R (this helps figuring out highlight rules). 
-End the chunk with three back ticks: 
+by R (this helps figuring out highlight rules).
+End the chunk with three back ticks:
 
 ```r
 paste("Hello", "World!")
-``` 
+```
 
 Place code inline with a single back ticks, like
 this `paste("Hello", "World!")`.
@@ -216,10 +216,10 @@ Using `nohighlight`:
 
 ```nohighlight
 lapply <-
-function (X, FUN, ...) 
+function (X, FUN, ...)
 {
     FUN <- match.fun(FUN)
-    if (!is.vector(X) || is.object(X)) 
+    if (!is.vector(X) || is.object(X))
         X <- as.list(X)
     .Internal(lapply(X, FUN))
 }
@@ -227,16 +227,16 @@ a <- c(1,2,3) # x y z
 b <- c(TRUE, FALSE)
 ## k c z
 k <- c("a", "b")
-``` 
+```
 
 Using blank:
 
 ```
 lapply <-
-function (X, FUN, ...) 
+function (X, FUN, ...)
 {
     FUN <- match.fun(FUN)
-    if (!is.vector(X) || is.object(X)) 
+    if (!is.vector(X) || is.object(X))
         X <- as.list(X)
     .Internal(lapply(X, FUN))
 }
@@ -244,16 +244,16 @@ a <- c(1,2,3) # x y z
 b <- c(TRUE, FALSE)
 ## k c z
 k <- c("a", "b")
-``` 
+```
 
 Using `r`:
 
 ```r
 lapply <-
-function (X, FUN, ...) 
+function (X, FUN, ...)
 {
     FUN <- match.fun(FUN)
-    if (!is.vector(X) || is.object(X)) 
+    if (!is.vector(X) || is.object(X))
         X <- as.list(X)
     .Internal(lapply(X, FUN))
 }
@@ -261,7 +261,7 @@ a <- c(1,2,3) # x y z
 b <- c(TRUE, FALSE)
 ## k c z
 k <- c("a", "b")
-``` 
+```
 
 ### GFM options (that don't work, but left here for testing anyway):
 
@@ -354,11 +354,11 @@ These backgrounds can be used to highlight topics
 
 > ### Use headings in quote block?
 >
-> Why not! 
+> Why not!
 >
 > That is the whole point!
 
-Also: 
+Also:
 
 > #### &nbsp;<i class="fa fa-warning"></i> Warning
 >
@@ -394,7 +394,7 @@ Kramdown syntax guide: http://kramdown.gettalong.org/syntax.html
 <button type="button" class="close" data-dismiss="alert"><i class="fa fa-close"></i></button>
 #### Warning!
 
-Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. 
+Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue.
 </div>
 
 <div class="jumbotron">
@@ -447,12 +447,12 @@ dcpal_flatly <- list(
 )
 dcpal_reds <- colorRampPalette(c("#f9f2f4", "#c7254e"))
 dcpal_ogrd <- colorRampPalette(c("#f39c12", "#e74c3c"))
-dcpal_grbu <- colorRampPalette(c("#18bc9c", 
+dcpal_grbu <- colorRampPalette(c("#18bc9c",
     "#3498db", "#2c3e50"))
 
 op <- par(las=2, mar=c(6,5,2,2), mfrow=c(2,2))
-barplot(1:length(dcpal_flatly), 
-    names=names(dcpal_flatly), 
+barplot(1:length(dcpal_flatly),
+    names=names(dcpal_flatly),
     border=dcpal_flatly$pre_border,
     col=unlist(dcpal_flatly))
 barplot(1:10, col=dcpal_reds(10), main="Reds")
@@ -484,3 +484,7 @@ a <- list("a", 1, FALSE, function(x) x+1) # no
 **Updated:** *This is new stuff.*
 
 ~~Previous stuff~~ *(Edit: as XY pointed out in the comments the previous stuff was incorrect)*
+
+### This is iframe
+
+<iframe src="http://206.167.180.241:3838/qcc/" frameborder="0" height="600" width="600"></iframe>
