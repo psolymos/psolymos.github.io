@@ -488,3 +488,68 @@ a <- list("a", 1, FALSE, function(x) x+1) # no
 ### This is iframe
 
 <iframe src="http://206.167.180.241:3838/qcc/" frameborder="0" height="400" width="100%"></iframe>
+
+### This is modal
+
+<p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-MCMT">Mean cold month (January) temperature</button></p>
+
+<div class="modal fade" id="modal-MCMT" tabindex="-1" role="dialog" aria-labelledby="modal-MCMT-label">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="modal-lichens-label">Climate map: Mean cold month (January) temperature</h4>
+      </div>
+      <div class="modal-body">
+        <img src="http://species.abmi.ca/contents/2016/geospatial/climate/MCMT.png" class="img-responsive" alt="Climate map: Mean cold month (January) temperature" />
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <a class="btn btn-primary" href="http://ftp.public.abmi.ca/species.abmi.ca/geospatial/climate/climate_grid.zip">Download <i class="fa fa-download"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Large Modal</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>This is a large modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-app">Try app</button>
+
+<div class="modal fade" id="modal-app" tabindex="-1" role="dialog" aria-labelledby="modal-app-label">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">QCC App</h4>
+      </div>
+      <div class="modal-body">
+        <p>Text</p>
+<!--        <iframe src="http://206.167.180.241:3838/qcc/" height='80%' width='80%' frameborder='0'></iframe> -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <a class="btn btn-primary" href="http://206.167.180.241:3838/qcc/" target="_blank">Open in new window <i class="fa fa-external-link" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
