@@ -113,3 +113,6 @@ on.exit(pboptions(pbo))
 I hope that this little tutorial helps getting a progress bar where it belongs.
 Suggestions and feature requests are welcome.
 Leave a comment or visit the [GitHub repo](https://github.com/psolymos/pbapply/issues).
+
+**Update (2017-10-02):** the number of R packages that reverse
+depend/import/suggest **pbapply** has more than doubled in a year (47: 5/32/10).
