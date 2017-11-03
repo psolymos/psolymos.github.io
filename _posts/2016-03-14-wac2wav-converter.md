@@ -51,7 +51,7 @@ cat input_file.wac | ./wac2wavcmd > output_file.wav
 Isn't that ugly? One would expect something like:
 
 ```
-./was2wavcmd input_file.wac output_file.wav
+./wac2wavcmd input_file.wac output_file.wav
 ```
 
 The good news is that the modified version (also released under [GPL](http://www.gnu.org/licenses/gpl-3.0.html) license) does just that.
