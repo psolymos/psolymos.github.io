@@ -59,7 +59,7 @@ It has been tested on Linux, Mac OS X and Windows 10.
 It also removes all the clutter the original program prints to the
 terminal. The only difference is that the program is called `wac2wav`
 instead of `wac2wawcmd`. See the description and source code on
-[GitHub](https://github.com/psolymos/abmianalytics/tree/v2016/aru/wac2wav).
+[GitHub](https://github.com/psolymos/abmianalytics/tree/master/aru/wac2wav).
 (Note: the leading `./` can be omitted if the program is added to the path.)
 
 We are one step closer to a truly cloud based bioacoustic platform!
