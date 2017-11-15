@@ -32,7 +32,7 @@ years: [2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2005, 
   <div class="btn-group">
     <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Jump to a year <i class="fa fa-caret-down" aria-hidden="true"></i></a>
     <ul class="dropdown-menu">
-      {% for yr in page.years %}<li><a href="#papers-{{ yr }}">{{ yr }}</a></li> {% endfor %}
+      {% for yr in page.years %}<li><a href="#{{ yr }}">{{ yr }}</a></li> {% endfor %}
      </ul>
   </div>
 </div>
