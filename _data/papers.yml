@@ -13,12 +13,12 @@
 - id: Pankratz2017
   type: paper
   year: 2017
-  text: "Pankratz, R. F., Hach&eacute;, S., <strong>S&oacute;lymos, P.</strong>, and Bayne, E. M., 2017. Advancing bird population monitoring with acoustic recording technologies. <strong>Avian Conservation and Ecology</strong>, xx:xx&ndash;xx."
-  link: "http://www.ace-eco.org/"
-  fulltext:
+  text: "Pankratz, R. F., Hach&eacute;, S., <strong>S&oacute;lymos, P.</strong>, and Bayne, E. M., 2017. Advancing bird population monitoring with acoustic recording technologies. <strong>Avian Conservation and Ecology</strong>, 12(2):18."
+  link: "http://www.ace-eco.org/issues/view.php?sf=5"
+  fulltext: "http://www.ace-eco.org/vol12/iss2/art18/"
   code:
   supportinginfo:
-  doi: 10.17109/AZH.63.3.293.2017
+  doi: 10.5751/ACE-01087-120218
 - id: Kisfali2017
   type: paper
   year: 2017
