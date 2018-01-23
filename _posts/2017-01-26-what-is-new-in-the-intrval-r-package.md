@@ -5,7 +5,7 @@ published: true
 category: Code
 tags: [R, functions, special, intrval]
 disqus: petersolymos
-promote: true
+promote: false
 ---
 
 An update (v 0.1-1) of the [**intrval**](https://github.com/psolymos/intrval) package was recently published on CRAN. The package simplifies interval related logical operations (read more about the motivation in [this](http://peter.solymos.org/code/2016/12/02/relational-operators-for-intervals-with-the-intrval-r-package.html) post).
