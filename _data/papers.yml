@@ -1,24 +1,27 @@
 #
-#------------------------- 2017 ------------------------------
+#------------------------- 2018 ------------------------------
 #
-- id: Solymos2017
+- id: Solymos2018
   type: paper
-  year: 2017
-  text: "<strong>S&oacute;lymos, P.</strong>, Matsuoka, S. M., Stralberg, D., Barker, N. K. S., and Bayne, E. M., 2017. Phylogeny and species traits predict bird detectability. <strong>Ecography</strong>, xx: xx&ndash;xx."
+  year: 2018
+  text: "<strong>S&oacute;lymos, P.</strong>, Matsuoka, S. M., Stralberg, D., Barker, N. K. S., and Bayne, E. M., 2018. Phylogeny and species traits predict bird detectability. <strong>Ecography</strong>, xx: xx&ndash;xx."
   link: "http://onlinelibrary.wiley.com/doi/10.1111/ecog.03415/abstract"
   fulltext:
   code: "<a href=\"https://github.com/borealbirds/lhreg#readme\"><code>lhreg</code> R package</a>"
   supportinginfo:
   doi: 10.1111/ecog.03415
-- id: Feher2017b
+- id: Feher2018
   type: paper
-  year: 2017
-  text: "Feh&eacute;r, Z., Jaksch, K., Szekeres, M., Haring, E., Bamberger, S., P&aacute;ll-Gergely, B., and <strong>S&oacute;lymos, P.</strong>, 2017. Range-constrained co-occurrence simulation reveals little niche partitioning among rock-dwelling <em>Montenegrina</em> land snails (Gastropoda: Clausiliidae). <strong>Journal of Biogeography</strong>, xx: xx&ndash;xx."
+  year: 2018
+  text: "Feh&eacute;r, Z., Jaksch, K., Szekeres, M., Haring, E., Bamberger, S., P&aacute;ll-Gergely, B., and <strong>S&oacute;lymos, P.</strong>, 2018. Range-constrained co-occurrence simulation reveals little niche partitioning among rock-dwelling <em>Montenegrina</em> land snails (Gastropoda: Clausiliidae). <strong>Journal of Biogeography</strong>, xx: xx&ndash;xx."
   link:
   fulltext:
   code:
   supportinginfo:
   doi:
+#
+#------------------------- 2017 ------------------------------
+#
 - id: Pankratz2017
   type: paper
   year: 2017
@@ -55,7 +58,7 @@
   code:
   supportinginfo:
   doi: 10.5751/ACE-00997-120111
-- id: Feher2017a
+- id: Feher2017
   type: paper
   year: 2017
   text: "Feh&eacute;r, Z., Majoros, G., &Ouml;tv&ouml;s, S., Bajomi, B., and <strong>S&oacute;lymos, P.</strong>, 2017. Successful reintroduction of the endangered Black Nerite, <em>Theodoxus prevostianus</em> (C. Pfeiffer, 1828) (Mollusca: Gastropoda: Nertidae) in Hungary. <strong>Journal of Molluscan Studies</strong>, 83: 240&ndash;242."
