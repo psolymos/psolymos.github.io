@@ -90,10 +90,10 @@ Here are the model parameters for the two Ricker models:
 
 The *K* carrying capacity used to be 100 based on 
 1998&ndash;2012 data, but now *K* = 119, which is
-a significant improvement. The growth rate
-hasn't changed (*a* = 0.21).
+a significant improvement &mdash; heartfelt kudos to the ecologists in Hungary!
+The growth rate hasn't changed (*a* = 0.21).
 So we can conclude that if the rate remained constant
-but carrying capacity increased, the increase must be
+but carrying capacity increased, the change must be
 related to resource availability
 (i.e. increased funding, more jobs, improved infrastructure).
 
