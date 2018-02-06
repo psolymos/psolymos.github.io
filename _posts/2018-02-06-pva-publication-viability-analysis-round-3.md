@@ -90,7 +90,8 @@ Here are the model parameters for the two Ricker models:
 
 The *K* carrying capacity used to be 100 based on 
 1998&ndash;2012 data, but now *K* = 119, which is
-a significant improvement &mdash; heartfelt kudos to the ecologists in Hungary!
+a significant improvement &mdash; heartfelt kudos to the ecologists in Hungary
+(more papers please)!
 The growth rate hasn't changed (*a* = 0.21).
 So we can conclude that if the rate remained constant
 but carrying capacity increased, the change must be
