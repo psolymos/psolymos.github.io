@@ -85,11 +85,11 @@ Here are the model parameters for the two Ricker models:
 
 |                |  *a*|  *b*| *sigma*|     *K*|
 |:---------------|----:|-----:|------:|-------:|
-|1978%ndash;1997 | 0.38| -0.03|   0.60|   13.85|
-|1998%ndash;2017 | 0.21|  0.00|   0.16|  119.00|
+|1978&ndash;1997 | 0.38| -0.03|   0.60|   13.85|
+|1998&ndash;2017 | 0.21|  0.00|   0.16|  119.00|
 
 The *K* carrying capacity used to be 100 based on 
-1998%ndash;2012 data, but now *K* = 119, which is
+1998&ndash;2012 data, but now *K* = 119, which is
 a significant improvement. The growth rate
 hasn't changed (*a* = 0.21).
 So we can conclude that if the rate remained constant
