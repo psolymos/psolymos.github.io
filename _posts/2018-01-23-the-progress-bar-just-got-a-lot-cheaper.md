@@ -161,5 +161,4 @@ output <- pblapply(..., cl = cl)
 stopCluster(cl)
 ```
 
-As always, I am keen on hearing what you think: either in the comments or on [GitHub](https://github.com/psolymos/pbapply/issues/31).
-
+As always, <!-- check if this shows up -->I am keen on hearing what you think: either in the comments or on [GitHub](https://github.com/psolymos/pbapply/issues/31).
