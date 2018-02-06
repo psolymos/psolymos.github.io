@@ -5,7 +5,7 @@ published: true
 category: Code
 tags: [R, pbapply, progress bar, processing time]
 disqus: petersolymos
-promote: true
+promote: false
 ---
 
 The [**pbapply**](http://cran.r-project.org/package=pbapply) R package that adds progress bar to vectorized functions has been know to accumulate overhead when calling `parallel::mclapply` with forking (see [this post](http://peter.solymos.org/code/2016/09/11/what-is-the-cost-of-a-progress-bar-in-r.html) for more background on the issue). Strangely enough, a [GitHub issue](https://github.com/psolymos/pbapply/issues/30) held the key to the solution that I am going to outline below. Long story short: forking is no longer expensive with **pbapply**, and as it turns out, it never was.
