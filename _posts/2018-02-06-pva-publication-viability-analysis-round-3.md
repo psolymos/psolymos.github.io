@@ -2,13 +2,13 @@
 title: "PVA: Publication Viability Analysis, round 3"
 layout: default
 category: Etc
-tags: [PVA, publications, PVAClone, intrval, R, Hungary]
+tags: [PVA, publications, PVAClone, intrval, R, data cloning, Hungary]
 published: true
 disqus: petersolymos
 promote: true
 ---
 
-A friend and colleague of mine<!--, [P&eacute;ter Bat&aacute;ry](https://sites.google.com/site/pbatary/)-->
+A friend and colleague of mine, [P&eacute;ter Bat&aacute;ry](https://sites.google.com/site/pbatary/)
 has circulated news from [Nature](https://www.nature.com/articles/d41586-018-01374-x)
 magazine about the EU freezing innovation funds to Bulgaria.
 The article had a figure about publication trends for
