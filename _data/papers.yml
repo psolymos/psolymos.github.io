@@ -1,6 +1,15 @@
 #
 #------------------------- 2018 ------------------------------
 #
+- id: Stralberg2018
+  type: paper
+  year: 2018
+  text: "Stralberg, D., Wang, X., Parisien, M.-A., Robinne, F.-N., <strong>S&oacute;lymos, P.</strong>, Mahon, C. L., Nielsen, S. E., and Bayne, E. M., 2018. Wildfire-mediated vegetation change in boreal forests of Alberta, Canada. <strong>Ecosphere</strong>, xx: xx&ndash;xx."
+  link: "http://esajournals.onlinelibrary.wiley.com/hub/journal/10.1002/(ISSN)2150-8925/"
+  fulltext:
+  code:
+  supportinginfo:
+  doi:
 - id: Solymos2018
   type: paper
   year: 2018
