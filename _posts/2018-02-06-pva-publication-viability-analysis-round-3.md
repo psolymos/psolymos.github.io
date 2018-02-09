@@ -5,7 +5,7 @@ category: Etc
 tags: [PVA, publications, PVAClone, intrval, R, data cloning, Hungary]
 published: true
 disqus: petersolymos
-promote: true
+promote: false
 ---
 
 A friend and colleague of mine, [P&eacute;ter Bat&aacute;ry](https://sites.google.com/site/pbatary/)
