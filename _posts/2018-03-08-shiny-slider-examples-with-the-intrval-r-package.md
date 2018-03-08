@@ -1,7 +1,7 @@
 ---
 title: "Shiny slider examples with the intrval R package"
 layout: default
-published: false
+published: true
 category: Code
 tags: [R, intrval, shiny, slider]
 disqus: petersolymos
