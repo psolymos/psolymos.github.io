@@ -5,7 +5,7 @@ published: true
 category: Code
 tags: [R, lhreg, phylogeny, detectability]
 disqus: petersolymos
-promote: true
+promote: false
 ---
 
 It all started with [this](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12106/abstract) paper in *Methods in Ecol. Evol.* where we looked at
