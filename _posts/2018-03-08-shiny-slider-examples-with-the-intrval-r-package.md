@@ -8,7 +8,7 @@ disqus: petersolymos
 promote: true
 ---
 
-The [**intrval**](https://github.com/psolymos/intrval#readme) R package is lightweight (~11K), standalone (apart from importing from **graphics**, has exactly 0 non-**base** dependency), and it has a very narrow scope: it implements relational operators for intervals &mdash; very well alined with the [_tiny manifesto_](http://www.tinyverse.org/). In this post we will explore the use of the package in two [**shiny**](https://shiny.rstudio.com/) apps with [sliders](https://shiny.rstudio.com/articles/sliders.html).
+The [**intrval**](https://github.com/psolymos/intrval#readme) R package is lightweight (~11K), standalone (apart from importing from **graphics**, has exactly 0 non-**base** dependency), and it has a very narrow scope: it implements relational operators for intervals &mdash; very well aligned with the [_tiny manifesto_](http://www.tinyverse.org/). In this post we will explore the use of the package in two [**shiny**](https://shiny.rstudio.com/) apps with [sliders](https://shiny.rstudio.com/articles/sliders.html).
 
 The first example uses a regular slider that returns a single value. To make that an interval, we will use standard deviation (SD, _sigma_) in a quality control chart ([QCC](https://en.wikipedia.org/wiki/Control_chart)). The code is based on the `pistonrings` data set from the [**qcc**](https://CRAN.R-project.org/package=qcc) package. The Shewhart chart sets 3-_sigma_ limit to indicate state of control. The slider is used to adjusts the _sigma_ limit and the GIF below plays is as an animation.
 
