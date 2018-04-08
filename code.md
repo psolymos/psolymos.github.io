@@ -10,7 +10,8 @@ layout: default
 <a href="http://cran.r-project.org/web/checks/check_summary_by_maintainer.html#address:solymos_at_ualberta.ca">CRAN</a> &mdash;
 <a href="https://www.rdocumentation.org/collaborators/name/Peter%20Solymos">RDoc</a> &mdash;
 <a href="https://travis-ci.org/psolymos">Travis CI</a> &mdash;
-<a href="https://codecov.io/gh/psolymos/">CodeCov</a>
+<a href="https://codecov.io/gh/psolymos/">CodeCov</a> &mdash;
+<a href="https://sourcerer.io/psolymos">Sourcerer</a>
 </p>
 
 <!-- tags -->
