@@ -77,3 +77,5 @@ The following figure shows the two input data vectors mirrored side-by-side:
 I realize this is not a very detailed post, but the paper
 and the vignette should satisfy your curiosity.
 If you still have unanswered questions, feel free to ask them below!
+
+**UPDATE** &ndash; 2018-04-13: a related [blog post](http://okologiablog.hu/node/460) in Hungarian.
