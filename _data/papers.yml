@@ -131,7 +131,7 @@
   link: "http://www.bioone.org/doi/10.1650/CONDOR-15-126.1"
   fulltext: "http://www.americanornithologypubs.org/doi/pdf/10.1650/CONDOR-15-126.1"
   code:
-  supportinginfo: "<a herf=\"http://www.bioone.org/doi/suppl/10.1650/CONDOR-15-126.1/suppl_file/condor-15-126_supplemental+material+tables+1-2.docx\">Results by species</a>"
+  supportinginfo:
   doi: 10.1650/CONDOR-15-126.1
 - id: Solymos2016
   type: paper
