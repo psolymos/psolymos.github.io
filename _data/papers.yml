@@ -1,6 +1,15 @@
 #
 #------------------------- 2018 ------------------------------
 #
+- id: Solymos2018b
+  type: paper
+  year: 2018
+  text: "<strong>S&oacute;lymos, P.</strong>, Matsuoka, S. M., Cumming, S. G., Stralberg, D., Fontaine, P., Schmiegelow, F. K. A., Song, S. J., and Bayne, E. M., 2018. Evaluating time-removal models for estimating availability of boreal birds during point-count surveys: sample size requirements and model complexity. <strong>Condor</strong>, xx: xx&ndash;xx."
+  link: "http://www.americanornithologypubs.org/loi/cond"
+  fulltext:
+  code:
+  supportinginfo:
+  doi:
 - id: Stralberg2018
   type: paper
   year: 2018
@@ -10,7 +19,7 @@
   code:
   supportinginfo:
   doi: 10.1002/ecs2.2156
-- id: Solymos2018
+- id: Solymos2018a
   type: paper
   year: 2018
   text: "<strong>S&oacute;lymos, P.</strong>, Matsuoka, S. M., Stralberg, D., Barker, N. K. S., and Bayne, E. M., 2018. Phylogeny and species traits predict bird detectability. <strong>Ecography</strong>, xx: xx&ndash;xx."
