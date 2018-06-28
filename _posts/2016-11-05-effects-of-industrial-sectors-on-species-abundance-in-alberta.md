@@ -23,7 +23,7 @@ to different industrial sectors, or as we call them, sector effects.
 <img src="{{ site.baseurl }}/images/2016/11/05/science-letters-sector.png" class="img-responsive" alt="Science Letter cover">
 
 The latest issue of the [_ABMI Science Letters_](http://www.abmi.ca/home/newsletters/scienceletter-past-issues.html),
-[Effects of Industrial Sectors on Species Abundance in Alberta](http://ftp.public.abmi.ca//home/publications/documents/437_ABMIScienceLetterIssue5.pdf?mc_cid=fdae09d517&mc_eid=a6c8d61663),
+[Effects of Industrial Sectors on Species Abundance in Alberta](http://ftp.public.abmi.ca/home/publications/documents/437_SolymosandSchieck_20016_EffectofIndustrialSectorsonSpeciesAbundanceAB_ABMI.pdf),
 presents sector effect estimates take into account not only the
 amount of footprint, but also what habitat types the
 sector's footprint impacts the most. These estimates
