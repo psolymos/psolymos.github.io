@@ -9,7 +9,7 @@
   fulltext:
   code: "<a href=\"https://github.com/psolymos/QPAD#readme\"><code>QPAD</code></a> and <a href=\"https://CRAN.R-project.org/package=detect\"><code>detect</code></a> R packages"
   supportinginfo:
-  doi:
+  doi: 10.1650/CONDOR-18-32.1
 - id: Feher2018b
   type: incollection
   year: 2018
