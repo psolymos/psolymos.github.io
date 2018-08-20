@@ -24,7 +24,7 @@ fancyfonts: true
 navbar: transparent
 
 disqus: petersolymos
-ads: true
+ads: false
 
 author: '<a href="http://peter.solymos.org">P&eacute;ter S&oacute;lymos</a>'
 author_plain: 'Peter Solymos'
