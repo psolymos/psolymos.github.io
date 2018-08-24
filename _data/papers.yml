@@ -31,7 +31,7 @@
 - id: Solymos2018a
   type: paper
   year: 2018
-  text: "<strong>S&oacute;lymos, P.</strong>, Matsuoka, S. M., Stralberg, D., Barker, N. K. S., and Bayne, E. M., 2018. Phylogeny and species traits predict bird detectability. <strong>Ecography</strong>, xx: xx&ndash;xx."
+  text: "<strong>S&oacute;lymos, P.</strong>, Matsuoka, S. M., Stralberg, D., Barker, N. K. S., and Bayne, E. M., 2018. Phylogeny and species traits predict bird detectability. <strong>Ecography</strong>, 41: 1595&ndash;1603."
   link: "http://onlinelibrary.wiley.com/doi/10.1111/ecog.03415/abstract"
   fulltext:
   code: "<a href=\"https://github.com/borealbirds/lhreg#readme\"><code>lhreg</code> R package</a>"
