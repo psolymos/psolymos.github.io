@@ -12,7 +12,7 @@ promote: true
 
 In a paper recently published in the [Condor](http://www.americanornithologypubs.org/), titled _Evaluating time-removal models for estimating availability of boreal birds during point-count surveys: sample size requirements and model complexity_,  we assessed different ways of controlling for point-count duration in bird point count data using data from the [Boreal Avian Modelling Project](http://www.borealbirds.ca/). As the title indicates, the paper describes a cost-benefit analysis to make recommendations about when to use different types of the removal model. The paper is open access, so feel free to read the [whole paper here](https://dx.doi.org/10.1650/CONDOR-18-32.1)).
 
-<img src="{{ site.baseurl }}/images/2018/08/30/example-species.png" class="img-responsive" alt="Me model predictions">
+<img src="{{ site.baseurl }}/images/2018/08/30/example-species.png" class="img-responsive" alt="Example species">
 
 
 In summary, we evaluated a conventional removal model and a finite mixture removal model, with and without covariates, for 152 bird species. We found that the probabilities of predicted availability under conventional and finite mixture models were very similar with respect to the range of probability values and the shape of the response curves to predictor variables. However, finite mixture models were better supported for the large majority of species. We also found overwhelming support for time-varying models irrespective of the parametrization.
