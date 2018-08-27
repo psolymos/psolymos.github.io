@@ -6,9 +6,9 @@
   year: 2018
   text: "<strong>S&oacute;lymos, P.</strong>, Matsuoka, S. M., Cumming, S. G., Stralberg, D., Fontaine, P., Schmiegelow, F. K. A., Song, S. J., and Bayne, E. M., 2018. Evaluating time-removal models for estimating availability of boreal birds during point-count surveys: sample size requirements and model complexity. <strong>Condor</strong>, xx: xx&ndash;xx."
   link: "http://www.americanornithologypubs.org/loi/cond"
-  fulltext:
+  fulltext: "http://dx.doi.org/10.1650/CONDOR-18-32.1"
   code: "<a href=\"https://github.com/psolymos/QPAD#readme\"><code>QPAD</code></a> and <a href=\"https://CRAN.R-project.org/package=detect\"><code>detect</code></a> R packages"
-  supportinginfo:
+  supportinginfo: "<a href=\"http://peter.solymos.org/code/2018/08/30/fitting-removal-models-with-the-detect-r-package.html\">tutorial</a>"
   doi: 10.1650/CONDOR-18-32.1
 - id: Feher2018b
   type: incollection
