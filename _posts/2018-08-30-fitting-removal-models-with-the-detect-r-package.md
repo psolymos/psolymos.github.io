@@ -12,6 +12,9 @@ promote: true
 
 In a paper recently published in the [Condor](http://www.americanornithologypubs.org/), titled _Evaluating time-removal models for estimating availability of boreal birds during point-count surveys: sample size requirements and model complexity_,  we assessed different ways of controlling for point-count duration in bird point count data using data from the [Boreal Avian Modelling Project](http://www.borealbirds.ca/). As the title indicates, the paper describes a cost-benefit analysis to make recommendations about when to use different types of the removal model. The paper is open access, so feel free to read the [whole paper here](https://dx.doi.org/10.1650/CONDOR-18-32.1)).
 
+<img src="{{ site.baseurl }}/images/2018/08/30/example-species.png" class="img-responsive" alt="Me model predictions">
+
+
 In summary, we evaluated a conventional removal model and a finite mixture removal model, with and without covariates, for 152 bird species. We found that the probabilities of predicted availability under conventional and finite mixture models were very similar with respect to the range of probability values and the shape of the response curves to predictor variables. However, finite mixture models were better supported for the large majority of species. We also found overwhelming support for time-varying models irrespective of the parametrization.
 
 I have wrote a related post about the [journey that led to this paper](http://link.to/condor/blog/post/comes/here), in this post I describe the math behind the removal modeling as implemented in the [**detect**](https://cran.r-project.org/package=detect) [R](https://r-project.org/) package.
@@ -35,7 +38,7 @@ library(paired)
 data(paired)
 ```
 
-We will use the counts for Ovenbird, one of the most common species in the data set (abbreviated as `OVEN`). The data is in long format, so I am using the [**mefa4**](https://cran.r-project.org/package=mefa4) R package to make the sample by species cross-tabulation. Then subsetting the data to retain samples obtained by human observers, then getting rid of missing predictor data. For predictors, we will use a variable capturing date (`JDAY`; standardized ordinal day of the year) and an other one capturing time of day (`TSSR`; time since local sunrise).
+We will use the counts for Ovenbird, one of the most common species in the data set (abbreviated as `"OVEN"`). The data is in long format, so I am using the [**mefa4**](https://cran.r-project.org/package=mefa4) R package to make the sample by species cross-tabulation. Then subsetting the data to retain samples obtained by human observers, then getting rid of missing predictor data. For predictors, we will use a variable capturing date (`JDAY`; standardized ordinal day of the year) and an other one capturing time of day (`TSSR`; time since local sunrise).
 
 The data frame `X` contains the predictors. The matrix `Y` contains the counts of newly counted individuals binned into consecutive time intervals (0&ndash;3, 3&ndash;5, 5&ndash;10 minutes): cell values are the $$Y_{ij}$$'s. The `D` object is another matrix mirroring the structure of `Y`
 but instead of counts, it contains the interval end times: cell values are
@@ -55,35 +58,35 @@ X <- X[i,c("JDAY", "TSSR")]
 D <- matrix(c(3, 5, 10), nrow(Y), 3, byrow=TRUE)
 dimnames(D) <- dimnames(Y)
 
-head(X)
+tail(X)
 
 ##                  JDAY       TSSR
-## 05-041-01_1 0.4712329 0.17777554
-## 05-041-02_1 0.4712329 0.18543191
-## 05-041-05_1 0.4712329 0.13958452
-## 05-041-06_1 0.4712329 0.14724089
-## 05-041-07_1 0.4712329 0.08955299
-## 05-041-08_1 0.4712329 0.11804269
+## 96PA-C2-B_2 0.4383562 0.13468851
+## 96PA-C2-C_1 0.4438356 0.08526145
+## 96PA-C2-C_2 0.4383562 0.15273704
+## 96PA-C2-D_1 0.4438356 0.13597129
+## 96PA-C2-E_1 0.4438356 0.10122629
+## 96PA-C2-F_1 0.4438356 0.11999388
 
-head(Y)
-
-##             0-3 min 3-5 min 5-10 min
-## 05-041-01_1       0       0        0
-## 05-041-02_1       0       0        0
-## 05-041-05_1       0       0        0
-## 05-041-06_1       0       0        0
-## 05-041-07_1       0       0        0
-## 05-041-08_1       0       0        0
-
-head(D)
+tail(Y)
 
 ##             0-3 min 3-5 min 5-10 min
-## 05-041-01_1       3       5       10
-## 05-041-02_1       3       5       10
-## 05-041-05_1       3       5       10
-## 05-041-06_1       3       5       10
-## 05-041-07_1       3       5       10
-## 05-041-08_1       3       5       10
+## 96PA-C2-B_2       5       0        0
+## 96PA-C2-C_1       2       0        0
+## 96PA-C2-C_2       2       0        0
+## 96PA-C2-D_1       7       0        0
+## 96PA-C2-E_1       2       0        0
+## 96PA-C2-F_1       2       0        0
+
+tail(D)
+
+            0-3 min 3-5 min 5-10 min
+## 96PA-C2-B_2       3       5       10
+## 96PA-C2-C_1       3       5       10
+## 96PA-C2-C_2       3       5       10
+## 96PA-C2-D_1       3       5       10
+## 96PA-C2-E_1       3       5       10
+## 96PA-C2-F_1       3       5       10
 ```
 
 ## Time-invariant conventional removal model
