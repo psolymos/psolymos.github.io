@@ -376,4 +376,4 @@ To this end, we provide our removal model estimates as part of the [**QPAD**](ht
 
 Please report any issues [here](https://github.com/psolymos/detect/issues) and feel free to comment below!
 
-**UPDATE**: [AOS press release](https://americanornithologypubsblog.org/2018/08/29/a-better-way-to-count-boreal-birds/), [EurekAlert!](https://www.eurekalert.org/pub_releases/2018-08/uoa-bbb083018.php).
+**UPDATE**: [AOS press release](https://americanornithologypubsblog.org/2018/08/29/a-better-way-to-count-boreal-birds/), [EurekAlert!](https://www.eurekalert.org/pub_releases/2018-08/uoa-bbb083018.php), [ABMI blog](http://blog.abmi.ca/2018/08/30/easy-as-1-2-3-but-1-2-3-4-5-might-be-better-how-long-should-a-point-count-take/).
