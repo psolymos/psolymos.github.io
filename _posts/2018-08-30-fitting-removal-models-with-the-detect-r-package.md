@@ -14,7 +14,7 @@ In a paper recently published in the [Condor](http://www.americanornithologypubs
 
 In summary, we evaluated a conventional removal model and a finite mixture removal model, with and without covariates, for 152 bird species. We found that the probabilities of predicted availability under conventional and finite mixture models were very similar with respect to the range of probability values and the shape of the response curves to predictor variables. However, finite mixture models were better supported for the large majority of species. We also found overwhelming support for time-varying models irrespective of the parametrization.
 
-I have wrote a related post about the journey that led to this paper ([_Count me in! I am available for detection at 6 AM on May 26th_](https://americanornithologypubsblog.org/2018/08/29/author-blog-count-me-in-i-am-available-for-detection-at-6-am-on-may-26th/)), in this post I describe the math behind the removal modeling as implemented in the [**detect**](https://cran.r-project.org/package=detect) [R](https://r-project.org/) package.
+I have written a related post about the journey that led to this paper ([_Count me in! I am available for detection at 6 AM on May 26th_](https://americanornithologypubsblog.org/2018/08/29/author-blog-count-me-in-i-am-available-for-detection-at-6-am-on-may-26th/)), in this post I describe the math behind the removal modeling as implemented in the [**detect**](https://cran.r-project.org/package=detect) [R](https://r-project.org/) package.
 
 ## Continuous time-removal models
 
@@ -375,3 +375,5 @@ Our findings also indicate that lengthening the count duration from 3 minutes to
 To this end, we provide our removal model estimates as part of the [**QPAD**](https://github.com/psolymos/qpad) R package and the R functions required to fit all the above outlined removal models as part of the [**detect**](https://cran.r-project.org/package=detect) R package. We at the [Boreal Avian Modelling Project](http://www.borealbirds.ca/) and our collaborators are already utilizing the removal model estimates to correct for availability bias in our continental and regional projects to inform better management and conservation of bird populations. Read more about these projects in our [reports](http://www.borealbirds.ca/library/index.php/technical_reports).
 
 Please report any issues [here](https://github.com/psolymos/detect/issues) and feel free to comment below!
+
+**UPDATE**: [AOS press release](https://americanornithologypubsblog.org/2018/08/29/a-better-way-to-count-boreal-birds/).
