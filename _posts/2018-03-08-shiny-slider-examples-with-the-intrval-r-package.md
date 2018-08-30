@@ -5,7 +5,7 @@ published: true
 category: Code
 tags: [R, intrval, shiny, slider]
 disqus: petersolymos
-promote: true
+promote: false
 ---
 
 The [**intrval**](https://github.com/psolymos/intrval#readme) R package is lightweight (~11K), standalone (apart from importing from **graphics**, has exactly 0 non-**base** dependency), and it has a very narrow scope: it implements relational operators for intervals &mdash; very well aligned with the [_tiny manifesto_](http://www.tinyverse.org/). In this post we will explore the use of the package in two [**shiny**](https://shiny.rstudio.com/) apps with [sliders](https://shiny.rstudio.com/articles/sliders.html).

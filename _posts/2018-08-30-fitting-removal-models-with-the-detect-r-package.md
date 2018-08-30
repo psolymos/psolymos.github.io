@@ -1,7 +1,7 @@
 ---
 title: "Fitting removal models with the detect R package"
 layout: default
-published: false
+published: true
 category: Code
 tags: [R, detect, detectability, QPAD]
 disqus: petersolymos
@@ -10,10 +10,9 @@ promote: true
 
 ## Intro
 
-In a paper recently published in the [Condor](http://www.americanornithologypubs.org/), titled _Evaluating time-removal models for estimating availability of boreal birds during point-count surveys: sample size requirements and model complexity_,  we assessed different ways of controlling for point-count duration in bird point count data using data from the [Boreal Avian Modelling Project](http://www.borealbirds.ca/). As the title indicates, the paper describes a cost-benefit analysis to make recommendations about when to use different types of the removal model. The paper is open access, so feel free to read the [whole paper here](https://dx.doi.org/10.1650/CONDOR-18-32.1)).
+In a paper recently published in the [Condor](http://www.americanornithologypubs.org/), titled _Evaluating time-removal models for estimating availability of boreal birds during point-count surveys: sample size requirements and model complexity_,  we assessed different ways of controlling for point-count duration in bird counts using data from the [Boreal Avian Modelling Project](http://www.borealbirds.ca/). As the title indicates, the paper describes a cost-benefit analysis to make recommendations about when to use different types of the removal model. The paper is open access, so feel free to read the [whole paper here](https://dx.doi.org/10.1650/CONDOR-18-32.1)).
 
 <img src="{{ site.baseurl }}/images/2018/08/30/example-species.png" class="img-responsive" alt="Example species">
-
 
 In summary, we evaluated a conventional removal model and a finite mixture removal model, with and without covariates, for 152 bird species. We found that the probabilities of predicted availability under conventional and finite mixture models were very similar with respect to the range of probability values and the shape of the response curves to predictor variables. However, finite mixture models were better supported for the large majority of species. We also found overwhelming support for time-varying models irrespective of the parametrization.
 
@@ -29,7 +28,7 @@ Time-removal models are based on a removal experiment whereby animals are trappe
 
 ## Data requirements
 
-We have just defined the kind of data we need for the removal models. In this post, I am going to use a data set from our paper about comparing human observer based counts to automated recording units, [_Paired sampling standardizes point count data from humans and acoustic recorders_](https://doi.org/10.5751/ACE-00975-120113). The data set we used is wrapped up in an R package called [**paired**](https://github.com/borealbirds/paired).
+We have just defined the kind of data we need for the removal models. In this post, I am going to use a data set from our paper about comparing human observer based counts to automated recording units, [_Paired sampling standardizes point count data from humans and acoustic recorders_](https://doi.org/10.5751/ACE-00975-120113). The data set we used is wrapped up in an R package called [**paired**](https://github.com/borealbirds/paired) (thanks for Steve Van Wilgenburg for suggestions on this post and for agreeing to share this data set).
 
 ``` r
 if (!require(paired))
@@ -118,7 +117,6 @@ summary(Me0)
 ## Log-likelihood: -272.1
 ## BIC = 549.4
 ```
-
 
 ## Time-varying conventional removal models
 
@@ -297,7 +295,7 @@ Mm1 <- cmulti(Y | D ~ JDAY, X, type="mix")
 Mm2 <- cmulti(Y | D ~ TSSR, X, type="mix")
 ```
 
-We did not fit a null model for this parametrization, because it is identical to the `Mf0` model, so that is what we use to compare AIC values and inspect the summary for the best supported model with the `JDAY` effect in this case.
+We did not fit a null model for this parametrization, because it is identical to the `Mf0` model, so that model `Mf0` is what we use to compare AIC values and inspect the summary for the best supported model with the `JDAY` effect in this case.
 
 ``` r
 Mm_AIC <- AIC(Mf0, Mm1, Mm2)
@@ -369,7 +367,6 @@ M_AIC
 ## MfBest  3 519.1168  0.08960974
 ## MmBest  3 519.0272  0.00000000
 ```
-
 
 ## Conclusions and applications
 
