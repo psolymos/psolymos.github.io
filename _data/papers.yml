@@ -1,6 +1,15 @@
 #
 #------------------------- 2018 ------------------------------
 #
+- id: PallGergely2018
+  type: paper
+  year: 2018
+  text: "P&aacute;ll-Gergely, B., Asami, T., and <strong>S&oacute;lymos, P.</strong>, 2018. Subspecies description rates are higher in morphologically complex land snails. <strong>Zoologica Scripta</strong>, xx: xx&ndash;xx."
+  link: "https://onlinelibrary.wiley.com/journal/14636409"
+  fulltext: 
+  code: 
+  supportinginfo: 
+  doi: 
 - id: Solymos2018b
   type: paper
   year: 2018
