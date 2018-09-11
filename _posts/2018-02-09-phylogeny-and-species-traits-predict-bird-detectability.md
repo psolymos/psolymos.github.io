@@ -54,7 +54,7 @@ The output object class has some methods defined (like `logLik` and `summary`)
 and as a result AIC/BIC will work out of the box. The vignette also
 describes a few techniques which are pretty nice to have in
 a multivariate setting (i.e. profile likelihood, parametric bootstrap)
-to support avanced hypothesis testing and model selection.
+to support advanced hypothesis testing and model selection.
 
 We used leave one out cross-validation to see how well we could predict the
 values based on data from the other species, traits and phylogeny.
