@@ -7,7 +7,7 @@ layout: default
 <p id="checks-external">
 <a href="http://depsy.org/person/329897">
     <img src="http://depsy.org/api/person/329897/badge.svg"></a> &mdash;
-<a href="http://cran.r-project.org/web/checks/check_summary_by_maintainer.html#address:solymos_at_ualberta.ca">CRAN</a> &mdash;
+<a href="https://cran.r-project.org/web/checks/check_results_solymos_at_ualberta.ca.html">CRAN checks</a> &mdash;
 <a href="https://www.rdocumentation.org/collaborators/name/Peter%20Solymos">RDoc</a> &mdash;
 <a href="https://travis-ci.org/psolymos">Travis CI</a> &mdash;
 <a href="https://codecov.io/gh/psolymos/">CodeCov</a> &mdash;
