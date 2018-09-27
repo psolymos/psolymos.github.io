@@ -78,4 +78,6 @@ I realize this is not a very detailed post, but the paper
 and the vignette should satisfy your curiosity.
 If you still have unanswered questions, feel free to ask them below!
 
-**UPDATE** &ndash; 2018-04-13: a related [blog post](https://www.okologiablog.hu/node/460) in Hungarian.
+**UPDATE**
+- 2018-09-26: post on [Ecography blog](http://www.ecography.org/blog/phylogeny-and-species-traits-predict-bird-detectability) and [video abstract](https://vimeo.com/291323964).
+- 2018-04-13: a related [blog post](https://www.okologiablog.hu/node/460) in Hungarian.
