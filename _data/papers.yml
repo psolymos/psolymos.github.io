@@ -1,15 +1,36 @@
 #
-#------------------------- 2018 ------------------------------
+#------------------------- 2019 ------------------------------
 #
-- id: PallGergely2018
+- id: Allen2019
+  type: incollection
+  year: 2019
+  text: "Allen, B., Morrison, S., Kariyeva, J., Sparkes, S., Hutchings, C., Hricko, B., <strong>S&oacute;lymos, P.</strong>, Huggard, D., 2019. Data collection. In: Alberta Biodiversity Monitoring Institute (ABMI), ABMI 10-year science and program review. pp. 29&ndash;64."
+  link:
+  fulltext: "https://abmi10years.ca/10-year-review/resources/"
+  code:
+  supportinginfo:
+  doi: 
+- id: Solymos2019
+  type: incollection
+  year: 2019
+  text: "<strong>S&oacute;lymos, P.</strong>, Azeria, E. T., Huggard, D. J., Roy, M.-C., Schieck, J., 2019. Predicting species status and relationships. In: Alberta Biodiversity Monitoring Institute (ABMI), ABMI 10-year science and program review. pp. 65&ndash;97."
+  link:
+  fulltext: "https://abmi10years.ca/10-year-review/resources/"
+  code:
+  supportinginfo:
+  doi: 
+- id: PallGergely2019
   type: paper
-  year: 2018
-  text: "P&aacute;ll-Gergely, B., Asami, T., and <strong>S&oacute;lymos, P.</strong>, 2018. Subspecies description rates are higher in morphologically complex land snails. <strong>Zoologica Scripta</strong>, xx: xx&ndash;xx."
+  year: 2019
+  text: "P&aacute;ll-Gergely, B., Asami, T., and <strong>S&oacute;lymos, P.</strong>, 2019. Subspecies description rates are higher in morphologically complex land snails. <strong>Zoologica Scripta</strong>, xx: xx&ndash;xx."
   link: "https://onlinelibrary.wiley.com/journal/14636409"
   fulltext:
   code:
   supportinginfo:
   doi: 10.1111/zsc.12319
+#
+#------------------------- 2018 ------------------------------
+#
 - id: Solymos2018b
   type: paper
   year: 2018
