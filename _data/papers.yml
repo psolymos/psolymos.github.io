@@ -1,10 +1,20 @@
 #
 #------------------------- 2019 ------------------------------
 #
+- id: Westwood2019
+  type: paper
+  year: 2019
+  text: "Westwood, A. R., Staicer, C., <strong>S&oacute;lymos, P.</strong>, Hach&eacute;, S., Fontaine, T., Bayne, E., and Mazerolle, D., 2009. Estimating the conservation value of protected areas in Maritime Canada for two species at risk: the Olive-sided Flycatcher (<em>Contopus cooperi</em>) and Canada Warbler (<em>Cardellina canadensis</em>). <strong>Avian Conservation and Ecology</strong>, xx: xx&ndash;xx."
+  link:
+  fulltext:
+  code:
+  supportinginfo:
+  doi: 
+
 - id: Allen2019
   type: incollection
   year: 2019
-  text: "Allen, B., Morrison, S., Kariyeva, J., Sparkes, S., Hutchings, C., Hricko, B., <strong>S&oacute;lymos, P.</strong>, Huggard, D., 2019. Data collection. In: Alberta Biodiversity Monitoring Institute (ABMI), ABMI 10-year science and program review. pp. 29&ndash;64."
+  text: "Allen, B., Morrison, S., Kariyeva, J., Sparkes, S., Hutchings, C., Hricko, B., <strong>S&oacute;lymos, P.</strong>, and Huggard, D., 2019. Data collection. In: <em>Alberta Biodiversity Monitoring Institute (ABMI), ABMI 10-year science and program review</em>. pp. 29&ndash;64."
   link:
   fulltext: "https://abmi10years.ca/10-year-review/resources/"
   code:
@@ -13,7 +23,7 @@
 - id: Solymos2019
   type: incollection
   year: 2019
-  text: "<strong>S&oacute;lymos, P.</strong>, Azeria, E. T., Huggard, D. J., Roy, M.-C., Schieck, J., 2019. Predicting species status and relationships. In: Alberta Biodiversity Monitoring Institute (ABMI), ABMI 10-year science and program review. pp. 65&ndash;97."
+  text: "<strong>S&oacute;lymos, P.</strong>, Azeria, E. T., Huggard, D. J., Roy, M.-C., and Schieck, J., 2019. Predicting species status and relationships. In: <em>Alberta Biodiversity Monitoring Institute (ABMI), ABMI 10-year science and program review</em>. pp. 65&ndash;97."
   link:
   fulltext: "https://abmi10years.ca/10-year-review/resources/"
   code:
