@@ -14,11 +14,11 @@
   type: paper
   year: 2019
   text: "Westwood, A. R., Staicer, C., <strong>S&oacute;lymos, P.</strong>, Hach&eacute;, S., Fontaine, T., Bayne, E., and Mazerolle, D., 2019. Estimating the conservation value of protected areas in Maritime Canada for two species at risk: the Olive-sided Flycatcher (<em>Contopus cooperi</em>) and Canada Warbler (<em>Cardellina canadensis</em>). <strong>Avian Conservation and Ecology</strong>, xx: xx&ndash;xx."
-  link:
-  fulltext:
+  link: "https://www.ace-eco.org/issues/view.php?sf=7"
+  fulltext: "http://www.ace-eco.org/vol14/iss1/art16/"
   code:
   supportinginfo:
-  doi: 
+  doi:  10.5751/ACE-01359-140116
 - id: Allen2019
   type: incollection
   year: 2019
