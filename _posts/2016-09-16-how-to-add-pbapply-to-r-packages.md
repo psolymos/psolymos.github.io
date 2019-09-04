@@ -116,3 +116,6 @@ Leave a comment or visit the [GitHub repo](https://github.com/psolymos/pbapply/i
 
 **Update (2017-10-02):** the number of R packages that reverse
 depend/import/suggest **pbapply** has more than doubled in a year (47: 5/32/10).
+
+**Update (2019-09-04):** the number of R packages that reverse
+depend/import/suggest **pbapply** is now 98 (7/72/19).
