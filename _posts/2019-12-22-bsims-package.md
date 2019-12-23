@@ -267,8 +267,8 @@ cbind(true = c(phi=phi, tau=tau, D=Den),
 Deviations from the assumptions and bias in density estimation can be
 explored systematically by evaluating the simulations settings. We
 recommend exploring the simulation settings interactively in the
-**shiny** apps using `run_app("distfunH")` app for the homogeneous
-habitat case and the `run_app("distfunHER")` app for the stratified
+**shiny** apps using `run_app("bsimsH")` app for the homogeneous
+habitat case and the `run_app("bsimsHER")` app for the stratified
 habitat case. The apps represent the simulation layers as tabs, the last
 tab presenting the settings that can be copied onto the clipboard and
 pasted into the R session or code. In simple situations, comparing
