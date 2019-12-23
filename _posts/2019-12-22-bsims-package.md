@@ -111,7 +111,8 @@ the following, with the corresponding function:
 4.  the physical side of the observation process (`bsims_detect`), and
 5.  the human aspect of the observation process (`bsims_transcribe`).
 
-This example is a sneak peek go to the package vebsite where the
+This example is a sneak peek. Go to the package 
+[website](https://peter.solymos.org/bSims/articles/intro.html) where the
 vignette describes all the arguments.
 
 ``` r
