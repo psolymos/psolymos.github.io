@@ -24,3 +24,8 @@
 
 # RStudio files
 .Rproj.user/
+
+# npm stuff
+/.cache/*
+/node_modules/*
+/src/*
