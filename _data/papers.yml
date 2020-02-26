@@ -1,6 +1,15 @@
 #
 #------------------------- 2020 ------------------------------
 #
+- id: Tremblay2020
+  type: paper
+  year: 2020
+  text: "Tremblay, J. A., Boulanger, Y., Cadieux, P., Cyr, D., Taylor, A. R., Price, D. T., Stralberg, D., and <strong>S&oacute;lymos, P.</strong>, 2020. Projected effects of climate change on boreal bird community accentuated by anthropogenic disturbances in western boreal forest, Canada. <strong>Diversity and Distributions</strong>, xx: xx&ndash;xx."
+  link: 
+  fulltext: 
+  code:
+  supportinginfo:
+  doi: 
 - id: Solymos2020
   type: paper
   year: 2020
