@@ -1,6 +1,15 @@
 #
 #------------------------- 2020 ------------------------------
 #
+- id: Knight2020
+  type: paper
+  year: 2020
+  text: "Knight, E. C, <strong>S&oacute;lymos, P.</strong>, Scott, C., and Bayne, E. M., 2020. Validation prediction: a flexible protocol to increase efficiency of automated acoustic processing for wildlife research. <strong>Ecological Applications</strong>, xx: xx&ndash;xx."
+  link: 
+  fulltext: 
+  code:
+  supportinginfo:
+  doi: 
 - id: Tremblay2020
   type: paper
   year: 2020
