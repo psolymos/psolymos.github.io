@@ -10,6 +10,15 @@
   code:
   supportinginfo:
   doi: 
+- id: Solymos2020
+  type: paper
+  year: 2020
+  text: "<strong>S&oacute;lymos, P.</strong>, Toms,  J. D., Matsuoka,  S. M., Cumming,  S. G., Barker,  N. K. S., Thogmartin,  W. E., Stralberg,  D., Crosby,  A. D., D&eacute;nes, F. V., Hach&eacute;,  S., Mahon,  C. L., Schmiegelow,  F. K. A., and Bayne,  E. M., 2020. Lessons learned from comparing spatially explicit models and the Partners in Flight approach to estimate population sizes of boreal birds in Alberta, Canada. <strong>Condor</strong>, xx: xx&ndash;xx."
+  link: 
+  fulltext: 
+  code:
+  supportinginfo: "<a href=\"http://doi.org/10.5281/zenodo.3563112\">supporting material</a>"
+  doi: 10.1093/condor/duaa007
 - id: Tremblay2020
   type: paper
   year: 2020
@@ -19,15 +28,6 @@
   code:
   supportinginfo:
   doi: 10.1111/ddi.13057
-- id: Solymos2020
-  type: paper
-  year: 2020
-  text: "<strong>S&oacute;lymos, P.</strong>, Toms,  J. D., Matsuoka,  S. M., Cumming,  S. G., Barker,  N. K. S., Thogmartin,  W. E., Stralberg,  D., Crosby,  A. D., D&eacute;nes, F. V., Hach&eacute;,  S., Mahon,  C. L., Schmiegelow,  F. K. A., and Bayne,  E. M., 2020. Lessons learned from comparing spatially explicit models and the Partners in Flight approach to estimate population sizes of boreal birds in Alberta, Canada. <strong>Condor</strong>, xx: xx&ndash;xx."
-  link: 
-  fulltext: 
-  code:
-  supportinginfo: "<a href=\"http://doi.org/10.5281/zenodo.3563112\">supporting material</a>"
-  doi: 
 #
 #------------------------- 2019 ------------------------------
 #
