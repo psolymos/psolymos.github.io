@@ -2,6 +2,8 @@ Peter Solymos's personal website
 ==========
 
 ## Todo in order of priority
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpsolymos%2Fpsolymos.github.io.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpsolymos%2Fpsolymos.github.io?ref=badge_shield)
+
 
 - [x] add to R-bloggers [here](http://www.r-bloggers.com/add-your-blog/)
 - [x] include 'subscribe/follow' buttons at top of sidebar
@@ -41,3 +43,7 @@ Categories:
   - R package updates (use R tag for `feed-r.xml`, package as tag too).
 
 1-3 (few) posts can be promoted (`post.promote: true`), prefereably only 1.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpsolymos%2Fpsolymos.github.io.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpsolymos%2Fpsolymos.github.io?ref=badge_large)
