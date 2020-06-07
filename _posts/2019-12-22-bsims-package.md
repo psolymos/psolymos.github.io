@@ -6,7 +6,7 @@ category: Code
 tags: [R, detect, detectability, QPAD, bSims]
 disqus: petersolymos
 promote: true
-image: /images/2019/12/22/bSims-intro.png
+image: https://peter.solymos.org/images/2019/12/22/bSims-intro.png
 ---
 
 The [**bSims**](https://peter.solymos.org/bSims/index.html) R package is

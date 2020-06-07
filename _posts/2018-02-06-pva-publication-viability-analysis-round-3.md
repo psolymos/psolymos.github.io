@@ -6,6 +6,7 @@ tags: [PVA, publications, PVAClone, intrval, R, data cloning, Hungary]
 published: true
 disqus: petersolymos
 promote: false
+image: https://peter.solymos.org/images/2018/02/06/pva-3.png
 ---
 
 A friend and colleague of mine, [P&eacute;ter Bat&aacute;ry](https://sites.google.com/site/pbatary/)
