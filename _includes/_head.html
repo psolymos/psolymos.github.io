@@ -23,7 +23,7 @@
 <meta property="og:image:width" content="400" />
 <meta property="og:image:height" content="300" />
 <meta property="og:url" content="{{ site.baseurl }}{{ page.url }}" />
-<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:site_name" content="{{ site.author_plain }}">
 <meta name="twitter:site" content="@psolymos" />
 <meta
   name="twitter:title"
@@ -39,11 +39,19 @@
 {% capture bswtheme %}{% if page.bswtheme %}{{ page.bswtheme }}{% else %}{{
 site.bswtheme }}{% endif %}{% endcapture %}
 <!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/bootstrap.css" media="screen"> -->
-<link
+
+<!-- <link
   rel="stylesheet"
   href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.4/{{ bswtheme }}/bootstrap.min.css"
   media="screen"
+/> -->
+<link
+  rel="stylesheet"
+  href="//stackpath.bootstrapcdn.com/bootswatch/4.5.0/{{ bswtheme }}/bootstrap.min.css"
+  crossorigin="anonymous"
+  media="screen"
 />
+
 <link
   rel="stylesheet"
   href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
