@@ -1,6 +1,15 @@
 #
 #------------------------- 2020 ------------------------------
 #
+- id: Nuest2020
+  type: paper
+  year: 2020
+  text: "N&uuml;st, D., Eddelbuettel, D., Bennett, D., Cannoodt, R., Clark, D., Dar&oacute;czi, G., Edmondson, M., Fay, C., Hughes, E., Kjeldgaard, L., Lopp, S., Marwick, B., Nolis, H., Nolis, J., Ooi, H., Ram, K., Ross, N., Shepherd, L., <strong>S&oacute;lymos, P.</strong>, Swetnam, T. L., Turaga, N., Van Petegem, C., Williams, J., Willis, C., Xiao, N., 2020. The Rockerverse: packages and applications for containerisation with R. <strong>The R Journal</strong>, xx: xx&ndash;xx."
+  link: 
+  fulltext: 
+  code:
+  supportinginfo:
+  doi: 
 - id: Knight2020
   type: paper
   year: 2020
