@@ -56,7 +56,7 @@ more of the biological realism into the simulations.
 
 Introductory stats books begin with the coin flip to introduce the
 binomial distribution. In R we can easily simulate an outcome from such
-a random variable \(Y \sim Binomial(1, p)\) doing something like this:
+a random variable \\(Y \sim Binomial(1, p)\\) doing something like this:
 
 ``` r
 p <- 0.5
@@ -83,8 +83,8 @@ Y <- rbinom(1, size = N, prob = p * q)
 ```
 
 This looks not too complicated, corresponding to the true abundance
-being a random variables \(N \sim Poisson(DA)\), while the observed
-count being \(Y \sim Binomial(N, pq)\). This is the exact simulation
+being a random variables \\(N \sim Poisson(DA)\\), while the observed
+count being \\(Y \sim Binomial(N, pq)\\). This is the exact simulation
 that we need when we want to make sure that an *estimator* is capable of
 estimating the *model* parameters (`lambda` and `prob` here). But such
 probabilistic simulations are not very useful when we are interested how
@@ -349,7 +349,7 @@ bb2 <- b2$replicate(B)
 ```
 
 The replicate function takes an argument for the number of replicates
-(`B`) and returns a list of transcript objects with \(B\) elements. The
+(`B`) and returns a list of transcript objects with \\(B\\) elements. The
 `cl` argument can be used to parallelize the work, it can be a numeric
 value on Unix/Linux/OSX, or a cluster object on any OS. The `recover =
 TRUE` argument allows to run simulations with error catching.
