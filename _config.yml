@@ -6,20 +6,20 @@ baseurl: https://peter.solymos.org
 #baseurl: https://psolymos.github.io
 
 include: [".htaccess"]
-exclude: ["README.md","LICENSE.md"]
-timezone:    America/Edmonton
+exclude: ["README.md", "LICENSE.md"]
+timezone: America/Edmonton
 
 encoding: UTF-8
 markdown: kramdown
 kramdown:
-  input:          GFM
-  hard_wrap:      false
+  input: GFM
+  hard_wrap: false
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Bootswatch theme (cosmo)
 bswtheme: cosmo
 # fancy fonts on/off
-fancyfonts: false
+fancyfonts: true
 # navbar style: inverse, transparent
 navbar: transparent
 
@@ -27,7 +27,7 @@ disqus: petersolymos
 ads: false
 
 author: '<a href="https://peter.solymos.org">P&eacute;ter S&oacute;lymos</a>'
-author_plain: 'Peter Solymos'
+author_plain: "Peter Solymos"
 
 categories: ["Etc", "Talks", "Papers", "Code", "Tutorials"]
 

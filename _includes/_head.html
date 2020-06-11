@@ -1,13 +1,31 @@
 <meta charset="utf-8" />
-<title>{% if page.title %}{{ page.title | strip_html }} &#8211; {% endif %}{{
-  site.title }}</title>
+<title>
+  {% if page.title %}{{ page.title | strip_html }} &#8211; {% endif %}{{
+  site.title }}
+</title>
 <meta
   name="description"
   content="{{ page.excerpt | strip_html | normalize_whitespace | truncate: 160 | escape }}"
 />
 <meta name="keywords" content="{{ page.tags | join: ', ' }}" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel=“canonical” href=“{% if page.canonical %}{{ page.canonical }}{% else %}{{ site.baseurl }}{{ page.url }}{% endif %}” />
+<link
+  rel="“canonical”"
+  href="“{%"
+  if
+  page.canonical
+  %}{{
+  page.canonical
+  }}{%
+  else
+  %}{{
+  site.baseurl
+  }}{{
+  page.url
+  }}{%
+  endif
+  %}”
+/>
 <meta
   property="og:title"
   content="{% if page.title %}{{ page.title | strip_html }} &#8211; {% endif %}{{ site.title }}"
@@ -16,12 +34,15 @@
   property="og:description"
   content="{{ page.excerpt | strip_html | normalize_whitespace | truncate: 160 | escape }}"
 />
-<meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.baseurl }}/images/screenshot.png{% endif %}" />
+<meta
+  property="og:image"
+  content="{% if page.image %}{{ page.image }}{% else %}{{ site.baseurl }}/images/screenshot.png{% endif %}"
+/>
 <meta property="og:type" content="website" />
 <meta property="og:image:width" content="400" />
 <meta property="og:image:height" content="300" />
 <meta property="og:url" content="{{ site.baseurl }}{{ page.url }}" />
-<meta property="og:site_name" content="{{ site.author_plain }}">
+<meta property="og:site_name" content="{{ site.author_plain }}" />
 <meta name="twitter:site" content="@psolymos" />
 <meta
   name="twitter:title"
@@ -80,13 +101,13 @@ site.bswtheme }}{% endif %}{% endcapture %}
 </script>
 <style type="text/css">
   {% if site.fancyfonts == true %}/* different font family */
-  @import url(https://fonts.googleapis.com/css?family=Oswald);
-  @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic);{% endif %}
+  @import url(https://fonts.googleapis.com/css?family=Nunito);
+  @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700,400italic);{% endif %}
   /* padding for bootstrap navbar */
   body {
       padding-top: 40px;
       padding-bottom: 40px;
-      {% if site.fancyfonts == true %}font-family: 'Source Sans Pro', sans-serif;{% endif %}
+      {% if site.fancyfonts == true %}font-family: 'Montserrat', sans-serif;{% endif %}
   }
   /* Google custom search look and feel */
   .gsc-results-wrapper-overlay, .gsc-results-wrapper-visible, .gsc-search-button, .gsc-search-button-v2 {
@@ -94,7 +115,7 @@ site.bswtheme }}{% endif %}{% endcapture %}
   }
   /* same color as inline code */
   h1, h2, h3, h4, h5, h6 {
-      {% if site.fancyfonts == true %}font-family: 'Oswald', sans-serif;{% endif %}
+      {% if site.fancyfonts == true %}font-family: 'Nunito', sans-serif;{% endif %}
   }
 </style>
 <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" />
