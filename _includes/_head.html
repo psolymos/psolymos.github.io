@@ -9,22 +9,7 @@
 />
 <meta name="keywords" content="{{ page.tags | join: ', ' }}" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link
-  rel="“canonical”"
-  href="“{%"
-  if
-  page.canonical
-  %}{{
-  page.canonical
-  }}{%
-  else
-  %}{{
-  site.baseurl
-  }}{{
-  page.url
-  }}{%
-  endif
-  %}”
+<link rel="canonical" href="{% if page.canonical %}{{ page.canonical }}{% else %}{{ site.baseurl }}{{ page.url }}{% endif %}”
 />
 <meta
   property="og:title"

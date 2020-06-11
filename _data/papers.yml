@@ -5,17 +5,17 @@
   type: paper
   year: 2020
   text: "N&uuml;st, D., Eddelbuettel, D., Bennett, D., Cannoodt, R., Clark, D., Dar&oacute;czi, G., Edmondson, M., Fay, C., Hughes, E., Kjeldgaard, L., Lopp, S., Marwick, B., Nolis, H., Nolis, J., Ooi, H., Ram, K., Ross, N., Shepherd, L., <strong>S&oacute;lymos, P.</strong>, Swetnam, T. L., Turaga, N., Van Petegem, C., Williams, J., Willis, C., Xiao, N., 2020. The Rockerverse: packages and applications for containerisation with R. <strong>The R Journal</strong>, xx: xx&ndash;xx."
-  link: 
+  link:
   fulltext: https://arxiv.org/abs/2001.10641
   code:
   supportinginfo:
-  doi: 
+  doi:
 - id: Knight2020
   type: paper
   year: 2020
   text: "Knight, E. C, <strong>S&oacute;lymos, P.</strong>, Scott, C., and Bayne, E. M., 2020. Validation prediction: a flexible protocol to increase efficiency of automated acoustic processing for wildlife research. <strong>Ecological Applications</strong>, xx: xx&ndash;xx."
   link: https://doi.org/10.1002/eap.2140
-  fulltext: 
+  fulltext:
   code:
   supportinginfo:
   doi: 10.1002/eap.2140
@@ -26,7 +26,7 @@
   link: https://doi.org/10.1093/condor/duaa007
   fulltext: https://doi.org/10.1093/condor/duaa007
   code:
-  supportinginfo: "<a href=\"https://doi.org/10.5281/zenodo.3563112\">supporting material</a>"
+  supportinginfo: '<a href="https://doi.org/10.5281/zenodo.3563112">supporting material</a>'
   doi: 10.1093/condor/duaa007
 - id: Tremblay2020
   type: paper
@@ -66,7 +66,7 @@
   fulltext: "https://www.ace-eco.org/vol14/iss1/art16/"
   code:
   supportinginfo:
-  doi:  10.5751/ACE-01359-140116
+  doi: 10.5751/ACE-01359-140116
 - id: Allen2019
   type: incollection
   year: 2019
@@ -75,7 +75,7 @@
   fulltext: "https://abmi10years.ca/10-year-review/resources/"
   code:
   supportinginfo:
-  doi: 
+  doi:
 - id: Solymos2019
   type: incollection
   year: 2019
@@ -84,7 +84,7 @@
   fulltext: "https://abmi10years.ca/10-year-review/resources/"
   code:
   supportinginfo:
-  doi: 
+  doi:
 - id: PallGergely2019
   type: paper
   year: 2019
@@ -103,8 +103,8 @@
   text: "<strong>S&oacute;lymos, P.</strong>, Matsuoka, S. M., Cumming, S. G., Stralberg, D., Fontaine, P., Schmiegelow, F. K. A., Song, S. J., and Bayne, E. M., 2018. Evaluating time-removal models for estimating availability of boreal birds during point-count surveys: sample size requirements and model complexity. <strong>Condor</strong>, 120: 765&ndash;786."
   link: "https://www.americanornithologypubs.org/loi/cond"
   fulltext: "https://dx.doi.org/10.1650/CONDOR-18-32.1"
-  code: "<a href=\"https://github.com/psolymos/QPAD#readme\"><code>QPAD</code></a> and <a href=\"https://CRAN.R-project.org/package=detect\"><code>detect</code></a> R packages"
-  supportinginfo: "<a href=\"https://peter.solymos.org/code/2018/08/30/fitting-removal-models-with-the-detect-r-package.html\">tutorial</a>"
+  code: '<a href="https://github.com/psolymos/QPAD#readme"><code>QPAD</code></a> and <a href="https://CRAN.R-project.org/package=detect"><code>detect</code></a> R packages'
+  supportinginfo: '<a href="https://peter.solymos.org/code/2018/08/30/fitting-removal-models-with-the-detect-r-package.html">tutorial</a>'
   doi: 10.1650/CONDOR-18-32.1
 - id: Feher2018b
   type: incollection
@@ -130,7 +130,7 @@
   text: "<strong>S&oacute;lymos, P.</strong>, Matsuoka, S. M., Stralberg, D., Barker, N. K. S., and Bayne, E. M., 2018. Phylogeny and species traits predict bird detectability. <strong>Ecography</strong>, 41: 1595&ndash;1603."
   link: "https://onlinelibrary.wiley.com/doi/10.1111/ecog.03415/abstract"
   fulltext:
-  code: "<a href=\"https://github.com/borealbirds/lhreg#readme\"><code>lhreg</code> R package</a>"
+  code: '<a href="https://github.com/borealbirds/lhreg#readme"><code>lhreg</code> R package</a>'
   supportinginfo:
   doi: 10.1111/ecog.03415
 - id: Feher2018a
@@ -208,7 +208,7 @@
   text: "D&eacute;nes, F., <strong>S&oacute;lymos, P.</strong>, Lele, S. R., Silveira, L., and Beissinger, S., 2016. Biome scale signatures of land use change on raptor abundance: insights from single-visit detection-based models. <strong>Journal of Applied Ecology</strong>, 54:1268&ndash;1278."
   link: "https://onlinelibrary.wiley.com/doi/10.1111/1365-2664.12818/abstract"
   fulltext:
-  code: "<a href=\"https://cran.r-project.org/package=detect\"><code>detect</code> R package</a>"
+  code: '<a href="https://cran.r-project.org/package=detect"><code>detect</code> R package</a>'
   supportinginfo:
   doi: 10.1111/1365-2664.12818
 - id: Ball2016
@@ -253,8 +253,8 @@
   text: "<strong>S&oacute;lymos, P.</strong>, and Lele, S. R., 2016. Revisiting resource selection probability functions and single-visit methods: clarification and extensions. <strong>Methods in Ecology and Evolution</strong>, 7:196&ndash;205."
   link: "https://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12432/abstract"
   fulltext: "https://arxiv.org/abs/1501.05880"
-  code: "<a href=\"https://cran.r-project.org/package=detect\"><code>detect</code> R package</a>"
-  supportinginfo: "<a href=\"https://github.com/psolymos/detect/tree/master/extras/revisitingSV\">GitHub site</a>"
+  code: '<a href="https://cran.r-project.org/package=detect"><code>detect</code> R package</a>'
+  supportinginfo: '<a href="https://github.com/psolymos/detect/tree/master/extras/revisitingSV">GitHub site</a>'
   doi: 10.1111/2041-210X.12432
 #
 #------------------------- 2015 ------------------------------
@@ -284,7 +284,7 @@
   link: "https://onlinelibrary.wiley.com/doi/10.1111/ddi.12356/abstract"
   fulltext:
   code:
-  supportinginfo: "<a href=\"https://onlinelibrary.wiley.com/doi/10.1111/ddi.12356/suppinfo\">supporting info</a>"
+  supportinginfo: '<a href="https://onlinelibrary.wiley.com/doi/10.1111/ddi.12356/suppinfo">supporting info</a>'
   doi: 10.1111/ddi.12356
 - id: Stralberg2015a
   type: paper
@@ -293,7 +293,7 @@
   link: "https://www.esajournals.org/doi/abs/10.1890/13-2289.1"
   fulltext:
   code:
-  supportinginfo: "<a href=\"https://esapubs.org/archive/appl/A025/005/\">supporting info</a>"
+  supportinginfo: '<a href="https://esapubs.org/archive/appl/A025/005/">supporting info</a>'
   doi: 10.1890/13-2289.1
 - id: Patino2015
   year: 2015
@@ -379,8 +379,8 @@
   text: "<strong>S&oacute;lymos, P.</strong>, Matsuoka, S. M., Bayne, E. M., Lele, S. R., Fontaine, P., Cumming, S. G., Stralberg, D., Schmiegelow, F. K. A. & Song, S. J., 2013. Calibrating indices of avian density from non-standardized survey data: making the most of a messy situation. <strong>Methods in Ecology and Evolution</strong> 4:1047&ndash;1058."
   link: "https://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12106/abstract"
   fulltext: "https://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12106/epdf"
-  code: "<a href=\"https://cran.r-project.org/package=detect\"><code>detect</code> R package</a>"
-  supportinginfo: "<a href=\"https://github.com/psolymos/QPAD/blob/master/inst/doc/v2/QPAD_SupportingInfo.pdf\">supporting info</a>"
+  code: '<a href="https://cran.r-project.org/package=detect"><code>detect</code> R package</a>'
+  supportinginfo: '<a href="https://github.com/psolymos/QPAD/blob/master/inst/doc/v2/QPAD_SupportingInfo.pdf">supporting info</a>'
   doi: 10.1111/2041-210X.12106
 - id: Solymos2013a
   type: letter
@@ -400,7 +400,7 @@
   text: "<strong>S&oacute;lymos, P.</strong> & Lele, S. R., 2012. Global pattern and local variation in species-area relationships. <strong>Global Ecology and Biogeography</strong> 21:109&ndash;120."
   link: "https://onlinelibrary.wiley.com/doi/10.1111/j.1466-8238.2011.00655.x/abstract"
   fulltext: "https://onlinelibrary.wiley.com/doi/10.1111/j.1466-8238.2011.00655.x/pdf"
-  code: "<a href=\"https://cran.r-project.org/package=sharx\"><code>sharx</code> R package</a>"
+  code: '<a href="https://cran.r-project.org/package=sharx"><code>sharx</code> R package</a>'
   supportinginfo:
   doi: 10.1111/j.1466-8238.2011.00655.x
 - id: Solymos2012b
@@ -409,7 +409,7 @@
   text: "<strong>S&oacute;lymos, P.</strong>, Lele, S. R. & Bayne, E., 2012. Conditional likelihood approach for analyzing single visit abundance survey data in the presence of zero inflation and detection error. <strong>Environmetrics</strong> 23:197&ndash;205."
   link: "https://onlinelibrary.wiley.com/doi/10.1002/env.1149/abstract"
   fulltext: "https://sites.google.com/site/psolymosold/download/pdf/Solymos_et_al_Environmetrics_public.pdf?attredirects=0"
-  code: "<a href=\"https://cran.r-project.org/package=sharx\"><code>sharx</code> R package</a>"
+  code: '<a href="https://cran.r-project.org/package=sharx"><code>sharx</code> R package</a>'
   supportinginfo:
   doi: 10.1002/env.1149
 - id: Matsuoka2012
@@ -427,7 +427,7 @@
   text: "Walker, S. C., Gu&eacute;nard, G., <strong>S&oacute;lymos, P.</strong> & Legendre, P., 2012. Multiple-table data in R with the multitable package. <strong>Journal of Statistical Software</strong> 51(8):1&ndash;38."
   link: "https://www.jstatsoft.org/v51/i08/"
   fulltext: "https://www.jstatsoft.org/v51/i08/paper"
-  code: "<a href=\"https://cran.r-project.org/package=multitable\"><code>multitable</code> R package</a>"
+  code: '<a href="https://cran.r-project.org/package=multitable"><code>multitable</code> R package</a>'
   supportinginfo:
   doi: 10.18637/jss.v051.i08
 - id: Mayor2012
@@ -449,7 +449,7 @@
   link: "https://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0018927"
   fulltext: "https://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0018927&representation=PDF"
   code:
-  supportinginfo: "<a href=\"https://datadryad.org/handle/10255/dryad.35144\">data set</a>, <a href=\"https://www.evolutionmegalab.org/\">Evolution MegaLab</a>"
+  supportinginfo: '<a href="https://datadryad.org/handle/10255/dryad.35144">data set</a>, <a href="https://www.evolutionmegalab.org/">Evolution MegaLab</a>'
   doi: 10.1371/journal.pone.0018927
 - id: Vilisics2011
   type: paper
@@ -478,8 +478,8 @@
   text: "<strong>S&oacute;lymos, P.</strong>, 2010. dclone: Data Cloning in R. <strong>R Journal</strong> 2(2):29&ndash;37."
   link: "https://journal.r-project.org/archive/2010-2/"
   fulltext: "https://journal.r-project.org/archive/2010-2/RJournal_2010-2_Solymos.pdf"
-  code: "<a href=\"https://cran.r-project.org/package=dclone\"><code>dclone</code> R package</a>"
-  supportinginfo: "<a href=\"https://github.com/datacloning\">GitHub site</a>"
+  code: '<a href="https://cran.r-project.org/package=dclone"><code>dclone</code> R package</a>'
+  supportinginfo: '<a href="https://github.com/datacloning">GitHub site</a>'
   doi:
 - id: Haughland2010
   type: letter
@@ -493,7 +493,7 @@
 - id: Feher2010
   type: paper
   year: 2010
-  text: "Feh&eacute;r, Z., Deli, T. & <strong>S&oacute;lymos, P.</strong>, 2010. Revision of <em>Granaria frumentum</em> (Draparnaud, 1801) (Mollusca, Gastropoda, Chondrinidae) subspecies occurring in the eastern part of the species\' range. <strong>Journal of Conchology</strong> 40(2):201&ndash;217."
+  text: "Feh&eacute;r, Z., Deli, T. & <strong>S&oacute;lymos, P.</strong>, 2010. Revision of <em>Granaria frumentum</em> (Draparnaud, 1801) (Mollusca, Gastropoda, Chondrinidae) subspecies occurring in the eastern part of the species' range. <strong>Journal of Conchology</strong> 40(2):201&ndash;217."
   link:
   fulltext: "https://sites.google.com/site/psolymosold/download/pdf/feher_etal_jconch_2010_granaria.pdf?attredirects=0"
   code:
@@ -526,7 +526,7 @@
   text: "<strong>S&oacute;lymos, P.</strong>, 2009. Processing ecological data in R with the mefa package. <strong>Journal of Statistical Software</strong> 29(8):1&ndash;28."
   link: "https://www.jstatsoft.org/article/view/v029i08"
   fulltext: "https://www.jstatsoft.org/index.php/jss/article/view/v029i08/v29i08.pdf"
-  code: "<a href=\"https://cran.r-project.org/package=mefa\"><code>mefa</code> R package</a>"
+  code: '<a href="https://cran.r-project.org/package=mefa"><code>mefa</code> R package</a>'
   supportinginfo:
   doi:
 - id: PallGergely2009
@@ -574,7 +574,7 @@
   text: "<strong>S&oacute;lymos, P.</strong>, 2008. mefa: an R package for handling and reporting count data. <strong>Community Ecology</strong> 9:125&ndash;127."
   link: "https://www.akademiai.com/doi/abs/10.1556/ComEc.9.2008.1.15"
   fulltext: "https://www.akademiai.com/doi/pdf/10.1556/ComEc.9.2008.1.15"
-  code: "<a href=\"https://cran.r-project.org/package=mefa\"><code>mefa</code> R package</a>"
+  code: '<a href="https://cran.r-project.org/package=mefa"><code>mefa</code> R package</a>'
   supportinginfo:
   doi: 10.1556/ComEc.9.2008.1.15
 - id: SolymosTVK2008
