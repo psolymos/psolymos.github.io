@@ -19,7 +19,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 # Bootswatch theme (cosmo)
 bswtheme: cosmo
 # fancy fonts on/off
-fancyfonts: true
+#fancyfonts: false
 # navbar style: inverse, transparent
 navbar: transparent
 

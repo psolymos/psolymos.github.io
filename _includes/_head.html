@@ -100,22 +100,33 @@ site.bswtheme }}{% endif %}{% endcapture %}
   });
 </script>
 <style type="text/css">
-  {% if site.fancyfonts == true %}/* different font family */
   @import url(https://fonts.googleapis.com/css?family=Nunito);
-  @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700,400italic);{% endif %}
+  @import url(
+    https://fonts.googleapis.com/css?family=Montserrat:400,
+    700,
+    400italic
+  );
   /* padding for bootstrap navbar */
   body {
-      padding-top: 40px;
-      padding-bottom: 40px;
-      {% if site.fancyfonts == true %}font-family: 'Montserrat', sans-serif;{% endif %}
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: "Montserrat", sans-serif;
   }
   /* Google custom search look and feel */
-  .gsc-results-wrapper-overlay, .gsc-results-wrapper-visible, .gsc-search-button, .gsc-search-button-v2 {
-      box-sizing: content-box;
+  .gsc-results-wrapper-overlay,
+  .gsc-results-wrapper-visible,
+  .gsc-search-button,
+  .gsc-search-button-v2 {
+    box-sizing: content-box;
   }
   /* same color as inline code */
-  h1, h2, h3, h4, h5, h6 {
-      {% if site.fancyfonts == true %}font-family: 'Nunito', sans-serif;{% endif %}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Nunito", sans-serif;
   }
 </style>
 <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" />
