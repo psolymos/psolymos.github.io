@@ -1,7 +1,7 @@
 ---
 title: "Introducing the bSims R package for simulating bird point counts"
 layout: default
-published: true
+published: false
 category: Code
 tags: [R, detect, detectability, QPAD, bSims]
 disqus: petersolymos
