@@ -1,6 +1,15 @@
 #
 #------------------------- 2020 ------------------------------
 #
+- id: Kirk2020
+  type: paper
+  year: 2020
+  text: "Kirk, D. A., <strong>S&oacute;lymos, P.</strong>, Hall, J., and Hyslop, C., 2020. Predicting Effects of selection cutting on avian diversity and abundance in shade-tolerant hardwood forests of Central Ontario. <strong>FForest Ecology and Management</strong>, xx: xx&ndash;xx."
+  link:
+  fulltext:
+  code:
+  supportinginfo:
+  doi:
 - id: Leston2020
   type: paper
   year: 2020
