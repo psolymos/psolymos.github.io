@@ -2,6 +2,7 @@
 title: "R packages"
 description: "An archive of posts in the code category"
 layout: default
+excerpt: The list of software packages written by Peter Solymos.
 ---
 
 <p id="checks-external">

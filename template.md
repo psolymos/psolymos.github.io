@@ -4,6 +4,7 @@ output: html_document
 layout: default
 theme: flatly
 navbar: inverse
+excerpt: A simple template.
 ---
 
 >## Table of Contents
@@ -183,19 +184,19 @@ Term 2 with *inline markup*
 
 ## Table formatting
 
-Table Header | Second Header
-------------- | -------------
-Table Cell | Cell 2
-Cell 3 | Cell 4
+| Table Header | Second Header |
+| ------------ | ------------- |
+| Table Cell   | Cell 2        |
+| Cell 3       | Cell 4        |
 
 
 Another table:
 
-| Option | Description |
-| :-----:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
+| Option |                                                               Description |
+| :----: | ------------------------------------------------------------------------: |
+|  data  | path to data files to supply the data that will be passed into templates. |
+| engine |    engine to be used for processing templates. Handlebars is the default. |
+|  ext   |                                      extension to be used for dest files. |
 
 ## Code blocks
 

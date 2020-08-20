@@ -1,6 +1,7 @@
 ---
 title: Slide template
 layout: slide
+excerpt: A simple slides template.
 ---
 <textarea id="source">
 name: inverse

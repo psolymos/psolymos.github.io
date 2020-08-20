@@ -2,6 +2,7 @@
 title: "About"
 description: "General information about this website and the author"
 layout: default
+excerpt: Brief bio and contact information for Peter Solymos.
 ---
 
 ## Appointments
