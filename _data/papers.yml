@@ -6,8 +6,8 @@
   year: 2020
   text: "Nagy-Reis, M., Dickie, M., <strong>S&oacute;lymos, P.</strong>, Gilbert, S., DeMars, C., Serrouya, R., and Boutin, S., 2020. WildLift: An open-source tool to guide decisions for wildlife conservation. <strong>Frontiers in Ecology and Evolution</strong>, xx: xx&ndash;xx."
   link:
-  fulltext:
-  code: https://github.com/ABbiodiversity/WildLift
+  fulltext: https://dx.doi.org/10.3389/fevo.2020.564508
+  code: '<a href="https://github.com/ABbiodiversity/WildLift#readme"><code>WildLift</code></a> R package'
   supportinginfo:
   doi: 10.3389/fevo.2020.564508
 - id: Kirk2020
