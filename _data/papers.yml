@@ -1,6 +1,15 @@
 #
 #------------------------- 2020 ------------------------------
 #
+- id: Nuest2020
+  type: paper
+  year: 2020
+  text: "N&uuml;st, D., Eddelbuettel, D., Bennett, D., Cannoodt, R., Clark, D., Dar&oacute;czi, G., Edmondson, M., Fay, C., Hughes, E., Kjeldgaard, L., Lopp, S., Marwick, B., Nolis, H., Nolis, J., Ooi, H., Ram, K., Ross, N., Shepherd, L., <strong>S&oacute;lymos, P.</strong>, Swetnam, T. L., Turaga, N., Van Petegem, C., Williams, J., Willis, C., Xiao, N., 2020. The Rockerverse: packages and applications for containerisation with R. <strong>The R Journal</strong>, 12: 437&ndash;461."
+  link: "https://journal.r-project.org/archive/2020/RJ-2020-007/index.html"
+  fulltext: "https://journal.r-project.org/archive/2020/RJ-2020-007/RJ-2020-007.pdf"
+  code:
+  supportinginfo: '<a href="https://github.com/nuest/rockerverse-paper#readme">GitHub repository</a>'
+  doi: 10.32614/RJ-2020-007
 - id: Yip2020
   type: paper
   year: 2020
@@ -13,7 +22,7 @@
 - id: NagyReis2020
   type: paper
   year: 2020
-  text: "Nagy-Reis, M., Dickie, M., <strong>S&oacute;lymos, P.</strong>, Gilbert, S., DeMars, C., Serrouya, R., and Boutin, S., 2020. WildLift: An open-source tool to guide decisions for wildlife conservation. <strong>Frontiers in Ecology and Evolution</strong>, xx: xx&ndash;xx."
+  text: "Nagy-Reis, M., Dickie, M., <strong>S&oacute;lymos, P.</strong>, Gilbert, S., DeMars, C., Serrouya, R., and Boutin, S., 2020. WildLift: An open-source tool to guide decisions for wildlife conservation. <strong>Frontiers in Ecology and Evolution</strong>, 8: 564508."
   link:
   fulltext: https://dx.doi.org/10.3389/fevo.2020.564508
   code: '<a href="https://github.com/ABbiodiversity/WildLift#readme"><code>WildLift</code></a> R package'
@@ -37,15 +46,6 @@
   code:
   supportinginfo:
   doi: 10.3389/fevo.2020.00252
-- id: Nuest2020
-  type: paper
-  year: 2020
-  text: "N&uuml;st, D., Eddelbuettel, D., Bennett, D., Cannoodt, R., Clark, D., Dar&oacute;czi, G., Edmondson, M., Fay, C., Hughes, E., Kjeldgaard, L., Lopp, S., Marwick, B., Nolis, H., Nolis, J., Ooi, H., Ram, K., Ross, N., Shepherd, L., <strong>S&oacute;lymos, P.</strong>, Swetnam, T. L., Turaga, N., Van Petegem, C., Williams, J., Willis, C., Xiao, N., 2020. The Rockerverse: packages and applications for containerisation with R. <strong>The R Journal</strong>, xx: xx&ndash;xx."
-  link:
-  fulltext: https://arxiv.org/abs/2001.10641
-  code:
-  supportinginfo:
-  doi:
 - id: Knight2020
   type: paper
   year: 2020
