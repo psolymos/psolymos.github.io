@@ -109,3 +109,5 @@ if (interactive()) shinyApp(ui, server)
 <img src="https://github.com/psolymos/intrval/raw/master/extras/range_slider.gif" class="img-responsive" alt="range slider">
 
 If you think there are other use cases for **intrval** in **shiny** applications, let me know in the comments section!
+
+_If you want to learn more about how to host Shiny apps, check out the [Hosting Data Apps](https://hosting.analythium.io/) website!_
