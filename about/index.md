@@ -25,9 +25,9 @@ excerpt: Brief bio and contact information for Peter Solymos.
 
 <ul class="fa-ul">
 <li><i class="fa-li fa fa-child text-white"></i>P&eacute;ter S&oacute;lymos &mdash; <a href="mailto:solymos_at_ualberta.ca">solymos<i class="fa fa-at text-white"></i>ualberta.ca</a></li>
-<li><i class="fa-li fa fa-linkedin text-white"></i><a href="https://github.com/psolymos/">P&eacute;ter S&oacute;lymos</li>
-<li><i class="fa-li fa fa-twitter text-white"></i><a href="https://twitter.com/psolymos">@psolymos</li>
-<li><i class="fa-li fa fa-github text-white"></i><a href="https://github.com/psolymos/">psolymos</li>
+<li><i class="fa-li fa fa-linkedin text-white"></i><a href="https://github.com/psolymos/">P&eacute;ter S&oacute;lymos</a></li>
+<li><i class="fa-li fa fa-twitter text-white"></i><a href="https://twitter.com/psolymos">@psolymos</a></li>
+<li><i class="fa-li fa fa-github text-white"></i><a href="https://github.com/psolymos/">psolymos</a></li>
 <!-- <li><i class="fa-li fa fa-home text-white"></i><a href="http://www.abmi.ca/">Alberta Biodiversity Monitoring Institute</a> and the <a href="http://www.borealbirds.ca/">Boreal Avian Modelling (BAM) Project</a></li>
 <li><i class="fa-li fa fa-envelope text-white"></i><a href="https://uofa.ualberta.ca/biological-sciences">Department of Biological Sciences</a>, CW 405, Biological Sciences Building, <a href="http://www.ualberta.ca/">University of Alberta</a>, Edmonton, Alberta, T6G 2E9, Canada</li>
 <li><i class="fa-li fa fa-phone text-white"></i>(00-1) 780-492-8534</li>
