@@ -1,3 +1,33 @@
+- pkgname: EDMAinR
+  title: "Euclidean distance matrix analysis in R"
+  description: "A coordinate‐free approach for comparing biological shapes using landmark data."
+  tutorial: "<a href=\"https://psolymos.github.io/EDMAinR\">tutorial</a>"
+  paper:
+  devel: psolymos
+- pkgname: moosecounter
+  title: "Adaptive moose surveys"
+  description: "The R package and Shiny app implements count models to aid in estimating Moose populations and composition."
+  tutorial: "<a href=\"https://psolymos.github.io/moosecounter\">tutorial</a>"
+  paper:
+  devel: psolymos
+- pkgname: clickrup
+  title: "Interacting with the ClickUp v2 API from R"
+  description: "ClickUp is a cloud-based collaboration and project management tool. The clickrup R package wraps the ClickUp API v2."
+  tutorial: "<a href=\"https://peter.solymos.org/clickrup/\">tutorial</a>"
+  paper:
+  devel: psolymos
+- pkgname: WildLift
+  title: "A Tool to Guide Decisions for Wildlife Conservation"
+  description: "WildLift can be used to quantitatively compare the costs and demographic benefits of recovery actions for an iconic threatened species."
+  tutorial: "<a href=\"   \">tutorial</a>"
+  paper: "<a href=\"https://dx.doi.org/10.3389/fevo.2020.564508\">S&oacute;lymos 2009</a>"
+  devel: ABbiodiversity
+- pkgname: rconfig
+  title: "Manage R configuration at the command line"
+  description: "Manage R configuration using files (JSON, YAML, separated text) JSON strings and command line arguments. Command line arguments can be used to override configuration. Period-separated command line flags are parsed as hierarchical lists."
+  tutorial: "<a href=\"https://hub.analythium.io/rconfig/\">tutorial</a>"
+  paper:
+  devel: analythium
 - pkgname: bSims
   title: "Bird point count simulator"
   description: "A highly scientific and utterly addictive bird point count simulator to test statistical assumptions, aid survey design, and have fun while doing it."
