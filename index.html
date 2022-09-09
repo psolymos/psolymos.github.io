@@ -67,11 +67,11 @@ excerpt: The personal website of Peter Solymos.
       code
       -->
       <div class="col-lg-4 col-sm-6">
-        <h3><a href="{{ site.baseurl }}/code.html">R packages</a></h3>
+        <h3><a href="{{ site.baseurl }}/code/">R packages</a></h3>
         <div class="list-group">
           {% for pkg in site.data.packages %}
           <a
-            href="{{ site.baseurl }}/code.html#code-{{ pkg.pkgname | downcase }}"
+            href="{{ site.baseurl }}/code/#code-{{ pkg.pkgname | downcase }}"
             class="list-group-item"
           >
             <!-- <h4 class="list-group-item-heading">{{ pkg.pkgname }}</h4> -->
@@ -87,7 +87,7 @@ excerpt: The personal website of Peter Solymos.
       papers
       -->
       <div class="col-lg-4 col-sm-6">
-        <h3><a href="{{ site.baseurl }}/papers.html">Publications</a></h3>
+        <h3><a href="{{ site.baseurl }}/papers/">Publications</a></h3>
         {% for ms in site.data.papers limit:5 %}
         <p>
           {{ ms.text }}{% if ms.link %} &mdash;
