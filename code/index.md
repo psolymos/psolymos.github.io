@@ -6,8 +6,8 @@ excerpt: The list of software packages written by Peter Solymos.
 ---
 
 <p id="checks-external">
-<a href="[http://depsy.org/person/329897](https://psolymos.r-universe.dev)">
-    <img src="[http://depsy.org/api/person/329897/badge.svg](https://psolymos.r-universe.dev/badges/:total)"></a> &mdash;
+<a href="https://psolymos.r-universe.dev">
+    <img src="https://psolymos.r-universe.dev/badges/:total"></a> &mdash;
 <a href="https://peter.solymos.org/packages/">Stats</a> &mdash;
 <a href="https://cran.r-project.org/web/checks/check_results_solymos_at_ualberta.ca.html">CRAN checks</a> &mdash;
 </p>
