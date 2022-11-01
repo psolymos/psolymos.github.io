@@ -8,7 +8,7 @@ excerpt: The list of software packages written by Peter Solymos.
 <p id="checks-external">
 <a href="https://psolymos.r-universe.dev">
     <img src="https://psolymos.r-universe.dev/badges/:total"></a> &mdash;
-<a href="https://peter.solymos.org/packages/">Stats</a> &mdash;
+<a href="https://peter.solymos.org/packages/">Downloads</a> &mdash;
 <a href="https://cran.r-project.org/web/checks/check_results_solymos_at_ualberta.ca.html">CRAN checks</a> &mdash;
 </p>
 
