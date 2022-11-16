@@ -1,6 +1,15 @@
 #
 #------------------------- 2022 ------------------------------
-#
+# 
+- id: Leston2022
+  type: paper
+  year: 2022
+  text: "Leston, L., Bayne, E. M., Toms, J. D., Mahon, C. L., Crosby, A., <strong>S&oacute;lymos, P.</strong>, Ball, J., Song, S. J., Schmiegelow, F. K. A., Stralberg, D., and Docherty, T. D. S., 2022. Comparing alternative methods of modelling cumulative effects of oil and gas footprint on boreal bird abundance. <strong>Landscape Ecology</strong>, xx: xx&ndash;xx."
+  link: "https://doi.org/10.1007/s10980-022-01531-8"
+  fulltext:
+  code:
+  supportinginfo:
+  doi: 10.1007/s10980-022-01531-8
 - id: Knight2022
   type: paper
   year: 2022
