@@ -1,6 +1,6 @@
 - pkgname: EDMAinR
   title: "Euclidean distance matrix analysis in R"
-  description: "A coordinate‐free approach for comparing biological shapes using landmark data."
+  description: "A coordinate-free approach for comparing biological shapes using landmark data."
   tutorial: "<a href=\"https://psolymos.github.io/EDMAinR\">tutorial</a>"
   paper:
   devel: psolymos
