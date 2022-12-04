@@ -1,6 +1,15 @@
 #
 #------------------------- 2022 ------------------------------
 # 
+- id: Edwards2022
+  type: paper
+  year: 2022
+  text: "Edwards et al., 2022. Point count offsets for estimating population sizes of North American landbirds. <strong>Ibis</strong>, xx: xx&ndash;xx."
+  link: "https://doi.org/10.1007/s10980-022-01531-8"
+  fulltext:
+  code:
+  supportinginfo: '<a href="https://github.com/na-pops">NA-POPS GitHub organization</a>'
+  doi: 10.1111/ibi.13169
 - id: Leston2022
   type: paper
   year: 2022
