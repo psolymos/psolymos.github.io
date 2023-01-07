@@ -4,7 +4,7 @@
 - id: Edwards2022
   type: paper
   year: 2022
-  text: "Edwards et al., 2022. Point count offsets for estimating population sizes of North American landbirds. <strong>Ibis</strong>, xx: xx&ndash;xx."
+  text: "Edwards, B. P. M., Smith, A. C., Docherty, T. D. S., Gahbauer, M. A., Gillespie, C. R., Grinde, A. R., Harmer, T., Iles, D. T., Matsuoka, S. M., Michel, N. L., Murray, A., Niemi, G. J., Pasher, J., Pavlacky Jr, D. C., Robinson, B. G., Ryder, T. B., <strong>S&oacute;lymos, P.</strong>, Stralberg, D., and Zlonis, E. J., 2022. Point count offsets for estimating population sizes of North American landbirds. <strong>Ibis</strong>, xx: xx&ndash;xx."
   link: "https://doi.org/10.1111/ibi.13169"
   fulltext:
   code:
