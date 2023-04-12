@@ -5,6 +5,7 @@ category: Talks
 tags: [datacloning, workshop, MCMC]
 published: true
 disqus: petersolymos
+promote: true
 ---
 
 I moved to Canada in 2008 to start a postdoctoral fellowship with Prof. Subhash Lele at the stats department of the University of Alberta. Subhash at the time just published a paper about a statistical technique called data cloning. Data cloning is a way to use Bayesian MCMC algorithms to do frequentist inference. Yes, you read that right.

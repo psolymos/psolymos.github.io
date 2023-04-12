@@ -5,7 +5,6 @@ published: true
 category: Etc
 tags: [abundance, density, detectability, QPAD, Alberta, ABMI, BAM]
 disqus: petersolymos
-promote: true
 image: https://peter.solymos.org/images/2020/06/22/popsize.png
 ---
 
