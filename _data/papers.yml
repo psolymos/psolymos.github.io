@@ -1,24 +1,27 @@
 #
-#------------------------- 2022 ------------------------------
+#------------------------- 2023 ------------------------------
 # 
-- id: Edwards2022
+- id: Edwards2023
   type: paper
-  year: 2022
-  text: "Edwards, B. P. M., Smith, A. C., Docherty, T. D. S., Gahbauer, M. A., Gillespie, C. R., Grinde, A. R., Harmer, T., Iles, D. T., Matsuoka, S. M., Michel, N. L., Murray, A., Niemi, G. J., Pasher, J., Pavlacky Jr, D. C., Robinson, B. G., Ryder, T. B., <strong>S&oacute;lymos, P.</strong>, Stralberg, D., and Zlonis, E. J., 2022. Point count offsets for estimating population sizes of North American landbirds. <strong>Ibis</strong>, xx: xx&ndash;xx."
+  year: 2023
+  text: "Edwards, B. P. M., Smith, A. C., Docherty, T. D. S., Gahbauer, M. A., Gillespie, C. R., Grinde, A. R., Harmer, T., Iles, D. T., Matsuoka, S. M., Michel, N. L., Murray, A., Niemi, G. J., Pasher, J., Pavlacky Jr, D. C., Robinson, B. G., Ryder, T. B., <strong>S&oacute;lymos, P.</strong>, Stralberg, D., and Zlonis, E. J., 2022. Point count offsets for estimating population sizes of North American landbirds. <strong>Ibis</strong>, 165: 482&ndash;503."
   link: "https://doi.org/10.1111/ibi.13169"
   fulltext:
   code:
   supportinginfo: '<a href="https://github.com/na-pops">NA-POPS GitHub organization</a>'
   doi: 10.1111/ibi.13169
-- id: Leston2022
+- id: Leston2023
   type: paper
-  year: 2022
-  text: "Leston, L., Bayne, E. M., Toms, J. D., Mahon, C. L., Crosby, A., <strong>S&oacute;lymos, P.</strong>, Ball, J., Song, S. J., Schmiegelow, F. K. A., Stralberg, D., and Docherty, T. D. S., 2022. Comparing alternative methods of modelling cumulative effects of oil and gas footprint on boreal bird abundance. <strong>Landscape Ecology</strong>, xx: xx&ndash;xx."
+  year: 2023
+  text: "Leston, L., Bayne, E. M., Toms, J. D., Mahon, C. L., Crosby, A., <strong>S&oacute;lymos, P.</strong>, Ball, J., Song, S. J., Schmiegelow, F. K. A., Stralberg, D., and Docherty, T. D. S., 2022. Comparing alternative methods of modelling cumulative effects of oil and gas footprint on boreal bird abundance. <strong>Landscape Ecology</strong>, 38: 147&ndash;168."
   link: "https://doi.org/10.1007/s10980-022-01531-8"
   fulltext:
   code:
   supportinginfo:
   doi: 10.1007/s10980-022-01531-8
+#
+#------------------------- 2022 ------------------------------
+# 
 - id: Knight2022
   type: paper
   year: 2022
