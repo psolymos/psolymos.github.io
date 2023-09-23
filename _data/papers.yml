@@ -1,6 +1,15 @@
 #
 #------------------------- 2023 ------------------------------
 # 
+- id: Solymos2023
+  type: paper
+  year: 2023
+  text: "<strong>S&oacute;lymos, P.</strong>, 2023. Agent-based simulations improve abundance estimation. <strong>Biologia Futura</strong>, xx: xx&ndash;xxx."
+  link: 
+  fulltext:
+  code: '<a href="https://cran.r-project.org/package=bSims"><code>bSims</code> R package</a>'
+  supportinginfo:
+  doi: 
 - id: Edwards2023
   type: paper
   year: 2023
@@ -26,15 +35,6 @@
   link: 
   fulltext:
   code:
-  supportinginfo:
-  doi: 
-- id: Solymos2023
-  type: paper
-  year: 2023
-  text: "<strong>S&oacute;lymos, P.</strong>, 2023. Agent-based simulations improve abundance estimation. <strong>Biologia Futura</strong>, xx: xx&ndash;xxx. (under revision)"
-  link: 
-  fulltext:
-  code: '<a href="https://cran.r-project.org/package=bSims"><code>bSims</code> R package</a>'
   supportinginfo:
   doi: 
 #
