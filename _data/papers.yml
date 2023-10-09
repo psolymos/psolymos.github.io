@@ -9,7 +9,7 @@
   fulltext:
   code: '<a href="https://cran.r-project.org/package=bSims"><code>bSims</code> R package</a>'
   supportinginfo:
-  doi: 
+  doi: 10.1007/s42977-023-00183-2
 - id: Edwards2023
   type: paper
   year: 2023
