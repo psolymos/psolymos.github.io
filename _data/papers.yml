@@ -1,15 +1,18 @@
 #
-#------------------------- 2023 ------------------------------
+#------------------------- 2024 ------------------------------
 # 
-- id: Leston2023b
+- id: Leston2024b
   type: paper
-  year: 2023
-  text: "Leston, L., Dénes, F. V., Docherty, T. D. S., Tremblay, J. A., Boulanger, Y., Van Wilgenburg, S. L., Stralberg, D., <strong>S&oacute;lymos, P.</strong>, Haché, S., St Laurent, K., Weeber, R., Drolet, B., Westwood, A. R., Hope, D. P., Ball, J., Song, S. J., Cumming, S. G., Bayne, E., Schmiegelow, F. K. A., 2023. A framework to support the identification of critical habitat for wide-ranging species at risk under climate change. <strong>Biodiversity and Conservation</strong>, xx: xx&ndash;xx."
-  link: 
-  fulltext:
+  year: 2024
+  text: "Leston, L., Dénes, F. V., Docherty, T. D. S., Tremblay, J. A., Boulanger, Y., Van Wilgenburg, S. L., Stralberg, D., <strong>S&oacute;lymos, P.</strong>, Haché, S., St Laurent, K., Weeber, R., Drolet, B., Westwood, A. R., Hope, D. P., Ball, J., Song, S. J., Cumming, S. G., Bayne, E., Schmiegelow, F. K. A., 2024. A framework to support the identification of critical habitat for wide-ranging species at risk under climate change. <strong>Biodiversity and Conservation</strong>, xx: xx&ndash;xx."
+  link: https://doi.org/10.1007/s10531-023-02761-1
+  fulltext: "https://link.springer.com/content/pdf/10.1007/s10531-023-02761-1.pdf"
   code:
   supportinginfo:
-  doi: 
+  doi: 10.1007/s10531-023-02761-1
+#
+#------------------------- 2023 ------------------------------
+# 
 - id: Solymos2023
   type: paper
   year: 2023
