@@ -1,7 +1,7 @@
 #
 #------------------------- 2024 ------------------------------
 # 
-- id: Leston2024b
+- id: Leston2024
   type: paper
   year: 2024
   text: "Leston, L., Dénes, F. V., Docherty, T. D. S., Tremblay, J. A., Boulanger, Y., Van Wilgenburg, S. L., Stralberg, D., <strong>S&oacute;lymos, P.</strong>, Haché, S., St Laurent, K., Weeber, R., Drolet, B., Westwood, A. R., Hope, D. P., Ball, J., Song, S. J., Cumming, S. G., Bayne, E., Schmiegelow, F. K. A., 2024. A framework to support the identification of critical habitat for wide-ranging species at risk under climate change. <strong>Biodiversity and Conservation</strong>, xx: xx&ndash;xx."
@@ -31,7 +31,7 @@
   code:
   supportinginfo: '<a href="https://github.com/na-pops">NA-POPS GitHub organization</a>'
   doi: 10.1111/ibi.13169
-- id: Leston2023a
+- id: Leston2023
   type: paper
   year: 2023
   text: "Leston, L., Bayne, E. M., Toms, J. D., Mahon, C. L., Crosby, A., <strong>S&oacute;lymos, P.</strong>, Ball, J., Song, S. J., Schmiegelow, F. K. A., Stralberg, D., and Docherty, T. D. S., 2023. Comparing alternative methods of modelling cumulative effects of oil and gas footprint on boreal bird abundance. <strong>Landscape Ecology</strong>, 38: 147&ndash;168."
