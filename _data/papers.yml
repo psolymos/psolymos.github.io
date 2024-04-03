@@ -16,7 +16,7 @@
 - id: Solymos2023
   type: paper
   year: 2023
-  text: "<strong>S&oacute;lymos, P.</strong>, 2023. Agent-based simulations improve abundance estimation. <strong>Biologia Futura</strong>, xx: xx&ndash;xxx."
+  text: "<strong>S&oacute;lymos, P.</strong>, 2023. Agent-based simulations improve abundance estimation. <strong>Biologia Futura</strong>, 74: 377&ndash;392."
   link: https://doi.org/10.1007/s42977-023-00183-2
   fulltext: "https://rdcu.be/doDwI"
   code: '<a href="https://cran.r-project.org/package=bSims"><code>bSims</code> R package</a>'
