@@ -22,6 +22,12 @@
   tutorial: "<a href=\"   \">tutorial</a>"
   paper: "<a href=\"https://dx.doi.org/10.3389/fevo.2020.564508\">S&oacute;lymos 2009</a>"
   devel: ABbiodiversity
+- pkgname: tryr
+  title: "Client/Server Error Handling for HTTP API Frameworks"
+  description: "Differentiate client errors (4xx) from server errors (5xx) for the 'plumber' and 'RestRserve' HTTP API frameworks. The package also includes a built-in logging mechanism to standard output (STDOUT) or standard error (STDERR) depending on the log level."
+  tutorial: "<a href=\"https://hub.analythium.io/tryr/\">tutorial</a>"
+  paper:
+  devel: analythium
 - pkgname: deps
   title: "Dependency Management with roxygen-style Comments"
   description: "Manage your source code dependencies by decorating your existing R code with special, roxygen-style comments."
