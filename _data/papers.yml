@@ -1,6 +1,33 @@
 #
+#------------------------- YYYY ------------------------------
+#
+
+# >>> IN PREP <<<
+
+# PIF: "Refining population estimates for North American birds: reducing bias from imperfect detection, spatial sampling, and temporal change"
+# Multi-spp QPAD: "Predicting detection probabilities for rare and undersampled North American landbirds"w
+
+# >>> SUBMITTED/ACCEPTED <<<
+
+# BAM National Models: "A generalized modeling framework for spatially extensive species abundance prediction and population estimation" Ecosphere
+# SQPAD: Lele & Solymos "Single bin QPAD (SQPAD) approach for robust analysis of point count data with detection error" Ornithological Applications
+# MNBBA: "Species distribution models and abundance estimates enhance breeding bird atlas data"
+
+#
+#------------------------- 2025 ------------------------------
+#
+- id: Gonzalez2025
+  type: paper
+  year: 2024
+  text: "Gonzalez, A., O'Connor, M. I., Bates, A. E., Bobiwash, K., Burton, A. C., van Dam-Bates, P., Eckert, I., Gravel, D., Idrobo, C. J., Pollock, L., Simon, A. D. F., Slein, M. A., <strong>S&oacute;lymos, P.</strong>, Starzomski, B. M., Sunday, J., Tekwa, E., 2025. A Biodiversity Observation Network to support conservation action and mainstream knowledge in Canada. <strong>Facets</strong>, xx: xx&ndash;xx."
+  link: 
+  fulltext: 
+  code:
+  supportinginfo:
+  doi: 
+#
 #------------------------- 2024 ------------------------------
-# 
+#
 - id: Leston2024
   type: paper
   year: 2024
