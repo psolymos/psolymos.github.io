@@ -9,8 +9,6 @@
 
 # >>> SUBMITTED/ACCEPTED <<<
 
-# BAM National Models: "A generalized modeling framework for spatially extensive species abundance prediction and population estimation" Ecosphere
-# SQPAD: Lele & Solymos "Single bin QPAD (SQPAD) approach for robust analysis of point count data with detection error" Ornithological Applications
 # MNBBA: "Species distribution models and abundance estimates enhance breeding bird atlas data"
 
 #
@@ -25,6 +23,25 @@
   code:
   supportinginfo:
   doi: 
+# - id: Stralberg2025
+#   type: paper
+#   year: 2025
+#   text: "Stralberg, D., <strong>S&oacute;lymos, P.</strong>, Docherty, T. D. S., Crosby, A. D., Van Wilgenburg, S. L., Knight, E. C., Drake, A., Boehm, M. M. A., Haché, S., Leston, L., Toms, J. D., Ball, J. R., Song, S. J., Schmiegelow, F. K. A., Cumming, S. C., Bayne, E. M., 2025. A generalized modeling framework for spatially extensive species abundance prediction and population estimation. <strong>Ecosphere</strong>, xx: xx&ndash;xx."
+#   link: 
+#   fulltext: 
+#   code:
+#   supportinginfo: '<a href="https://github.com/borealbirds/LandbirdModelsV4">GitHub repository</a>'
+#   doi: 
+# - id: LeleSolymos2025
+#   type: paper
+#   year: 2025
+#   text: "Lele, S. R., <strong>S&oacute;lymos, P.</strong>, 2025. Single bin QPAD (SQPAD) approach for robust analysis of point count data with detection error. <strong>Ornithological Applications</strong>, xx: xx&ndash;xx."
+#   link: 
+#   fulltext: 
+#   code: '<a href="https://CRAN.R-project.org/package=bSims"><code>bSims</code></a> and <a href="https://CRAN.R-project.org/package=detect"><code>detect</code></a> R packages'
+#   supportinginfo:
+#   doi: 
+
 #
 #------------------------- 2024 ------------------------------
 #
