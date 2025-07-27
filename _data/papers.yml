@@ -5,7 +5,19 @@
 # >>> IN PREP <<<
 
 # PIF: "Refining population estimates for North American birds: reducing bias from imperfect detection, spatial sampling, and temporal change"
-# Multi-spp QPAD: "Predicting detection probabilities for rare and undersampled North American landbirds"w
+
+# Multi-spp QPAD: "Predicting detection probabilities for rare and undersampled North American landbirds"
+# Edwards, Brandon P.M.
+# Gahbauer, Marcel A.
+# Grinde, Alexis
+# Hope, David
+# Knight, Elly C.
+# Michel, Nicole L.
+# Robinson, Barry G.
+# Solymos, Peter
+# Bennett, Joseph R.
+# Smith, Adam C.
+
 
 # >>> SUBMITTED/ACCEPTED <<<
 
@@ -23,15 +35,15 @@
   code:
   supportinginfo:
   doi: 
-# - id: Stralberg2025
-#   type: paper
-#   year: 2025
-#   text: "Stralberg, D., <strong>S&oacute;lymos, P.</strong>, Docherty, T. D. S., Crosby, A. D., Van Wilgenburg, S. L., Knight, E. C., Drake, A., Boehm, M. M. A., Haché, S., Leston, L., Toms, J. D., Ball, J. R., Song, S. J., Schmiegelow, F. K. A., Cumming, S. C., Bayne, E. M., 2025. A generalized modeling framework for spatially extensive species abundance prediction and population estimation. <strong>Ecosphere</strong>, xx: xx&ndash;xx."
-#   link: 
-#   fulltext: 
-#   code:
-#   supportinginfo: '<a href="https://github.com/borealbirds/LandbirdModelsV4">GitHub repository</a>'
-#   doi: 
+- id: Stralberg2025
+  type: paper
+  year: 2025
+  text: "Stralberg, D., <strong>S&oacute;lymos, P.</strong>, Docherty, T. D. S., Crosby, A. D., Van Wilgenburg, S. L., Knight, E. C., Drake, A., Boehm, M. M. A., Haché, S., Leston, L., Toms, J. D., Ball, J. R., Song, S. J., Schmiegelow, F. K. A., Cumming, S. C., Bayne, E. M., 2025. A generalized modeling framework for spatially extensive species abundance prediction and population estimation. <strong>Ecosphere</strong>, xx: xx&ndash;xx."
+  link: 
+  fulltext: 
+  code:
+  supportinginfo: '<a href="https://github.com/borealbirds/LandbirdModelsV4">GitHub repository</a>'
+  doi: 
 # - id: LeleSolymos2025
 #   type: paper
 #   year: 2025
