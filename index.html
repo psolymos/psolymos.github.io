@@ -42,7 +42,7 @@ excerpt: The personal website of Peter Solymos.
       recent posts, starting with promoted
       (2 cols have different counters: see limit and offset)
       -->
-      <div class="col-lg-6 col-sm-6">
+      <div class="col-lg-12 col-sm-12">
         {% for post in site.posts %} {% if post.promote %}
         <div class="well">
           <h4>
@@ -50,23 +50,23 @@ excerpt: The personal website of Peter Solymos.
           </h4>
           {{ post.excerpt }}
         </div>
-        {% endif %} {% endfor %} {% for post in site.posts limit:3 %} {% unless
+        {% endif %} {% endfor %} {% for post in site.posts limit:4 %} {% unless
         post.promote %}
         <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
         {{ post.excerpt }} {% endunless %} {% endfor %}
       </div>
 
-      <div class="col-lg-6 col-sm-6">
-        {% for post in site.posts offset:3 limit:3 %} {% unless post.promote %}
+      <!-- <div class="col-lg-6 col-sm-6">
+        {% for post in site.posts offset:2 limit:2 %} {% unless post.promote %}
         <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
         {{ post.excerpt }} {% endunless %} {% endfor %}
-      </div>
+      </div> -->
     </div>
     <div class="row">
       <!--
       code
       -->
-      <div class="col-lg-4 col-sm-6">
+      <div class="col-lg-6 col-sm-6">
         <h3><a href="{{ site.baseurl }}/code/">R packages</a></h3>
         <div class="list-group">
           {% for pkg in site.data.packages %}
@@ -86,7 +86,7 @@ excerpt: The personal website of Peter Solymos.
       <!--
       papers
       -->
-      <div class="col-lg-4 col-sm-6">
+      <div class="col-lg-6 col-sm-6">
         <h3><a href="{{ site.baseurl }}/papers/">Publications</a></h3>
         {% for ms in site.data.papers limit:5 %}
         <p>
