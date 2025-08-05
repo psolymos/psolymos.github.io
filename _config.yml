@@ -17,7 +17,7 @@ kramdown:
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Bootswatch theme (cosmo,pulse,brite)
-bswtheme: pulse
+bswtheme: cosmo
 # fancy fonts on/off
 #fancyfonts: false
 # navbar style: inverse, transparent
