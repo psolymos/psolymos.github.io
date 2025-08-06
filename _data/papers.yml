@@ -117,6 +117,19 @@
   code:
   supportinginfo:
   doi: 10.1007/s10980-022-01426-8
+
+#
+#------------------------- 2021 ------------------------------
+#
+- id: Mollusca2021
+  type: incollection
+  year: 2021
+  text: "<strong>S&oacute;lymos, P.</strong>, 2021. Puhatestuek (Mollusca) törzse [Phylum Mollusca]. In Rózsa, L., Papp, L., and Varga, Z., editors, Zootaxonómia [Zootaxonomy], pp. 71&ndash;86, Nagykovácsi, Hungary. Pars Kft. In Hungarian. [Book Chapter]"
+  link:
+  fulltext:
+  code:
+  supportinginfo:
+  doi:
 #
 #------------------------- 2020 ------------------------------
 #
@@ -846,6 +859,15 @@
   code:
   supportinginfo:
   doi: 10.1016/j.ejsobi.2005.09.003
+- id: SolymosElek2005
+  type: incollection
+  year: 2005
+  text: "<strong>S&oacute;lymos, P.</strong> and Elek, Z., 2005. Preliminary results on the environmental reconstruction of the Százhalombatta-Földvár Bronze Age tell-site: recent infuence in the invertebrate animal material (molluscs and insects). In Poroszlai, I. and Vicze, M., editors, Szászhalombatta Archaeological Expedition, Report 2, pages 181–186, Százhalombatta, Hungary. “Matrica” Museum.[Book Chapter]"
+  link:
+  fulltext:
+  code:
+  supportinginfo:
+  doi:
 #
 #------------------------- 2004 ------------------------------
 #
@@ -886,13 +908,6 @@
 
 
 
-# [P7] Sólymos, P. (2021). Puhatestuek (Mollusca) törzse [Phylum Mollusca]. In Rózsa, L., Papp, L., and Varga, Z., editors, Zootaxonómia [Zootaxonomy], pages xx–xx, Nagykovácsi, Hungary. Pars Kft. In Hungarian. [Book Chapter]
-# [P6] Allen, B., Morrison, S., Kariyeva, J., Sparkes, S., Hutchings, C., Hricko, B., Sólymos, P., Huggard, D., 2019. Data collection. In: Alberta Biodiversity Monitoring Institute (ABMI), ABMI 10-year science and program review. pp. 29–64.[Book Chapter]
-# [P5] Sólymos, P., Azeria, E. T., Huggard, D. J., Roy, M.-C., Schieck, J., 2019. Predicting species status and relationships. In: Alberta Biodiversity Monitoring Institute (ABMI), ABMI 10-year science and program review. pp. 65–97.[Book Chapter]
-# [P4] Fehér, Z., Majoros, G., Ötvös, S., Bajomi, B., and Sólymos, P., (2018). Black nerite - an aquatic snail re-introduction in Hungary. In: Soorae, P. S. (ed.) Global Re-introduction Perspectives: 2018; Case-studies from around the globe. IUCN/SSC Re-introduction Specialist Group (RSG), pp. 18–22.[Book Chapter]
-# [P3] Nagy, A. and Sólymos, P. (2014). A fajszám-terület összefüggés és a kis-sziget hatás jelenlétének vizsgálata az Aggteleki-karszt fennsíki élohely-szigeteinek Orthoptera együtteseiben [Species-area relationship and small island effect in Orthoptera assemblages of the habitat islands of the Aggtelek Karst, Hungary]. In Tóth, V., editor, Kutatások az Aggteleki Nemzeti Parkban II. [Researches in Aggtelek National Park and Biosphere Reserve II.], pages 101–110, Jósvafo, Hungary. Aggteleki Nemzeti Park Igazgatóság. In Hungarian with English summary.[Book Chapter]
-# [P2] Sólymos, P. and Fehér, Z. (2007). Magyarország puhatestuinek természetvédelmi célú osztályozása [Conservation classification of Hungarian molluscs]. In Forró, L., editor, A Kárpát-medence állatvilágának kialakulása [Genesis of the fauna of the Carpathian Basin], pages 329–338, Budapest, Hungary. Hungarian Natural History Museum. In Hungarian.[Book Chapter]
-# [P1] Sólymos, P. and Elek, Z. (2005). Preliminary results on the environmental reconstruction of the Százhalombatta-Földvár Bronze Age tell-site: recent infuence in the invertebrate animal material (molluscs and insects). In Poroszlai, I. and Vicze, M., editors, Szászhalombatta Archaeological Expedition, Report 2, pages 181–186, Százhalombatta, Hungary. “Matrica” Museum.[Book Chapter]
 
 # PhD dissertation
 
