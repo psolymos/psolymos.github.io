@@ -862,7 +862,16 @@
 - id: SolymosElek2005
   type: incollection
   year: 2005
-  text: "<strong>S&oacute;lymos, P.</strong> and Elek, Z., 2005. Preliminary results on the environmental reconstruction of the Százhalombatta-Földvár Bronze Age tell-site: recent infuence in the invertebrate animal material (molluscs and insects). In Poroszlai, I. and Vicze, M., editors, Szászhalombatta Archaeological Expedition, Report 2, pages 181–186, Százhalombatta, Hungary. “Matrica” Museum.[Book Chapter]"
+  text: "<strong>S&oacute;lymos, P.</strong> and Elek, Z., 2005. Preliminary results on the environmental reconstruction of the Százhalombatta-Földvár Bronze Age tell-site: recent infuence in the invertebrate animal material (molluscs and insects). In Poroszlai, I. and Vicze, M., editors, Szászhalombatta Archaeological Expedition, Report 2, pages 181–186, Százhalombatta, Hungary. “Matrica” Museum. [Book Chapter]"
+  link:
+  fulltext:
+  code:
+  supportinginfo:
+  doi:
+- id: Solymos2005
+  type: book
+  year: 2005
+  text: "<strong>S&oacute;lymos, P.</strong>, 2005. Természetvédelmi prioritások meghatározása Magyarország szárazföldi puhatestűinek elterjedési adatai alapján [Conservation prioritization based on distribution of land snails in Hungary] (Mollusca, Gastropoda), University of Debrecen, Debrecen, Hungary, pp. 120. [PhD Thesis]"
   link:
   fulltext:
   code:
