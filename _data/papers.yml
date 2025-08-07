@@ -552,10 +552,10 @@
   year: 2014
   text: "Domokos, T., <strong>S&oacute;lymos, P.</strong>, & Kovács Cs.né, 2014. Balaton környéki biotópokból (Tihany, Külső-Somogy) származó Granaria frumentum (Draparnaud, 1801) héjmorfológiájának klímafüggése (Gastropoda: Chondrinidae). <strong>A Kaposvári Rippl-Rónai Múzeum Közleményei</strong>, 3: 87&ndash;96. [Not peer reviewed paper]"
   link:
-  fulltext:
+  fulltext: "https://doi.org/10.26080/krrmkozl.2014.3.87"
   code:
   supportinginfo:
-  doi:
+  doi: 10.26080/krrmkozl.2014.3.87
 - id: Schieck2014ABMIscilett
   type: paper
   year: 2014
@@ -591,7 +591,7 @@
   year: 2013
   text: "Domokos, T. & <strong>S&oacute;lymos, P.</strong>, 2013. Néhány délkelet-alföldi adat a Granaria frumentum (Draparnaud, 1801) héjmorfológiájának klímafüggéséhez (Gastropoda: Chondrinidae) [The influence of climate on the form of Granaria frumentum (Draparnaud, 1801) in the southeastern part of the Hungarian Lowlands (Gastropoda: Chondrinidae)]. <strong>Folia Historico Naturalia Musei Matraensis</strong>, 37: 05&ndash;13. [Not peer reviewed paper]"
   link:
-  fulltext:
+  fulltext: "https://matramuzeum.nhmus.hu/sites/default/files/nhmusfiles/kiadvanyok/folia/vol37/05_14_Granaria_frumentum_Domokos.pdf"
   code:
   supportinginfo:
   doi:
@@ -678,7 +678,7 @@
   year: 2011
   text: "Fehér, Z., Majoros, G. Ötvös, S. & <strong>S&oacute;lymos, P.</strong>, 2011. Proposed re-introduction of the endangered black nerite (Theodoxus prevostianus, Mollusca, Neritidae) in Hungary. <strong>Tentacle</strong>, 19:36&ndash;39. [Not peer reviewed paper]"
   link:
-  fulltext:
+  fulltext: "https://www.hawaii.edu/cowielab/tentacle/Tentacle_19.pdf"
   code:
   supportinginfo:
   doi:
@@ -699,7 +699,7 @@
   year: 2010
   text: "Haughland, D. L, Hero, J.-M., Schieck, J., Castley, J. G., Boutin, S., <strong>S&oacute;lymos, P.</strong>, Lawson, B. E., Holloway, J. G. & Magnusson, W. E., 2010. Planning forwards: biodiversity research and monitoring systems for better management. <strong>Trends in Ecology and Evolution</strong> 25(4):199&ndash;200."
   link: "https://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6VJ1-4XX18HB-1&_user=10&_coverDate=04%2F30%2F2010&_alid=1739652099&_rdoc=1&_fmt=high&_orig=search&_origin=search&_zone=rslt_list_item&_cdi=6081&_sort=r&_st=13&_docanchor=&view=c&_ct=9&_acct=C000050221&_version=1&_urlVersion=0&_userid=10&md5=a89a62187890408f11433818e4018bba&searchtype=a"
-  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/tree-inpress.pdf?attredirects=0"
+  fulltext:
   code:
   supportinginfo:
   doi: 10.1016/j.tree.2009.11.005
@@ -708,7 +708,7 @@
   year: 2010
   text: "Feh&eacute;r, Z., Deli, T. & <strong>S&oacute;lymos, P.</strong>, 2010. Revision of <em>Granaria frumentum</em> (Draparnaud, 1801) (Mollusca, Gastropoda, Chondrinidae) subspecies occurring in the eastern part of the species' range. <strong>Journal of Conchology</strong> 40(2):201&ndash;217."
   link:
-  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/feher_etal_jconch_2010_granaria.pdf?attredirects=0"
+  fulltext:
   code:
   supportinginfo:
   doi:
@@ -729,7 +729,7 @@
   year: 2009
   text: "<strong>S&oacute;lymos, P.</strong>, Farkas, R., Kemencei, Z., Páll-Gergely, B., Vilisics, F., Nagy, A., Kisfali, M. & Hornung, E., 2009. Micro-habitat scale survey of land snails in dolines of the Als&oacute;-hegy, Aggtelek National Park, Hungary. <strong>Mollusca</strong> 27(2):167&ndash;171."
   link:
-  fulltext: "https://www.mollusca-journal.de/mollusca_27-2-2009/09_Solymos_et_al.pdf"
+  fulltext:
   code:
   supportinginfo:
   doi:
@@ -737,11 +737,11 @@
   type: paper
   year: 2009
   text: "<strong>S&oacute;lymos, P.</strong>, Kemencei, Z., P&aacute;ll-Gergely, B., Farkas, R., Vilisics, F. & Hornung, E., 2009. Does shell accumulation matter in micro scale land snail surveys? <strong>Malacologia</strong> 51(2):389&ndash;393."
-  link:
-  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/solymos_etal_malac_2009_dolina2.pdf?attredirects=0"
+  link: "https://doi.org/10.4002/040.051.0211"
+  fulltext:
   code:
   supportinginfo:
-  doi:
+  doi: 10.4002/040.051.0211
 - id: SolymosJSS2009
   type: paper
   year: 2009
@@ -804,7 +804,7 @@
   year: 2008
   text: "<strong>S&oacute;lymos, P.</strong>, Vilisics, F. & Hornung, E., 2008. Terepi adatlap a hazai epigeikus makrogerinctelenek elterjed&eacute;s&eacute;nek &eacute;s &eacute;l&#337;helyi preferenci&aacute;j&aacute;nak vizsg&aacute;lat&aacute;ra [Datasheet for habitat feature assessment of field surveys on epigeic macroinvertebrates]. <strong>&Aacute;llattani K&ouml;zlem&eacute;nyek</strong> 93(2):39&ndash;46."
   link:
-  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/solymos_etal_ak_2008_adatlap.pdf?attredirects=0"
+  fulltext:
   code:
   supportinginfo:
   doi:
@@ -822,7 +822,7 @@
   year: 2008
   text: "Hornung, E., Vilisics, F. & <strong>S&oacute;lymos, P.</strong>, 2008. Low alpha and high beta diversity in terrestrial isopod assemblages in the Transdanubian region of Hungary. In: Zimmer, M., Charfi-Cheikhrouha, F. & Taiti, S. eds.: Proceedings of the International Symposium on Terrestrial Isopod Biology: ISTIB&ndash;07, Shaker Verlag, Aachen, Germany, pp. 1&ndash;11."
   link:
-  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/hornung_etal_2008_istib_tdan.pdf?attredirects=0"
+  fulltext:
   code:
   supportinginfo:
   doi:
@@ -870,7 +870,7 @@
   year: 2007
   text: "<strong>S&oacute;lymos, P.</strong>, 2007. Are current protections of land snails in Hungary relevant to conservation? <strong>Biodiversity and Conservation</strong> 16:347&ndash;356."
   link: "https://link.springer.com/article/10.1007%2Fs10531-005-2354-3"
-  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/solymos_bioc_2007_protection.pdf?attredirects=0"
+  fulltext:
   code:
   supportinginfo:
   doi: 10.1007/s10531-005-2354-3
@@ -879,7 +879,7 @@
   year: 2007
   text: "<strong>S&oacute;lymos, P.</strong> & B&aacute;ldi, A., 2007. &Aacute;ll&oacute;k&eacute;pek egy fejl&#337;d&#337; tudom&aacute;nyter&uuml;letr&#337;l: a Magyar Term&eacute;szetv&eacute;delmi Biol&oacute;giai Konferenci&aacute;k tanuls&aacute;gai [Snapshots of a dynamic discipline: lessons of the Hungarian Conservation Biology Conferences]. <strong>Term&eacute;szetv&eacute;delmi K&ouml;zlem&eacute;nyek</strong> 13:17&ndash;26. [In Hungarian with English summary]"
   link:
-  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/solymos_baldi_tvk_2007_mtbk.pdf?attredirects=0"
+  fulltext:
   code:
   supportinginfo:
   doi:
@@ -888,7 +888,7 @@
   year: 2007
   text: "<strong>S&oacute;lymos, P.</strong>, Feh&eacute;r, Z. & Varga, A., 2007. A hazai puhatest&#369;ek (Mollusca) &eacute;l&#337;hely&ndash; &eacute;s fajmeg&#337;rz&eacute;si priorit&aacute;sai [Setting priorities for mollusc species and their habitats in Hungary]. <strong>Term&eacute;szetv&eacute;delmi K&ouml;zlem&eacute;nyek</strong> 13:379&ndash;392. [In Hungarian with English summary]"
   link:
-  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/solymos_etal_tvk_2007_prioritas.pdf?attredirects=0"
+  fulltext:
   code:
   supportinginfo:
   doi:
@@ -897,7 +897,7 @@
   year: 2007
   text: "<strong>S&oacute;lymos, P.</strong> & Feh&eacute;r, Z., 2007. Magyarorsz&aacute;g puhatest&#369;inek term&eacute;szetv&eacute;delmi c&eacute;l&uacute; oszt&aacute;lyoz&aacute;sa [Conservation classification of Hungarian molluscs]. In: Forró, L. ed. <strong>A K&aacute;rp&aacute;t-medence &aacute;llatvil&aacute;g&aacute;nak kialakul&aacute;sa [Genesis of the fauna of the Carpathian Basin].</strong> Magyar Term&eacute;szettudom&aacute;nyi M&uacute;zeum, Budapest, pp. 329&ndash;338."
   link:
-  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/solymos_feher_fapa_2007_mollusca.pdf?attredirects=0"
+  fulltext:
   code:
   supportinginfo:
   doi:
@@ -906,7 +906,7 @@
   year: 2007
   text: "<strong>S&oacute;lymos, P.</strong>, Czentye, I. & Tutkovics, B., 2007. A comparison of soil sampling and direct search in malacological field inventories. In: Tajovsk&yacute;, K., Schlaghamersk&yacute;, J. & Pi&#382;l, V. eds. <strong>Contributions to Soil Zoology in Central Europe II.</strong>, pp. 195&ndash;199."
   link:
-  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/solymos_etal_csce2_2007_menes.pdf?attredirects=0"
+  fulltext:
   code:
   supportinginfo:
   doi:
@@ -915,7 +915,7 @@
   year: 2007
   text: "Vilisics, F., <strong>S&oacute;lymos, P.</strong> & Hornung, E., 2007. A preliminary study on habitat features and associated terrestrial isopod species. In: Tajovsk&yacute;, K., Schlaghamersk&yacute;, J. & Pi&#382;l, V. eds. <strong>Contributions to Soil Zoology in Central Europe II.</strong>, pp. 195&ndash;199."
   link:
-  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/vilisics_etal_csce2_2007_isopoda.pdf?attredirects=0"
+  fulltext:
   code:
   supportinginfo:
   doi:
@@ -924,7 +924,7 @@
   year: 2007
   text: "<strong>S&oacute;lymos, P.</strong> & Páll-Gergely, B., 2007. Unusually rich land snail fauna in coniferous forest, Slătioara, Romania. <strong>Tentacle</strong>, 15: 6&ndash;7. [Not peer reviewed paper]"
   link:
-  fulltext:
+  fulltext: "https://www.hawaii.edu/cowielab/tentacle/tentacle_15.pdf"
   code:
   supportinginfo:
   doi:
@@ -933,7 +933,7 @@
   year: 2007
   text: "<strong>S&oacute;lymos, P.</strong>, Tutkovics, B., Czentye, I. & Páll-Gergely, B., 2007. Adatok a Mecsek-hegység szárazföldi csigafaunájához (Mollusca: Gastropoda) [Data on the land snail fauna of the Mecsek Mountains (S Hungary) (Mollusca: Gastropoda)]. <strong>Malakológiai Tájékoztató</strong>, 25: 83&ndash;94. [Not peer reviewed paper]"
   link:
-  fulltext:
+  fulltext: "https://matramuzeum.nhmus.hu/sites/default/files/nhmusfiles/kiadvanyok/malakologia/vol25/08_Solymos_Tutkovics_Czentye_Pall-Gergely.pdf"
   code:
   supportinginfo:
   doi:
@@ -945,7 +945,7 @@
   year: 2006
   text: "<strong>S&oacute;lymos, P.</strong>, Fehér, Z. & Varga, A., 2006. Mollusc conservation in Hungary: rarity, regionality and responsibility. <strong>Tentacle</strong>, 14: 13&ndash;14. [Not peer reviewed paper]"
   link:
-  fulltext:
+  fulltext: "https://www.hawaii.edu/cowielab/tentacle/tentacle_14.pdf"
   code:
   supportinginfo:
   doi:
@@ -954,7 +954,7 @@
   year: 2006
   text: "<strong>S&oacute;lymos, P.</strong>, Czentye, I. & Tutkovics, B., 2006. Microscale disributions of landsnails in a homogenous alder stand. <strong>Soosiana</strong>, 27&ndash;28: 39&ndash;43. [Not peer reviewed paper]"
   link:
-  fulltext:
+  fulltext: "https://soosiana.github.io/volume-27-28/09_Soosiana_2006-7_27-28_Solymos_etal_39-43.pdf"
   code:
   supportinginfo:
   doi:
@@ -966,7 +966,7 @@
   year: 2005
   text: "<strong>S&oacute;lymos, P.</strong> & Feh&eacute;r, Z., 2005. Conservation prioritization using land snail distribution data in Hungary. <strong>Conservation Biology</strong> 19:1084&ndash;1094."
   link: "https://onlinelibrary.wiley.com/doi/10.1111/j.1523-1739.2005.00193.x/abstract"
-  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/solymos_feher_conbio_2005_hotspot.pdf?attredirects=0"
+  fulltext:
   code:
   supportinginfo:
   doi: 10.1111/j.1523-1739.2005.00193.x
@@ -975,7 +975,7 @@
   year: 2005
   text: "Vilisics, F., <strong>S&oacute;lymos, P.</strong> & Hornung, E., 2005. Measuring fluctuating asymmetry in two Hungarian populations of the terrestrial isopod <em>Trachelipus rathkii</em> (Crustacea: Isopoda, Oniscidea). <strong>European Journal of Soil Biology</strong> 41:85&ndash;90."
   link: "https://www.sciencedirect.com/science/article/pii/S1164556305000336"
-  fulltext: "https://sites.google.com/site/psolymosold/download/pdf/vilisics_etal_ejsb_2005_fa.pdf?attredirects=0"
+  fulltext:
   code:
   supportinginfo:
   doi: 10.1016/j.ejsobi.2005.09.003
@@ -993,7 +993,7 @@
   year: 2005
   text: "<strong>S&oacute;lymos, P.</strong>, 2005. Természetvédelmi prioritások meghatározása Magyarország szárazföldi puhatestűinek elterjedési adatai alapján [Conservation prioritization based on distribution of land snails in Hungary] (Mollusca, Gastropoda), University of Debrecen, Debrecen, Hungary, pp. 120. [PhD Thesis]"
   link:
-  fulltext:
+  fulltext: "https://dea.lib.unideb.hu/bitstreams/59801302-949b-49d3-a170-237b41d82cd4/download"
   code:
   supportinginfo:
   doi:
@@ -1014,7 +1014,7 @@
   year: 2004
   text: "<strong>S&oacute;lymos, P.</strong>, Gaudényi, T., Deli, T. & Nagy, A., 2004. Data on the land snail fauna of the Fruska Gora Mountain (Serbia) with some biogeographical remarks. <strong>Malakológiai Tájékoztató</strong>, 22: 149&ndash;153. [Not peer reviewed paper]"
   link:
-  fulltext:
+  fulltext: "https://matramuzeum.nhmus.hu/sites/default/files/nhmusfiles/kiadvanyok/malakologia/vol22/11_Fruska%20Gora.pdf"
   code:
   supportinginfo:
   doi:
@@ -1023,7 +1023,7 @@
   year: 2004
   text: "Domokos, T., Lennert, J. & <strong>S&oacute;lymos, P.</strong>, 2004. Száraz holtág malakológiai, mikroklimatológiai vizsgálata a Sarkad-remetei-erdőben (Békés megye), és a Hygromia kovacsi elofordulási körülményei [Malacological and microclimatological examination of a dried out martlake at the Sarkad-Remete Forest (Békés County, Hungary) and the circumstances of the occurrence of Hygromia kovacsi]. <strong>Malakológiai Tájékoztató</strong>, 22: 87&ndash;95. [Not peer reviewed paper]"
   link:
-  fulltext:
+  fulltext: "https://matramuzeum.nhmus.hu/sites/default/files/nhmusfiles/kiadvanyok/malakologia/vol22/07_Szaraz%20holtag.pdf"
   code:
   supportinginfo:
   doi:
@@ -1053,7 +1053,7 @@
   year: 2002
   text: "Deli, T., Tukarcs, V. & <strong>S&oacute;lymos, P.</strong>, 2002. Malacofaunistical investigation of the Esztramos Hill (NE Hungary). <strong>Malakológiai Tájékoztató</strong>, 20: 143&ndash;152. [Not peer reviewed paper]"
   link:
-  fulltext:
+  fulltext: "https://matramuzeum.nhmus.hu/sites/default/files/nhmusfiles/kiadvanyok/malakologia/vol20/14_ESZTRAMOS.PDF"
   code:
   supportinginfo:
   doi:
@@ -1062,7 +1062,7 @@
   year: 2002
   text: "Nagy, A. & <strong>S&oacute;lymos, P.</strong>, 2002. Relationship between microclimate and Orthoptera assemblages in different exposures of a dolina. <strong>Articulata</strong>, 17(1. 73&ndash;84. [Not peer reviewed paper]"
   link:
-  fulltext:
+  fulltext: "https://dgfo-articulata.de/downloads/articulata/articulata_XVII_2002/nagy_solymos_2002.pdf"
   code:
   supportinginfo:
   doi:
@@ -1074,7 +1074,7 @@
   year: 2001
   text: "Gálik, K., Deli, T. & <strong>S&oacute;lymos, P.</strong>, 2001. Comparative malacological investigations on the Kaszonyi Hill (NE Hungary). <strong>Malakológiai Tájékoztató</strong>, 19: 81&ndash;88. [Not peer reviewed paper]"
   link:
-  fulltext:
+  fulltext: "https://matramuzeum.nhmus.hu/sites/default/files/nhmusfiles/kiadvanyok/malakologia/vol19/10.PDF"
   code:
   supportinginfo:
   doi:
@@ -1083,7 +1083,7 @@
   year: 2001
   text: "<strong>S&oacute;lymos, P.</strong>, 2001. Data on the habitat preferency of the three Hungarian Truncatellina Lowe (Gastropoda, Vertiginidae) species. <strong>Soosiana</strong>, 29: 61&ndash;72. [Not peer reviewed paper]"
   link:
-  fulltext:
+  fulltext: "https://soosiana.github.io/volume-22/12_Soosiana_2001_22_25_Solymos_61-72.pdf"
   code:
   supportinginfo:
   doi:
@@ -1104,7 +1104,7 @@
   year: 2000
   text: "<strong>S&oacute;lymos, P.</strong>, 2000. Data on the recent mollusc fauna of the western part of the Villány Hills, S Hungary. <strong>Malakológiai Tájékoztató</strong>, 18: 105&ndash;108. [Not peer reviewed paper]"
   link:
-  fulltext:
+  fulltext: "https://matramuzeum.nhmus.hu/sites/default/files/nhmusfiles/kiadvanyok/malakologia/vol18/14SOLYMOS.PDF"
   code:
   supportinginfo:
   doi:
@@ -1113,7 +1113,7 @@
   year: 2000
   text: "<strong>S&oacute;lymos, P.</strong>, 2000. Quantitative malacological surveys of the Szársomlyó and the Fekete Hill (Villány Hills, S Hungary). In: Uherkovich, Á., ed. A Villányi-hegység botanikai és zoológiai alapfelmérése. <strong>Dunántúli Dolgozatok (A) Természettudományi Sorozat</strong>, 10: 111&ndash;120. [Not peer reviewed paper]"
   link:
-  fulltext:
+  fulltext: "https://library.hungaricana.hu/hu/view/MEGY_SOMO_Osborokas_10/"
   code:
   supportinginfo:
   doi:
@@ -1122,7 +1122,7 @@
   year: 2000
   text: "Varga, A., Uherkovich, Á. & <strong>S&oacute;lymos, P.</strong>, 2000. A Villányi-hegység és környéke malakofaunisztikai vizsgálatának eddigi eredményei (Mollusca) [Results of the malacofaunistic examinations (Mollusca) of the Villány Hills and its environs, South Hungary]. In: Uherkovich, Á., ed. A Villányi-hegység botanikai és zoológiai alapfelmérése. <strong>Dunántúli Dolgozatok (A) Természettudományi Sorozat</strong>, 10: 89&ndash;110. [Not peer reviewed paper]"
   link:
-  fulltext:
+  fulltext: "https://library.hungaricana.hu/hu/view/MEGY_SOMO_Osborokas_10/"
   code:
   supportinginfo:
   doi:
@@ -1134,7 +1134,7 @@
   year: 1999
   text: "<strong>S&oacute;lymos, P.</strong>, 1999. Data on the recent mollusc fauna of the Fekete Hill (Villány Hills, S Hungary). <strong>Malakológiai Tájékoztató</strong>, 17: 83&ndash;87. [Not peer reviewed paper]"
   link:
-  fulltext:
+  fulltext: "https://matramuzeum.nhmus.hu/sites/default/files/nhmusfiles/kiadvanyok/malakologia/vol17/10%20SOLYMOS.PDF"
   code:
   supportinginfo:
   doi:
@@ -1143,7 +1143,7 @@
   year: 1999
   text: "<strong>S&oacute;lymos, P.</strong> & Domokos, T., 1999. A possible connection between macroclimate and shell morphometry of Granaria frumentum (Draparnaud, 1801) (Gastropoda, Chondrinidae). <strong>Malakológiai Tájékoztató</strong>, 17: 75&ndash;82. [Not peer reviewed paper]"
   link:
-  fulltext:
+  fulltext: "https://matramuzeum.nhmus.hu/sites/default/files/nhmusfiles/kiadvanyok/malakologia/vol17/09%20SOLY_DOM.PDF"
   code:
   supportinginfo:
   doi:
@@ -1152,7 +1152,7 @@
   year: 1999
   text: "<strong>S&oacute;lymos, P.</strong> & Sümegi, P., 1999. Shell morpho-thermometer method and its application in palaeoclimatic reconstruction. <strong>Annales Universitatis Scientiarum Budapestensis, Sectio Geologica</strong>, 32: 137&ndash;148. [Not peer reviewed paper]"
   link:
-  fulltext:
+  fulltext: "https://edit.elte.hu/xmlui/bitstream/handle/10831/42779/06_137-148.pdf"
   code:
   supportinginfo:
   doi:
@@ -1164,7 +1164,7 @@
   year: 1997
   text: "<strong>S&oacute;lymos, P.</strong> & Nagy, A., 1997. The recent mollusc fauna of the Szársomlyó (S Hungary): spatial pattern and microclimate. <strong>Malakológiai Tájékoztató</strong>, 16: 35&ndash;42. [Not peer reviewed paper]"
   link:
-  fulltext:
+  fulltext: "https://matramuzeum.nhmus.hu/sites/default/files/nhmusfiles/kiadvanyok/malakologia/vol16/Malakot_16_1997.pdf"
   code:
   supportinginfo:
   doi:
@@ -1176,7 +1176,7 @@
   year: 1996
   text: "<strong>S&oacute;lymos, P.</strong>, 1996. Ecological and biogeographical investigation of the recent mollusc fauna of Szársomlyó (S Hungary), southern side. <strong>Malakológiai Tájékoztató</strong>, 15: 61&ndash;67. [Not peer reviewed paper]"
   link:
-  fulltext:
+  fulltext: "https://matramuzeum.nhmus.hu/sites/default/files/nhmusfiles/kiadvanyok/malakologia/vol15/Malakot_15_1996.pdf"
   code:
   supportinginfo:
   doi:
@@ -1197,3 +1197,27 @@
 
 # ADD: ismeretterjeszto cikkek
 
+Szerzők: Sólymos Péter
+Beszámoló a 2002-es Mollusca Fórumról
+Soosiana, 2002. (23. évf.) 30. sz. 5-6. old.
+Teljes szöveg: mamat.hu
+
+Szerzők: Solymos Péter
+Vízicsigák, kagylók: édesvizeink mészpáncélosai
+Természetbúvár, 2008. (63. évf. ) 3. sz. 2-5. old. 
+https://soosiana.github.io/volume-23/04_Soosiana_2002_23_Solymos_5-6.pdf
+
+Szerzők: Sólymos Péter
+Keménykötésű puhatestűek: hátukon a házuk
+Természetbúvár, 2005. (60. évf.) 5. sz. 16-18. old.
+
+Szerzők: Sólymos Péter
+A csigaparadoxon
+Természet Világa : Természettudományi Közlöny, 2002. (133. évf.) 6. sz. 246-250. old.
+Teljes szöveg: Elektronikus Periodika Archívum
+
+Szerzők: Sólymos Péter
+Beszámoló a 2001-es londoni Mollusca Fórumról
+Soosiana, 2001. (22. évf.) 29. sz. 5-6. old.
+Teljes szöveg: mamat.hu
+https://soosiana.github.io/volume-22/03_Soosiana_2001_22_25_Solymos_5-6.pdf
