@@ -26,6 +26,15 @@
 #
 #------------------------- 2025 ------------------------------
 #
+- id: LeleSolymos2025
+  type: paper
+  year: 2025
+  text: "Lele, S. R., <strong>S&oacute;lymos, P.</strong>, 2025. Single bin QPAD (SQPAD) approach for robust analysis of point count data with detection error. <strong>Ornithological Applications</strong>, xx: xx&ndash;xx."
+  link: 
+  fulltext: 
+  code: '<a href="https://CRAN.R-project.org/package=bSims"><code>bSims</code></a> and <a href="https://CRAN.R-project.org/package=detect"><code>detect</code></a> R packages'
+  supportinginfo: '<a href="https://github.com/psolymos/sqpad-paper">GitHub repository</a>'
+  doi: 
 - id: Gonzalez2025
   type: paper
   year: 2025
@@ -44,15 +53,6 @@
   code:
   supportinginfo: '<a href="https://github.com/borealbirds/LandbirdModelsV4">GitHub repository</a>'
   doi: 10.1002/ecs2.70405
-# - id: LeleSolymos2025
-#   type: paper
-#   year: 2025
-#   text: "Lele, S. R., <strong>S&oacute;lymos, P.</strong>, 2025. Single bin QPAD (SQPAD) approach for robust analysis of point count data with detection error. <strong>Ornithological Applications</strong>, xx: xx&ndash;xx."
-#   link: 
-#   fulltext: 
-#   code: '<a href="https://CRAN.R-project.org/package=bSims"><code>bSims</code></a> and <a href="https://CRAN.R-project.org/package=detect"><code>detect</code></a> R packages'
-#   supportinginfo:
-#   doi: 
 
 #
 #------------------------- 2024 ------------------------------
