@@ -34,7 +34,7 @@
   fulltext: 
   code: '<a href="https://CRAN.R-project.org/package=bSims"><code>bSims</code></a> and <a href="https://CRAN.R-project.org/package=detect"><code>detect</code></a> R packages'
   supportinginfo: '<a href="https://github.com/psolymos/sqpad-paper">GitHub repository</a>'
-  doi: 
+  doi: 10.1093/ornithapp/duaf078
 - id: Gonzalez2025
   type: paper
   year: 2025
