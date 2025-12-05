@@ -31,7 +31,7 @@
   year: 2025
   text: "Lele, S. R., <strong>S&oacute;lymos, P.</strong>, 2025. Single bin QPAD (SQPAD) approach for robust analysis of point count data with detection error. <strong>Ornithological Applications</strong>, xx: xx&ndash;xx."
   link: 
-  fulltext: 
+  fulltext: "https://doi.org/10.1093/ornithapp/duaf078"
   code: '<a href="https://CRAN.R-project.org/package=bSims"><code>bSims</code></a> and <a href="https://CRAN.R-project.org/package=detect"><code>detect</code></a> R packages'
   supportinginfo: '<a href="https://github.com/psolymos/sqpad-paper">GitHub repository</a>'
   doi: 10.1093/ornithapp/duaf078
@@ -49,7 +49,7 @@
   year: 2025
   text: "Stralberg, D., <strong>S&oacute;lymos, P.</strong>, Docherty, T. D. S., Crosby, A. D., Van Wilgenburg, S. L., Knight, E. C., Drake, A., Boehm, M. M. A., Haché, S., Leston, L., Toms, J. D., Ball, J. R., Song, S. J., Schmiegelow, F. K. A., Cumming, S. C., Bayne, E. M., 2025. A generalized modeling framework for spatially extensive species abundance prediction and population estimation. <strong>Ecosphere</strong>, e70405."
   link: 
-  fulltext: 
+  fulltext: "https://doi.org/10.1002/ecs2.70405"
   code:
   supportinginfo: '<a href="https://github.com/borealbirds/LandbirdModelsV4">GitHub repository</a>'
   doi: 10.1002/ecs2.70405
