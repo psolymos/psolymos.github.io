@@ -20,7 +20,7 @@
   title: "A Tool to Guide Decisions for Wildlife Conservation"
   description: "WildLift can be used to quantitatively compare the costs and demographic benefits of recovery actions for an iconic threatened species."
   tutorial: "<a href=\"   \">tutorial</a>"
-  paper: "<a href=\"https://dx.doi.org/10.3389/fevo.2020.564508\">S&oacute;lymos 2009</a>"
+  paper: "<a href=\"https://dx.doi.org/10.3389/fevo.2020.564508\">Nagy-Reis et al. 2009</a>"
   devel: ABbiodiversity
 - pkgname: tryr
   title: "Client/Server Error Handling for HTTP API Frameworks"
@@ -44,7 +44,7 @@
   title: "Bird point count simulator"
   description: "A highly scientific and utterly addictive bird point count simulator to test statistical assumptions, aid survey design, and have fun while doing it."
   tutorial: "<a href=\"https://cran.rstudio.com/web/packages/bSims/vignettes/intro.html\">vignette</a>"
-  paper:
+  paper: "<a href=\"https://rdcu.be/doDwI\">S&oacute;lymos 2023</a>"
   devel: psolymos
 - pkgname: opticut
   title: "Likelihood based optimal partitioning for indicator species analysis"

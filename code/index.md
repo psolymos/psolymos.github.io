@@ -29,8 +29,8 @@ excerpt: The list of software packages written by Peter Solymos.
 
 <li><i class="fa-li fa fa-archive text-black"></i><a href="http://cran.r-project.org/package={{ pkg.pkgname }}"><img src="http://www.r-pkg.org/badges/version/{{ pkg.pkgname }}" alt="CRAN version"></a>
 <a href="http://cran.r-project.org/package={{ pkg.pkgname }}"><img src="http://cranlogs.r-pkg.org/badges/grand-total/{{ pkg.pkgname }}" alt="CRAN version"></a></li>
-<li><i class="fa-li fa fa-github text-black"></i><a href="https://github.com/{{ pkg.devel }}/{{ pkg.pkgname }}">development</a> <a href="https://travis-ci.org/{{ pkg.devel }}/{{ pkg.pkgname }}"><img src="https://travis-ci.org/{{ pkg.devel }}/{{ pkg.pkgname }}.svg?branch=master" alt="build status"></a></li>
-<li><i class="fa-li fa fa-bug text-black"></i><a href="https://github.com/{{ pkg.devel }}/{{ pkg.pkgname }}/issues">report an issue</a></li>
+<li><i class="fa-li fa fa-github text-black"></i><a href="https://github.com/{{ pkg.devel }}/{{ pkg.pkgname }}">Development version</a></li>
+<li><i class="fa-li fa fa-bug text-black"></i><a href="https://github.com/{{ pkg.devel }}/{{ pkg.pkgname }}/issues">Report an issue</a></li>
 {% if pkg.paper %}<li><i class="fa-li fa fa-file-text-o text-black"></i>{{ pkg.paper }}</li>{% endif %}
 {% for tag in tag_words) %}{% if tag == pkg.pkgname %}<li><i class="fa-li fa fa-chevron-right text-black"></i><a href="{{ site.baseurl }}/tags.html#{{ tag | slugify }}">{{ site.tags[tag] | size }} blog post{% if site.tags[tag] | size > 1 %}s{% endif %}</a></li>{% endif %}{% endfor %}
 </ul>
