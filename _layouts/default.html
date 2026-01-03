@@ -30,7 +30,7 @@
               {% else %}
               <li class="previous disabled"><a href="#"><i class="fa fa-arrow-left"></i> Older</a></li>
               {% endif %}
-              <li><a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.baseurl }}{{ page.url }}{% if page.tags contains 'R' %}&hashtags=rstats,datascience{% endif %}&via=psolymos&related=psolymos" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a></li>
+              <!-- <li><a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.baseurl }}{{ page.url }}{% if page.tags contains 'R' %}&hashtags=rstats,datascience{% endif %}&via=psolymos&related=psolymos" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a></li> -->
               <li><a href="https://facebook.com/sharer.php?u={{ site.baseurl }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook-official"></i></a></li>
               <li><a href="https://plus.google.com/share?url={{ site.baseurl }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+"><i class="fa fa-google-plus"></i></a></li>
               {% if page.next %}
@@ -44,11 +44,11 @@
         </div>
         <div class="col-xs-12 col-md-4">
         <h4><em>{{ site.description }}</em></h4>
-        <center>
+        <!-- <center>
           <a href="https://twitter.com/psolymos" class="twitter-follow-button" data-show-count="false">Follow @psolymos</a>
         </center>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-        </script>
+        </script> -->
 <!-- here is promoted post - for all pages -->
         {% unless page.promote %}
         {% for post in site.posts %}
