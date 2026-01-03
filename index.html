@@ -87,8 +87,8 @@ excerpt: The personal website of Peter Solymos.
       papers
       -->
       <div class="col-lg-6 col-sm-6">
-        <h3><a href="{{ site.baseurl }}/papers/">Publications</a></h3>
-        {% for ms in site.data.papers limit:10 %}
+        <h3><a href="{{ site.baseurl }}/papers/">Latest publications</a></h3>
+        {% for ms in site.data.papers limit:7 %}
         <p>
           {{ ms.text }}{% if ms.link %} &mdash;
           <i class="fa fa-external-link text-orange"></i>&nbsp;<a
@@ -105,6 +105,10 @@ excerpt: The personal website of Peter Solymos.
           ms.supportinginfo }}{% endif %}.
         </p>
         {% endfor %}
+        <br/>
+        <p>
+          See all publications <a href="./papers/">here</a>.
+        </p>
       </div>
 
       <!--
