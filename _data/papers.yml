@@ -4,9 +4,7 @@
 
 # >>> IN PREP <<<
 
-# PIF: "Refining population estimates for North American birds: reducing bias from imperfect detection, spatial sampling, and temporal change"
-
-# Multi-spp QPAD: "Predicting detection probabilities for rare and undersampled North American landbirds"
+# Multi-spp QPAD:
 # Edwards, Brandon P.M.
 # Gahbauer, Marcel A.
 # Grinde, Alexis
@@ -17,20 +15,33 @@
 # Solymos, Peter
 # Bennett, Joseph R.
 # Smith, Adam C.
-
-# BAM history ACE-ECO
+# "Predicting detection probabilities for rare and undersampled North American landbirds"
 
 # >>> SUBMITTED/ACCEPTED <<<
 
+# PIF:
+# Marcel A. Gahbauer, Adam C. Smith, Brandon Edwards, David T. Iles, Elly C. Knight, Barry G. Robinson, Kenneth V. Rosenberg, Péter Sólymos, Judith D. Toms, Steven L. Van Wilgenburg
+# Refining population estimates for North American birds: reducing bias from imperfect detection, spatial sampling, and temporal change
+# Avian Conservation and Ecology
+
 # MNBBA: "Species distribution models and abundance estimates enhance breeding bird atlas data"
+
+
 
 #
 #------------------------- 2026 ------------------------------
 #
+- id: VanWilgenburg2026
+  type: paper
+  year: 2026
+  text: "Van Wilgenburg, S. L., Ball, J. R., Barker, N. K. S., Casey, B. G., Crosby, A., Cumming, S. G., Docherty, T. D. S., Drake, A. V., Fontaine, T., Haché, S., Houle, M., Leston, L. F. V., Mahon, C. L., Schmiegelow, F. K. A., <strong>S&oacute;lymos, P.</strong>, Song, S. J., Stralberg, D., Toms, J. D., Tremblay, J. A., Yip, D. A., Bayne, E. M., Knight, E. C., 2026. Twenty years of progress in boreal avian conservation: A history and path forward for the Boreal Avian Modelling project. <strong>Avian Conservation and Ecology</strong>, xx: xx&ndash;xx."
+  link: 
+  fulltext: ""
+  doi: 
 - id: LeleSolymos2026
   type: paper
   year: 2026
-  text: "Lele, S. R., <strong>S&oacute;lymos, P.</strong>, 2026. Single bin QPAD (SQPAD) approach for robust analysis of point count data with detection error. <strong>Ornithological Applications</strong>, xx: xx&ndash;xx."
+  text: "Lele, S. R., <strong>S&oacute;lymos, P.</strong>, 2026. Single bin QPAD (SQPAD) approach for robust analysis of point count data with detection error. <strong>Ornithological Applications</strong>, 128: 1&ndash;14."
   link: 
   fulltext: "https://doi.org/10.1093/ornithapp/duaf078"
   code: '<a href="https://CRAN.R-project.org/package=bSims"><code>bSims</code></a> and <a href="https://CRAN.R-project.org/package=detect"><code>detect</code></a> R packages'
