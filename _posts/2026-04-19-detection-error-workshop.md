@@ -2,7 +2,7 @@
 title: "Analyzing Ecological Data with Detection Error"
 layout: default
 category: Talks
-tags: [detectability, workshop, MCMC]
+tags: [detectability, workshop, MCMC, R]
 published: true
 disqus: petersolymos
 promote: true
@@ -20,4 +20,4 @@ By the end of the course, participants will have a strong foundation and more co
 
 The online workshop is organized by [PR Stats](https://prstats.org/course/analysing-ecological-data-with-detection-error-aedd01/).
 
-Find more about the course on the GitHub site: <https://github.com/psolymos/analysing-ecological-data-with-detection-error>.
+Find R code used in the course on the GitHub site: <https://github.com/psolymos/analysing-ecological-data-with-detection-error>.
