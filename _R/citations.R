@@ -1,7 +1,7 @@
 # when rate limited by google, spin up a VM and use docker:
 # git clone https://github.com/psolymos/psolymos.github.io.git
-# docker pull rocker/r2u
-# docker run -v $(pwd)/cd psolymos.github.io:/psolymos.github.io -it rocker/r2u bash
+# docker pull rocker/r2u:24.04
+# docker run -v $(pwd)/psolymos.github.io:/psolymos.github.io -it rocker/r2u:24.04 bash
 # cd psolymos.github.io
 # start R and install.packages(c("yaml","scholar"))
 
