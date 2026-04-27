@@ -41,7 +41,7 @@
   supportinginfo: ~
   doi: 10.1139/facets-2024-0206
   pubid: 5-bGDoUgDrYC
-  citations: 2
+  citations: 3
 - id: Stralberg2025
   type: paper
   year: 2025
@@ -87,7 +87,7 @@
   supportinginfo: ~
   doi: 10.1007/s42977-023-00183-2
   pubid: 9w9GTvUEN2YC
-  citations: 5
+  citations: 6
 - id: Edwards2023
   type: paper
   year: 2023
@@ -279,6 +279,21 @@
   doi: 10.1111/ddi.13057
   pubid: gL9scSG3K_gC
   citations: 95
+- id: SumegiKotet2020
+  type: bookchapter
+  year: 2020
+  text: '<strong>S&oacute;lymos, P.</strong>, 2020. A puhatestű fauna kutatásának
+    természetvédelmi jelentősége. In: Törőcsik, T., Gulyás, S., Molnár, D., and Náfrádi,
+    K., eds., Környezettörténet; Tanulmányok Sümegi Pál professzor 60 éves születésnapi
+    köszöntésére [nvironmental history; Studies for the 60th birthday of Professor
+    Pál Sümegi], pp. 435&ndash;440., GeoLitera, Szeged, Hungary. [Book Chapter, in
+    Hungarian]'
+  link: ~
+  fulltext: ~
+  code: ~
+  supportinginfo: ~
+  doi: ~
+  pubid: ~
 - id: Roy2019
   type: paper
   year: 2019
@@ -392,7 +407,7 @@
   supportinginfo: ~
   doi: 10.1002/ecs2.2156
   pubid: qhW0HyKmSusC
-  citations: 173
+  citations: 174
 - id: Solymos2018a
   type: paper
   year: 2018
@@ -1627,7 +1642,7 @@
   supportinginfo: ~
   doi: ~
   pubid: xUD2GqFNeDMC
-  citations: []
+  citations: 3
 - id: Solymos1999
   type: paper
   year: 1999
