@@ -29,10 +29,6 @@ for (i in 1:nrow(p)) {
 # new cites
 sum(p$cites)
 # old cites
-sum(p$oldcites)
-if (any(p$cites != p$oldcites)) {
-    k <- p$pubid[p$cites != p$oldcites]
-}
 
 # ct <- get_citation_history(id)
 
@@ -45,6 +41,10 @@ for (j in 1:length(y)) {
 }
 yaml::write_yaml(y, "_data/papers.yml")
 
+sum(p$oldcites)
+if (any(p$cites != p$oldcites)) {
+    k <- p$pubid[p$cites != p$oldcites]
+}
 
 # throttling requests to google scholar, 5 seconds between requests
 cit <- NULL
