@@ -39,6 +39,7 @@
   fulltext: ""
   doi: 
   pubid:
+  labels: [birds, review, conservation]
 - id: LeleSolymos2026
   type: paper
   year: 2026
@@ -49,6 +50,7 @@
   supportinginfo: '<a href="https://github.com/psolymos/sqpad-paper">GitHub repository</a>'
   doi: 10.1093/ornithapp/duaf078
   pubid: Iq19BMNozs4C
+  labels: [birds, methods, software]
 #
 #------------------------- 2025 ------------------------------
 #
@@ -62,6 +64,7 @@
   supportinginfo:
   doi: 10.1139/facets-2024-0206
   pubid: 5-bGDoUgDrYC
+  labels: [review, biodiversity, monitoring]
 - id: Stralberg2025
   type: paper
   year: 2025
@@ -72,6 +75,7 @@
   supportinginfo: '<a href="https://github.com/borealbirds/LandbirdModelsV4">GitHub repository</a>'
   doi: 10.1002/ecs2.70405
   pubid: Jxw8hHINxX0C
+  labels: [birds, methods, distribution modeling, population estimation]
 #
 #------------------------- 2024 ------------------------------
 #

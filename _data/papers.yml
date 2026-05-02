@@ -12,6 +12,10 @@
   fulltext: ''
   doi: ~
   pubid: ~
+  labels:
+  - birds
+  - review
+  - conservation
 - id: LeleSolymos2026
   type: paper
   year: 2026
@@ -26,6 +30,10 @@
   supportinginfo: <a href="https://github.com/psolymos/sqpad-paper">GitHub repository</a>
   doi: 10.1093/ornithapp/duaf078
   pubid: Iq19BMNozs4C
+  labels:
+  - birds
+  - methods
+  - software
   citations: 3
 - id: Gonzalez2025
   type: paper
@@ -41,6 +49,10 @@
   supportinginfo: ~
   doi: 10.1139/facets-2024-0206
   pubid: 5-bGDoUgDrYC
+  labels:
+  - review
+  - biodiversity
+  - monitoring
   citations: 3
 - id: Stralberg2025
   type: paper
@@ -58,6 +70,11 @@
     repository</a>
   doi: 10.1002/ecs2.70405
   pubid: Jxw8hHINxX0C
+  labels:
+  - birds
+  - methods
+  - distribution modeling
+  - population estimation
   citations: 3
 - id: Leston2024
   type: paper
@@ -421,7 +438,7 @@
   supportinginfo: ~
   doi: 10.1111/ecog.03415
   pubid: bkKuixW_xMkC
-  citations: 57
+  citations: 58
 - id: Feher2018a
   type: paper
   year: 2018
@@ -490,7 +507,7 @@
   supportinginfo: ~
   doi: 10.5751/ACE-00997-120111
   pubid: CMPXdcK5v8EC
-  citations: 155
+  citations: 156
 - id: Feher2017
   type: paper
   year: 2017
@@ -517,7 +534,7 @@
   supportinginfo: ~
   doi: 10.1650/CONDOR-16-93.1
   pubid: Pqt4MY__2vwC
-  citations: 129
+  citations: 128
 - id: Denes2016
   type: paper
   year: 2016
@@ -532,7 +549,7 @@
   supportinginfo: ~
   doi: 10.1111/1365-2664.12818
   pubid: fF_gHTpLxhAC
-  citations: 19
+  citations: 20
 - id: Ball2016
   type: paper
   year: 2016
@@ -676,7 +693,7 @@
     info</a>
   doi: 10.1111/ddi.12356
   pubid: KqW5X_olkfQC
-  citations: 94
+  citations: 95
 - id: Stralberg2015a
   type: paper
   year: 2015
@@ -948,7 +965,7 @@
   supportinginfo: ~
   doi: 10.1038/ncomms2145
   pubid: ldfaerwXgEUC
-  citations: 105
+  citations: 106
 - id: Silvertown2011
   type: paper
   year: 2011
