@@ -5,7 +5,7 @@ layout: default
 excerpt: Bibliometrics for publications by Peter Solymos.
 ---
 
-> Below are plots of the number of publications per year and cumulative publications over time, based on data from Google Scholar, cleaned up to show only papers, without software related entries.
+> Below are plots of the number of publications and citations over time, based on data from Google Scholar, cleaned up to show only papers, without software related entries.
 
 - [Google Scholar](http://scholar.google.ca/citations?hl=en&user=PfC17QsAAAAJ&view_op=list_works&pagesize=100)
 - [ORCID](http://orcid.org/0000-0001-7337-1740)

@@ -18,6 +18,7 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
       <li><a href="http://www.scopus.com/authid/detail.url?authorId=23104106300">ScopusID</a></li>
       <!-- <li><a href="https://academic.microsoft.com/#/detail/1972292879">Microsoft Academic</a></li> -->
       <!-- <li><a href="https://impactstory.org/u/0000-0001-7337-1740">Impactstory</a></li> -->
+      <li><a href="{{ site.baseurl }}/bibliometrics.html">Charts</a></li>
      </ul>
   </div>
 
