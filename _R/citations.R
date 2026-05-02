@@ -78,8 +78,21 @@ write.csv(zo, "_data/citations.csv", row.names = FALSE)
 z <- read.csv("_data/citations.csv")
 
 # plot publications over time
-yr <- sort(sapply(y, "[[", "year"))
-p1 <- data.frame(year = yr) |>
+cd <- data.frame(year = sapply(y, "[[", "year"))
+cd$birds <- sapply(y, function(x) {
+    if (is.null(x$labels)) FALSE else "birds" %in% x$labels
+})
+cd$molluscs <- sapply(y, function(x) {
+    if (is.null(x$labels)) FALSE else "molluscs" %in% x$labels
+})
+cd$software <- sapply(y, function(x) {
+    if (is.null(x$labels)) FALSE else "software" %in% x$labels
+})
+cd <- cd |>
+    arrange(year)
+cd$n <- 1:nrow(cd)
+
+p1 <- cd |>
     group_by(year) |>
     summarise(n = n()) |>
     ggplot(aes(year, n)) +
@@ -87,9 +100,17 @@ p1 <- data.frame(year = yr) |>
     theme_bw() +
     labs(x = "Year", y = "Number of publications")
 
-p2 <- data.frame(year = yr, n = 1:length(yr)) |>
+p2 <- cd |>
     ggplot(aes(year, n)) +
     geom_step() +
+    geom_step(
+        data = data.frame(year = cd$year, n = cumsum(cd$molluscs)),
+        color = "red"
+    ) +
+    geom_step(
+        data = data.frame(year = cd$year, n = cumsum(!cd$molluscs)),
+        color = "blue"
+    ) +
     theme_bw() +
     labs(x = "Year", y = "Cumulative number of publications")
 
