@@ -26,6 +26,8 @@ for (i in 1:nrow(p)) {
         }
     }
 }
+# all new cites
+sum(p0$cites)
 # new cites
 sum(p$cites)
 # old cites
