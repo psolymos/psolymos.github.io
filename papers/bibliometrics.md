@@ -25,7 +25,7 @@ Citations over time:
 
 <img src="{{ site.baseurl }}/images/publications/citations_over_time.png" class="img-responsive" alt="Citations over time">
 
-Cumulative citations over time:
+Cumulative citations over time (red line shows mollusc papers, blue line shows non-mollusc papers, black line shows all papers):
 
 <img src="{{ site.baseurl }}/images/publications/cumulative_citations_over_time.png" class="img-responsive" alt="Cumulative citations over time">
 

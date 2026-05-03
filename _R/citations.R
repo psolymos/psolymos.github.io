@@ -79,6 +79,9 @@ z <- read.csv("_data/citations.csv")
 
 # plot publications over time
 cd <- data.frame(year = sapply(y, "[[", "year"))
+cd$pubid <- sapply(y, function(x) {
+    if (is.null(x$pubid)) "" else x$pubid
+})
 cd$birds <- sapply(y, function(x) {
     if (is.null(x$labels)) FALSE else "birds" %in% x$labels
 })
@@ -115,7 +118,14 @@ p2 <- cd |>
     labs(x = "Year", y = "Cumulative number of publications")
 
 # plot citations over time
-p3 <- z |>
+z2 <- data.frame(
+    z,
+    birds = cd$birds[match(z$pubid, cd$pubid)],
+    molluscs = cd$molluscs[match(z$pubid, cd$pubid)],
+    software = cd$software[match(z$pubid, cd$pubid)]
+)
+
+p3 <- z2 |>
     group_by(year) |>
     summarise(citations = sum(cites)) |>
     ggplot(aes(year, citations)) +
@@ -123,12 +133,38 @@ p3 <- z |>
     theme_bw() +
     labs(x = "Year", y = "Number of citations")
 
-p4 <- z |>
+p4 <- z2 |>
+    mutate(
+        birds = birds * cites,
+        molluscs = molluscs * cites,
+        not_molluscs = (!molluscs) * cites,
+        software = software * cites
+    ) |>
     group_by(year) |>
-    summarise(citations = sum(cites)) |>
-    mutate(citations = cumsum(citations)) |>
+    summarise(
+        citations = sum(cites),
+        birds = sum(birds),
+        molluscs = sum(molluscs),
+        not_molluscs = sum(not_molluscs),
+        software = sum(software)
+    ) |>
+    mutate(
+        citations = cumsum(citations),
+        birds = cumsum(birds),
+        molluscs = cumsum(molluscs),
+        not_molluscs = cumsum(not_molluscs),
+        software = cumsum(software)
+    ) |>
     ggplot(aes(year, citations)) +
-    geom_line() +
+    geom_step() +
+    geom_step(
+        aes(year, molluscs),
+        color = "red"
+    ) +
+    geom_step(
+        aes(year, not_molluscs),
+        color = "blue"
+    ) +
     theme_bw() +
     labs(x = "Year", y = "Cumulative number of citations")
 
