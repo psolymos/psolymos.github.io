@@ -19,13 +19,27 @@
 
 # >>> SUBMITTED/ACCEPTED <<<
 
-# PIF:
-# Marcel A. Gahbauer, Adam C. Smith, Brandon Edwards, David T. Iles, Elly C. Knight, Barry G. Robinson, Kenneth V. Rosenberg, Péter Sólymos, Judith D. Toms, Steven L. Van Wilgenburg
-# Refining population estimates for North American birds: reducing bias from imperfect detection, spatial sampling, and temporal change
-# Avian Conservation and Ecology
+# - id: Gahbauer2026
+#   type: paper
+#   year: 2026
+#   text: "Gahbauer, M. A., Smith, A. C., Edwards, B., Iles, D. T., Knight, E. C., Robinson, B. G., Rosenberg, K. V., Sólymos, P., Toms, J. D., and Van Wilgenburg, S. L., 2026. Refining population estimates for North American birds: reducing bias from imperfect detection, spatial sampling, and temporal change. <strong>Avian Conservation and Ecology</strong>, xx: xx&ndash;xx."
+#   link: 
+#   fulltext:
+#   doi: 
+#   pubid:
+#   labels: [birds, methods, population estimation]
 
-# MNBBA: "Species distribution models and abundance estimates enhance breeding bird atlas data"
-
+# - id: Walton2026
+#   type: paper
+#   year: 2026
+#   text: "Nicholas G. Walton, N. G., Zlonis, E. J., <strong>S&oacute;lymos, P.</strong>, Grinde, A. R., and Niemi, G. J., 2026. Species distribution models and abundance estimates enhance breeding bird atlas data. <strong>Ecology and Evolution</strong>, xx: xx&ndash;xx."
+#   link: 
+#   fulltext: 
+#   code: 
+#   supportinginfo: 
+#   doi: 
+#   pubid: 
+#   labels: [birds, methods, distribution modeling, population estimation]
 
 
 #
@@ -34,9 +48,9 @@
 - id: VanWilgenburg2026
   type: paper
   year: 2026
-  text: "Van Wilgenburg, S. L., Ball, J. R., Barker, N. K. S., Casey, B. G., Crosby, A., Cumming, S. G., Docherty, T. D. S., Drake, A. V., Fontaine, T., Haché, S., Houle, M., Leston, L. F. V., Mahon, C. L., Schmiegelow, F. K. A., <strong>S&oacute;lymos, P.</strong>, Song, S. J., Stralberg, D., Toms, J. D., Tremblay, J. A., Yip, D. A., Bayne, E. M., Knight, E. C., 2026. Twenty years of progress in boreal avian conservation: A history and path forward for the Boreal Avian Modelling project. <strong>Avian Conservation and Ecology</strong>, xx: xx&ndash;xx."
+  text: "Van Wilgenburg, S. L., Ball, J. R., Barker, N. K. S., Casey, B. G., Crosby, A., Cumming, S. G., Docherty, T. D. S., Drake, A. V., Fontaine, T., Haché, S., Houle, M., Leston, L. F. V., Mahon, C. L., Schmiegelow, F. K. A., <strong>S&oacute;lymos, P.</strong>, Song, S. J., Stralberg, D., Toms, J. D., Tremblay, J. A., Yip, D. A., Bayne, E. M., and Knight, E. C., 2026. Twenty years of progress in boreal avian conservation: A history and path forward for the Boreal Avian Modelling project. <strong>Avian Conservation and Ecology</strong>, xx: xx&ndash;xx."
   link: 
-  fulltext: ""
+  fulltext:
   doi: 
   pubid:
   labels: [birds, review, conservation]
