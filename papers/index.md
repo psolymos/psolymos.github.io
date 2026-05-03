@@ -34,7 +34,7 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
      </ul>
   </div> -->
   <div class="btn-group">
-    <a href="[{{ site.baseurl }}/papers/bibliometrics.html](https://drive.google.com/folderview?id=0B-q59n6LIwYPflA4aHVydEx5aFY5MUZtdFRvcG11NWNUc3ljOTdsSlFSSHRDdHJVMDEyWXc&usp=sharing)" class="btn btn-default">Browse <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+    <a href="https://drive.google.com/folderview?id=0B-q59n6LIwYPflA4aHVydEx5aFY5MUZtdFRvcG11NWNUc3ljOTdsSlFSSHRDdHJVMDEyWXc&usp=sharing" class="btn btn-default">Browse fulltext <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
   </div>
 
   <div class="btn-group">
