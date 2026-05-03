@@ -1,10 +1,11 @@
-# TODO
-# - add labels to the publications in the yaml
-# - e.g. software, statistics, birds, biodiversity, mollusca
-
-library(scholar)
 library(dplyr)
 library(ggplot2)
+library(scholar)
+
+# This part contains code to update the number of citations for each publication,
+# and to get the citation history for each publication.
+
+# ---- Updates ----
 
 id <- "PfC17QsAAAAJ"
 y0 <- yaml::read_yaml("_data/papers.yml")
@@ -50,6 +51,7 @@ zl <- lapply(unique(z$pubid), function(pid) {
 })
 names(zl) <- unique(z$pubid)
 k <- union(p$pubid[p$cites != p$oldcites], z$pubid[!z$pubid %in% p$pubid])
+str(k)
 for (i in seq_along(k)) {
     message(k[i])
     Sys.sleep(5)
@@ -75,9 +77,12 @@ cc[cc$new != cc$list, ]
 
 write.csv(zo, "_data/citations.csv", row.names = FALSE)
 
-## --- etc ---
+# ---- Plots ----
 
-z <- read.csv("_data/citations.csv")
+# This part contains code to plot the number of publications and citations over time.
+
+# y <- yaml::read_yaml("_data/papers_to_edit.yml")
+# z <- read.csv("_data/citations.csv")
 
 # plot publications over time
 cd <- data.frame(year = sapply(y, "[[", "year"))

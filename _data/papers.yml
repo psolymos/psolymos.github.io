@@ -5,11 +5,11 @@
     A., Cumming, S. G., Docherty, T. D. S., Drake, A. V., Fontaine, T., Haché, S.,
     Houle, M., Leston, L. F. V., Mahon, C. L., Schmiegelow, F. K. A., <strong>S&oacute;lymos,
     P.</strong>, Song, S. J., Stralberg, D., Toms, J. D., Tremblay, J. A., Yip, D.
-    A., Bayne, E. M., Knight, E. C., 2026. Twenty years of progress in boreal avian
-    conservation: A history and path forward for the Boreal Avian Modelling project.
-    <strong>Avian Conservation and Ecology</strong>, xx: xx&ndash;xx.'
+    A., Bayne, E. M., and Knight, E. C., 2026. Twenty years of progress in boreal
+    avian conservation: A history and path forward for the Boreal Avian Modelling
+    project. <strong>Avian Conservation and Ecology</strong>, xx: xx&ndash;xx.'
   link: ~
-  fulltext: ''
+  fulltext: ~
   doi: ~
   pubid: ~
   labels:
@@ -92,6 +92,11 @@
   supportinginfo: ~
   doi: 10.1007/s10531-023-02761-1
   pubid: fc7zyzPI2QAC
+  labels:
+  - birds
+  - conservation
+  - species at risk
+  - climate change
   citations: 10
 - id: Solymos2023
   type: paper
@@ -104,6 +109,11 @@
   supportinginfo: ~
   doi: 10.1007/s42977-023-00183-2
   pubid: 9w9GTvUEN2YC
+  labels:
+  - methods
+  - software
+  - simulation
+  - birds
   citations: 6
 - id: Edwards2023
   type: paper
@@ -120,6 +130,10 @@
   supportinginfo: <a href="https://github.com/na-pops">NA-POPS GitHub organization</a>
   doi: 10.1111/ibi.13169
   pubid: Np1obAXpBq8C
+  labels:
+  - birds
+  - methods
+  - population estimation
   citations: 35
 - id: Leston2023
   type: paper
@@ -135,6 +149,11 @@
   supportinginfo: ~
   doi: 10.1007/s10980-022-01531-8
   pubid: o0eFlWRwRSUC
+  labels:
+  - birds
+  - cumulative effects
+  - energy development
+  - landscape ecology
   citations: 8
 - id: Crosby2023
   type: paper
@@ -149,6 +168,11 @@
   supportinginfo: ~
   doi: 10.1007/s10980-023-01779-8
   pubid: uGrg30pLAbkC
+  labels:
+  - birds
+  - cumulative effects
+  - energy development
+  - landscape ecology
   citations: 7
 - id: Knight2022
   type: paper
@@ -163,6 +187,10 @@
   supportinginfo: ~
   doi: 10.1007/s10980-022-01426-8
   pubid: pwA0zy_liR0C
+  labels:
+  - birds
+  - movement ecology
+  - landscape ecology
   citations: 4
 - id: Mollusca2021
   type: incollection
@@ -176,6 +204,10 @@
   supportinginfo: ~
   doi: ~
   pubid: ~
+  labels:
+  - molluscs
+  - taxonomy
+  - book chapter
 - id: Nuest2020
   type: paper
   year: 2020
@@ -192,6 +224,11 @@
     repository</a>
   doi: 10.32614/RJ-2020-007
   pubid: gI9wzKcniAoC
+  labels:
+  - methods
+  - software
+  - R
+  - containerization
   citations: 20
 - id: Yip2020
   type: paper
@@ -207,6 +244,10 @@
   supportinginfo: ~
   doi: 10.1002/rse2.118
   pubid: M8meJADSprsC
+  labels:
+  - birds
+  - methods
+  - acoustic monitoring
   citations: 81
 - id: NagyReis2020
   type: paper
@@ -222,6 +263,11 @@
   supportinginfo: ~
   doi: 10.3389/fevo.2020.564508
   pubid: RgMnzfD6kpIC
+  labels:
+  - methods
+  - software
+  - conservation
+  - shiny
   citations: 10
 - id: Kirk2020
   type: paper
@@ -236,6 +282,10 @@
   supportinginfo: ~
   doi: 10.1016/j.foreco.2020.118430
   pubid: Amrzk_ktLr0C
+  labels:
+  - birds
+  - forestry
+  - conservation
   citations: 6
 - id: Leston2020
   type: paper
@@ -250,6 +300,11 @@
   supportinginfo: ~
   doi: 10.3389/fevo.2020.00252
   pubid: djft3U1LymYC
+  labels:
+  - birds
+  - forestry
+  - conservation
+  - cumulative effects
   citations: 17
 - id: Knight2020
   type: paper
@@ -264,6 +319,10 @@
   supportinginfo: ~
   doi: 10.1002/eap.2140
   pubid: 0paDrhnEFY0C
+  labels:
+  - birds
+  - methods
+  - acoustic monitoring
   citations: 27
 - id: Solymos2020
   type: paper
@@ -280,6 +339,11 @@
   supportinginfo: <a href="https://doi.org/10.5281/zenodo.3563112">supporting material</a>
   doi: 10.1093/condor/duaa007
   pubid: 3pYxbvHKFu8C
+  labels:
+  - birds
+  - methods
+  - population estimation
+  - spatial modeling
   citations: 31
 - id: Cadieux2020
   type: paper
@@ -295,6 +359,11 @@
   supportinginfo: ~
   doi: 10.1111/ddi.13057
   pubid: gL9scSG3K_gC
+  labels:
+  - birds
+  - climate change
+  - conservation
+  - disturbance
   citations: 95
 - id: SumegiKotet2020
   type: bookchapter
@@ -311,6 +380,10 @@
   supportinginfo: ~
   doi: ~
   pubid: ~
+  labels:
+  - molluscs
+  - conservation
+  - book chapter
 - id: Roy2019
   type: paper
   year: 2019
@@ -326,6 +399,10 @@
   supportinginfo: ~
   doi: 10.5751/ACE-01397-140208
   pubid: MnogvFdIBdwC
+  labels:
+  - birds
+  - monitoring
+  - population trends
   citations: 36
 - id: Westwood2019
   type: paper
@@ -341,6 +418,10 @@
   supportinginfo: ~
   doi: 10.5751/ACE-01359-140116
   pubid: DwFgw5hZUzMC
+  labels:
+  - birds
+  - conservation
+  - species at risk
   citations: 21
 - id: Allen2019
   type: incollection
@@ -355,6 +436,10 @@
   supportinginfo: ~
   doi: ~
   pubid: ~
+  labels:
+  - monitoring
+  - biodiversity
+  - review
 - id: Solymos2019
   type: incollection
   year: 2019
@@ -368,6 +453,10 @@
   supportinginfo: ~
   doi: ~
   pubid: ~
+  labels:
+  - monitoring
+  - biodiversity
+  - review
 - id: PallGergely2019
   type: paper
   year: 2019
@@ -380,6 +469,10 @@
   supportinginfo: ~
   doi: 10.1111/zsc.12319
   pubid: rDsFeusoTZkC
+  labels:
+  - molluscs
+  - taxonomy
+  - speciation
   citations: 27
 - id: Solymos2018b
   type: paper
@@ -397,6 +490,11 @@
   supportinginfo: <a href="https://peter.solymos.org/code/2018/08/30/fitting-removal-models-with-the-detect-r-package.html">tutorial</a>
   doi: 10.1650/CONDOR-18-32.1
   pubid: 9o6PfxSMcEIC
+  labels:
+  - birds
+  - methods
+  - population estimation
+  - software
   citations: 40
 - id: Feher2018b
   type: incollection
@@ -411,6 +509,11 @@
   supportinginfo: ~
   doi: 10.2305/IUCN.CH.2018.08.en
   pubid: ~
+  labels:
+  - molluscs
+  - conservation
+  - reintroduction
+  - book chapter
 - id: Stralberg2018
   type: paper
   year: 2018
@@ -424,7 +527,12 @@
   supportinginfo: ~
   doi: 10.1002/ecs2.2156
   pubid: qhW0HyKmSusC
-  citations: 174
+  labels:
+  - birds
+  - wildfire
+  - vegetation change
+  - boreal forest
+  citations: 175
 - id: Solymos2018a
   type: paper
   year: 2018
@@ -438,6 +546,12 @@
   supportinginfo: ~
   doi: 10.1111/ecog.03415
   pubid: bkKuixW_xMkC
+  labels:
+  - birds
+  - phylogeny
+  - species traits
+  - detectability
+  - methods
   citations: 58
 - id: Feher2018a
   type: paper
@@ -453,6 +567,11 @@
   supportinginfo: ~
   doi: 10.1111/jbi.13220
   pubid: qYOp8iumCsAC
+  labels:
+  - molluscs
+  - biogeography
+  - niche partitioning
+  - methods
   citations: 23
 - id: Pankratz2017
   type: paper
@@ -467,6 +586,10 @@
   supportinginfo: ~
   doi: 10.5751/ACE-01087-120218
   pubid: lSLsV1MU4ZUC
+  labels:
+  - birds
+  - methods
+  - acoustic monitoring
   citations: 33
 - id: Kisfali2017
   type: paper
@@ -481,6 +604,11 @@
   supportinginfo: ~
   doi: 10.17109/AZH.63.3.293.2017
   pubid: ~
+  labels:
+  - orthoptera
+  - taxonomy
+  - morphology
+  - molecular
 - id: VanWilgenburg2017
   type: paper
   year: 2017
@@ -493,6 +621,10 @@
   supportinginfo: ~
   doi: 10.5751/ACE-00975-120113
   pubid: ON9TkA72AHEC
+  labels:
+  - birds
+  - methods
+  - acoustic monitoring
   citations: 91
 - id: Yip2017b
   type: paper
@@ -507,6 +639,10 @@
   supportinginfo: ~
   doi: 10.5751/ACE-00997-120111
   pubid: CMPXdcK5v8EC
+  labels:
+  - birds
+  - methods
+  - acoustic monitoring
   citations: 156
 - id: Feher2017
   type: paper
@@ -521,6 +657,10 @@
   supportinginfo: ~
   doi: 10.1093/mollus/eyx007
   pubid: h9G0ZmjYpDoC
+  labels:
+  - molluscs
+  - conservation
+  - reintroduction
   citations: 10
 - id: Yip2017a
   type: paper
@@ -534,6 +674,10 @@
   supportinginfo: ~
   doi: 10.1650/CONDOR-16-93.1
   pubid: Pqt4MY__2vwC
+  labels:
+  - birds
+  - methods
+  - acoustic monitoring
   citations: 128
 - id: Denes2016
   type: paper
@@ -549,6 +693,12 @@
   supportinginfo: ~
   doi: 10.1111/1365-2664.12818
   pubid: fF_gHTpLxhAC
+  labels:
+  - birds
+  - land use change
+  - raptors
+  - methods
+  - software
   citations: 20
 - id: Ball2016
   type: paper
@@ -563,6 +713,10 @@
   supportinginfo: ~
   doi: 10.5751/ACE-00916-110210
   pubid: cx97FdCJQX8C
+  labels:
+  - birds
+  - conservation
+  - species at risk
   citations: 47
 - id: Nordell2016
   type: paper
@@ -578,6 +732,11 @@
   supportinginfo: ~
   doi: 10.1371/journal.pone.0163957
   pubid: EsrhoZGmrkoC
+  labels:
+  - birds
+  - stable isotopes
+  - molt origin
+  - methods
   citations: 23
 - id: Mahon2016
   type: paper
@@ -592,6 +751,11 @@
   supportinginfo: ~
   doi: 10.1016/j.foreco.2015.11.007
   pubid: ZYsTHYU9jrMC
+  labels:
+  - birds
+  - community structure
+  - niche characteristics
+  - boreal forest
   citations: 59
 - id: Bayne2016
   type: paper
@@ -607,6 +771,11 @@
   supportinginfo: ~
   doi: 10.1650/CONDOR-15-126.1
   pubid: ZqLB7dQ1iF4C
+  labels:
+  - birds
+  - energy sector
+  - disturbance
+  - methods
   citations: 46
 - id: Solymos2016
   type: paper
@@ -622,6 +791,10 @@
     site</a>
   doi: 10.1111/2041-210X.12432
   pubid: kvJssbFybhEC
+  labels:
+  - methods
+  - resource selection
+  - software
   citations: 66
 - id: Solymos2016a
   type: paper
@@ -637,6 +810,10 @@
   supportinginfo: ~
   doi: ~
   pubid: ~
+  labels:
+  - book review
+  - methods
+  - statistics
 - id: Solymos2016b
   type: paper
   year: 2016
@@ -649,6 +826,10 @@
   supportinginfo: ~
   doi: ~
   pubid: ~
+  labels:
+  - birds
+  - industrial sectors
+  - species abundance
 - id: Solymos2015a
   type: paper
   year: 2015
@@ -663,6 +844,10 @@
   supportinginfo: ~
   doi: 10.1002/wsb.564
   pubid: oXKBmVzQOggC
+  labels:
+  - monitoring
+  - biodiversity
+  - data management
   citations: 14
 - id: Barker2015
   type: paper
@@ -678,6 +863,10 @@
   supportinginfo: ~
   doi: 10.1002/wsb.567
   pubid: dMpQl7XwOw4C
+  labels:
+  - birds
+  - monitoring
+  - data harmonization
   citations: 43
 - id: Stralberg2015b
   type: paper
@@ -693,6 +882,11 @@
     info</a>
   doi: 10.1111/ddi.12356
   pubid: KqW5X_olkfQC
+  labels:
+  - birds
+  - conservation
+  - climate change
+  - vegetation response
   citations: 95
 - id: Stralberg2015a
   type: paper
@@ -708,6 +902,10 @@
     info</a>
   doi: 10.1890/13-2289.1
   pubid: oH8HCDhqVGsC
+  labels:
+  - birds
+  - climate change
+  - modeling
   citations: 149
 - id: Patino2015
   year: 2015
@@ -722,6 +920,11 @@
   supportinginfo: ~
   doi: 10.1111/jbi.12422
   pubid: U3qCfcK-7lkC
+  labels:
+  - biogeography
+  - island floras
+  - commentary
+  - species-area relationship
   citations: 22
 - id: Nagy2014
   type: incollection
@@ -740,6 +943,11 @@
   supportinginfo: ~
   doi: ~
   pubid: ~
+  labels:
+  - orthoptera
+  - biogeography
+  - species-area relationship
+  - book chapter
 - id: Matsuoka2014
   type: commentary
   year: 2014
@@ -753,6 +961,10 @@
   supportinginfo: ~
   doi: 10.1650/CONDOR-14-108.1
   pubid: QtA78RmWg5MC
+  labels:
+  - birds
+  - methods
+  - point-count surveys
   citations: 109
 - id: Kemencei2014
   type: paper
@@ -767,6 +979,11 @@
   supportinginfo: ~
   doi: 10.1556/ComEc.15.2014.2.6
   pubid: 5F1dSjz1ScoC
+  labels:
+  - molluscs
+  - microhabitat associations
+  - conservation
+  - methods
   citations: 38
 - id: Patino2014
   type: paper
@@ -782,6 +999,10 @@
   supportinginfo: ~
   doi: 10.1111/geb.12230
   pubid: uPCvBZYD9qUC
+  labels:
+  - plants
+  - biogeography
+  - species-area relationship
   citations: 78
 - id: Burton2014
   type: paper
@@ -796,7 +1017,12 @@
   supportinginfo: ~
   doi: 10.1007/s10661-014-3643-7
   pubid: fQNAKQ3IYiAC
-  citations: 87
+  labels:
+  - monitoring
+  - biodiversity
+  - human footprint
+  - adaptive monitoring
+  citations: 88
 - id: Mahon2014
   type: paper
   year: 2014
@@ -810,6 +1036,11 @@
   supportinginfo: ~
   doi: 10.1016/j.foreco.2013.10.025
   pubid: sSrBHYA8nusC
+  labels:
+  - birds
+  - conservation
+  - population objectives
+  - boreal forest
   citations: 33
 - id: Cumming2014
   type: paper
@@ -824,6 +1055,12 @@
   supportinginfo: ~
   doi: 10.1111/j.1600-0587.2013.00299.x
   pubid: vRqMK49ujn8C
+  labels:
+  - birds
+  - climate
+  - vegetation
+  - distribution
+  - boreal forest
   citations: 58
 - id: Domokos2014
   type: paper
@@ -838,6 +1075,11 @@
   supportinginfo: ~
   doi: 10.26080/krrmkozl.2014.3.87
   pubid: j6V8Syvup0UC
+  labels:
+  - molluscs
+  - biogeography
+  - climate dependence
+  - methods
   citations: 1
 - id: Schieck2014ABMIscilett
   type: paper
@@ -851,6 +1093,11 @@
   supportinginfo: ~
   doi: ~
   pubid: G887dSk7Sz8C
+  labels:
+  - birds
+  - human footprint
+  - Alberta
+  - methods
   citations: 4
 - id: Solymos2013b
   type: paper
@@ -868,6 +1115,11 @@
     info</a>
   doi: 10.1111/2041-210X.12106
   pubid: l7t_Zn2s7bgC
+  labels:
+  - birds
+  - methods
+  - density calibration
+  - software
   citations: 166
 - id: Solymos2013a
   type: letter
@@ -882,6 +1134,11 @@
   supportinginfo: ~
   doi: 10.1890/13.WB.010
   pubid: OU6Ihb5iCvQC
+  labels:
+  - birds
+  - methods
+  - location accuracy
+  - commentary
   citations: 5
 - id: Domokos2013
   type: paper
@@ -898,6 +1155,10 @@
   supportinginfo: ~
   doi: ~
   pubid: OqYjx1B7R3oC
+  labels:
+  - molluscs
+  - biogeography
+  - shell morphology
   citations: 0
 - id: Solymos2012a
   type: paper
@@ -911,6 +1172,11 @@
   supportinginfo: ~
   doi: 10.1111/j.1466-8238.2011.00655.x
   pubid: 4TOpqqG69KYC
+  labels:
+  - biogeography
+  - species-area relationship
+  - methods
+  - software
   citations: 41
 - id: Solymos2012b
   type: paper
@@ -924,6 +1190,13 @@
   supportinginfo: ~
   doi: 10.1002/env.1149
   pubid: hFOr9nPyWt4C
+  labels:
+  - methods
+  - single visit surveys
+  - zero inflation
+  - detection error
+  - software
+  - birds
   citations: 116
 - id: Matsuoka2012
   type: paper
@@ -938,6 +1211,10 @@
   supportinginfo: ~
   doi: 10.1525/auk.2012.11190
   pubid: M3NEmzRMIkIC
+  labels:
+  - birds
+  - methods
+  - distance sampling
   citations: 78
 - id: Walker2012
   type: paper
@@ -952,6 +1229,10 @@
   supportinginfo: ~
   doi: 10.18637/jss.v051.i08
   pubid: dfsIfKJdRG4C
+  labels:
+  - methods
+  - software
+  - data processing
   citations: 4
 - id: Mayor2012
   type: paper
@@ -965,7 +1246,11 @@
   supportinginfo: ~
   doi: 10.1038/ncomms2145
   pubid: ldfaerwXgEUC
-  citations: 106
+  labels:
+  - biodiversity
+  - human disturbance
+  - boreal forest
+  citations: 107
 - id: Silvertown2011
   type: paper
   year: 2011
@@ -982,6 +1267,11 @@
     <a href="https://www.evolutionmegalab.org/">Evolution MegaLab</a>
   doi: 10.1371/journal.pone.0018927
   pubid: Se3iqnhoufwC
+  labels:
+  - molluscs
+  - citizen science
+  - evolutionary change
+  - model organism
   citations: 183
 - id: Vilisics2011
   type: paper
@@ -995,6 +1285,11 @@
   supportinginfo: ~
   doi: 10.2478/s11756-011-0042-1
   pubid: aqlVkmm33-oC
+  labels:
+  - isopods
+  - microhabitat
+  - karst
+  - biodiversity
   citations: 54
 - id: Kemencei2011
   type: paper
@@ -1010,6 +1305,11 @@
   supportinginfo: ~
   doi: ~
   pubid: ~
+  labels:
+  - molluscs
+  - habitat evaluation
+  - conservation
+  - methods
 - id: Feher2011tentacle
   type: paper
   year: 2011
@@ -1023,6 +1323,11 @@
   supportinginfo: ~
   doi: ~
   pubid: 4uoR24qA-WYC
+  labels:
+  - molluscs
+  - conservation
+  - re-introduction
+  - methods
   citations: 11
 - id: Solymos2010
   type: paper
@@ -1036,6 +1341,11 @@
   supportinginfo: <a href="https://github.com/datacloning">GitHub site</a>
   doi: ~
   pubid: kNdYIx-mwKoC
+  labels:
+  - methods
+  - software
+  - data cloning
+  - software
   citations: 135
 - id: Haughland2010
   type: letter
@@ -1050,6 +1360,11 @@
   supportinginfo: ~
   doi: 10.1016/j.tree.2009.11.005
   pubid: RGFaLdJalmkC
+  labels:
+  - biodiversity
+  - monitoring
+  - research planning
+  - commentary
   citations: 55
 - id: Feher2010
   type: paper
@@ -1064,6 +1379,10 @@
   supportinginfo: ~
   doi: ~
   pubid: hqOjcs7Dif8C
+  labels:
+  - molluscs
+  - taxonomy
+  - biogeography
   citations: 21
 - id: Solymos2010biom
   type: paper
@@ -1076,6 +1395,7 @@
   supportinginfo: ~
   doi: ~
   pubid: M3ejUd6NZC8C
+  labels: book review
   citations: 0
 - id: SolymosMollusca2009
   type: paper
@@ -1090,6 +1410,11 @@
   supportinginfo: ~
   doi: ~
   pubid: Zph67rFs4hoC
+  labels:
+  - molluscs
+  - microhabitat
+  - karst
+  - biodiversity
   citations: 31
 - id: SolymosMalacologia2009
   type: paper
@@ -1103,6 +1428,10 @@
   supportinginfo: ~
   doi: 10.4002/040.051.0211
   pubid: ULOm3_A8WrAC
+  labels:
+  - molluscs
+  - microhabitat
+  - shell accumulation
   citations: 15
 - id: SolymosJSS2009
   type: paper
@@ -1115,6 +1444,10 @@
   supportinginfo: ~
   doi: ~
   pubid: LkGwnXOMwfcC
+  labels:
+  - methods
+  - software
+  - data processing
   citations: 20
 - id: PallGergely2009
   type: paper
@@ -1128,6 +1461,11 @@
   supportinginfo: ~
   doi: ~
   pubid: iH-uZ7U-co4C
+  labels:
+  - molluscs
+  - ants
+  - shell collecting
+  - biotic interactions
   citations: 5
 - id: SolymosTVK2009
   type: paper
@@ -1144,6 +1482,12 @@
   supportinginfo: ~
   doi: ~
   pubid: 0urtJCGzaFQC
+  labels:
+  - molluscs
+  - isopods
+  - microhabitat
+  - moisture
+  - global change
   citations: 8
 - id: HornungTVK2009
   type: paper
@@ -1160,6 +1504,10 @@
   supportinginfo: ~
   doi: ~
   pubid: mS4qin7VKjkC
+  labels:
+  - isopods
+  - habitat evaluation
+  - conservation
   citations: 36
 - id: SolymosAZH2008
   type: paper
@@ -1174,6 +1522,11 @@
   supportinginfo: ~
   doi: ~
   pubid: roLk4NBRz8UC
+  labels:
+  - molluscs
+  - biogeography
+  - nestedness
+  - species ranges
   citations: 7
 - id: SolymosCE2008
   type: paper
@@ -1186,6 +1539,10 @@
   supportinginfo: ~
   doi: 10.1556/ComEc.9.2008.1.15
   pubid: ufrVoPGSRksC
+  labels:
+  - methods
+  - software
+  - data processing
   citations: 7
 - id: SolymosTVK2008
   type: paper
@@ -1201,6 +1558,11 @@
   supportinginfo: ~
   doi: ~
   pubid: 70eg2SAEIzsC
+  labels:
+  - isopods
+  - molluscs
+  - methods
+  - data collection
   citations: 4
 - id: VilisicsFFS2008
   type: paper
@@ -1215,6 +1577,11 @@
   supportinginfo: ~
   doi: ~
   pubid: Y0pCki6q_DkC
+  labels:
+  - isopods
+  - biodiversity
+  - karst
+  - data
   citations: 32
 - id: Hornung2008
   type: incollection
@@ -1230,6 +1597,11 @@
   supportinginfo: ~
   doi: ~
   pubid: zYLM7Y9cAGgC
+  labels:
+  - isopods
+  - biodiversity
+  - karst
+  - conference proceedings
   citations: 59
 - id: Solymos2008ibs
   type: paper
@@ -1243,6 +1615,11 @@
   supportinginfo: ~
   doi: ~
   pubid: KlAtU1dfN6UC
+  labels:
+  - methods
+  - software
+  - data processing
+  - biogeography
   citations: 0
 - id: Solymos2008tent
   type: paper
@@ -1256,6 +1633,11 @@
   supportinginfo: ~
   doi: ~
   pubid: ~
+  labels:
+  - methods
+  - software
+  - data processing
+  - molluscs
 - id: SolymosCE2007
   type: paper
   year: 2007
@@ -1267,6 +1649,10 @@
   supportinginfo: ~
   doi: 10.1556/ComEc.8.2007.2.10
   pubid: _kc_bZDykSQC
+  labels:
+  - molluscs
+  - biogeography
+  - data bias
   citations: 4
 - id: Nagy2007
   type: paper
@@ -1281,6 +1667,10 @@
   supportinginfo: ~
   doi: ~
   pubid: Tyk-4Ss8FVUC
+  labels:
+  - orthoptera
+  - sampling methods
+  - field studies
   citations: 33
 - id: SolymosBC2007
   type: paper
@@ -1294,6 +1684,10 @@
   supportinginfo: ~
   doi: 10.1007/s10531-005-2354-3
   pubid: IjCSPb-OGe4C
+  labels:
+  - molluscs
+  - conservation
+  - Hungary
   citations: 10
 - id: SolymosBaldi2007
   type: paper
@@ -1309,6 +1703,10 @@
   supportinginfo: ~
   doi: ~
   pubid: cG0OFEevkNgC
+  labels:
+  - conservation
+  - conferences
+  - Hungary
   citations: 0
 - id: SolymosFeherVarga2007
   type: paper
@@ -1324,6 +1722,10 @@
   supportinginfo: ~
   doi: ~
   pubid: d3xjRt2Mi1YC
+  labels:
+  - molluscs
+  - conservation
+  - Hungary
   citations: 7
 - id: SolymosFeher2007
   type: incollection
@@ -1340,6 +1742,11 @@
   supportinginfo: ~
   doi: ~
   pubid: ~
+  labels:
+  - molluscs
+  - conservation
+  - Hungary
+  - book chapter
 - id: SolymosCeske2007
   type: incollection
   year: 2007
@@ -1353,6 +1760,11 @@
   supportinginfo: ~
   doi: ~
   pubid: _FxGoFyzp5QC
+  labels:
+  - molluscs
+  - methods
+  - field sampling
+  - book chapter
   citations: 8
 - id: VilisicsCeske2007
   type: incollection
@@ -1367,6 +1779,10 @@
   supportinginfo: ~
   doi: ~
   pubid: UebtZRa9Y70C
+  labels:
+  - isopods
+  - habitat features
+  - book chapter
   citations: 24
 - id: Solymos2007tent
   type: paper
@@ -1380,6 +1796,11 @@
   supportinginfo: ~
   doi: ~
   pubid: GnPB-g6toBAC
+  labels:
+  - molluscs
+  - biodiversity
+  - coniferous forest
+  - Romania
   citations: 7
 - id: Solymos2007mt
   type: paper
@@ -1395,6 +1816,11 @@
   supportinginfo: ~
   doi: ~
   pubid: m8MyhXdlT-4C
+  labels:
+  - molluscs
+  - biodiversity
+  - Mecsek Mountains
+  - Hungary
   citations: 2
 - id: Solymos2006tent
   type: paper
@@ -1408,6 +1834,10 @@
   supportinginfo: ~
   doi: ~
   pubid: ~
+  labels:
+  - molluscs
+  - conservation
+  - Hungary
 - id: Solymos2006soos
   type: paper
   year: 2006
@@ -1420,6 +1850,10 @@
   supportinginfo: ~
   doi: ~
   pubid: 1YatL4jblGcC
+  labels:
+  - molluscs
+  - microhabitat
+  - alder stand
   citations: 1
 - id: SolymosFeher2005
   type: paper
@@ -1433,6 +1867,11 @@
   supportinginfo: ~
   doi: 10.1111/j.1523-1739.2005.00193.x
   pubid: u-x6o8ySG0sC
+  labels:
+  - molluscs
+  - conservation
+  - Hungary
+  - prioritization
   citations: 55
 - id: Vilisics2005
   type: incollection
@@ -1447,6 +1886,10 @@
   supportinginfo: ~
   doi: 10.1016/j.ejsobi.2005.09.003
   pubid: qjMakFHDy7sC
+  labels:
+  - isopods
+  - fluctuating asymmetry
+  - soil biology
   citations: 29
 - id: SolymosElek2005
   type: incollection
@@ -1463,6 +1906,11 @@
   supportinginfo: ~
   doi: ~
   pubid: ~
+  labels:
+  - molluscs
+  - insects
+  - archaeology
+  - book chapter
 - id: Solymos2005
   type: book
   year: 2005
@@ -1476,6 +1924,11 @@
   supportinginfo: ~
   doi: ~
   pubid: ~
+  labels:
+  - molluscs
+  - conservation
+  - Hungary
+  - PhD thesis
 - id: Solymos2004
   type: paper
   year: 2004
@@ -1491,6 +1944,10 @@
   supportinginfo: ~
   doi: ~
   pubid: WF5omc3nYNoC
+  labels:
+  - molluscs
+  - conservation
+  - Hungary
   citations: 7
 - id: Solymos2004mt
   type: paper
@@ -1505,6 +1962,10 @@
   supportinginfo: ~
   doi: ~
   pubid: 0EnyYjriUFMC
+  labels:
+  - molluscs
+  - biogeography
+  - Serbia
   citations: 11
 - id: Domokos2004mt
   type: paper
@@ -1521,6 +1982,10 @@
   supportinginfo: ~
   doi: ~
   pubid: wH03y5nBhxsC
+  labels:
+  - molluscs
+  - microclimate
+  - Hungary
   citations: 4
 - id: SolymosSumegiDomokos2002
   type: paper
@@ -1536,6 +2001,9 @@
   supportinginfo: ~
   doi: ~
   pubid: kQqwFFzsCTwC
+  labels:
+  - molluscs
+  - palaeoecology
   citations: 8
 - id: Deli2002abd
   type: paper
@@ -1549,6 +2017,11 @@
   supportinginfo: ~
   doi: ~
   pubid: 3fE2CSJIrl8C
+  labels:
+  - molluscs
+  - biodiversity
+  - Esztramos Hill
+  - Hungary
   citations: 2
 - id: Deli2002mt
   type: paper
@@ -1562,6 +2035,11 @@
   supportinginfo: ~
   doi: ~
   pubid: xckinRaLORAC
+  labels:
+  - molluscs
+  - biodiversity
+  - Esztramos Hill
+  - Hungary
   citations: 5
 - id: Nagy2002
   type: paper
@@ -1575,6 +2053,11 @@
   supportinginfo: ~
   doi: ~
   pubid: 5nxA0vEk-isC
+  labels:
+  - orthoptera
+  - microclimate
+  - dolina
+  - Hungary
   citations: 15
 - id: Galik2001
   type: paper
@@ -1588,6 +2071,11 @@
   supportinginfo: ~
   doi: ~
   pubid: MqTxh1vmwXEC
+  labels:
+  - molluscs
+  - biodiversity
+  - Kaszonyi Hill
+  - Hungary
   citations: 13
 - id: Solymos2001
   type: paper
@@ -1601,6 +2089,10 @@
   supportinginfo: ~
   doi: ~
   pubid: MXK_kJrjxJIC
+  labels:
+  - molluscs
+  - habitat preference
+  - Hungary
   citations: 3
 - id: Banyai2001
   type: paper
@@ -1616,6 +2108,11 @@
   supportinginfo: ~
   doi: ~
   pubid: ~
+  labels:
+  - folk dance
+  - physical skills
+  - primary school
+  - Hungary
 - id: Solymos2000
   type: paper
   year: 2000
@@ -1628,6 +2125,11 @@
   supportinginfo: ~
   doi: ~
   pubid: mnAcAzq93VMC
+  labels:
+  - molluscs
+  - biodiversity
+  - Villány Hills
+  - Hungary
   citations: 2
 - id: Solymos2000dd
   type: paper
@@ -1643,6 +2145,11 @@
   supportinginfo: ~
   doi: ~
   pubid: RYcK_YlVTxYC
+  labels:
+  - molluscs
+  - biodiversity
+  - Villány Hills
+  - Hungary
   citations: 3
 - id: Varga2000dd
   type: paper
@@ -1659,6 +2166,11 @@
   supportinginfo: ~
   doi: ~
   pubid: xUD2GqFNeDMC
+  labels:
+  - molluscs
+  - biodiversity
+  - Villány Hills
+  - Hungary
   citations: 3
 - id: Solymos1999
   type: paper
@@ -1672,6 +2184,11 @@
   supportinginfo: ~
   doi: ~
   pubid: UFuRdyijzaAC
+  labels:
+  - molluscs
+  - biodiversity
+  - Villány Hills
+  - Hungary
   citations: 0
 - id: SolymosDomokos1999
   type: paper
@@ -1686,6 +2203,11 @@
   supportinginfo: ~
   doi: ~
   pubid: W7OEmFMy1HYC
+  labels:
+  - molluscs
+  - shell morphometry
+  - macroclimate
+  - Hungary
   citations: 20
 - id: SolymosSumegi1999
   type: paper
@@ -1700,6 +2222,11 @@
   supportinginfo: ~
   doi: ~
   pubid: 8k81kl-MbHgC
+  labels:
+  - molluscs
+  - shell morphometry
+  - palaeoclimatic reconstruction
+  - Hungary
   citations: 12
 - id: SolymosNagy1997
   type: paper
@@ -1713,6 +2240,12 @@
   supportinginfo: ~
   doi: ~
   pubid: UeHWp8X0CEIC
+  labels:
+  - molluscs
+  - biodiversity
+  - microclimate
+  - Szársomlyó
+  - Hungary
   citations: 22
 - id: Solymos1996
   type: paper
@@ -1727,4 +2260,10 @@
   supportinginfo: ~
   doi: ~
   pubid: YFjsv_pBGBYC
+  labels:
+  - molluscs
+  - ecological
+  - biogeographical
+  - Szársomlyó
+  - Hungary
   citations: 14
