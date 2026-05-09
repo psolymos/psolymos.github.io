@@ -19,16 +19,6 @@
 
 # >>> SUBMITTED/ACCEPTED <<<
 
-# - id: Gahbauer2026
-#   type: paper
-#   year: 2026
-#   text: "Gahbauer, M. A., Smith, A. C., Edwards, B., Iles, D. T., Knight, E. C., Robinson, B. G., Rosenberg, K. V., Sólymos, P., Toms, J. D., and Van Wilgenburg, S. L., 2026. Refining population estimates for North American birds: reducing bias from imperfect detection, spatial sampling, and temporal change. <strong>Avian Conservation and Ecology</strong>, xx: xx&ndash;xx."
-#   link: 
-#   fulltext:
-#   doi: 
-#   pubid:
-#   labels: [birds, methods, population estimation]
-
 # - id: Walton2026
 #   type: paper
 #   year: 2026
@@ -38,13 +28,22 @@
 #   code: 
 #   supportinginfo: 
 #   doi: 
-#   pubid: 
+#   pubid: AdGrMoNItN4C
 #   labels: [birds, methods, distribution modeling, population estimation]
 
 
 #
 #------------------------- 2026 ------------------------------
 #
+- id: Gahbauer2026
+  type: paper
+  year: 2026
+  text: "Gahbauer, M. A., Smith, A. C., Edwards, B., Iles, D. T., Knight, E. C., Robinson, B. G., Rosenberg, K. V., Sólymos, P., Toms, J. D., and Van Wilgenburg, S. L., 2026. Refining population estimates for North American birds: reducing bias from imperfect detection, spatial sampling, and temporal change. <strong>Avian Conservation and Ecology</strong>, xx: xx&ndash;xx."
+  link: 
+  fulltext:
+  doi: 
+  pubid:
+  labels: [birds, methods, population estimation]
 - id: VanWilgenburg2026
   type: paper
   year: 2026
