@@ -245,7 +245,7 @@
   - software
   - R
   - containerization
-  citations: 20
+  citations: 21
 - id: Yip2020
   type: paper
   year: 2020
@@ -641,7 +641,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 92
+  citations: 93
 - id: Yip2017b
   type: paper
   year: 2017
@@ -659,7 +659,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 157
+  citations: 158
 - id: Feher2017
   type: paper
   year: 2017
@@ -694,7 +694,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 130
+  citations: 129
 - id: Denes2016
   type: paper
   year: 2016
@@ -864,7 +864,7 @@
   - monitoring
   - biodiversity
   - data management
-  citations: 14
+  citations: 15
 - id: Barker2015
   type: paper
   year: 2015
@@ -1019,7 +1019,7 @@
   - plants
   - biogeography
   - species-area relationship
-  citations: 78
+  citations: 79
 - id: Burton2014
   type: paper
   year: 2014
@@ -1038,7 +1038,7 @@
   - biodiversity
   - human footprint
   - adaptive monitoring
-  citations: 88
+  citations: 89
 - id: Mahon2014
   type: paper
   year: 2014
@@ -1136,7 +1136,7 @@
   - methods
   - density calibration
   - software
-  citations: 166
+  citations: 167
 - id: Solymos2013a
   type: letter
   year: 2013
@@ -1266,7 +1266,7 @@
   - biodiversity
   - human disturbance
   - boreal forest
-  citations: 108
+  citations: 110
 - id: Silvertown2011
   type: paper
   year: 2011
@@ -1288,7 +1288,7 @@
   - citizen science
   - evolutionary change
   - model organism
-  citations: 183
+  citations: 184
 - id: Vilisics2011
   type: paper
   year: 2011
@@ -1381,7 +1381,7 @@
   - monitoring
   - research planning
   - commentary
-  citations: 55
+  citations: 56
 - id: Feher2010
   type: paper
   year: 2010
@@ -1482,7 +1482,7 @@
   - ants
   - shell collecting
   - biotic interactions
-  citations: 5
+  citations: 6
 - id: SolymosTVK2009
   type: paper
   year: 2009
@@ -1906,7 +1906,7 @@
   - isopods
   - fluctuating asymmetry
   - soil biology
-  citations: 29
+  citations: 30
 - id: SolymosElek2005
   type: incollection
   year: 2005
