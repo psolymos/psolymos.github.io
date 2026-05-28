@@ -17,7 +17,7 @@ Publications over time:
 
 <img src="{{ site.baseurl }}/images/publications/publications_over_time.png" class="img-responsive" alt="Publications over time">
 
-Cumulative publications over time (red line shows mollusc papers, blue line shows non-mollusc papers, black line shows all papers):
+Cumulative publications over time (yellow line shows mollusc papers, blue line shows non-mollusc papers, black line shows all papers):
 
 <img src="{{ site.baseurl }}/images/publications/cumulative_publications_over_time.png" class="img-responsive" alt="Cumulative publications over time">
 
@@ -25,7 +25,7 @@ Citations over time:
 
 <img src="{{ site.baseurl }}/images/publications/citations_over_time.png" class="img-responsive" alt="Citations over time">
 
-Cumulative citations over time (red line shows mollusc papers, blue line shows non-mollusc papers, black line shows all papers):
+Cumulative citations over time (yellow line shows mollusc papers, blue line shows non-mollusc papers, black line shows all papers):
 
 <img src="{{ site.baseurl }}/images/publications/cumulative_citations_over_time.png" class="img-responsive" alt="Cumulative citations over time">
 
