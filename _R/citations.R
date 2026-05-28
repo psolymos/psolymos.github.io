@@ -108,23 +108,25 @@ cd <- cd |>
 cd$n <- 1:nrow(cd)
 
 p1 <- cd |>
-    group_by(year) |>
-    summarise(n = n()) |>
-    ggplot(aes(year, n)) +
+    mutate(Topic = ifelse(molluscs, "Molluscs", "Other")) |>
+    group_by(year, Topic) |>
+    summarise(n = n(), .groups = "drop_last") |>
+    ggplot(aes(year, n, fill = Topic)) +
     geom_bar(stat = "identity") +
     theme_bw() +
-    labs(x = "Year", y = "Number of publications")
+    labs(x = "Year", y = "Number of publications") +
+    scale_fill_manual(values = c("#ffbe0b", "#3a86ff"))
 
 p2 <- cd |>
     ggplot(aes(year, n)) +
     geom_step() +
     geom_step(
         data = data.frame(year = cd$year, n = cumsum(cd$molluscs)),
-        color = "red"
+        color = "#ffbe0b"
     ) +
     geom_step(
         data = data.frame(year = cd$year, n = cumsum(!cd$molluscs)),
-        color = "blue"
+        color = "#3a86ff"
     ) +
     theme_bw() +
     labs(x = "Year", y = "Cumulative number of publications")
@@ -138,12 +140,14 @@ z2 <- data.frame(
 )
 
 p3 <- z2 |>
-    group_by(year) |>
-    summarise(citations = sum(cites)) |>
-    ggplot(aes(year, citations)) +
+    mutate(Topic = ifelse(molluscs, "Molluscs", "Other")) |>
+    group_by(year, Topic) |>
+    summarise(citations = sum(cites), .groups = "drop_last") |>
+    ggplot(aes(year, citations, fill = Topic)) +
     geom_bar(stat = "identity") +
     theme_bw() +
-    labs(x = "Year", y = "Number of citations")
+    labs(x = "Year", y = "Number of citations") +
+    scale_fill_manual(values = c("#ffbe0b", "#3a86ff"))
 
 p4 <- z2 |>
     mutate(
@@ -171,11 +175,11 @@ p4 <- z2 |>
     geom_step() +
     geom_step(
         aes(year, molluscs),
-        color = "red"
+        color = "#ffbe0b"
     ) +
     geom_step(
         aes(year, not_molluscs),
-        color = "blue"
+        color = "#3a86ff"
     ) +
     theme_bw() +
     labs(x = "Year", y = "Cumulative number of citations")
@@ -187,8 +191,8 @@ ri <- which.min(abs(q$cites - q$id))
 p5 <- q |>
     ggplot(aes(id, cites)) +
     geom_step() +
-    geom_vline(xintercept = h, linetype = "dashed") +
-    geom_hline(yintercept = h, linetype = "dashed") +
+    geom_vline(xintercept = h, linetype = "dashed", col = "#81b29a") +
+    geom_hline(yintercept = h, linetype = "dashed", col = "#81b29a") +
     theme_bw() +
     labs(x = "Publication rank", y = "Citations")
 
