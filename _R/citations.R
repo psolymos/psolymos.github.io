@@ -40,7 +40,12 @@ sum(p$oldcites, na.rm = TRUE)
 for (j in 1:length(y)) {
     pid <- y[[j]][["pubid"]]
     if (!is.null(pid)) {
-        y[[j]][["citations"]] <- as.integer(p$cites[p$pubid == pid])
+        v <- p$cites[p$pubid == pid]
+        if (v == 0) {
+            y[[j]][["citations"]] <- NULL
+        } else {
+            y[[j]][["citations"]] <- as.integer(v)
+        }
     }
 }
 yaml::write_yaml(y, "_data/papers.yml")
