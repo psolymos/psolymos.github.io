@@ -32,7 +32,7 @@ sum(p0$cites)
 # new cites
 sum(p$cites)
 # old cites
-sum(p$oldcites)
+sum(p$oldcites, na.rm = TRUE)
 
 # ct <- get_citation_history(id)
 

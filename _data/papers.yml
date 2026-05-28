@@ -1,3 +1,22 @@
+- id: Walton2026
+  type: paper
+  year: 2026
+  text: 'Nicholas G. Walton, N. G., Zlonis, E. J., <strong>S&oacute;lymos, P.</strong>,
+    Grinde, A. R., and Niemi, G. J., 2026. Species distribution models and abundance
+    estimates enhance breeding bird atlas data. <strong>Ecology and Evolution</strong>,
+    xx: xx&ndash;xx.'
+  link: ~
+  fulltext: ~
+  code: ~
+  supportinginfo: ~
+  doi: ~
+  pubid: AdGrMoNItN4C
+  labels:
+  - birds
+  - methods
+  - distribution modeling
+  - population estimation
+  citations: 0
 - id: Gahbauer2026
   type: paper
   year: 2026
@@ -694,7 +713,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 129
+  citations: 130
 - id: Denes2016
   type: paper
   year: 2016
@@ -1266,7 +1285,7 @@
   - biodiversity
   - human disturbance
   - boreal forest
-  citations: 110
+  citations: 111
 - id: Silvertown2011
   type: paper
   year: 2011
