@@ -225,7 +225,7 @@
   - birds
   - movement ecology
   - landscape ecology
-  citations: 4
+  citations: 5
 - id: Mollusca2021
   type: incollection
   year: 2021
@@ -263,7 +263,7 @@
   - software
   - R
   - containerization
-  citations: 21
+  citations: 22
 - id: Yip2020
   type: paper
   year: 2020
@@ -320,7 +320,7 @@
   - birds
   - forestry
   - conservation
-  citations: 7
+  citations: 6
 - id: Leston2020
   type: paper
   year: 2020
@@ -712,7 +712,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 130
+  citations: 131
 - id: Denes2016
   type: paper
   year: 2016
@@ -1018,7 +1018,7 @@
   - microhabitat associations
   - conservation
   - methods
-  citations: 38
+  citations: 39
 - id: Patino2014
   type: paper
   year: 2014
@@ -1154,7 +1154,7 @@
   - methods
   - density calibration
   - software
-  citations: 167
+  citations: 166
 - id: Solymos2013a
   type: letter
   year: 2013
@@ -1230,7 +1230,7 @@
   - detection error
   - software
   - birds
-  citations: 116
+  citations: 117
 - id: Matsuoka2012
   type: paper
   year: 2012
@@ -1902,7 +1902,7 @@
   - conservation
   - Hungary
   - prioritization
-  citations: 55
+  citations: 56
 - id: Vilisics2005
   type: incollection
   year: 2005
