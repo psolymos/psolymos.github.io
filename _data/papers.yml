@@ -68,7 +68,7 @@
   - birds
   - methods
   - software
-  citations: 3
+  citations: 4
 - id: Gonzalez2025
   type: paper
   year: 2025
@@ -109,7 +109,7 @@
   - methods
   - distribution modeling
   - population estimation
-  citations: 3
+  citations: 4
 - id: Leston2024
   type: paper
   year: 2024
@@ -148,7 +148,7 @@
   - software
   - simulation
   - birds
-  citations: 6
+  citations: 7
 - id: Edwards2023
   type: paper
   year: 2023
@@ -168,7 +168,7 @@
   - birds
   - methods
   - population estimation
-  citations: 36
+  citations: 37
 - id: Leston2023
   type: paper
   year: 2023
@@ -282,7 +282,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 81
+  citations: 83
 - id: NagyReis2020
   type: paper
   year: 2020
@@ -320,7 +320,7 @@
   - birds
   - forestry
   - conservation
-  citations: 6
+  citations: 7
 - id: Leston2020
   type: paper
   year: 2020
@@ -378,7 +378,7 @@
   - methods
   - population estimation
   - spatial modeling
-  citations: 31
+  citations: 32
 - id: Cadieux2020
   type: paper
   year: 2020
@@ -437,7 +437,7 @@
   - birds
   - monitoring
   - population trends
-  citations: 36
+  citations: 37
 - id: Westwood2019
   type: paper
   year: 2019
@@ -529,7 +529,7 @@
   - methods
   - population estimation
   - software
-  citations: 41
+  citations: 42
 - id: Feher2018b
   type: incollection
   year: 2018
@@ -586,7 +586,7 @@
   - species traits
   - detectability
   - methods
-  citations: 59
+  citations: 60
 - id: Feher2018a
   type: paper
   year: 2018
@@ -659,7 +659,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 93
+  citations: 94
 - id: Yip2017b
   type: paper
   year: 2017
@@ -677,7 +677,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 158
+  citations: 160
 - id: Feher2017
   type: paper
   year: 2017
@@ -712,7 +712,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 132
+  citations: 131
 - id: Denes2016
   type: paper
   year: 2016
@@ -901,7 +901,7 @@
   - birds
   - monitoring
   - data harmonization
-  citations: 43
+  citations: 44
 - id: Stralberg2015b
   type: paper
   year: 2015
@@ -999,7 +999,7 @@
   - birds
   - methods
   - point-count surveys
-  citations: 110
+  citations: 112
 - id: Kemencei2014
   type: paper
   year: 2014
@@ -1154,7 +1154,7 @@
   - methods
   - density calibration
   - software
-  citations: 166
+  citations: 170
 - id: Solymos2013a
   type: letter
   year: 2013
@@ -1230,7 +1230,7 @@
   - detection error
   - software
   - birds
-  citations: 117
+  citations: 118
 - id: Matsuoka2012
   type: paper
   year: 2012
@@ -1283,7 +1283,7 @@
   - biodiversity
   - human disturbance
   - boreal forest
-  citations: 111
+  citations: 109
 - id: Silvertown2011
   type: paper
   year: 2011
@@ -1996,7 +1996,7 @@
   - molluscs
   - biogeography
   - Serbia
-  citations: 11
+  citations: 12
 - id: Domokos2004mt
   type: paper
   year: 2004

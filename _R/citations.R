@@ -216,3 +216,8 @@ ggsave(
     height = 4
 )
 ggsave("images/publications/h_index.png", p5, width = 5, height = 4)
+
+p |>
+    arrange(desc(cites)) |>
+    select(title, author, year, journal, cites) |>
+    head(10)
