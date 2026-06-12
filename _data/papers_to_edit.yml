@@ -26,10 +26,10 @@
   year: 2026
   text: "Walton, N. G., Zlonis, E. J., <strong>S&oacute;lymos, P.</strong>, Grinde, A. R., and Niemi, G. J., 2026. Species distribution models and abundance estimates enhance breeding bird atlas data. <strong>Ecology and Evolution</strong>, xx: xx&ndash;xx."
   link: 
-  fulltext: 
+  fulltext: "https://doi.org/10.1002/ece3.73808"
   code: 
   supportinginfo: 
-  doi: 
+  doi: 10.1002/ece3.73808
   pubid: AdGrMoNItN4C
   labels: [birds, methods, distribution modeling, population estimation]
 - id: Gahbauer2026
