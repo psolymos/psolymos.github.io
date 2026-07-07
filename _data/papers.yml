@@ -68,7 +68,7 @@
   - birds
   - methods
   - software
-  citations: 5
+  citations: 4
 - id: Gonzalez2025
   type: paper
   year: 2025
@@ -109,7 +109,7 @@
   - methods
   - distribution modeling
   - population estimation
-  citations: 5
+  citations: 4
 - id: Leston2024
   type: paper
   year: 2024
@@ -148,7 +148,7 @@
   - software
   - simulation
   - birds
-  citations: 7
+  citations: 6
 - id: Edwards2023
   type: paper
   year: 2023
@@ -168,7 +168,7 @@
   - birds
   - methods
   - population estimation
-  citations: 38
+  citations: 37
 - id: Leston2023
   type: paper
   year: 2023
@@ -378,7 +378,7 @@
   - methods
   - population estimation
   - spatial modeling
-  citations: 33
+  citations: 32
 - id: Cadieux2020
   type: paper
   year: 2020
@@ -437,7 +437,7 @@
   - birds
   - monitoring
   - population trends
-  citations: 37
+  citations: 36
 - id: Westwood2019
   type: paper
   year: 2019
@@ -529,7 +529,7 @@
   - methods
   - population estimation
   - software
-  citations: 43
+  citations: 42
 - id: Feher2018b
   type: incollection
   year: 2018
@@ -566,7 +566,7 @@
   - wildfire
   - vegetation change
   - boreal forest
-  citations: 175
+  citations: 177
 - id: Solymos2018a
   type: paper
   year: 2018
@@ -659,7 +659,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 94
+  citations: 93
 - id: Yip2017b
   type: paper
   year: 2017
@@ -712,7 +712,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 131
+  citations: 133
 - id: Denes2016
   type: paper
   year: 2016
@@ -790,7 +790,7 @@
   - community structure
   - niche characteristics
   - boreal forest
-  citations: 59
+  citations: 60
 - id: Bayne2016
   type: paper
   year: 2016
@@ -901,7 +901,7 @@
   - birds
   - monitoring
   - data harmonization
-  citations: 44
+  citations: 43
 - id: Stralberg2015b
   type: paper
   year: 2015
@@ -921,7 +921,7 @@
   - conservation
   - climate change
   - vegetation response
-  citations: 95
+  citations: 96
 - id: Stralberg2015a
   type: paper
   year: 2015
@@ -1018,7 +1018,7 @@
   - microhabitat associations
   - conservation
   - methods
-  citations: 38
+  citations: 39
 - id: Patino2014
   type: paper
   year: 2014
@@ -1037,7 +1037,7 @@
   - plants
   - biogeography
   - species-area relationship
-  citations: 80
+  citations: 79
 - id: Burton2014
   type: paper
   year: 2014
@@ -1056,7 +1056,7 @@
   - biodiversity
   - human footprint
   - adaptive monitoring
-  citations: 89
+  citations: 90
 - id: Mahon2014
   type: paper
   year: 2014
@@ -1230,7 +1230,7 @@
   - detection error
   - software
   - birds
-  citations: 118
+  citations: 119
 - id: Matsuoka2012
   type: paper
   year: 2012
@@ -1283,7 +1283,7 @@
   - biodiversity
   - human disturbance
   - boreal forest
-  citations: 109
+  citations: 112
 - id: Silvertown2011
   type: paper
   year: 2011
@@ -1305,7 +1305,7 @@
   - citizen science
   - evolutionary change
   - model organism
-  citations: 183
+  citations: 184
 - id: Vilisics2011
   type: paper
   year: 2011
@@ -1398,7 +1398,7 @@
   - monitoring
   - research planning
   - commentary
-  citations: 56
+  citations: 57
 - id: Feher2010
   type: paper
   year: 2010
@@ -1902,7 +1902,7 @@
   - conservation
   - Hungary
   - prioritization
-  citations: 55
+  citations: 56
 - id: Vilisics2005
   type: incollection
   year: 2005
@@ -1996,7 +1996,7 @@
   - molluscs
   - biogeography
   - Serbia
-  citations: 11
+  citations: 12
 - id: Domokos2004mt
   type: paper
   year: 2004
