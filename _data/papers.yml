@@ -68,7 +68,7 @@
   - birds
   - methods
   - software
-  citations: 4
+  citations: 5
 - id: Gonzalez2025
   type: paper
   year: 2025
@@ -87,7 +87,7 @@
   - review
   - biodiversity
   - monitoring
-  citations: 3
+  citations: 4
 - id: Stralberg2025
   type: paper
   year: 2025
@@ -109,7 +109,7 @@
   - methods
   - distribution modeling
   - population estimation
-  citations: 4
+  citations: 5
 - id: Leston2024
   type: paper
   year: 2024
@@ -263,7 +263,7 @@
   - software
   - R
   - containerization
-  citations: 22
+  citations: 19
 - id: Yip2020
   type: paper
   year: 2020
@@ -282,7 +282,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 83
+  citations: 87
 - id: NagyReis2020
   type: paper
   year: 2020
@@ -357,7 +357,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 27
+  citations: 28
 - id: Solymos2020
   type: paper
   year: 2020
@@ -378,7 +378,7 @@
   - methods
   - population estimation
   - spatial modeling
-  citations: 32
+  citations: 33
 - id: Cadieux2020
   type: paper
   year: 2020
@@ -398,7 +398,7 @@
   - climate change
   - conservation
   - disturbance
-  citations: 96
+  citations: 94
 - id: SumegiKotet2020
   type: bookchapter
   year: 2020
@@ -437,7 +437,7 @@
   - birds
   - monitoring
   - population trends
-  citations: 36
+  citations: 37
 - id: Westwood2019
   type: paper
   year: 2019
@@ -456,7 +456,7 @@
   - birds
   - conservation
   - species at risk
-  citations: 23
+  citations: 25
 - id: Allen2019
   type: incollection
   year: 2019
@@ -529,7 +529,7 @@
   - methods
   - population estimation
   - software
-  citations: 42
+  citations: 43
 - id: Feher2018b
   type: incollection
   year: 2018
@@ -659,7 +659,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 93
+  citations: 101
 - id: Yip2017b
   type: paper
   year: 2017
@@ -677,7 +677,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 160
+  citations: 163
 - id: Feher2017
   type: paper
   year: 2017
@@ -695,7 +695,7 @@
   - molluscs
   - conservation
   - reintroduction
-  citations: 10
+  citations: 9
 - id: Yip2017a
   type: paper
   year: 2017
@@ -829,7 +829,7 @@
   - methods
   - resource selection
   - software
-  citations: 66
+  citations: 67
 - id: Solymos2016a
   type: paper
   year: 2016
@@ -882,7 +882,7 @@
   - monitoring
   - biodiversity
   - data management
-  citations: 15
+  citations: 16
 - id: Barker2015
   type: paper
   year: 2015
@@ -901,7 +901,7 @@
   - birds
   - monitoring
   - data harmonization
-  citations: 43
+  citations: 45
 - id: Stralberg2015b
   type: paper
   year: 2015
@@ -999,7 +999,7 @@
   - birds
   - methods
   - point-count surveys
-  citations: 113
+  citations: 118
 - id: Kemencei2014
   type: paper
   year: 2014
@@ -1018,7 +1018,7 @@
   - microhabitat associations
   - conservation
   - methods
-  citations: 39
+  citations: 38
 - id: Patino2014
   type: paper
   year: 2014
@@ -1037,7 +1037,7 @@
   - plants
   - biogeography
   - species-area relationship
-  citations: 79
+  citations: 81
 - id: Burton2014
   type: paper
   year: 2014
@@ -1056,7 +1056,7 @@
   - biodiversity
   - human footprint
   - adaptive monitoring
-  citations: 90
+  citations: 92
 - id: Mahon2014
   type: paper
   year: 2014
@@ -1075,7 +1075,7 @@
   - conservation
   - population objectives
   - boreal forest
-  citations: 34
+  citations: 33
 - id: Cumming2014
   type: paper
   year: 2014
@@ -1095,7 +1095,7 @@
   - vegetation
   - distribution
   - boreal forest
-  citations: 58
+  citations: 57
 - id: Domokos2014
   type: paper
   year: 2014
@@ -1154,7 +1154,7 @@
   - methods
   - density calibration
   - software
-  citations: 171
+  citations: 173
 - id: Solymos2013a
   type: letter
   year: 2013
@@ -1248,7 +1248,7 @@
   - birds
   - methods
   - distance sampling
-  citations: 78
+  citations: 80
 - id: Walker2012
   type: paper
   year: 2012
@@ -1283,7 +1283,7 @@
   - biodiversity
   - human disturbance
   - boreal forest
-  citations: 112
+  citations: 114
 - id: Silvertown2011
   type: paper
   year: 2011
@@ -1305,7 +1305,7 @@
   - citizen science
   - evolutionary change
   - model organism
-  citations: 184
+  citations: 182
 - id: Vilisics2011
   type: paper
   year: 2011
@@ -1323,7 +1323,7 @@
   - microhabitat
   - karst
   - biodiversity
-  citations: 54
+  citations: 53
 - id: Kemencei2011
   type: paper
   year: 2011
@@ -1361,7 +1361,7 @@
   - conservation
   - re-introduction
   - methods
-  citations: 11
+  citations: 10
 - id: Solymos2010
   type: paper
   year: 2010
@@ -1379,7 +1379,7 @@
   - software
   - data cloning
   - software
-  citations: 136
+  citations: 134
 - id: Haughland2010
   type: letter
   year: 2010
@@ -1398,7 +1398,7 @@
   - monitoring
   - research planning
   - commentary
-  citations: 57
+  citations: 58
 - id: Feher2010
   type: paper
   year: 2010
@@ -1416,7 +1416,7 @@
   - molluscs
   - taxonomy
   - biogeography
-  citations: 21
+  citations: 20
 - id: Solymos2010biom
   type: paper
   year: 2010
@@ -1464,7 +1464,7 @@
   - molluscs
   - microhabitat
   - shell accumulation
-  citations: 15
+  citations: 14
 - id: SolymosJSS2009
   type: paper
   year: 2009
@@ -1480,7 +1480,7 @@
   - methods
   - software
   - data processing
-  citations: 20
+  citations: 21
 - id: PallGergely2009
   type: paper
   year: 2009
@@ -1540,7 +1540,7 @@
   - isopods
   - habitat evaluation
   - conservation
-  citations: 36
+  citations: 35
 - id: SolymosAZH2008
   type: paper
   year: 2008
@@ -1559,7 +1559,7 @@
   - biogeography
   - nestedness
   - species ranges
-  citations: 7
+  citations: 8
 - id: SolymosCE2008
   type: paper
   year: 2008
@@ -1595,7 +1595,7 @@
   - molluscs
   - methods
   - data collection
-  citations: 4
+  citations: 3
 - id: VilisicsFFS2008
   type: paper
   year: 2008
@@ -1702,7 +1702,7 @@
   - orthoptera
   - sampling methods
   - field studies
-  citations: 33
+  citations: 32
 - id: SolymosBC2007
   type: paper
   year: 2007
@@ -1813,7 +1813,7 @@
   - isopods
   - habitat features
   - book chapter
-  citations: 24
+  citations: 26
 - id: Solymos2007tent
   type: paper
   year: 2007
@@ -1884,7 +1884,7 @@
   - molluscs
   - microhabitat
   - alder stand
-  citations: 1
+  citations: 2
 - id: SolymosFeher2005
   type: paper
   year: 2005
@@ -1902,7 +1902,7 @@
   - conservation
   - Hungary
   - prioritization
-  citations: 56
+  citations: 53
 - id: Vilisics2005
   type: incollection
   year: 2005
@@ -1996,7 +1996,7 @@
   - molluscs
   - biogeography
   - Serbia
-  citations: 12
+  citations: 11
 - id: Domokos2004mt
   type: paper
   year: 2004
@@ -2070,7 +2070,7 @@
   - biodiversity
   - Esztramos Hill
   - Hungary
-  citations: 5
+  citations: 6
 - id: Nagy2002
   type: paper
   year: 2002
@@ -2106,7 +2106,7 @@
   - biodiversity
   - Kaszonyi Hill
   - Hungary
-  citations: 13
+  citations: 12
 - id: Solymos2001
   type: paper
   year: 2001
@@ -2160,7 +2160,7 @@
   - biodiversity
   - Villány Hills
   - Hungary
-  citations: 2
+  citations: 1
 - id: Solymos2000dd
   type: paper
   year: 2000
