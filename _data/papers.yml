@@ -1,10 +1,9 @@
 - id: Walton2026
   type: paper
   year: 2026
-  text: 'Walton, N. G., Zlonis, E. J., <strong>S&oacute;lymos, P.</strong>, Grinde,
+  text: Walton, N. G., Zlonis, E. J., <strong>S&oacute;lymos, P.</strong>, Grinde,
     A. R., and Niemi, G. J., 2026. Species distribution models and abundance estimates
-    enhance breeding bird atlas data. <strong>Ecology and Evolution</strong>, xx:
-    xx&ndash;xx.'
+    enhance breeding bird atlas data. <strong>Ecology and Evolution</strong>, 16:e73808.
   link: ~
   fulltext: https://doi.org/10.1002/ece3.73808
   code: ~
@@ -20,10 +19,10 @@
   type: paper
   year: 2026
   text: 'Gahbauer, M. A., Smith, A. C., Edwards, B., Iles, D. T., Knight, E. C., Robinson,
-    B. G., Rosenberg, K. V., Sólymos, P., Toms, J. D., and Van Wilgenburg, S. L.,
-    2026. Refining population estimates for North American birds: reducing bias from
-    imperfect detection, spatial sampling, and temporal change. <strong>Avian Conservation
-    and Ecology</strong>, xx: xx&ndash;xx.'
+    B. G., Rosenberg, K. V., <strong>S&oacute;lymos, P.</strong>, Toms, J. D., and
+    Van Wilgenburg, S. L., 2026. Refining population estimates for North American
+    birds: reducing bias from imperfect detection, spatial sampling, and temporal
+    change. <strong>Avian Conservation and Ecology</strong>, 21(1):25.'
   link: ~
   fulltext: https://doi.org/10.5751/ACE-03059-210125
   doi: 10.5751/ACE-03059-210125
@@ -131,7 +130,7 @@
   - conservation
   - species at risk
   - climate change
-  citations: 11
+  citations: 12
 - id: Solymos2023
   type: paper
   year: 2023
@@ -188,7 +187,7 @@
   - cumulative effects
   - energy development
   - landscape ecology
-  citations: 8
+  citations: 9
 - id: Crosby2023
   type: paper
   year: 2023
@@ -263,7 +262,7 @@
   - software
   - R
   - containerization
-  citations: 19
+  citations: 21
 - id: Yip2020
   type: paper
   year: 2020
@@ -282,7 +281,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 87
+  citations: 88
 - id: NagyReis2020
   type: paper
   year: 2020
@@ -357,7 +356,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 28
+  citations: 29
 - id: Solymos2020
   type: paper
   year: 2020
@@ -437,7 +436,7 @@
   - birds
   - monitoring
   - population trends
-  citations: 37
+  citations: 39
 - id: Westwood2019
   type: paper
   year: 2019
@@ -456,7 +455,7 @@
   - birds
   - conservation
   - species at risk
-  citations: 25
+  citations: 26
 - id: Allen2019
   type: incollection
   year: 2019
@@ -566,7 +565,7 @@
   - wildfire
   - vegetation change
   - boreal forest
-  citations: 177
+  citations: 178
 - id: Solymos2018a
   type: paper
   year: 2018
@@ -586,7 +585,7 @@
   - species traits
   - detectability
   - methods
-  citations: 60
+  citations: 63
 - id: Feher2018a
   type: paper
   year: 2018
@@ -606,7 +605,7 @@
   - biogeography
   - niche partitioning
   - methods
-  citations: 23
+  citations: 24
 - id: Pankratz2017
   type: paper
   year: 2017
@@ -659,7 +658,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 101
+  citations: 102
 - id: Yip2017b
   type: paper
   year: 2017
@@ -677,7 +676,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 163
+  citations: 167
 - id: Feher2017
   type: paper
   year: 2017
@@ -712,7 +711,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 133
+  citations: 134
 - id: Denes2016
   type: paper
   year: 2016
@@ -790,7 +789,7 @@
   - community structure
   - niche characteristics
   - boreal forest
-  citations: 60
+  citations: 61
 - id: Bayne2016
   type: paper
   year: 2016
@@ -921,7 +920,7 @@
   - conservation
   - climate change
   - vegetation response
-  citations: 96
+  citations: 97
 - id: Stralberg2015a
   type: paper
   year: 2015
@@ -959,7 +958,7 @@
   - island floras
   - commentary
   - species-area relationship
-  citations: 23
+  citations: 24
 - id: Nagy2014
   type: incollection
   year: 2014
@@ -999,7 +998,7 @@
   - birds
   - methods
   - point-count surveys
-  citations: 118
+  citations: 120
 - id: Kemencei2014
   type: paper
   year: 2014
@@ -1018,7 +1017,7 @@
   - microhabitat associations
   - conservation
   - methods
-  citations: 38
+  citations: 39
 - id: Patino2014
   type: paper
   year: 2014
@@ -1154,7 +1153,7 @@
   - methods
   - density calibration
   - software
-  citations: 173
+  citations: 174
 - id: Solymos2013a
   type: letter
   year: 2013
@@ -1230,7 +1229,7 @@
   - detection error
   - software
   - birds
-  citations: 119
+  citations: 121
 - id: Matsuoka2012
   type: paper
   year: 2012
@@ -1283,7 +1282,7 @@
   - biodiversity
   - human disturbance
   - boreal forest
-  citations: 114
+  citations: 115
 - id: Silvertown2011
   type: paper
   year: 2011
@@ -1305,7 +1304,7 @@
   - citizen science
   - evolutionary change
   - model organism
-  citations: 182
+  citations: 184
 - id: Vilisics2011
   type: paper
   year: 2011
@@ -1902,7 +1901,7 @@
   - conservation
   - Hungary
   - prioritization
-  citations: 53
+  citations: 54
 - id: Vilisics2005
   type: incollection
   year: 2005
@@ -2160,7 +2159,7 @@
   - biodiversity
   - Villány Hills
   - Hungary
-  citations: 1
+  citations: 2
 - id: Solymos2000dd
   type: paper
   year: 2000
