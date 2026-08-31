@@ -16,12 +16,7 @@ kramdown:
   hard_wrap: false
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# Bootswatch theme (cosmo,pulse,brite)
-bswtheme: cosmo
-# fancy fonts on/off
-#fancyfonts: false
-# navbar style: inverse, transparent
-navbar: transparent
+# Site styling is provided by Bootstrap 5 and assets/site.css.
 
 disqus: petersolymos
 ads: false

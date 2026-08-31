@@ -9,8 +9,8 @@ excerpt: The list of tags on the personal website of Peter Solymos.
 forloop.last %},{% endunless %}{% endfor %}{% endcapture %} {% assign tag_words
 = site_tags | split:',' | sort %}
 <p>
-  {% for tag in tag_words) %}
-  <a href="#{{ tag | slugify }}" class="btn btn-info btn-xs"
+  {% for tag in tag_words %}
+  <a href="#{{ tag | slugify }}" class="badge tag-badge"
     >{{ tag }} <span>({{ site.tags[tag] | size }})</span></a
   >
   {% endfor %}

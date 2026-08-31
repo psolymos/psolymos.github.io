@@ -9,8 +9,8 @@ excerpt: The list of categories on the personal website of Peter Solymos.
 unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %} {% assign
 tag_words = site_tags | split:',' | sort %}
 <p>
-  {% for tag in tag_words) %}
-  <a href="#{{ tag | slugify }}" class="btn btn-default btn-xs"
+  {% for tag in tag_words %}
+  <a href="#{{ tag | slugify }}" class="badge text-bg-light"
     >{{ tag }} <span>({{ site.categories[tag] | size }})</span></a
   >
   {% endfor %}

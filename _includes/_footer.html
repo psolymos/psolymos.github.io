@@ -1,9 +1,7 @@
-<div class="container">
-  <footer>
-  <div class="row">
-    <div class="col-lg-12">
-      <hr>
-      <p>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-content">
+      <p class="mb-0">
       <small>
       <a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
       <br />
@@ -11,7 +9,7 @@
       <br />
       &copy; <a href="https://peter.solymos.org">P&eacute;ter S&oacute;lymos</a> 2015&ndash;{{ site.time | date: "%Y" }}. Last updated on {{ site.time | date: '%B %-d, %Y' }}.
       <br />
-      Powered by <a href="https://fontawesome.io/">Font Awesome</a>, <a href="https://jekyllrb.com">Jekyll</a>, <a href="https://bootswatch.com/">Bootswatch</a>, and <a href="https://github.com/psolymos/psolymos.github.io/">GitHub</a>.
+      Powered by <a href="https://fontawesome.io/">Font Awesome</a>, <a href="https://jekyllrb.com">Jekyll</a>, <a href="https://getbootstrap.com/">Bootstrap</a>, and <a href="https://github.com/psolymos/psolymos.github.io/">GitHub</a>.
       {% unless page.category == null %}
       View page <a href="https://raw.githubusercontent.com/psolymos/psolymos.github.io/master/_posts/{{ page.date | date: "%Y-%m-%d" }}-{{ page.slug }}.md">source</a>.
       {% endunless %}
@@ -20,14 +18,11 @@
       </small></p>
     </div>
   </div>
-  </footer>
-</div>
+</footer>
 
 <script src="https://cdn.usefathom.com/script.js" data-site="KTMJHUPR" defer></script>
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script>
-    $("table").addClass("table table-striped table-bordered table-hover table-condensed");
-</script>
-<script type="text/javascript" src="{{ site.baseurl }}/assets/bootstrap.min.js"></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+></script>
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>

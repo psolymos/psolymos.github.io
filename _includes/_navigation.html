@@ -1,27 +1,24 @@
-{% capture navbar %}{% if page.navbar %}{{ page.navbar }}{% else %}{{
-site.navbar }}{% endif %}{% endcapture %}
-<div class="navbar navbar-default navbar-fixed-top navbar-{{ navbar }}">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top site-nav">
   <div class="container">
-    <div class="navbar-header">
       <a class="navbar-brand" href="{{ site.baseurl }}">{{ site.title }}</a>
       <button
-        class="navbar-toggle"
+        class="navbar-toggler"
         type="button"
-        data-toggle="collapse"
-        data-target="#navbar-main"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbar-main"
+        aria-controls="navbar-main"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
       >
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+        <span class="navbar-toggler-icon"></span>
       </button>
-    </div>
-    <div class="navbar-collapse collapse" id="navbar-main">
-      <ul class="nav navbar-nav">
-        <li><a href="{{ site.baseurl }}/posts/">Posts</a></li>
-        <li><a href="{{ site.baseurl }}/talks/">Talks</a></li>
-        <li><a href="{{ site.baseurl }}/papers/">Papers</a></li>
-        <li><a href="{{ site.baseurl }}/code/">Code</a></li>
-        <li><a href="{{ site.baseurl }}/about/">About</a></li>
+    <div class="collapse navbar-collapse" id="navbar-main">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/posts/">Posts</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/talks/">Talks</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/papers/">Papers</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/code/">Code</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/about/">About</a></li>
       </ul>
       <!--          <ul class="nav navbar-nav">
             <li class="dropdown">
@@ -37,14 +34,14 @@ site.navbar }}{% endif %}{% endcapture %}
               </ul>
             </li>
           </ul> -->
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <a href="https://github.com/psolymos/"
+      <ul class="navbar-nav ms-lg-auto flex-row gap-2">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/psolymos/" aria-label="GitHub profile"
             ><i class="fa fa-github-square text-grey"></i
           ></a>
         </li>
-        <li>
-          <a href="https://www.linkedin.com/in/peter-solymos/"
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/peter-solymos/" aria-label="LinkedIn profile"
             ><i class="fa fa-linkedin-square text-grey"></i
           ></a>
         </li>
@@ -53,12 +50,12 @@ site.navbar }}{% endif %}{% endcapture %}
             ><i class="fa fa-twitter-square text-grey"></i
           ></a>
         </li> -->
-        <li>
-          <a href="{{ site.baseurl }}/feed.xml"
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/feed.xml" aria-label="RSS feed"
             ><i class="fa fa-rss-square text-grey"></i
           ></a>
         </li>
       </ul>
     </div>
   </div>
-</div>
+</nav>

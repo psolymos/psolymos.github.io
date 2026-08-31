@@ -3,10 +3,10 @@ layout: plain
 excerpt: The personal website of Peter Solymos.
 ---
 
-<div class="jumbotron">
+<section class="site-hero">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
+      <div class="col-12">
         <h2 class="text-center">{{ site.description }}</h2>
         <h2></h2>
         <!-- <center>
@@ -33,7 +33,7 @@ excerpt: The personal website of Peter Solymos.
       </div>
     </div>
   </div>
-</div>
+</section>
 
 <div class="section-tout">
   <div class="container">
@@ -42,18 +42,25 @@ excerpt: The personal website of Peter Solymos.
       recent posts, starting with promoted
       (2 cols have different counters: see limit and offset)
       -->
-      <div class="col-lg-12 col-sm-12">
+      <div class="col-12">
         {% for post in site.posts %} {% if post.promote %}
-        <div class="well">
+        <div class="card featured-post">
+          <div class="card-body">
           <h4>
             <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
           </h4>
           {{ post.excerpt }}
+          </div>
         </div>
         {% endif %} {% endfor %} {% for post in site.posts limit:4 %} {% unless
         post.promote %}
-        <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-        {{ post.excerpt }} {% endunless %} {% endfor %}
+        <article class="post-card">
+          <div class="card-body">
+            <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+            {{ post.excerpt }}
+          </div>
+        </article>
+        {% endunless %} {% endfor %}
       </div>
 
       <!-- <div class="col-lg-6 col-sm-6">
@@ -66,13 +73,13 @@ excerpt: The personal website of Peter Solymos.
       <!--
       code
       -->
-      <div class="col-lg-6 col-sm-6">
+      <div class="col-12 col-lg-6">
         <h3><a href="{{ site.baseurl }}/code/">R packages</a></h3>
         <div class="list-group">
           {% for pkg in site.data.packages %}
           <a
             href="{{ site.baseurl }}/code/#code-{{ pkg.pkgname | downcase }}"
-            class="list-group-item"
+            class="list-group-item list-group-item-action"
           >
             <!-- <h4 class="list-group-item-heading">{{ pkg.pkgname }}</h4> -->
             <p class="list-group-item-text">
@@ -86,7 +93,7 @@ excerpt: The personal website of Peter Solymos.
       <!--
       papers
       -->
-      <div class="col-lg-6 col-sm-6">
+      <div class="col-12 col-lg-6">
         <h3><a href="{{ site.baseurl }}/papers/">Latest publications</a></h3>
         {% for ms in site.data.papers limit:7 %}
         <p>
