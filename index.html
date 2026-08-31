@@ -12,32 +12,28 @@ excerpt: The personal website of Peter Solymos.
       data-bs-interval="7000"
     >
       <div class="carousel-indicators">
-        {% for post in site.posts limit:3 %}
-        <button type="button" data-bs-target="#landing-carousel" data-bs-slide-to="{{ forloop.index0 }}"{% if forloop.first %} class="active" aria-current="true"{% endif %} aria-label="Post {{ forloop.index }}"></button>
-        {% endfor %}
-        {% for ms in site.data.papers limit:3 %}
-        <button type="button" data-bs-target="#landing-carousel" data-bs-slide-to="{{ forloop.index0 | plus: 3 }}" aria-label="Publication {{ forloop.index }}"></button>
+        {% for item in (0..5) %}
+        <button type="button" data-bs-target="#landing-carousel" data-bs-slide-to="{{ item }}"{% if forloop.first %} class="active" aria-current="true"{% endif %} aria-label="Slide {{ forloop.index }}"></button>
         {% endfor %}
       </div>
       <div class="carousel-inner">
-        {% for post in site.posts limit:3 %}
-        <article class="carousel-item{% if forloop.first %} active{% endif %}">
-          <div class="carousel-content">
-            <p class="carousel-kicker"><i class="fa fa-pencil" aria-hidden="true"></i> Latest post</p>
-            <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-            <div class="carousel-excerpt">{{ post.excerpt }}</div>
-            <a class="carousel-link" href="{{ site.baseurl }}{{ post.url }}">Read post <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-          </div>
-        </article>
-        {% endfor %}
         {% for ms in site.data.papers limit:3 %}
-        <article class="carousel-item">
+        <article class="carousel-item{% if forloop.first %} active{% endif %}">
           <div class="carousel-content">
             <p class="carousel-kicker"><i class="fa fa-file-text-o" aria-hidden="true"></i> Latest publication</p>
             <h1>New research</h1>
             <p class="carousel-excerpt">{{ ms.text }}</p>
             {% if ms.link %}<a class="carousel-link" href="{{ ms.link }}">Journal website <i class="fa fa-external-link" aria-hidden="true"></i></a>{% endif %}
             {% if ms.fulltext %}<a class="carousel-link" href="{{ ms.fulltext }}">Full-text PDF <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>{% endif %}
+          </div>
+        </article>
+        {% assign post = site.posts[forloop.index0] %}
+        <article class="carousel-item">
+          <div class="carousel-content">
+            <p class="carousel-kicker"><i class="fa fa-pencil" aria-hidden="true"></i> Latest post</p>
+            <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+            <div class="carousel-excerpt">{{ post.excerpt }}</div>
+            <a class="carousel-link" href="{{ site.baseurl }}{{ post.url }}">Read post <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
           </div>
         </article>
         {% endfor %}
