@@ -25,7 +25,3 @@ author: '<a href="https://peter.solymos.org">P&eacute;ter S&oacute;lymos</a>'
 author_plain: "Peter Solymos"
 
 categories: ["Etc", "Talks", "Papers", "Code", "Tutorials"]
-
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
