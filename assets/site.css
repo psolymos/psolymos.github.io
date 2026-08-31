@@ -64,6 +64,8 @@ h2.subtitle { color: var(--muted); font-family: "DM Sans", system-ui, sans-serif
 .sidebar .fa-li { color: #6552D0; }
 .featured-post { background: linear-gradient(135deg, #f0eff9, #fff); border: 1px solid #ddd8f8; box-shadow: 0 12px 28px rgba(101, 82, 208, 0.1); margin-bottom: 1.75rem; }
 .featured-post h4 { font-size: 1.25rem; }
+.well { background: var(--surface); border: 1px solid var(--line); border-radius: 0.75rem; color: var(--ink); margin-bottom: 1.5rem; padding: 1.25rem; }
+.well h1, .well h2, .well h3, .well h4, .well h5, .well h6 { color: var(--ink); }
 
 .post-navigation .pagination { display: flex; justify-content: space-between; margin-top: 3rem; width: 100%; }
 .post-navigation li { list-style: none; }
@@ -92,6 +94,7 @@ h2.subtitle { color: var(--muted); font-family: "DM Sans", system-ui, sans-serif
 :root[data-theme="dark"] .post-card .card-header { background: var(--surface); }
 :root[data-theme="dark"] .list-group-item { --bs-list-group-bg: var(--surface); --bs-list-group-color: var(--ink); --bs-list-group-action-hover-bg: #37324f; --bs-list-group-action-hover-color: var(--ink); }
 :root[data-theme="dark"] .featured-post { background: linear-gradient(135deg, #393258, #25223a); border-color: #6552D0; }
+:root[data-theme="dark"] .well .text-black { color: var(--ink) !important; }
 :root[data-theme="dark"] .site-main pre { background: #100e1a; }
 :root[data-theme="dark"] .tag-badge { background: #5140b1; color: #f2f0ff; }
 :root[data-theme="dark"] .tag-badge:hover { background: #6552D0; color: #fff; }
