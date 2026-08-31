@@ -32,7 +32,7 @@ excerpt: The list of software packages written by Peter Solymos.
 <li><i class="fa-li fa fa-github text-black"></i><a href="https://github.com/{{ pkg.devel }}/{{ pkg.pkgname }}">Development version</a></li>
 <li><i class="fa-li fa fa-bug text-black"></i><a href="https://github.com/{{ pkg.devel }}/{{ pkg.pkgname }}/issues">Report an issue</a></li>
 {% if pkg.paper %}<li><i class="fa-li fa fa-file-text-o text-black"></i>{{ pkg.paper }}</li>{% endif %}
-{% for tag in tag_words) %}{% if tag == pkg.pkgname %}<li><i class="fa-li fa fa-chevron-right text-black"></i><a href="{{ site.baseurl }}/tags.html#{{ tag | slugify }}">{{ site.tags[tag] | size }} blog post{% if site.tags[tag] | size > 1 %}s{% endif %}</a></li>{% endif %}{% endfor %}
+{% for tag in tag_words %}{% if tag == pkg.pkgname %}{% assign post_count = site.tags[tag] | size %}<li><i class="fa-li fa fa-chevron-right text-black"></i><a href="{{ site.baseurl }}/tags.html#{{ tag | slugify }}">{{ post_count }} blog post{% if post_count > 1 %}s{% endif %}</a></li>{% endif %}{% endfor %}
 </ul>
   </div>
 </div>

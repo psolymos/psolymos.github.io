@@ -26,6 +26,6 @@ author_plain: "Peter Solymos"
 
 categories: ["Etc", "Talks", "Papers", "Code", "Tutorials"]
 
-gems:
+plugins:
   - jekyll-feed
   - jekyll-sitemap
