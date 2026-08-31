@@ -68,8 +68,8 @@ h2.subtitle { color: var(--muted); font-family: "DM Sans", system-ui, sans-serif
 .sidebar-intro { border-bottom: 1px solid var(--line); color: var(--muted); font-size: 1.1rem; padding-bottom: 1.25rem; }
 .sidebar .fa-ul { margin-bottom: 1.75rem; }
 .sidebar .fa-li { color: var(--accent); }
-.featured-post { background: linear-gradient(135deg, var(--mint), #fff); border: 1px solid var(--mint); box-shadow: 0 12px 28px rgba(42, 49, 102, 0.12); margin-bottom: 1.75rem; }
-.featured-post h4 { font-size: 1.25rem; }
+.featured-post { --bs-card-color: var(--ink); background: linear-gradient(135deg, var(--mint), #fff); border: 1px solid var(--mint); box-shadow: 0 12px 28px rgba(42, 49, 102, 0.12); color: var(--ink); margin-bottom: 1.75rem; }
+.featured-post h4 { color: var(--ink); font-size: 1.25rem; }
 .well { background: var(--surface); border: 1px solid var(--line); border-radius: 0.75rem; color: var(--ink); margin-bottom: 1.5rem; padding: 1.25rem; }
 .well h1, .well h2, .well h3, .well h4, .well h5, .well h6 { color: var(--ink); }
 
@@ -113,7 +113,9 @@ h2.subtitle { color: var(--muted); font-family: "DM Sans", system-ui, sans-serif
 :root[data-theme="dark"] .site-main th { background: #434b82; }
 :root[data-theme="dark"] .post-card .card-header { background: var(--surface); }
 :root[data-theme="dark"] .list-group-item { --bs-list-group-bg: var(--surface); --bs-list-group-color: var(--ink); --bs-list-group-action-hover-bg: #434b82; --bs-list-group-action-hover-color: var(--ink); }
-:root[data-theme="dark"] .featured-post { background: linear-gradient(135deg, #3e4781, #2a3166); border-color: #cae7df; }
+:root[data-theme="dark"] .featured-post { --bs-card-color: #fff; background: linear-gradient(135deg, #3e4781, #2a3166); border-color: #cae7df; color: #fff; }
+:root[data-theme="dark"] .featured-post .card-body, :root[data-theme="dark"] .featured-post p, :root[data-theme="dark"] .featured-post h4 { color: #fff; }
+:root[data-theme="dark"] .featured-post a { color: #cae7df; }
 :root[data-theme="dark"] .well { background: var(--surface); color: var(--ink); }
 :root[data-theme="dark"] .well p, :root[data-theme="dark"] .well li, :root[data-theme="dark"] .well small, :root[data-theme="dark"] .well strong, :root[data-theme="dark"] .well em, :root[data-theme="dark"] .well span { color: #fff; }
 :root[data-theme="dark"] .well a { color: #cae7df; }
