@@ -49,7 +49,7 @@ server <- function(input, output) {
 if (interactive()) shinyApp(ui, server)
 ```
 
-<img src="https://github.com/psolymos/intrval/raw/master/extras/regular_slider.gif" class="img-responsive" alt="regular slider">
+<img src="https://github.com/psolymos/intrval/raw/master/extras/regular_slider.gif" class="img-fluid" alt="regular slider">
 
 The second example uses range slider returning two values, which is our interval. To spice things up a bit, we combine intervals on two axes to color some random points. The next range slider defines a distance interval and colors the random points inside the ring.
 
@@ -106,7 +106,7 @@ server <- function(input, output) {
 if (interactive()) shinyApp(ui, server)
 ```
 
-<img src="https://github.com/psolymos/intrval/raw/master/extras/range_slider.gif" class="img-responsive" alt="range slider">
+<img src="https://github.com/psolymos/intrval/raw/master/extras/range_slider.gif" class="img-fluid" alt="range slider">
 
 If you think there are other use cases for **intrval** in **shiny** applications, let me know in the comments section!
 

@@ -11,7 +11,7 @@ image: https://peter.solymos.org/images/2018/08/30/example-species.png
 
 In a paper recently published in the [Condor](http://www.americanornithologypubs.org/), titled _Evaluating time-removal models for estimating availability of boreal birds during point-count surveys: sample size requirements and model complexity_,  we assessed different ways of controlling for point-count duration in bird counts using data from the [Boreal Avian Modelling Project](http://www.borealbirds.ca/). As the title indicates, the paper describes a cost-benefit analysis to make recommendations about when to use different types of the removal model. The paper is open access, so feel free to read the [whole paper here](https://dx.doi.org/10.1650/CONDOR-18-32.1).
 
-<img src="{{ site.baseurl }}/images/2018/08/30/example-species.png" class="img-responsive" alt="Example species">
+<img src="{{ site.baseurl }}/images/2018/08/30/example-species.png" class="img-fluid" alt="Example species">
 
 In summary, we evaluated a conventional removal model and a finite mixture removal model, with and without covariates, for 152 bird species. We found that the probabilities of predicted availability under conventional and finite mixture models were very similar with respect to the range of probability values and the shape of the response curves to predictor variables. However, finite mixture models were better supported for the large majority of species. We also found overwhelming support for time-varying models irrespective of the parametrization.
 
@@ -188,7 +188,7 @@ abline(v=3, col="grey")
 par(op)
 ```
 
-<img src="{{ site.baseurl }}/images/2018/08/30/MePlot.png" class="img-responsive" alt="Me model predictions">
+<img src="{{ site.baseurl }}/images/2018/08/30/MePlot.png" class="img-fluid" alt="Me model predictions">
 
 ## Time-invariant finite mixture removal model
 
@@ -285,7 +285,7 @@ abline(v=3, col="grey")
 par(op)
 ```
 
-<img src="{{ site.baseurl }}/images/2018/08/30/MfPlot.png" class="img-responsive" alt="Me model predictions">
+<img src="{{ site.baseurl }}/images/2018/08/30/MfPlot.png" class="img-fluid" alt="Me model predictions">
 
 An alternative parametrization is that $$c_{i}$$ rather than $$\phi$$ be the time-varying parameter, allowing the individuals to switch between the frequent and infrequent group depending on covariates. We can fit this class of finite mixture model with `JDAY` and `TSSR` as covariates on $$c$$ (models `Mm1` and `Mm2`) using `type = "mix"` (instead of `"fmix"`). In this case $$p(t_{iJ}) = 1 - c_{i} exp(-t_{iJ} \phi)$$ and $$logit(c_{i}) = \beta_{0} + \sum^{K}_{k=1} \beta_{k} x_{ik}$$ is the linear predictor with $$K$$ covariates and the corresponding unknown coefficients ($$\beta_{k}$$, $$k = 0,\ldots, K$$). Because $$c_{i}$$ is a proportion, we model it on the logit scale.
 
@@ -350,7 +350,7 @@ abline(v=3, col="grey")
 par(op)
 ```
 
-<img src="{{ site.baseurl }}/images/2018/08/30/MmPlot.png" class="img-responsive" alt="Me model predictions">
+<img src="{{ site.baseurl }}/images/2018/08/30/MmPlot.png" class="img-fluid" alt="Me model predictions">
 
 ## Let the best model win
 

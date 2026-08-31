@@ -72,7 +72,7 @@ function to produce *non-rainbow* colors.
 [modular code](https://en.wikipedia.org/wiki/Unix_philosophy#Doug_McIlroy_on_Unix_programming) please!)
 The following figure shows the two input data vectors mirrored side-by-side:
 
-<img src="https://github.com/borealbirds/lhreg/raw/master/tree.png" class="img-responsive" alt="lhreg inputs">
+<img src="https://github.com/borealbirds/lhreg/raw/master/tree.png" class="img-fluid" alt="lhreg inputs">
 
 I realize this is not a very detailed post, but the paper
 and the vignette should satisfy your curiosity.

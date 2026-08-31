@@ -85,7 +85,7 @@ par(op)
 dev.off()
 ```
 
-<img src="{{ site.baseurl }}/images/2016/10/15/pb-overhead.png" class="img-responsive" alt="Progress bar overhead">
+<img src="{{ site.baseurl }}/images/2016/10/15/pb-overhead.png" class="img-fluid" alt="Progress bar overhead">
 
 The plot tells us that the overhead increases linearly
 with the number of iterations when using `lapply`

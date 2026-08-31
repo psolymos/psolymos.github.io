@@ -42,7 +42,7 @@ excerpt: Interactive mock bibliometrics for publications by Peter Solymos.
   .bibliometrics-chart-section { margin: 2.5rem 0; }
   .bibliometrics-chart-section h2 { font-size: 1.35rem; margin-bottom: 0.65rem; }
   .bibliometrics-chart { min-height: 350px; width: 100%; }
-  .bibliometrics-chart-error { color: #b42318; font-weight: 600; }
+  .bibliometrics-chart-error { color: var(--accent); font-weight: 600; }
   @media (max-width: 575.98px) { .bibliometrics-chart { min-height: 300px; } }
 </style>
 

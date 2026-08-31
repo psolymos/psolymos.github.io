@@ -15,20 +15,20 @@ excerpt: Bibliometrics for publications by Peter Solymos.
 
 Publications over time:
 
-<img src="{{ site.baseurl }}/images/publications/publications_over_time.png" class="img-responsive" alt="Publications over time">
+<img src="{{ site.baseurl }}/images/publications/publications_over_time.png" class="img-fluid" alt="Publications over time">
 
 Cumulative publications over time (yellow line shows mollusc papers, blue line shows non-mollusc papers, black line shows all papers):
 
-<img src="{{ site.baseurl }}/images/publications/cumulative_publications_over_time.png" class="img-responsive" alt="Cumulative publications over time">
+<img src="{{ site.baseurl }}/images/publications/cumulative_publications_over_time.png" class="img-fluid" alt="Cumulative publications over time">
 
 Citations over time:
 
-<img src="{{ site.baseurl }}/images/publications/citations_over_time.png" class="img-responsive" alt="Citations over time">
+<img src="{{ site.baseurl }}/images/publications/citations_over_time.png" class="img-fluid" alt="Citations over time">
 
 Cumulative citations over time (yellow line shows mollusc papers, blue line shows non-mollusc papers, black line shows all papers):
 
-<img src="{{ site.baseurl }}/images/publications/cumulative_citations_over_time.png" class="img-responsive" alt="Cumulative citations over time">
+<img src="{{ site.baseurl }}/images/publications/cumulative_citations_over_time.png" class="img-fluid" alt="Cumulative citations over time">
 
 H-index:
 
-<img src="{{ site.baseurl }}/images/publications/h_index.png" class="img-responsive" alt="H-index">
+<img src="{{ site.baseurl }}/images/publications/h_index.png" class="img-fluid" alt="H-index">

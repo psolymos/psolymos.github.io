@@ -10,7 +10,7 @@ image: https://peter.solymos.org/images/2020/06/22/popsize.png
 
 In a recent paper entitled "*Lessons learned from comparing spatially explicit models and the Partners in Flight approach to estimate population sizes of boreal birds in Alberta, Canada*" we developed improved, spatially explicit models for 81 land bird species in northern Alberta, Canada. We then compared these estimates of bird abundance to a commonly-used but non-spatially explicit estimate by Partners in Flight ([PIF v 3.0](http://pif.birdconservancy.org/PopEstimates/)) that’s based on the North American Breeding Bird Survey ([BBS](https://www.pwrc.usgs.gov/bbs/)) data set. The publication is a result of years of collaboration between the [ABMI](http://abmi.ca), Boreal Avian Modelling ([BAM](https://borealbirds.ualberta.ca/)) project, Canadian Wildlife Service ([Environment and Climate Change Canada](https://www.canada.ca/en/environment-climate-change.html)), and [United States Geological Survey](https://www.usgs.gov/).
 
-<img src="{{ site.baseurl }}/images/2020/06/22/popsize.png" class="img-responsive" alt="Population sizes">
+<img src="{{ site.baseurl }}/images/2020/06/22/popsize.png" class="img-fluid" alt="Population sizes">
 
 The paper represents a major step forwards in understanding the complexity of population size estimation. We paid special attention to framing the implications for conservation and management of species at risk and for improving future data collection. It was published in the Condor, and it is open access:
 

@@ -88,7 +88,7 @@ Equal     | Not equal | Less than | Greater than
 The helper function `intrval_types` can be used to
 print/plot the following summary:
 
-<img src="https://github.com/psolymos/intrval/raw/master/extras/intrval.png" class="img-responsive" alt="Interval types">
+<img src="https://github.com/psolymos/intrval/raw/master/extras/intrval.png" class="img-fluid" alt="Interval types">
 
 
 ### Interval-to-interval relations
@@ -140,7 +140,7 @@ The package is licensed under [GPL-2](https://www.gnu.org/licenses/old-licenses/
 
 ## Examples
 
-<img src="https://github.com/psolymos/intrval/raw/master/extras/examples.png" class="img-responsive" alt="Interval examples">
+<img src="https://github.com/psolymos/intrval/raw/master/extras/examples.png" class="img-fluid" alt="Interval examples">
 
 ```
 library(intrval)

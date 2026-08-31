@@ -19,7 +19,7 @@ rapid interactive exploration (via **shiny** apps) and efficient
 simulation (supporting various parallel backends), thus elevating the
 user experience.
 
-<img src="{{ site.baseurl }}/images/2019/12/22/bSims-intro.png" class="img-responsive" alt="Example simulation">
+<img src="{{ site.baseurl }}/images/2019/12/22/bSims-intro.png" class="img-fluid" alt="Example simulation">
 
 The goals of the package are to:
 

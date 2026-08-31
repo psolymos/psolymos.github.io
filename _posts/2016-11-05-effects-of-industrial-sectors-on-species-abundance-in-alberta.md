@@ -20,7 +20,7 @@ collects data and produces information that
 helps attributing the effects of human activities on species
 to different industrial sectors, or as we call them, sector effects.
 
-<img src="{{ site.baseurl }}/images/2016/11/05/science-letters-sector.png" class="img-responsive" alt="Science Letter cover">
+<img src="{{ site.baseurl }}/images/2016/11/05/science-letters-sector.png" class="img-fluid" alt="Science Letter cover">
 
 The latest issue of the [_ABMI Science Letters_](http://www.abmi.ca/home/newsletters/scienceletter-past-issues.html),
 [Effects of Industrial Sectors on Species Abundance in Alberta](http://ftp.public.abmi.ca/home/publications/documents/437_SolymosandSchieck_20016_EffectofIndustrialSectorsonSpeciesAbundanceAB_ABMI.pdf),

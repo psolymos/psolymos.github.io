@@ -376,58 +376,58 @@ Kramdown syntax guide: http://kramdown.gettalong.org/syntax.html
 
 ## Bootswatch
 
-<ul class="pager">
-  <li><a href="#">Previous</a></li>
-  <li><a href="#">Next</a></li>
-</ul>
+<nav aria-label="Pager"><ul class="pagination justify-content-between">
+  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+</ul></nav>
 
-<ul class="pagination">
-  <li class="disabled"><a href="#"><i class="fa fa-backward"></i></a></li>
-  <li class="active"><a href="#">1</a></li>
-  <li><a href="#">2</a></li>
-  <li><a href="#">3</a></li>
-  <li><a href="#">4</a></li>
-  <li><a href="#">5</a></li>
-  <li><a href="#"><i class="fa fa-forward"></i></a></li>
-</ul>
+<nav aria-label="Pagination"><ul class="pagination">
+  <li class="page-item disabled"><a class="page-link" href="#"><i class="fa fa-backward"></i></a></li>
+  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+  <li class="page-item"><a class="page-link" href="#">2</a></li>
+  <li class="page-item"><a class="page-link" href="#">3</a></li>
+  <li class="page-item"><a class="page-link" href="#">4</a></li>
+  <li class="page-item"><a class="page-link" href="#">5</a></li>
+  <li class="page-item"><a class="page-link" href="#"><i class="fa fa-forward"></i></a></li>
+</ul></nav>
 
 <div class="alert alert-dismissible alert-warning">
-<button type="button" class="close" data-dismiss="alert"><i class="fa fa-close"></i></button>
+<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 #### Warning!
 
 Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue.
 </div>
 
-<div class="jumbotron">
+<div class="p-5 mb-4 bg-body-tertiary rounded-3">
 # Jumbotron
 
 This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
 <p><a class="btn btn-primary btn-lg">Learn more</a></p>
 </div>
 
-<div class="panel panel-success">
-<div class="panel-heading">
+<div class="card border-success mb-3">
+<div class="card-header">
 <i class="fa fa-check-square-o"></i> Panel primary
 </div>
-<div class="panel-body">
+<div class="card-body">
 Panel content
 <pre><code class="language-R">paste("Hello", "World!")
 </code></pre>
 </div>
 </div>
 
-<div class="panel panel-success">
-<div class="panel-heading">
+<div class="card border-success mb-3">
+<div class="card-header">
 <i class="fa fa-check-square-o"></i> Panel primary
 </div>
-<div class="panel-body">
+<div class="card-body">
 Panel content
 <pre><code class="language-R">paste("Hello", "World!")
 </code></pre>
 </div>
 </div>
 
-<div class="well">
+<div class="p-3 mb-2 bg-body-tertiary border rounded">
   Look, I'm in a well!
 </div>
 
@@ -492,20 +492,20 @@ a <- list("a", 1, FALSE, function(x) x+1) # no
 
 ### This is modal
 
-<p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-MCMT">Mean cold month (January) temperature</button></p>
+<p><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-MCMT">Mean cold month (January) temperature</button></p>
 
 <div class="modal fade" id="modal-MCMT" tabindex="-1" role="dialog" aria-labelledby="modal-MCMT-label">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="modal-lichens-label">Climate map: Mean cold month (January) temperature</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <img src="http://species.abmi.ca/contents/2016/geospatial/climate/MCMT.png" class="img-responsive" alt="Climate map: Mean cold month (January) temperature" />
+        <img src="http://species.abmi.ca/contents/2016/geospatial/climate/MCMT.png" class="img-fluid" alt="Climate map: Mean cold month (January) temperature" />
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         <a class="btn btn-primary" href="http://ftp.public.abmi.ca/species.abmi.ca/geospatial/climate/climate_grid.zip">Download <i class="fa fa-download"></i></a>
       </div>
     </div>
@@ -513,42 +513,42 @@ a <- list("a", 1, FALSE, function(x) x+1) # no
 </div>
 
 
-<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Large Modal</button>
+<button type="button" class="btn btn-info btn-lg" data-bs-toggle="modal" data-bs-target="#myModal">Open Large Modal</button>
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" role="dialog">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
         <h4 class="modal-title">Modal Header</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <p>This is a large modal.</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
 </div>
 
 
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-app">Try app</button>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-app">Try app</button>
 
 <div class="modal fade" id="modal-app" tabindex="-1" role="dialog" aria-labelledby="modal-app-label">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title">QCC App</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <p>Text</p>
         <iframe src="http://206.167.180.241:3838/qcc/" height='80%' width='80%' frameborder='0'></iframe>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         <a class="btn btn-primary" href="http://206.167.180.241:3838/qcc/" target="_blank">Open in new window <i class="fa fa-external-link" aria-hidden="true"></i></a>
       </div>
     </div>

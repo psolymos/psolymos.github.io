@@ -80,7 +80,7 @@ abline(h=cf["late2017", "K"], col=2, lty=3)
 par(op)
 ```
 
-<img src="{{ site.baseurl }}/images/2018/02/06/pva-3.png" class="img-responsive" alt="PVA">
+<img src="{{ site.baseurl }}/images/2018/02/06/pva-3.png" class="img-fluid" alt="PVA">
 
 Here are the model parameters for the two Ricker models:
 
