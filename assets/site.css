@@ -83,7 +83,7 @@ h2.subtitle { color: var(--muted); font-family: "DM Sans", system-ui, sans-serif
 .footer-content { border-top: 1px solid rgba(255, 255, 255, 0.15); padding-top: 1.5rem; }
 .site-footer img { margin-bottom: 0.6rem; }
 
-.site-hero { --carousel-heading: #cae7df; --carousel-link: #f4abaa; background: radial-gradient(circle at top right, #ee7879, transparent 40%), linear-gradient(135deg, #2a3166, #48518c); color: #fff; margin-top: -76px; padding: 6.25rem 0 2.75rem; }
+.site-hero { --carousel-heading: #cae7df; --carousel-link: #f4abaa; background: radial-gradient(circle at top right, #ee7879, transparent 40%), radial-gradient(circle at bottom left, #cae7df, transparent 38%), linear-gradient(135deg, #2a3166, #48518c); color: #fff; margin-top: -76px; padding: 6.25rem 0 2.75rem; }
 .site-hero h1, .site-hero h2 { color: #fff; }
 .site-hero h2 { font-size: clamp(1.5rem, 3vw, 2.1rem); margin: 0; }
 .site-hero .carousel { margin: 0 auto; max-width: 58rem; padding: 0 5rem 1.75rem; }
