@@ -1,0 +1,18 @@
+{
+  "note": "Mock data for the interactive bibliometrics demonstration; it does not represent current Google Scholar figures.",
+  "yearly": [
+    { "year": 2015, "molluscs": 1, "other": 2, "citationsMolluscs": 8, "citationsOther": 24 },
+    { "year": 2016, "molluscs": 2, "other": 3, "citationsMolluscs": 16, "citationsOther": 46 },
+    { "year": 2017, "molluscs": 1, "other": 4, "citationsMolluscs": 21, "citationsOther": 75 },
+    { "year": 2018, "molluscs": 2, "other": 4, "citationsMolluscs": 30, "citationsOther": 108 },
+    { "year": 2019, "molluscs": 1, "other": 5, "citationsMolluscs": 37, "citationsOther": 154 },
+    { "year": 2020, "molluscs": 2, "other": 5, "citationsMolluscs": 48, "citationsOther": 201 },
+    { "year": 2021, "molluscs": 1, "other": 6, "citationsMolluscs": 55, "citationsOther": 267 },
+    { "year": 2022, "molluscs": 2, "other": 6, "citationsMolluscs": 71, "citationsOther": 329 },
+    { "year": 2023, "molluscs": 1, "other": 7, "citationsMolluscs": 84, "citationsOther": 401 },
+    { "year": 2024, "molluscs": 2, "other": 7, "citationsMolluscs": 96, "citationsOther": 485 },
+    { "year": 2025, "molluscs": 1, "other": 6, "citationsMolluscs": 103, "citationsOther": 541 }
+  ],
+  "rankedCitations": [141, 122, 109, 97, 85, 73, 65, 58, 52, 47, 42, 38, 34, 31, 28, 25, 23, 21, 19, 18, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7],
+  "hIndex": 18
+}
