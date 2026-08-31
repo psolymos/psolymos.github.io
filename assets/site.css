@@ -101,7 +101,9 @@ h2.subtitle { color: var(--muted); font-family: "DM Sans", system-ui, sans-serif
 :root[data-theme="dark"] .post-card .card-header { background: var(--surface); }
 :root[data-theme="dark"] .list-group-item { --bs-list-group-bg: var(--surface); --bs-list-group-color: var(--ink); --bs-list-group-action-hover-bg: #434b82; --bs-list-group-action-hover-color: var(--ink); }
 :root[data-theme="dark"] .featured-post { background: linear-gradient(135deg, #3e4781, #2a3166); border-color: #cae7df; }
-:root[data-theme="dark"] .well .text-black { color: var(--ink) !important; }
+:root[data-theme="dark"] .well { background: var(--surface); color: var(--ink); }
+:root[data-theme="dark"] .well p, :root[data-theme="dark"] .well li, :root[data-theme="dark"] .well small { color: var(--ink); }
+:root[data-theme="dark"] .text-black { color: var(--ink) !important; }
 :root[data-theme="dark"] .site-main pre { background: #100e1a; }
 :root[data-theme="dark"] .tag-badge { background: #cae7df; color: #2a3166; }
 :root[data-theme="dark"] .tag-badge:hover { background: #f4abaa; color: #2a3166; }
