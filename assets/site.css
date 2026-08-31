@@ -94,8 +94,9 @@ h2.subtitle { color: var(--muted); font-family: "DM Sans", system-ui, sans-serif
 .site-hero .carousel h1 a:hover { color: #fff; }
 .carousel-excerpt { color: #fff; line-height: 1.6; margin: 0 auto 1.25rem; max-width: 46rem; }
 .carousel-excerpt p { margin-bottom: 0; }
-.carousel-link { color: var(--carousel-link); display: inline-block; font-weight: 700; margin: 0 0.45rem; }
-.carousel-link:hover { color: #fff; }
+.site-hero .carousel .carousel-excerpt a { color: var(--carousel-link); }
+.site-hero .carousel .carousel-link { color: var(--carousel-link); display: inline-block; font-weight: 700; margin: 0 0.45rem; }
+.site-hero .carousel .carousel-excerpt a:hover, .site-hero .carousel .carousel-link:hover { color: #fff; }
 .site-hero .carousel-indicators { bottom: -0.25rem; margin-bottom: 0; }
 .site-hero .carousel-indicators button { background-color: #cae7df; height: 0.25rem; width: 1.5rem; }
 .site-hero .carousel-control-next, .site-hero .carousel-control-prev { opacity: 1; width: 4rem; }
@@ -105,6 +106,8 @@ h2.subtitle { color: var(--muted); font-family: "DM Sans", system-ui, sans-serif
 .post-card .card-header { background: #fff; border-bottom: 1px solid var(--line); padding: 1rem 1.25rem; }
 .post-card .card-body { padding: 1rem 1.25rem; }
 .post-card h4 { font-size: 1.35rem; margin: 0 0 0.7rem; }
+.post-card a, .featured-post a { color: var(--brand); }
+.post-card a:hover, .featured-post a:hover { color: var(--brand-dark); }
 .list-group-item { border-color: var(--line); padding: 0.9rem 1rem; }
 .papers-actions { margin-bottom: 2rem; }
 .papers-actions .btn { border-radius: 0.5rem; font-weight: 600; }
