@@ -32,7 +32,7 @@ excerpt: The personal website of Peter Solymos.
           <div class="carousel-content">
             <p class="carousel-kicker"><i class="fa fa-pencil" aria-hidden="true"></i> Latest post</p>
             <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-            <div class="carousel-excerpt">{{ post.excerpt }}</div>
+            <div class="carousel-excerpt">{{ post.excerpt | strip_html }}</div>
             <a class="carousel-link" href="{{ site.baseurl }}{{ post.url }}">Read post <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
           </div>
         </article>
