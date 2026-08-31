@@ -41,7 +41,7 @@
             </ul></nav>
             {% endif %}
             {% if page.disqus %}{% include _comments.html %}{% endif %}
-        </div>
+          </article>
         <aside class="col-12 col-lg-4 sidebar">
         <p class="sidebar-intro">{{ site.description }}</p>
         <!-- <center>
@@ -67,7 +67,7 @@
         <ul class="fa-ul">
           {% for post in site.posts limit:6 %}
           {% unless post.promote %}
-          <li><i class="fa-li fa fa-chevron-right text-white"></i><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+          <li><i class="fa-li fa fa-chevron-right"></i><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
           {% endunless %}
           {% endfor %}
         </ul>
@@ -87,7 +87,7 @@
             {% if sameTagCount >= 1 %}
               {% assign similarPostCount = similarPostCount | plus: 1 %}
                 {% if similarPostCount <= 5 %}
-                  <li><i class="fa-li fa fa-chevron-right text-white"></i><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+                  <li><i class="fa-li fa fa-chevron-right"></i><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
                 {% endif %}
             {% endif %}
         {% endfor %}
@@ -103,10 +103,10 @@
         </p>
 <!-- links -->
         <ul class="fa-ul">
-          <li><i class="fa-li fa fa-external-link-square text-white"></i><a href="https://hosting.analythium.io/">Hosting Shiny Apps</a></li>
-          <li><i class="fa-li fa fa-external-link-square text-white"></i><a href="http://datacloning.org/">DataCloning.org</a></li>
-          <li><i class="fa-li fa fa-external-link-square text-white"></i><a href="http://www.r-bloggers.com/">R-bloggers.com</a></li>
-          <li><i class="fa-li fa fa-external-link-square text-white"></i><a href="https://www.r-users.com/">R-users.com</a></li>
+          <li><i class="fa-li fa fa-external-link-square"></i><a href="https://hosting.analythium.io/">Hosting Shiny Apps</a></li>
+          <li><i class="fa-li fa fa-external-link-square"></i><a href="http://datacloning.org/">DataCloning.org</a></li>
+          <li><i class="fa-li fa fa-external-link-square"></i><a href="http://www.r-bloggers.com/">R-bloggers.com</a></li>
+          <li><i class="fa-li fa fa-external-link-square"></i><a href="https://www.r-users.com/">R-users.com</a></li>
         </ul>
 <!-- ads -->
         {% if site.ads %}

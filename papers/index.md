@@ -6,7 +6,7 @@ years: [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 
 excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
 ---
 
-<div class="btn-group btn-group-justified">
+<div class="btn-toolbar papers-actions" role="toolbar" aria-label="Publication links">
 
   <!-- <div class="btn-group">
     <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Bibliometrics <i class="fa fa-caret-down" aria-hidden="true"></i></a>
@@ -21,8 +21,8 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
       <li><a href="{{ site.baseurl }}/papers/bibliometrics.html">Charts</a></li>
      </ul>
   </div> -->
-  <div class="btn-group">
-    <a href="{{ site.baseurl }}/papers/bibliometrics.html" class="btn btn-default">Bibliometrics</a>
+  <div class="btn-group me-2 mb-2">
+    <a href="{{ site.baseurl }}/papers/bibliometrics.html" class="btn btn-outline-primary">Bibliometrics</a>
   </div>
 
   <!-- <div class="btn-group">
@@ -33,15 +33,17 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
       <li><a href="https://sites.google.com/site/psolymosold/publications/nonrefereed">Not peer-reviewed stuff</a></li>
      </ul>
   </div> -->
-  <div class="btn-group">
-    <a href="https://drive.google.com/folderview?id=0B-q59n6LIwYPflA4aHVydEx5aFY5MUZtdFRvcG11NWNUc3ljOTdsSlFSSHRDdHJVMDEyWXc&usp=sharing" class="btn btn-default">Browse fulltext <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+  <div class="btn-group me-2 mb-2">
+    <a href="https://drive.google.com/folderview?id=0B-q59n6LIwYPflA4aHVydEx5aFY5MUZtdFRvcG11NWNUc3ljOTdsSlFSSHRDdHJVMDEyWXc&usp=sharing" class="btn btn-outline-primary">Browse fulltext <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
   </div>
 
-  <div class="btn-group">
-    <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Jump to a year <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-    <ul class="dropdown-menu">
-      {% for yr in page.years %}<li><a href="#{{ yr }}">{{ yr }}</a></li> {% endfor %}
-     </ul>
+  <div class="btn-group mb-2">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Jump to a year
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+      {% for yr in page.years %}<li><a class="dropdown-item" href="#{{ yr }}">{{ yr }}</a></li>{% endfor %}
+    </ul>
   </div>
 
 </div>

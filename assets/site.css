@@ -71,6 +71,8 @@ h2.subtitle { color: var(--muted); font-family: "DM Sans", system-ui, sans-serif
 .post-card .card-body { padding: 1.25rem 1.5rem; }
 .post-card h4 { font-size: 1.35rem; margin: 0 0 0.7rem; }
 .list-group-item { border-color: var(--line); padding: 0.9rem 1rem; }
+.papers-actions { margin-bottom: 2rem; }
+.papers-actions .btn { border-radius: 0.5rem; font-weight: 600; }
 
 @media (max-width: 991.98px) { .site-nav .navbar-nav { padding: 0.75rem 0; } .site-main { padding-top: 2.5rem; } }
 @media (max-width: 575.98px) { body { font-size: 1rem; } .site-hero { padding: 7rem 0 3.5rem; } .site-main { padding-top: 2rem; } }
