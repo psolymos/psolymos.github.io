@@ -1,4 +1,5 @@
 library(dplyr)
+library(tidyr)
 library(ggplot2)
 library(scholar)
 
@@ -107,6 +108,56 @@ cd <- cd |>
     arrange(year)
 cd$n <- 1:nrow(cd)
 
+# citations over time
+
+z2 <- data.frame(
+    z,
+    birds = cd$birds[match(z$pubid, cd$pubid)],
+    molluscs = cd$molluscs[match(z$pubid, cd$pubid)],
+    software = cd$software[match(z$pubid, cd$pubid)]
+)
+
+# h-index
+
+q <- data.frame(cites = rev(sort(p$cites)), id = 1:nrow(p))
+ri <- which.min(abs(q$cites - q$id))
+(h <- (q$id[ri] + q$cites[ri]) / 2)
+
+# json blob
+
+d1 <- cd |>
+    mutate(Topic = ifelse(molluscs, "Molluscs", "Other")) |>
+    group_by(year, Topic) |>
+    summarise(n = n(), .groups = "drop_last") |>
+    pivot_wider(names_from = Topic, values_from = n) |>
+    rename(molluscs = Molluscs, other = Other)
+d2 <- z2 |>
+    mutate(Topic = ifelse(molluscs, "Molluscs", "Other")) |>
+    group_by(year, Topic) |>
+    summarise(citations = sum(cites), .groups = "drop_last") |>
+    pivot_wider(names_from = Topic, values_from = citations) |>
+    rename(citationsMolluscs = Molluscs, citationsOther = Other)
+d12 <- data.frame(
+    year = sort(unique(c(d1$year, d2$year)))
+) |>
+    left_join(d1, by = "year") |>
+    left_join(d2, by = "year")
+d12[is.na(d12)] <- 0
+
+j <- list(
+    note = paste0("Last updated: ", Sys.Date()),
+    yearly = d12,
+    rankedCitations = q$cites,
+    hIndex = h
+)
+jsonlite::toJSON(
+    j,
+    auto_unbox = TRUE
+) |>
+    writeLines("papers/bibliometrics.json")
+
+# plots
+
 p1 <- cd |>
     mutate(Topic = ifelse(molluscs, "Molluscs", "Other")) |>
     group_by(year, Topic) |>
@@ -130,14 +181,6 @@ p2 <- cd |>
     ) +
     theme_bw() +
     labs(x = "Year", y = "Cumulative number of publications")
-
-# plot citations over time
-z2 <- data.frame(
-    z,
-    birds = cd$birds[match(z$pubid, cd$pubid)],
-    molluscs = cd$molluscs[match(z$pubid, cd$pubid)],
-    software = cd$software[match(z$pubid, cd$pubid)]
-)
 
 p3 <- z2 |>
     mutate(Topic = ifelse(molluscs, "Molluscs", "Other")) |>
@@ -184,10 +227,6 @@ p4 <- z2 |>
     theme_bw() +
     labs(x = "Year", y = "Cumulative number of citations")
 
-# h-index
-q <- data.frame(cites = rev(sort(p$cites)), id = 1:nrow(p))
-ri <- which.min(abs(q$cites - q$id))
-(h <- (q$id[ri] + q$cites[ri]) / 2)
 p5 <- q |>
     ggplot(aes(id, cites)) +
     geom_step() +

@@ -124,7 +124,7 @@ excerpt: Interactive mock bibliometrics for publications by Peter Solymos.
       }));
     };
 
-    fetch("{{ site.baseurl }}/papers/bibliometrics2.json")
+    fetch("{{ site.baseurl }}/papers/bibliometrics.json")
       .then((response) => {
         if (!response.ok) throw new Error("Unable to load chart data");
         return response.json();
