@@ -33,7 +33,7 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
 {% assign max_year = sorted_years | last %}
 
 {% capture all_labels_str %}{% for ms in site.data.papers %}{% for label in ms.labels %}{{ label }}|{% endfor %}{% endfor %}{% endcapture %}
-{% assign all_labels = all_labels_str | split: "|" | uniq | sort %}
+{% assign all_labels = all_labels_str | split: "|" | uniq | sort_natural %}
 
 {% capture frequent_labels_str %}{% for label in all_labels %}{% unless label == "" %}{% assign label_count = 0 %}{% for ms in site.data.papers %}{% if ms.labels contains label %}{% assign label_count = label_count | plus: 1 %}{% endif %}{% endfor %}{% if label_count >= page.min_mention %}{{ label }}|{% endif %}{% endunless %}{% endfor %}{% endcapture %}
 {% assign frequent_labels = frequent_labels_str | split: "|" %}
