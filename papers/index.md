@@ -3,7 +3,7 @@ title: Papers
 description: "A list of peer-reviewed publications by Peter Solymos."
 layout: default
 years: [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2002, 2001, 2000, 1999, 1997, 1996]
-min_mention: 2
+min_mention: 3
 excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
 ---
 
@@ -117,6 +117,14 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
       labelCount.textContent = ` (${selectedLabels.size} ${topicWord} and ${matchCount} ${paperWord} selected)`;
     }
 
+    function clearLabelSelection() {
+      selectedLabels.clear();
+      labelButtons.forEach((button) => {
+        button.classList.remove("active");
+        button.setAttribute("aria-pressed", "false");
+      });
+    }
+
     function applyFilters() {
       const minVal = Number(minInput.value);
       const maxVal = Number(maxInput.value);
@@ -175,12 +183,14 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
       if (Number(minInput.value) > Number(maxInput.value)) {
         minInput.value = maxInput.value;
       }
+      clearLabelSelection();
       applyFilters();
     });
     maxInput.addEventListener("input", () => {
       if (Number(maxInput.value) < Number(minInput.value)) {
         maxInput.value = minInput.value;
       }
+      clearLabelSelection();
       applyFilters();
     });
 
@@ -199,11 +209,7 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
     });
 
     clearButton.addEventListener("click", () => {
-      selectedLabels.clear();
-      labelButtons.forEach((button) => {
-        button.classList.remove("active");
-        button.setAttribute("aria-pressed", "false");
-      });
+      clearLabelSelection();
       applyFilters();
     });
 
