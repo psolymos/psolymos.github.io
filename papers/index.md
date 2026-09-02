@@ -66,7 +66,7 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
     <button type="button" class="label-filter-toggle" data-bs-toggle="collapse" data-bs-target="#labelFilterCollapse" aria-expanded="false" aria-controls="labelFilterCollapse">
       <i class="fa fa-chevron-right" aria-hidden="true"></i> Filter by topic<span class="label-filter-count" id="labelFilterCount"></span>
     </button>
-    <button type="button" class="btn btn-link btn-sm p-0" id="labelFilterClear">Clear</button>
+    <button type="button" class="btn btn-link btn-sm p-0" id="labelFilterClear" hidden>Clear selected topics</button>
   </div>
   <div class="collapse" id="labelFilterCollapse">
     <div class="label-filter-buttons" role="group" aria-label="Filter papers by topic">
@@ -217,9 +217,11 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
     const labelChevron = document.querySelector(".label-filter-toggle .fa");
     labelCollapse.addEventListener("shown.bs.collapse", () => {
       labelChevron.classList.replace("fa-chevron-right", "fa-chevron-down");
+      clearButton.hidden = false;
     });
     labelCollapse.addEventListener("hidden.bs.collapse", () => {
       labelChevron.classList.replace("fa-chevron-down", "fa-chevron-right");
+      clearButton.hidden = true;
     });
 
     applyFilters();
