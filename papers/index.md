@@ -52,9 +52,12 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
 {% assign min_year = sorted_years | first %}
 {% assign max_year = sorted_years | last %}
 
-<div class="year-range-filter">
+{% capture all_labels_str %}{% for ms in site.data.papers %}{% for label in ms.labels %}{{ label }}|{% endfor %}{% endfor %}{% endcapture %}
+{% assign all_labels = all_labels_str | split: "|" | uniq | sort %}
+
+<div class="papers-filter">
   <div class="year-range-filter-header">
-    <label class="form-label mb-0" for="yearRangeMin">Filter by year range</label>
+    <label class="form-label mb-0" for="yearRangeMin">Filter by year</label>
     <span class="year-range-filter-value"><span id="yearRangeMinLabel">{{ min_year }}</span>&ndash;<span id="yearRangeMaxLabel">{{ max_year }}</span></span>
   </div>
   <div class="year-range-slider">
@@ -63,12 +66,9 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
     <input type="range" id="yearRangeMin" min="{{ min_year }}" max="{{ max_year }}" value="{{ min_year }}" step="1" aria-label="Minimum year">
     <input type="range" id="yearRangeMax" min="{{ min_year }}" max="{{ max_year }}" value="{{ max_year }}" step="1" aria-label="Maximum year">
   </div>
-</div>
 
-{% capture all_labels_str %}{% for ms in site.data.papers %}{% for label in ms.labels %}{{ label }}|{% endfor %}{% endfor %}{% endcapture %}
-{% assign all_labels = all_labels_str | split: "|" | uniq | sort %}
+  <hr class="papers-filter-divider">
 
-<div class="label-filter">
   <div class="label-filter-header">
     <button type="button" class="label-filter-toggle" data-bs-toggle="collapse" data-bs-target="#labelFilterCollapse" aria-expanded="false" aria-controls="labelFilterCollapse">
       <i class="fa fa-chevron-right" aria-hidden="true"></i> Filter by topic<span class="label-filter-count" id="labelFilterCount"></span>
@@ -82,6 +82,7 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
     </div>
   </div>
 </div>
+
 
 {% for yr in page.years %}
 <div class="papers-year" data-year="{{ yr }}">
@@ -181,6 +182,15 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
       });
       updateLabelCount();
       applyFilters();
+    });
+
+    const labelCollapse = document.getElementById("labelFilterCollapse");
+    const labelChevron = document.querySelector(".label-filter-toggle .fa");
+    labelCollapse.addEventListener("shown.bs.collapse", () => {
+      labelChevron.classList.replace("fa-chevron-right", "fa-chevron-down");
+    });
+    labelCollapse.addEventListener("hidden.bs.collapse", () => {
+      labelChevron.classList.replace("fa-chevron-down", "fa-chevron-right");
     });
 
     applyFilters();
