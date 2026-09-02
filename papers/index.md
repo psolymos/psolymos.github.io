@@ -3,6 +3,7 @@ title: Papers
 description: "A list of peer-reviewed publications by Peter Solymos."
 layout: default
 years: [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2002, 2001, 2000, 1999, 1997, 1996]
+min_mention: 2
 excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
 ---
 
@@ -34,25 +35,29 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
 {% capture all_labels_str %}{% for ms in site.data.papers %}{% for label in ms.labels %}{{ label }}|{% endfor %}{% endfor %}{% endcapture %}
 {% assign all_labels = all_labels_str | split: "|" | uniq | sort %}
 
+{% capture frequent_labels_str %}{% for label in all_labels %}{% unless label == "" %}{% assign label_count = 0 %}{% for ms in site.data.papers %}{% if ms.labels contains label %}{% assign label_count = label_count | plus: 1 %}{% endif %}{% endfor %}{% if label_count >= page.min_mention %}{{ label }}|{% endif %}{% endunless %}{% endfor %}{% endcapture %}
+{% assign frequent_labels = frequent_labels_str | split: "|" %}
+
 <div class="papers-filter">
 
-  <div class="btn-group me-2 mb-2">
-    <a href="{{ site.baseurl }}/papers/bibliometrics.html" class="btn btn-outline-primary">Bibliometrics</a>
-  </div>
+  <div class="papers-filter-top">
+    <div class="btn-group papers-filter-actions">
+      <a href="{{ site.baseurl }}/papers/bibliometrics.html" class="btn btn-outline-primary btn-sm">Bibliometrics</a>
+      <a href="https://drive.google.com/folderview?id=0B-q59n6LIwYPflA4aHVydEx5aFY5MUZtdFRvcG11NWNUc3ljOTdsSlFSSHRDdHJVMDEyWXc&usp=sharing" class="btn btn-outline-primary btn-sm">Browse fulltext <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+    </div>
 
-  <div class="btn-group me-2 mb-2">
-    <a href="https://drive.google.com/folderview?id=0B-q59n6LIwYPflA4aHVydEx5aFY5MUZtdFRvcG11NWNUc3ljOTdsSlFSSHRDdHJVMDEyWXc&usp=sharing" class="btn btn-outline-primary">Browse fulltext <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
-  </div>
-
-  <div class="year-range-filter-header">
-    <label class="form-label mb-0" for="yearRangeMin">Filter by year</label>
-    <span class="year-range-filter-value"><span id="yearRangeMinLabel">{{ min_year }}</span>&ndash;<span id="yearRangeMaxLabel">{{ max_year }}</span></span>
-  </div>
-  <div class="year-range-slider">
-    <div class="year-range-track"></div>
-    <div class="year-range-progress" id="yearRangeProgress"></div>
-    <input type="range" id="yearRangeMin" min="{{ min_year }}" max="{{ max_year }}" value="{{ min_year }}" step="1" aria-label="Minimum year">
-    <input type="range" id="yearRangeMax" min="{{ min_year }}" max="{{ max_year }}" value="{{ max_year }}" step="1" aria-label="Maximum year">
+    <div class="year-range-filter">
+      <div class="year-range-filter-header">
+        <label class="form-label mb-0" for="yearRangeMin">Filter by year</label>
+        <span class="year-range-filter-value"><span id="yearRangeMinLabel">{{ min_year }}</span>&ndash;<span id="yearRangeMaxLabel">{{ max_year }}</span></span>
+      </div>
+      <div class="year-range-slider">
+        <div class="year-range-track"></div>
+        <div class="year-range-progress" id="yearRangeProgress"></div>
+        <input type="range" id="yearRangeMin" min="{{ min_year }}" max="{{ max_year }}" value="{{ min_year }}" step="1" aria-label="Minimum year">
+        <input type="range" id="yearRangeMax" min="{{ min_year }}" max="{{ max_year }}" value="{{ max_year }}" step="1" aria-label="Maximum year">
+      </div>
+    </div>
   </div>
 
   <hr class="papers-filter-divider">
@@ -65,7 +70,7 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
   </div>
   <div class="collapse" id="labelFilterCollapse">
     <div class="label-filter-buttons" role="group" aria-label="Filter papers by topic">
-      {% for label in all_labels %}{% unless label == "" %}<button type="button" class="btn btn-outline-secondary label-btn" data-label="{{ label }}" aria-pressed="false">{{ label | capitalize }}</button>
+      {% for label in frequent_labels %}{% unless label == "" %}<button type="button" class="btn btn-outline-secondary label-btn" data-label="{{ label }}" aria-pressed="false">{{ label | capitalize }}</button>
       {% endunless %}{% endfor %}
     </div>
   </div>
@@ -121,6 +126,28 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
       const right = ((maxVal - rangeMin) / (rangeMax - rangeMin)) * 100;
       progress.style.left = left + "%";
       progress.style.width = (right - left) + "%";
+
+      const availableLabels = new Set();
+      yearBlocks.forEach((block) => {
+        const yr = Number(block.dataset.year);
+        if (yr < minVal || yr > maxVal) return;
+        block.querySelectorAll("li[data-labels]").forEach((item) => {
+          (item.dataset.labels ? item.dataset.labels.split("|") : []).forEach((label) => {
+            if (label) availableLabels.add(label);
+          });
+        });
+      });
+
+      labelButtons.forEach((button) => {
+        const label = button.dataset.label;
+        const available = availableLabels.has(label);
+        button.hidden = !available;
+        if (!available && selectedLabels.has(label)) {
+          selectedLabels.delete(label);
+          button.classList.remove("active");
+          button.setAttribute("aria-pressed", "false");
+        }
+      });
 
       let totalMatches = 0;
       yearBlocks.forEach((block) => {

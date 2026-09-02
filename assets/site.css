@@ -115,6 +115,9 @@ h2.subtitle { color: var(--muted); font-family: "DM Sans", system-ui, sans-serif
 
 .papers-filter { background: var(--surface); border: 1px solid var(--line); border-radius: 0.75rem; margin-bottom: 2.5rem; padding: 1rem 1.25rem; width: 100%; }
 .papers-filter-divider { border-top: 1px solid var(--line); margin: 0.9rem 0; opacity: 1; }
+.papers-filter-top { align-items: center; display: flex; flex-wrap: wrap; gap: 1rem 1.5rem; }
+.papers-filter-actions { flex-shrink: 0; }
+.year-range-filter { flex: 1 1 18rem; min-width: 16rem; }
 .year-range-filter-header { align-items: center; display: flex; justify-content: space-between; margin-bottom: 0.75rem; }
 .year-range-filter-value { color: var(--muted); font-weight: 700; }
 .year-range-slider { height: 1.5rem; position: relative; }
