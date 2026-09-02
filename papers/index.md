@@ -6,33 +6,12 @@ years: [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 
 excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
 ---
 
-<div class="btn-toolbar papers-actions" role="toolbar" aria-label="Publication links">
+<!-- <div class="btn-toolbar papers-actions" role="toolbar" aria-label="Publication links">
 
-  <!-- <div class="btn-group">
-    <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Bibliometrics <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-    <ul class="dropdown-menu">
-      <li><a href="http://scholar.google.ca/citations?hl=en&user=PfC17QsAAAAJ&view_op=list_works&pagesize=100">Google Scholar</a></li>
-      <li><a href="http://orcid.org/0000-0001-7337-1740">ORCID</a></li>
-      <li><a href="https://vm.mtmt.hu/www/index.php?AuthorID=10000580">MTMT</a></li>
-      <li><a href="http://www.researcherid.com/rid/B-2775-2008">ResearcherID</a></li>
-      <li><a href="http://www.scopus.com/authid/detail.url?authorId=23104106300">ScopusID</a></li>
-      <li><a href="https://academic.microsoft.com/#/detail/1972292879">Microsoft Academic</a></li>
-      <li><a href="https://impactstory.org/u/0000-0001-7337-1740">Impactstory</a></li>
-      <li><a href="{{ site.baseurl }}/papers/bibliometrics.html">Charts</a></li>
-     </ul>
-  </div> -->
   <div class="btn-group me-2 mb-2">
     <a href="{{ site.baseurl }}/papers/bibliometrics.html" class="btn btn-outline-primary">Bibliometrics</a>
   </div>
 
-  <!-- <div class="btn-group">
-    <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Resources <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-    <ul class="dropdown-menu">
-      <li><a href="https://publons.com/a/534081/">Publons</a></li>
-      <li><a href="https://drive.google.com/folderview?id=0B-q59n6LIwYPflA4aHVydEx5aFY5MUZtdFRvcG11NWNUc3ljOTdsSlFSSHRDdHJVMDEyWXc&usp=sharing">Browse <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
-      <li><a href="https://sites.google.com/site/psolymosold/publications/nonrefereed">Not peer-reviewed stuff</a></li>
-     </ul>
-  </div> -->
   <div class="btn-group me-2 mb-2">
     <a href="https://drive.google.com/folderview?id=0B-q59n6LIwYPflA4aHVydEx5aFY5MUZtdFRvcG11NWNUc3ljOTdsSlFSSHRDdHJVMDEyWXc&usp=sharing" class="btn btn-outline-primary">Browse fulltext <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
   </div>
@@ -46,7 +25,7 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
     </ul>
   </div>
 
-</div>
+</div> -->
 
 {% assign sorted_years = page.years | sort %}
 {% assign min_year = sorted_years | first %}
@@ -56,6 +35,15 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
 {% assign all_labels = all_labels_str | split: "|" | uniq | sort %}
 
 <div class="papers-filter">
+
+  <div class="btn-group me-2 mb-2">
+    <a href="{{ site.baseurl }}/papers/bibliometrics.html" class="btn btn-outline-primary">Bibliometrics</a>
+  </div>
+
+  <div class="btn-group me-2 mb-2">
+    <a href="https://drive.google.com/folderview?id=0B-q59n6LIwYPflA4aHVydEx5aFY5MUZtdFRvcG11NWNUc3ljOTdsSlFSSHRDdHJVMDEyWXc&usp=sharing" class="btn btn-outline-primary">Browse fulltext <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+  </div>
+
   <div class="year-range-filter-header">
     <label class="form-label mb-0" for="yearRangeMin">Filter by year</label>
     <span class="year-range-filter-value"><span id="yearRangeMinLabel">{{ min_year }}</span>&ndash;<span id="yearRangeMaxLabel">{{ max_year }}</span></span>

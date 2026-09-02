@@ -113,7 +113,7 @@ h2.subtitle { color: var(--muted); font-family: "DM Sans", system-ui, sans-serif
 .papers-actions .btn { border-radius: 0.5rem; font-weight: 600; }
 .btn-primary { --bs-btn-bg: #2a3166; --bs-btn-border-color: #2a3166; --bs-btn-hover-bg: #1e244e; --bs-btn-hover-border-color: #1e244e; --bs-btn-active-bg: #1e244e; --bs-btn-active-border-color: #1e244e; }
 
-.papers-filter { background: var(--surface); border: 1px solid var(--line); border-radius: 0.75rem; margin-bottom: 2.5rem; max-width: 30rem; padding: 1rem 1.25rem; }
+.papers-filter { background: var(--surface); border: 1px solid var(--line); border-radius: 0.75rem; margin-bottom: 2.5rem; padding: 1rem 1.25rem; width: 100%; }
 .papers-filter-divider { border-top: 1px solid var(--line); margin: 0.9rem 0; opacity: 1; }
 .year-range-filter-header { align-items: center; display: flex; justify-content: space-between; margin-bottom: 0.75rem; }
 .year-range-filter-value { color: var(--muted); font-weight: 700; }
