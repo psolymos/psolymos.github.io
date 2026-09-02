@@ -102,8 +102,14 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
     const rangeMax = Number(minInput.max);
     const selectedLabels = new Set();
 
-    function updateLabelCount() {
-      labelCount.textContent = selectedLabels.size ? ` (${selectedLabels.size})` : "";
+    function updateLabelCount(matchCount) {
+      if (selectedLabels.size === 0) {
+        labelCount.textContent = "";
+        return;
+      }
+      const topicWord = selectedLabels.size === 1 ? "topic" : "topics";
+      const paperWord = matchCount === 1 ? "publication" : "publications";
+      labelCount.textContent = ` (${selectedLabels.size} ${topicWord} and ${matchCount} ${paperWord} selected)`;
     }
 
     function applyFilters() {
@@ -116,6 +122,7 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
       progress.style.left = left + "%";
       progress.style.width = (right - left) + "%";
 
+      let totalMatches = 0;
       yearBlocks.forEach((block) => {
         const yr = Number(block.dataset.year);
         if (yr < minVal || yr > maxVal) {
@@ -131,7 +138,10 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
           if (visible) visibleCount += 1;
         });
         block.hidden = visibleCount === 0;
+        totalMatches += visibleCount;
       });
+
+      updateLabelCount(totalMatches);
     }
 
     minInput.addEventListener("input", () => {
@@ -157,7 +167,6 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
         } else {
           selectedLabels.delete(label);
         }
-        updateLabelCount();
         applyFilters();
       });
     });
@@ -168,7 +177,6 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
         button.classList.remove("active");
         button.setAttribute("aria-pressed", "false");
       });
-      updateLabelCount();
       applyFilters();
     });
 
