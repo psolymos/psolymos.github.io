@@ -119,6 +119,7 @@ h2.subtitle { color: var(--muted); font-family: "DM Sans", system-ui, sans-serif
 .papers-filter-actions { flex-shrink: 0; }
 .year-range-filter { flex: 1 1 18rem; min-width: 16rem; }
 .year-range-filter-header { align-items: center; display: flex; justify-content: space-between; margin-bottom: 0.75rem; }
+.year-range-filter-header .form-label { font-size: 0.85rem; font-weight: 600; }
 .year-range-filter-value { color: var(--muted); font-weight: 700; }
 .year-range-slider { height: 1.5rem; position: relative; }
 .year-range-track, .year-range-progress { border-radius: 999px; height: 0.35rem; position: absolute; top: 0.575rem; }

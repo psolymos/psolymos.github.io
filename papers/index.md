@@ -7,27 +7,6 @@ min_mention: 3
 excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
 ---
 
-<!-- <div class="btn-toolbar papers-actions" role="toolbar" aria-label="Publication links">
-
-  <div class="btn-group me-2 mb-2">
-    <a href="{{ site.baseurl }}/papers/bibliometrics.html" class="btn btn-outline-primary">Bibliometrics</a>
-  </div>
-
-  <div class="btn-group me-2 mb-2">
-    <a href="https://drive.google.com/folderview?id=0B-q59n6LIwYPflA4aHVydEx5aFY5MUZtdFRvcG11NWNUc3ljOTdsSlFSSHRDdHJVMDEyWXc&usp=sharing" class="btn btn-outline-primary">Browse fulltext <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
-  </div>
-
-  <div class="btn-group mb-2">
-    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Jump to a year
-    </button>
-    <ul class="dropdown-menu dropdown-menu-end">
-      {% for yr in page.years %}<li><a class="dropdown-item" href="#{{ yr }}">{{ yr }}</a></li>{% endfor %}
-    </ul>
-  </div>
-
-</div> -->
-
 {% assign sorted_years = page.years | sort %}
 {% assign min_year = sorted_years | first %}
 {% assign max_year = sorted_years | last %}
