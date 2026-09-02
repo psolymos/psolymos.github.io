@@ -27,7 +27,7 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
 
     <div class="year-range-filter">
       <div class="year-range-filter-header">
-        <label class="form-label mb-0" for="yearRangeMin">Filter by year<span class="label-filter-count" id="labelFilterCount"></span></label>
+        <label class="form-label mb-0" for="yearRangeMin">Filter by year<span class="label-filter-count" id="publicationFilterCount"></span></label>
         <span class="year-range-filter-value"><span id="yearRangeMinLabel">{{ min_year }}</span>&ndash;<span id="yearRangeMaxLabel">{{ max_year }}</span></span>
       </div>
       <div class="year-range-slider">
@@ -43,7 +43,7 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
 
   <div class="label-filter-header">
     <button type="button" class="label-filter-toggle" data-bs-toggle="collapse" data-bs-target="#labelFilterCollapse" aria-expanded="false" aria-controls="labelFilterCollapse">
-      <i class="fa fa-chevron-right" aria-hidden="true"></i> Filter by topic
+      <i class="fa fa-chevron-right" aria-hidden="true"></i> Filter by topic<span class="label-filter-count" id="labelFilterCount"></span>
     </button>
     <button type="button" class="btn btn-link btn-sm p-0" id="labelFilterClear" hidden>Clear selected topics</button>
   </div>
@@ -82,6 +82,7 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
     const labelButtons = document.querySelectorAll(".label-btn");
     const clearButton = document.getElementById("labelFilterClear");
     const labelCount = document.getElementById("labelFilterCount");
+    const publicationCount = document.getElementById("publicationFilterCount");
     const rangeMin = Number(minInput.min);
     const rangeMax = Number(minInput.max);
     const selectedLabels = new Set();
@@ -89,11 +90,12 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
     function updateLabelCount(matchCount) {
       if (selectedLabels.size === 0) {
         labelCount.textContent = "";
-        return;
+      } else {
+        const topicWord = selectedLabels.size === 1 ? "topic" : "topics";
+        labelCount.textContent = ` (${selectedLabels.size} ${topicWord} selected)`;
       }
-      const topicWord = selectedLabels.size === 1 ? "topic" : "topics";
       const paperWord = matchCount === 1 ? "publication" : "publications";
-      labelCount.textContent = ` (${selectedLabels.size} ${topicWord} and ${matchCount} ${paperWord} selected)`;
+      publicationCount.textContent = ` (${matchCount} ${paperWord})`;
     }
 
     function clearLabelSelection() {
