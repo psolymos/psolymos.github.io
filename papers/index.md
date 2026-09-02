@@ -65,13 +65,27 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
   </div>
 </div>
 
+{% capture all_labels_str %}{% for ms in site.data.papers %}{% for label in ms.labels %}{{ label }}|{% endfor %}{% endfor %}{% endcapture %}
+{% assign all_labels = all_labels_str | split: "|" | uniq | sort %}
+
+<div class="label-filter">
+  <div class="year-range-filter-header">
+    <span class="form-label mb-0">Filter by topic</span>
+    <button type="button" class="btn btn-link btn-sm p-0" id="labelFilterClear">Clear</button>
+  </div>
+  <div class="label-filter-buttons" role="group" aria-label="Filter papers by topic">
+    {% for label in all_labels %}{% unless label == "" %}<button type="button" class="btn btn-outline-secondary label-btn" data-label="{{ label }}" aria-pressed="false">{{ label | capitalize }}</button>
+    {% endunless %}{% endfor %}
+  </div>
+</div>
+
 {% for yr in page.years %}
 <div class="papers-year" data-year="{{ yr }}">
 <h2 id="{{ yr }}">{{ yr }}</h2>
 <ul>
   {% for ms in site.data.papers %}
   {% if ms.year == yr %}
-  <li>{{ ms.text }}{% if ms.link %} &mdash; <i class="fa fa-external-link text-orange"></i>&nbsp;<a href="{{ ms.link }}">journal website</a>{% endif %}{% if ms.fulltext %} &mdash; <i class="fa fa-file-pdf-o text-orange"></i>&nbsp;<a href="{{ ms.fulltext }}">fulltext PDF</a>{% endif %}{% if ms.code %} &mdash; <i class="fa fa-file-code-o text-orange"></i>&nbsp;{{ ms.code }}{% endif %}{% if ms.supportinginfo %} &mdash; <i class="fa fa-file-code-o text-orange"></i>&nbsp;{{ ms.supportinginfo }}{% endif %}. {% if ms.citations %}[Citations: <a target="_blank" href="https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=PfC17QsAAAAJ&pagesize=100&authuser=1&citation_for_view=PfC17QsAAAAJ:{{ ms.pubid }}">{{ ms.citations}}</a>] {% endif %}{% if ms.doi %}<div data-badge-popover="bottom" style="display: inline-block;" data-badge-type="4" data-doi="{{ ms.doi }}" data-hide-no-mentions="true" class="altmetric-embed"></div>{% endif %}</li>
+  <li data-labels="{{ ms.labels | join: '|' }}">{{ ms.text }}{% if ms.link %} &mdash; <i class="fa fa-external-link text-orange"></i>&nbsp;<a href="{{ ms.link }}">journal website</a>{% endif %}{% if ms.fulltext %} &mdash; <i class="fa fa-file-pdf-o text-orange"></i>&nbsp;<a href="{{ ms.fulltext }}">fulltext PDF</a>{% endif %}{% if ms.code %} &mdash; <i class="fa fa-file-code-o text-orange"></i>&nbsp;{{ ms.code }}{% endif %}{% if ms.supportinginfo %} &mdash; <i class="fa fa-file-code-o text-orange"></i>&nbsp;{{ ms.supportinginfo }}{% endif %}. {% if ms.citations %}[Citations: <a target="_blank" href="https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=PfC17QsAAAAJ&pagesize=100&authuser=1&citation_for_view=PfC17QsAAAAJ:{{ ms.pubid }}">{{ ms.citations}}</a>] {% endif %}{% if ms.doi %}<div data-badge-popover="bottom" style="display: inline-block;" data-badge-type="4" data-doi="{{ ms.doi }}" data-hide-no-mentions="true" class="altmetric-embed"></div>{% endif %}</li>
   {% endif %}
   {% endfor %}
 </ul>
@@ -88,10 +102,13 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
     const maxLabel = document.getElementById("yearRangeMaxLabel");
     const progress = document.getElementById("yearRangeProgress");
     const yearBlocks = document.querySelectorAll(".papers-year");
+    const labelButtons = document.querySelectorAll(".label-btn");
+    const clearButton = document.getElementById("labelFilterClear");
     const rangeMin = Number(minInput.min);
     const rangeMax = Number(minInput.max);
+    const selectedLabels = new Set();
 
-    function update() {
+    function applyFilters() {
       const minVal = Number(minInput.value);
       const maxVal = Number(maxInput.value);
       minLabel.textContent = minVal;
@@ -100,9 +117,22 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
       const right = ((maxVal - rangeMin) / (rangeMax - rangeMin)) * 100;
       progress.style.left = left + "%";
       progress.style.width = (right - left) + "%";
+
       yearBlocks.forEach((block) => {
         const yr = Number(block.dataset.year);
-        block.hidden = yr < minVal || yr > maxVal;
+        if (yr < minVal || yr > maxVal) {
+          block.hidden = true;
+          return;
+        }
+
+        let visibleCount = 0;
+        block.querySelectorAll("li[data-labels]").forEach((item) => {
+          const itemLabels = item.dataset.labels ? item.dataset.labels.split("|") : [];
+          const visible = selectedLabels.size === 0 || itemLabels.some((label) => selectedLabels.has(label));
+          item.hidden = !visible;
+          if (visible) visibleCount += 1;
+        });
+        block.hidden = visibleCount === 0;
       });
     }
 
@@ -110,15 +140,38 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
       if (Number(minInput.value) > Number(maxInput.value)) {
         minInput.value = maxInput.value;
       }
-      update();
+      applyFilters();
     });
     maxInput.addEventListener("input", () => {
       if (Number(maxInput.value) < Number(minInput.value)) {
         maxInput.value = minInput.value;
       }
-      update();
+      applyFilters();
     });
 
-    update();
+    labelButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const label = button.dataset.label;
+        const isActive = button.classList.toggle("active");
+        button.setAttribute("aria-pressed", String(isActive));
+        if (isActive) {
+          selectedLabels.add(label);
+        } else {
+          selectedLabels.delete(label);
+        }
+        applyFilters();
+      });
+    });
+
+    clearButton.addEventListener("click", () => {
+      selectedLabels.clear();
+      labelButtons.forEach((button) => {
+        button.classList.remove("active");
+        button.setAttribute("aria-pressed", "false");
+      });
+      applyFilters();
+    });
+
+    applyFilters();
   })();
 </script>

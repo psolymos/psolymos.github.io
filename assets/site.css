@@ -126,6 +126,11 @@ h2.subtitle { color: var(--muted); font-family: "DM Sans", system-ui, sans-serif
 .year-range-slider input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; background: var(--brand); border: 2px solid #fff; border-radius: 50%; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25); cursor: pointer; height: 1.1rem; margin-top: 0.2rem; pointer-events: auto; width: 1.1rem; }
 .year-range-slider input[type="range"]::-moz-range-thumb { background: var(--brand); border: 2px solid #fff; border-radius: 50%; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25); cursor: pointer; height: 1.1rem; pointer-events: auto; width: 1.1rem; }
 
+.label-filter { background: var(--surface); border: 1px solid var(--line); border-radius: 0.75rem; margin-bottom: 2.5rem; padding: 1rem 1.25rem; }
+.label-filter-buttons { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.label-btn { border-radius: 999px; font-size: 0.85rem; font-weight: 600; }
+.label-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+
 :root[data-theme="dark"] .site-main th { background: #434b82; }
 :root[data-theme="dark"] .post-card .card-header { background: var(--surface); }
 :root[data-theme="dark"] .list-group-item { --bs-list-group-bg: var(--surface); --bs-list-group-color: var(--ink); --bs-list-group-action-color: var(--ink); --bs-list-group-action-hover-bg: #434b82; --bs-list-group-action-hover-color: var(--ink); }
@@ -144,6 +149,7 @@ h2.subtitle { color: var(--muted); font-family: "DM Sans", system-ui, sans-serif
 :root[data-theme="dark"] .btn-outline-primary { --bs-btn-color: #cae7df; --bs-btn-border-color: #cae7df; --bs-btn-hover-bg: #cae7df; --bs-btn-hover-border-color: #cae7df; --bs-btn-hover-color: #2a3166; }
 :root[data-theme="dark"] .year-range-slider input[type="range"]::-webkit-slider-thumb { background: var(--accent); }
 :root[data-theme="dark"] .year-range-slider input[type="range"]::-moz-range-thumb { background: var(--accent); }
+:root[data-theme="dark"] .label-btn.active { color: #2a3166; }
 
 @media (max-width: 991.98px) { .site-nav .navbar-nav { padding: 0.75rem 0; } .site-main { padding-top: 2.5rem; } }
 @media (max-width: 575.98px) { body { font-size: 1rem; } .site-hero { padding: 5.75rem 0 2rem; } .site-hero .carousel { padding-left: 3.25rem; padding-right: 3.25rem; } .site-hero .carousel-content { min-height: 19rem; } .site-hero .carousel-control-next, .site-hero .carousel-control-prev { width: 2.5rem; } .site-main { padding-top: 2rem; } }
