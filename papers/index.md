@@ -48,7 +48,25 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
 
 </div>
 
+{% assign sorted_years = page.years | sort %}
+{% assign min_year = sorted_years | first %}
+{% assign max_year = sorted_years | last %}
+
+<div class="year-range-filter">
+  <div class="year-range-filter-header">
+    <label class="form-label mb-0" for="yearRangeMin">Filter by year range</label>
+    <span class="year-range-filter-value"><span id="yearRangeMinLabel">{{ min_year }}</span>&ndash;<span id="yearRangeMaxLabel">{{ max_year }}</span></span>
+  </div>
+  <div class="year-range-slider">
+    <div class="year-range-track"></div>
+    <div class="year-range-progress" id="yearRangeProgress"></div>
+    <input type="range" id="yearRangeMin" min="{{ min_year }}" max="{{ max_year }}" value="{{ min_year }}" step="1" aria-label="Minimum year">
+    <input type="range" id="yearRangeMax" min="{{ min_year }}" max="{{ max_year }}" value="{{ max_year }}" step="1" aria-label="Maximum year">
+  </div>
+</div>
+
 {% for yr in page.years %}
+<div class="papers-year" data-year="{{ yr }}">
 <h2 id="{{ yr }}">{{ yr }}</h2>
 <ul>
   {% for ms in site.data.papers %}
@@ -57,4 +75,50 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
   {% endif %}
   {% endfor %}
 </ul>
+</div>
 {% endfor %}
+
+<script>
+  (() => {
+    const minInput = document.getElementById("yearRangeMin");
+    const maxInput = document.getElementById("yearRangeMax");
+    if (!minInput || !maxInput) return;
+
+    const minLabel = document.getElementById("yearRangeMinLabel");
+    const maxLabel = document.getElementById("yearRangeMaxLabel");
+    const progress = document.getElementById("yearRangeProgress");
+    const yearBlocks = document.querySelectorAll(".papers-year");
+    const rangeMin = Number(minInput.min);
+    const rangeMax = Number(minInput.max);
+
+    function update() {
+      const minVal = Number(minInput.value);
+      const maxVal = Number(maxInput.value);
+      minLabel.textContent = minVal;
+      maxLabel.textContent = maxVal;
+      const left = ((minVal - rangeMin) / (rangeMax - rangeMin)) * 100;
+      const right = ((maxVal - rangeMin) / (rangeMax - rangeMin)) * 100;
+      progress.style.left = left + "%";
+      progress.style.width = (right - left) + "%";
+      yearBlocks.forEach((block) => {
+        const yr = Number(block.dataset.year);
+        block.hidden = yr < minVal || yr > maxVal;
+      });
+    }
+
+    minInput.addEventListener("input", () => {
+      if (Number(minInput.value) > Number(maxInput.value)) {
+        minInput.value = maxInput.value;
+      }
+      update();
+    });
+    maxInput.addEventListener("input", () => {
+      if (Number(maxInput.value) < Number(minInput.value)) {
+        maxInput.value = minInput.value;
+      }
+      update();
+    });
+
+    update();
+  })();
+</script>
