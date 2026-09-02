@@ -27,7 +27,7 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
 
     <div class="year-range-filter">
       <div class="year-range-filter-header">
-        <label class="form-label mb-0" for="yearRangeMin">Filter by year</label>
+        <label class="form-label mb-0" for="yearRangeMin">Filter by year<span class="label-filter-count" id="labelFilterCount"></span></label>
         <span class="year-range-filter-value"><span id="yearRangeMinLabel">{{ min_year }}</span>&ndash;<span id="yearRangeMaxLabel">{{ max_year }}</span></span>
       </div>
       <div class="year-range-slider">
@@ -43,7 +43,7 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
 
   <div class="label-filter-header">
     <button type="button" class="label-filter-toggle" data-bs-toggle="collapse" data-bs-target="#labelFilterCollapse" aria-expanded="false" aria-controls="labelFilterCollapse">
-      <i class="fa fa-chevron-right" aria-hidden="true"></i> Filter by topic<span class="label-filter-count" id="labelFilterCount"></span>
+      <i class="fa fa-chevron-right" aria-hidden="true"></i> Filter by topic
     </button>
     <button type="button" class="btn btn-link btn-sm p-0" id="labelFilterClear" hidden>Clear selected topics</button>
   </div>
