@@ -69,13 +69,17 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
 {% assign all_labels = all_labels_str | split: "|" | uniq | sort %}
 
 <div class="label-filter">
-  <div class="year-range-filter-header">
-    <span class="form-label mb-0">Filter by topic</span>
+  <div class="label-filter-header">
+    <button type="button" class="label-filter-toggle" data-bs-toggle="collapse" data-bs-target="#labelFilterCollapse" aria-expanded="false" aria-controls="labelFilterCollapse">
+      <i class="fa fa-chevron-right" aria-hidden="true"></i> Filter by topic<span class="label-filter-count" id="labelFilterCount"></span>
+    </button>
     <button type="button" class="btn btn-link btn-sm p-0" id="labelFilterClear">Clear</button>
   </div>
-  <div class="label-filter-buttons" role="group" aria-label="Filter papers by topic">
-    {% for label in all_labels %}{% unless label == "" %}<button type="button" class="btn btn-outline-secondary label-btn" data-label="{{ label }}" aria-pressed="false">{{ label | capitalize }}</button>
-    {% endunless %}{% endfor %}
+  <div class="collapse" id="labelFilterCollapse">
+    <div class="label-filter-buttons" role="group" aria-label="Filter papers by topic">
+      {% for label in all_labels %}{% unless label == "" %}<button type="button" class="btn btn-outline-secondary label-btn" data-label="{{ label }}" aria-pressed="false">{{ label | capitalize }}</button>
+      {% endunless %}{% endfor %}
+    </div>
   </div>
 </div>
 
@@ -104,9 +108,14 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
     const yearBlocks = document.querySelectorAll(".papers-year");
     const labelButtons = document.querySelectorAll(".label-btn");
     const clearButton = document.getElementById("labelFilterClear");
+    const labelCount = document.getElementById("labelFilterCount");
     const rangeMin = Number(minInput.min);
     const rangeMax = Number(minInput.max);
     const selectedLabels = new Set();
+
+    function updateLabelCount() {
+      labelCount.textContent = selectedLabels.size ? ` (${selectedLabels.size})` : "";
+    }
 
     function applyFilters() {
       const minVal = Number(minInput.value);
@@ -159,6 +168,7 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
         } else {
           selectedLabels.delete(label);
         }
+        updateLabelCount();
         applyFilters();
       });
     });
@@ -169,6 +179,7 @@ excerpt: The list of peer-reviewed scientific papers written by Peter Solymos.
         button.classList.remove("active");
         button.setAttribute("aria-pressed", "false");
       });
+      updateLabelCount();
       applyFilters();
     });
 

@@ -126,9 +126,14 @@ h2.subtitle { color: var(--muted); font-family: "DM Sans", system-ui, sans-serif
 .year-range-slider input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; background: var(--brand); border: 2px solid #fff; border-radius: 50%; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25); cursor: pointer; height: 1.1rem; margin-top: 0.2rem; pointer-events: auto; width: 1.1rem; }
 .year-range-slider input[type="range"]::-moz-range-thumb { background: var(--brand); border: 2px solid #fff; border-radius: 50%; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25); cursor: pointer; height: 1.1rem; pointer-events: auto; width: 1.1rem; }
 
-.label-filter { background: var(--surface); border: 1px solid var(--line); border-radius: 0.75rem; margin-bottom: 2.5rem; padding: 1rem 1.25rem; }
-.label-filter-buttons { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-.label-btn { border-radius: 999px; font-size: 0.85rem; font-weight: 600; }
+.label-filter { background: var(--surface); border: 1px solid var(--line); border-radius: 0.75rem; margin-bottom: 2rem; padding: 0.6rem 0.9rem; }
+.label-filter-header { align-items: center; display: flex; gap: 0.75rem; justify-content: space-between; }
+.label-filter-toggle { background: none; border: 0; color: var(--ink); font-size: 0.85rem; font-weight: 600; padding: 0; }
+.label-filter-toggle .fa-chevron-right { display: inline-block; font-size: 0.7rem; transition: transform 0.2s ease; width: 0.8rem; }
+.label-filter-toggle[aria-expanded="true"] .fa-chevron-right { transform: rotate(90deg); }
+.label-filter-count { color: var(--muted); font-weight: 400; }
+.label-filter-buttons { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.6rem; }
+.label-btn { border-radius: 999px; font-size: 0.75rem; font-weight: 600; padding: 0.15rem 0.6rem; }
 .label-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
 
 :root[data-theme="dark"] .site-main th { background: #434b82; }
