@@ -187,7 +187,7 @@
   - cumulative effects
   - energy development
   - landscape ecology
-  citations: 9
+  citations: 10
 - id: Crosby2023
   type: paper
   year: 2023
@@ -206,7 +206,7 @@
   - cumulative effects
   - energy development
   - landscape ecology
-  citations: 9
+  citations: 10
 - id: Knight2022
   type: paper
   year: 2022
@@ -228,7 +228,10 @@
 - id: Mollusca2021
   type: incollection
   year: 2021
-  text: '<strong>S&oacute;lymos, P.</strong>, 2021. Puhatestuek (Mollusca) törzse [Phylum Mollusca]. In Rózsa, L., Papp, L., and Varga, Z., editors, Zootaxonómia: Az állatvilág sokfélesége [Zootaxonomy: the Diversity of Animals], (ISBN 978-963-8833945), pp. 71&ndash;86, Nagykovácsi, Hungary. Pars Kft. In Hungarian. [Book Chapter]'
+  text: '<strong>S&oacute;lymos, P.</strong>, 2021. Puhatestuek (Mollusca) törzse
+    [Phylum Mollusca]. In Rózsa, L., Papp, L., and Varga, Z., editors, Zootaxonómia:
+    Az állatvilág sokfélesége [Zootaxonomy: the Diversity of Animals], (ISBN 978-963-8833945)
+    pp. 71&ndash;86, Nagykovácsi, Hungary. Pars Kft. In Hungarian. [Book Chapter]'
   link: ~
   fulltext: ~
   code: ~
@@ -336,7 +339,7 @@
   - forestry
   - conservation
   - cumulative effects
-  citations: 18
+  citations: 19
 - id: Knight2020
   type: paper
   year: 2020
@@ -504,7 +507,7 @@
   - molluscs
   - taxonomy
   - speciation
-  citations: 27
+  citations: 28
 - id: Solymos2018b
   type: paper
   year: 2018
@@ -563,7 +566,7 @@
   - wildfire
   - vegetation change
   - boreal forest
-  citations: 180
+  citations: 181
 - id: Solymos2018a
   type: paper
   year: 2018
@@ -1015,7 +1018,7 @@
   - microhabitat associations
   - conservation
   - methods
-  citations: 39
+  citations: 40
 - id: Patino2014
   type: paper
   year: 2014
@@ -1245,7 +1248,7 @@
   - birds
   - methods
   - distance sampling
-  citations: 80
+  citations: 81
 - id: Walker2012
   type: paper
   year: 2012
