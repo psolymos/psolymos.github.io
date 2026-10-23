@@ -1,3 +1,22 @@
+- id: Leston2026
+  type: paper
+  year: 2026
+  text: Leston, L., Takats Priestley, L., Trout, L., Cicon, E., Crosina, W., Habib,
+    T., Knight, E., <strong>S&oacute;lymos, P.</strong>, Stuart-Smith, K., Donnelly,
+    M., and Bayne, E., 2026. Verifying a decision support tool for reducing the risk
+    of incidental take of birds by forestry operations in Alberta, Canada. <strong>Forestry
+    Chronicles</strong>, xx:xx&ndash;xx.
+  link: ~
+  fulltext: ~
+  code: ~
+  supportinginfo: ~
+  doi: ~
+  pubid: ~
+  labels:
+  - birds
+  - forestry
+  - conservation
+  - decision support
 - id: Walton2026
   type: paper
   year: 2026
@@ -167,7 +186,7 @@
   - birds
   - methods
   - population estimation
-  citations: 37
+  citations: 38
 - id: Leston2023
   type: paper
   year: 2023
@@ -263,7 +282,7 @@
   - software
   - R
   - containerization
-  citations: 21
+  citations: 22
 - id: Yip2020
   type: paper
   year: 2020
@@ -282,7 +301,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 88
+  citations: 89
 - id: NagyReis2020
   type: paper
   year: 2020
@@ -357,7 +376,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 29
+  citations: 32
 - id: Solymos2020
   type: paper
   year: 2020
@@ -398,7 +417,7 @@
   - climate change
   - conservation
   - disturbance
-  citations: 94
+  citations: 95
 - id: SumegiKotet2020
   type: bookchapter
   year: 2020
@@ -437,7 +456,7 @@
   - birds
   - monitoring
   - population trends
-  citations: 39
+  citations: 38
 - id: Westwood2019
   type: paper
   year: 2019
@@ -456,7 +475,7 @@
   - birds
   - conservation
   - species at risk
-  citations: 26
+  citations: 25
 - id: Allen2019
   type: incollection
   year: 2019
@@ -566,7 +585,7 @@
   - wildfire
   - vegetation change
   - boreal forest
-  citations: 181
+  citations: 182
 - id: Solymos2018a
   type: paper
   year: 2018
@@ -586,7 +605,7 @@
   - species traits
   - detectability
   - methods
-  citations: 63
+  citations: 65
 - id: Feher2018a
   type: paper
   year: 2018
@@ -659,7 +678,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 102
+  citations: 103
 - id: Yip2017b
   type: paper
   year: 2017
@@ -677,7 +696,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 168
+  citations: 169
 - id: Feher2017
   type: paper
   year: 2017
@@ -712,7 +731,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 134
+  citations: 137
 - id: Denes2016
   type: paper
   year: 2016
@@ -733,7 +752,7 @@
   - raptors
   - methods
   - software
-  citations: 21
+  citations: 22
 - id: Ball2016
   type: paper
   year: 2016
@@ -771,7 +790,7 @@
   - stable isotopes
   - molt origin
   - methods
-  citations: 23
+  citations: 24
 - id: Mahon2016
   type: paper
   year: 2016
@@ -901,7 +920,7 @@
   - birds
   - monitoring
   - data harmonization
-  citations: 45
+  citations: 46
 - id: Stralberg2015b
   type: paper
   year: 2015
@@ -940,7 +959,7 @@
   - birds
   - climate change
   - modeling
-  citations: 149
+  citations: 150
 - id: Patino2015
   year: 2015
   type: commentary
@@ -999,7 +1018,7 @@
   - birds
   - methods
   - point-count surveys
-  citations: 120
+  citations: 122
 - id: Kemencei2014
   type: paper
   year: 2014
@@ -1018,7 +1037,7 @@
   - microhabitat associations
   - conservation
   - methods
-  citations: 40
+  citations: 41
 - id: Patino2014
   type: paper
   year: 2014
@@ -1056,7 +1075,7 @@
   - biodiversity
   - human footprint
   - adaptive monitoring
-  citations: 92
+  citations: 93
 - id: Mahon2014
   type: paper
   year: 2014
@@ -1154,7 +1173,7 @@
   - methods
   - density calibration
   - software
-  citations: 174
+  citations: 177
 - id: Solymos2013a
   type: letter
   year: 2013
@@ -1230,7 +1249,7 @@
   - detection error
   - software
   - birds
-  citations: 121
+  citations: 122
 - id: Matsuoka2012
   type: paper
   year: 2012
@@ -1248,7 +1267,7 @@
   - birds
   - methods
   - distance sampling
-  citations: 81
+  citations: 83
 - id: Walker2012
   type: paper
   year: 2012
@@ -1283,7 +1302,7 @@
   - biodiversity
   - human disturbance
   - boreal forest
-  citations: 116
+  citations: 118
 - id: Silvertown2011
   type: paper
   year: 2011
@@ -1464,7 +1483,7 @@
   - molluscs
   - microhabitat
   - shell accumulation
-  citations: 15
+  citations: 16
 - id: SolymosJSS2009
   type: paper
   year: 2009
@@ -1540,7 +1559,7 @@
   - isopods
   - habitat evaluation
   - conservation
-  citations: 35
+  citations: 36
 - id: SolymosAZH2008
   type: paper
   year: 2008
@@ -1813,7 +1832,7 @@
   - isopods
   - habitat features
   - book chapter
-  citations: 26
+  citations: 27
 - id: Solymos2007tent
   type: paper
   year: 2007

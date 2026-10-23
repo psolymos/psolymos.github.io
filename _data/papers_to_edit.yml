@@ -17,10 +17,21 @@
 # Smith, Adam C.
 # "Predicting detection probabilities for rare and undersampled North American landbirds"
 
-
 #
 #------------------------- 2026 ------------------------------
 #
+- id: Leston2026
+  type: paper
+  year: 2026
+  text: "Leston, L., Takats Priestley, L., Trout, L., Cicon, E., Crosina, W., Habib, T., Knight, E.,
+<strong>S&oacute;lymos, P.</strong>, Stuart-Smith, K., Donnelly, M., and Bayne, E., 2026. Verifying a decision support tool for reducing the risk of incidental take of birds by forestry operations in Alberta, Canada. <strong>Forestry Chronicles</strong>, xx:xx&ndash;xx."
+  link: 
+  fulltext: 
+  code: 
+  supportinginfo: 
+  doi: 
+  pubid: 
+  labels: [birds, forestry, conservation, decision support]
 - id: Walton2026
   type: paper
   year: 2026
