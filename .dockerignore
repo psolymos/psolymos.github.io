@@ -1,0 +1,9 @@
+.git
+.jekyll-cache
+_site
+.DS_Store
+*.out
+*.Rdata
+.Rhistory
+node_modules
+src

@@ -1,6 +1,20 @@
 Peter Solymos's personal website
 ==========
 
+## Local testing
+
+Build the Jekyll image:
+
+```sh
+docker build -t psolymos-site .
+```
+
+Serve the site with live reload at [http://localhost:4000](http://localhost:4000):
+
+```sh
+docker run --rm -it -p 4000:4000 -p 35729:35729 -v "$PWD":/srv/jekyll psolymos-site
+```
+
 ## Todo in order of priority
 
 - [x] add to R-bloggers [here](http://www.r-bloggers.com/add-your-blog/)
