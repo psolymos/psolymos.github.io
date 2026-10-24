@@ -45,7 +45,7 @@
   link: ~
   fulltext: https://doi.org/10.5751/ACE-03059-210125
   doi: 10.5751/ACE-03059-210125
-  pubid: ~
+  pubid: 0kYikfLtzSYC
   labels:
   - birds
   - methods
@@ -585,7 +585,7 @@
   - wildfire
   - vegetation change
   - boreal forest
-  citations: 182
+  citations: 183
 - id: Solymos2018a
   type: paper
   year: 2018

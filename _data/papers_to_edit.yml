@@ -1,6 +1,8 @@
 #
 #------------------------- YYYY ------------------------------
 #
+# take pubid from URL:
+# ...&citation_for_view=PfC17QsAAAAJ:0kYikfLtzSYC which is the userid:pubid
 
 # >>> IN PREP <<<
 
@@ -50,7 +52,7 @@
   link: 
   fulltext: "https://doi.org/10.5751/ACE-03059-210125"
   doi: 10.5751/ACE-03059-210125
-  pubid:
+  pubid: 0kYikfLtzSYC
   labels: [birds, methods, population estimation]
 - id: VanWilgenburg2026
   type: paper

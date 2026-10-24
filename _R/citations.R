@@ -16,7 +16,7 @@ pids <- sapply(y, function(x) {
 })
 p0 <- get_publications(id)
 p <- p0[!is.na(p0$pubid) & p0$pubid %in% pids, ]
-p$oldcites <- NA_real_
+p$oldcites <- 0
 for (i in 1:nrow(p)) {
     for (j in 1:length(y0)) {
         if (!is.null(y0[[j]]$pubid) && y0[[j]]$pubid == p$pubid[i]) {
