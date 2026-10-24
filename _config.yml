@@ -6,8 +6,15 @@ baseurl: https://peter.solymos.org
 #baseurl: https://psolymos.github.io
 
 include: [".htaccess"]
-exclude: ["README.md", "LICENSE.md"]
 timezone: America/Edmonton
+exclude:
+  - _tmp
+  - AGENTS.md
+  - README.md
+  - LICENSE
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
 
 encoding: UTF-8
 markdown: kramdown
