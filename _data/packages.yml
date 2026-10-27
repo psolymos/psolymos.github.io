@@ -118,3 +118,15 @@
   tutorial: "<a href=\"   \">tutorial</a>"
   paper: "<a href=\"https://dx.doi.org/10.3389/fevo.2020.564508\">Nagy-Reis et al. 2009</a>"
   devel: ABbiodiversity
+- pkgname: sdmEvalToolCore
+  title: "SDM Evaluation Tool Core Functions"
+  description: "The goal of sdmEvalToolCore is to implement the data model and common non-interactive functionality for the SDM Evaluation Tool packages."
+  tutorial:
+  paper:
+  devel: LandSciTech
+- pkgname: sdmEvalToolUI
+  title: "SDM Evaluation Tool Shiny UI"
+  description: "The goal of sdmEvalToolUI is to implement Shiny functionality according to the SDM Evaluation Tool requirements to evaluate materials."
+  tutorial:
+  paper:
+  devel: LandSciTech
