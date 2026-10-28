@@ -61,8 +61,8 @@
     avian conservation: A history and path forward for the Boreal Avian Modelling
     project. <strong>Avian Conservation and Ecology</strong>, xx: xx&ndash;xx.'
   link: ~
-  fulltext: ~
-  doi: ~
+  fulltext: https://www.ace-eco.org/vol21/iss2/art15
+  doi: 10.5751/ACE-03106-210215
   pubid: ~
   labels:
   - birds
@@ -105,7 +105,7 @@
   - review
   - biodiversity
   - monitoring
-  citations: 5
+  citations: 6
 - id: Stralberg2025
   type: paper
   year: 2025
@@ -376,7 +376,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 32
+  citations: 33
 - id: Solymos2020
   type: paper
   year: 2020
@@ -696,7 +696,7 @@
   - birds
   - methods
   - acoustic monitoring
-  citations: 169
+  citations: 170
 - id: Feher2017
   type: paper
   year: 2017
@@ -1037,7 +1037,7 @@
   - microhabitat associations
   - conservation
   - methods
-  citations: 41
+  citations: 42
 - id: Patino2014
   type: paper
   year: 2014
