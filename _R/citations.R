@@ -152,6 +152,7 @@ j <- list(
 )
 jsonlite::toJSON(
     j,
+    pretty = TRUE,
     auto_unbox = TRUE
 ) |>
     writeLines("papers/bibliometrics.json")
